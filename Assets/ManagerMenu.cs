@@ -1,4 +1,7 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections.Generic;
+using System.Collections;
 
 public class ManagerMenu : MonoBehaviour
 {
@@ -10,8 +13,7 @@ public class ManagerMenu : MonoBehaviour
 
     public void playGame()
     {
-        Debug.Log("Play Game button clicked!");
-        // Add your game starting logic here
+        SceneManager.LoadSceneAsync(2);
     }
     
     // Update is called once per frame
