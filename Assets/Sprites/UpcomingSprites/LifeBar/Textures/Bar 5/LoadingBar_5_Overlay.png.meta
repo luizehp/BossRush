@@ -1,0 +1,918 @@
+fileFormatVersion: 2
+guid: 1e8d9e89bd76be040818269f2a12b91b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4338030666717400048
+    second: LoadingBar_5_Overlay_0
+  - first:
+      213: 2503392251772535241
+    second: LoadingBar_5_Overlay_1
+  - first:
+      213: -4454528534596352914
+    second: LoadingBar_5_Overlay_2
+  - first:
+      213: 4971885229023811691
+    second: LoadingBar_5_Overlay_3
+  - first:
+      213: 381621463838938260
+    second: LoadingBar_5_Overlay_4
+  - first:
+      213: -1572199635024164307
+    second: LoadingBar_5_Overlay_5
+  - first:
+      213: 3546996168924113502
+    second: LoadingBar_5_Overlay_6
+  - first:
+      213: 8684478125313397755
+    second: LoadingBar_5_Overlay_7
+  - first:
+      213: -869446347638330156
+    second: LoadingBar_5_Overlay_8
+  - first:
+      213: 3254681397208188270
+    second: LoadingBar_5_Overlay_9
+  - first:
+      213: 3187121712508181210
+    second: LoadingBar_5_Overlay_10
+  - first:
+      213: -697636728949654344
+    second: LoadingBar_5_Overlay_11
+  - first:
+      213: -7783512773103184657
+    second: LoadingBar_5_Overlay_12
+  - first:
+      213: -6484235827285503690
+    second: LoadingBar_5_Overlay_13
+  - first:
+      213: -2872062385655353195
+    second: LoadingBar_5_Overlay_14
+  - first:
+      213: 7288245786962840558
+    second: LoadingBar_5_Overlay_15
+  - first:
+      213: 7952082642786918282
+    second: LoadingBar_5_Overlay_16
+  - first:
+      213: 6912903050804385164
+    second: LoadingBar_5_Overlay_17
+  - first:
+      213: -5822976592533982987
+    second: LoadingBar_5_Overlay_18
+  - first:
+      213: -5915259136854793058
+    second: LoadingBar_5_Overlay_19
+  - first:
+      213: 7314752532465958161
+    second: LoadingBar_5_Overlay_20
+  - first:
+      213: 7442197086400878369
+    second: LoadingBar_5_Overlay_21
+  - first:
+      213: 3718406954134526487
+    second: LoadingBar_5_Overlay_22
+  - first:
+      213: 2909863694297509479
+    second: LoadingBar_5_Overlay_23
+  - first:
+      213: -5658462623745274108
+    second: LoadingBar_5_Overlay_24
+  - first:
+      213: 3355327042518858409
+    second: LoadingBar_5_Overlay_25
+  - first:
+      213: -5435682564996768202
+    second: LoadingBar_5_Overlay_26
+  - first:
+      213: 4691237426091018223
+    second: LoadingBar_5_Overlay_27
+  - first:
+      213: -2230624540491601988
+    second: LoadingBar_5_Overlay_28
+  - first:
+      213: 2178321519348959949
+    second: LoadingBar_5_Overlay_29
+  - first:
+      213: -9209265968695492755
+    second: LoadingBar_5_Overlay_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 75
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014fe8da7183cc3c0800000000000000
+      internalID: -4338030666717400048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 95
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c10e5c4df5ddb220800000000000000
+      internalID: 2503392251772535241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_2
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 95
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e640b8d16e55e22c0800000000000000
+      internalID: -4454528534596352914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_3
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 75
+        width: 66
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68d9fb064faff440800000000000000
+      internalID: 4971885229023811691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_4
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 85
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494d8ce03bacb4500800000000000000
+      internalID: 381621463838938260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ac26603cc6e2ae0800000000000000
+      internalID: -1572199635024164307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_6
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 70
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5aa46c0936793130800000000000000
+      internalID: 3546996168924113502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_7
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 54
+        width: 56
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf394f6b7d6758870800000000000000
+      internalID: 8684478125313397755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_8
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 59
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dca1c1472b1fe3f0800000000000000
+      internalID: -869446347638330156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_9
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 32
+        width: 89
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e658aa99c73fa2d20800000000000000
+      internalID: 3254681397208188270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_10
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 37
+        width: 362
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada1cf9bf4eea3c20800000000000000
+      internalID: 3187121712508181210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_11
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 26
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcb0bc571f7156f0800000000000000
+      internalID: -697636728949654344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_12
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 48
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe418762f586bf390800000000000000
+      internalID: -7783512773103184657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_13
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 26
+        width: 92
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63159cabedd5306a0800000000000000
+      internalID: -6484235827285503690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_14
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 36
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59070422a726428d0800000000000000
+      internalID: -2872062385655353195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_15
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 40
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb48afadec052560800000000000000
+      internalID: 7288245786962840558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 46
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f1ddb18097b5e60800000000000000
+      internalID: 7952082642786918282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_17
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 36
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85d8e5d2b09fef50800000000000000
+      internalID: 6912903050804385164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 25
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0f89af3a1a03fa0800000000000000
+      internalID: -5822976592533982987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_19
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 28
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94e269c727c8eda0800000000000000
+      internalID: -5915259136854793058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_20
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 39
+        width: 263
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11db58d4ca8338560800000000000000
+      internalID: 7314752532465958161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_21
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 38
+        width: 246
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1271f53d1def74760800000000000000
+      internalID: 7442197086400878369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_22
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 38
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ad78f7c6f6a9330800000000000000
+      internalID: 3718406954134526487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_23
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 38
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ea863ec99e16820800000000000000
+      internalID: 2909863694297509479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_24
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 24
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f86d8393a1971b0800000000000000
+      internalID: -5658462623745274108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_25
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa399afa24809e20800000000000000
+      internalID: 3355327042518858409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_26
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 19
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e5591b1839094b0800000000000000
+      internalID: -5435682564996768202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_27
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 0
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe74c23759f9a1140800000000000000
+      internalID: 4691237426091018223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_28
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7aabc7cca3b01e0800000000000000
+      internalID: -2230624540491601988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_29
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca426f61e3fa3e10800000000000000
+      internalID: 2178321519348959949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LoadingBar_5_Overlay_30
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 19
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fbfcde46d123080800000000000000
+      internalID: -9209265968695492755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
