@@ -1,0 +1,543 @@
+fileFormatVersion: 2
+guid: 77c7e7eac54e3034c9018bf02ca630bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8657862394256779524
+    second: Imp1_Hurt_shadow_0
+  - first:
+      213: -7684280371717875400
+    second: Imp1_Hurt_shadow_1
+  - first:
+      213: 8570678478487711003
+    second: Imp1_Hurt_shadow_2
+  - first:
+      213: 7484890569134497998
+    second: Imp1_Hurt_shadow_3
+  - first:
+      213: 3881774538691175874
+    second: Imp1_Hurt_shadow_4
+  - first:
+      213: -2262363587449506095
+    second: Imp1_Hurt_shadow_5
+  - first:
+      213: 851891300388421521
+    second: Imp1_Hurt_shadow_6
+  - first:
+      213: 3488303552680684878
+    second: Imp1_Hurt_shadow_7
+  - first:
+      213: -8626732692193008345
+    second: Imp1_Hurt_shadow_8
+  - first:
+      213: -8809794978353521057
+    second: Imp1_Hurt_shadow_9
+  - first:
+      213: 7035349664303263908
+    second: Imp1_Hurt_shadow_10
+  - first:
+      213: 4257379390323383507
+    second: Imp1_Hurt_shadow_11
+  - first:
+      213: -8199389946024121642
+    second: Imp1_Hurt_shadow_12
+  - first:
+      213: 4197563651164446502
+    second: Imp1_Hurt_shadow_13
+  - first:
+      213: -4318624002892980845
+    second: Imp1_Hurt_shadow_14
+  - first:
+      213: -2844559251310317765
+    second: Imp1_Hurt_shadow_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Imp1_Hurt_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 209
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf69c14160819d780800000000000000
+      internalID: -8657862394256779524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp1_Hurt_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 209
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839df3907b3fb5590800000000000000
+      internalID: -7684280371717875400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp1_Hurt_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 209
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d6852baaa21f670800000000000000
+      internalID: 8570678478487711003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp1_Hurt_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 209
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0eee3e05cafd760800000000000000
+      internalID: 7484890569134497998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp1_Hurt_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 145
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5e7dc5065ded530800000000000000
+      internalID: 3881774538691175874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp1_Hurt_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 145
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d63b41cd487a90e0800000000000000
+      internalID: -2262363587449506095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp1_Hurt_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 145
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fb5eacf9682db00800000000000000
+      internalID: 851891300388421521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp1_Hurt_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 145
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4de34e6991f86030800000000000000
+      internalID: 3488303552680684878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp1_Hurt_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 81
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7252695a250b74880800000000000000
+      internalID: -8626732692193008345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp1_Hurt_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 81
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ed73bb4225db580800000000000000
+      internalID: -8809794978353521057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp1_Hurt_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 81
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0b57bae3592a160800000000000000
+      internalID: 7035349664303263908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp1_Hurt_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 81
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc5b4abfff351b30800000000000000
+      internalID: 4257379390323383507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp1_Hurt_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 17
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6daa25c494ae53e80800000000000000
+      internalID: -8199389946024121642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp1_Hurt_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 17
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f9fbda6edb04a30800000000000000
+      internalID: 4197563651164446502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp1_Hurt_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 17
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d9615b95a2114c0800000000000000
+      internalID: -4318624002892980845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp1_Hurt_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 17
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3fe81b9e681688d0800000000000000
+      internalID: -2844559251310317765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
