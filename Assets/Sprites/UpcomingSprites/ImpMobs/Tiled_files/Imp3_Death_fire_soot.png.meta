@@ -1,0 +1,1643 @@
+fileFormatVersion: 2
+guid: 339a259ec2b6ad849a073488569ffae2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7595511798165525634
+    second: Imp3_Death_fire_soot_0
+  - first:
+      213: -1247386648995012767
+    second: Imp3_Death_fire_soot_1
+  - first:
+      213: 1942713668973320288
+    second: Imp3_Death_fire_soot_2
+  - first:
+      213: 2217793320945039832
+    second: Imp3_Death_fire_soot_3
+  - first:
+      213: -6215996283862273994
+    second: Imp3_Death_fire_soot_4
+  - first:
+      213: -3155953921487918526
+    second: Imp3_Death_fire_soot_5
+  - first:
+      213: -813451132595733765
+    second: Imp3_Death_fire_soot_6
+  - first:
+      213: 4342637457830909108
+    second: Imp3_Death_fire_soot_7
+  - first:
+      213: 569372795997558437
+    second: Imp3_Death_fire_soot_8
+  - first:
+      213: 1955899904850122460
+    second: Imp3_Death_fire_soot_9
+  - first:
+      213: -5383655220155546179
+    second: Imp3_Death_fire_soot_10
+  - first:
+      213: -4382530251893635025
+    second: Imp3_Death_fire_soot_11
+  - first:
+      213: 216479768951380017
+    second: Imp3_Death_fire_soot_12
+  - first:
+      213: 4801970408239053437
+    second: Imp3_Death_fire_soot_13
+  - first:
+      213: 1534996007442618674
+    second: Imp3_Death_fire_soot_14
+  - first:
+      213: 2137615066509918471
+    second: Imp3_Death_fire_soot_15
+  - first:
+      213: -1423346750032403523
+    second: Imp3_Death_fire_soot_16
+  - first:
+      213: 9045217104516247489
+    second: Imp3_Death_fire_soot_17
+  - first:
+      213: 1948445289662401755
+    second: Imp3_Death_fire_soot_18
+  - first:
+      213: -5964988827481878095
+    second: Imp3_Death_fire_soot_19
+  - first:
+      213: -6835084867771093643
+    second: Imp3_Death_fire_soot_20
+  - first:
+      213: 1994306124265692535
+    second: Imp3_Death_fire_soot_21
+  - first:
+      213: -5526388132265780741
+    second: Imp3_Death_fire_soot_22
+  - first:
+      213: -2962239532210372372
+    second: Imp3_Death_fire_soot_23
+  - first:
+      213: -3086091618457335422
+    second: Imp3_Death_fire_soot_24
+  - first:
+      213: 5202823743872991026
+    second: Imp3_Death_fire_soot_25
+  - first:
+      213: -4922176173254341073
+    second: Imp3_Death_fire_soot_26
+  - first:
+      213: -2235909439982633659
+    second: Imp3_Death_fire_soot_27
+  - first:
+      213: 2145529254471694228
+    second: Imp3_Death_fire_soot_28
+  - first:
+      213: 2745726579334328657
+    second: Imp3_Death_fire_soot_29
+  - first:
+      213: 8355480748685176686
+    second: Imp3_Death_fire_soot_30
+  - first:
+      213: -1698337654337954329
+    second: Imp3_Death_fire_soot_31
+  - first:
+      213: -7435043555884096569
+    second: Imp3_Death_fire_soot_32
+  - first:
+      213: 6272831419030408772
+    second: Imp3_Death_fire_soot_33
+  - first:
+      213: -398644445393807967
+    second: Imp3_Death_fire_soot_34
+  - first:
+      213: -1266859251977199875
+    second: Imp3_Death_fire_soot_35
+  - first:
+      213: 3218715206850966416
+    second: Imp3_Death_fire_soot_36
+  - first:
+      213: 2956572935042009841
+    second: Imp3_Death_fire_soot_37
+  - first:
+      213: 975115744562396470
+    second: Imp3_Death_fire_soot_38
+  - first:
+      213: -4707670894194479381
+    second: Imp3_Death_fire_soot_39
+  - first:
+      213: -9083556129467820052
+    second: Imp3_Death_fire_soot_40
+  - first:
+      213: 4475991654120654671
+    second: Imp3_Death_fire_soot_41
+  - first:
+      213: -7733795620792553034
+    second: Imp3_Death_fire_soot_42
+  - first:
+      213: 3756907082708029471
+    second: Imp3_Death_fire_soot_43
+  - first:
+      213: 6923420676896868000
+    second: Imp3_Death_fire_soot_44
+  - first:
+      213: 1245785633077172551
+    second: Imp3_Death_fire_soot_45
+  - first:
+      213: 8987362142142404308
+    second: Imp3_Death_fire_soot_46
+  - first:
+      213: -5402737832677210157
+    second: Imp3_Death_fire_soot_47
+  - first:
+      213: -1500131376357345178
+    second: Imp3_Death_fire_soot_48
+  - first:
+      213: 5897761290714621315
+    second: Imp3_Death_fire_soot_49
+  - first:
+      213: 2868065974598446874
+    second: Imp3_Death_fire_soot_50
+  - first:
+      213: 5980973713735370445
+    second: Imp3_Death_fire_soot_51
+  - first:
+      213: -5448606060634706084
+    second: Imp3_Death_fire_soot_52
+  - first:
+      213: 4890829198774744460
+    second: Imp3_Death_fire_soot_53
+  - first:
+      213: 5898619714727061282
+    second: Imp3_Death_fire_soot_54
+  - first:
+      213: -1902420149233517463
+    second: Imp3_Death_fire_soot_55
+  - first:
+      213: 8177226930611748326
+    second: Imp3_Death_fire_soot_56
+  - first:
+      213: -5140025801270778543
+    second: Imp3_Death_fire_soot_57
+  - first:
+      213: -6471399032616254324
+    second: Imp3_Death_fire_soot_58
+  - first:
+      213: -6544952229077978559
+    second: Imp3_Death_fire_soot_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_0
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 212
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b2e072342579690800000000000000
+      internalID: -7595511798165525634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_1
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 212
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f5611a37460bee0800000000000000
+      internalID: -1247386648995012767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 219
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068537bf9c7e5fa10800000000000000
+      internalID: 1942713668973320288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_3
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 233
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9b928664f27ce10800000000000000
+      internalID: 2217793320945039832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 219
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630bd3740585cb9a0800000000000000
+      internalID: -6215996283862273994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_5
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 237
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a263e11acc334d0800000000000000
+      internalID: -3155953921487918526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_6
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 217
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfafd77318a06b4f0800000000000000
+      internalID: -813451132595733765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_7
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 18
+        width: 98
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4115672c5244c30800000000000000
+      internalID: 4342637457830909108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_8
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 220
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a694329a81d6e700800000000000000
+      internalID: 569372795997558437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_9
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 211
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6dfc4c990c42b10800000000000000
+      internalID: 1955899904850122460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_10
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 212
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db58371e91a6945b0800000000000000
+      internalID: -5383655220155546179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_11
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 213
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f280a7e94ff1e23c0800000000000000
+      internalID: -4382530251893635025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_12
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 213
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138d761f337110300800000000000000
+      internalID: 216479768951380017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_13
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 217
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ab605f4a604a240800000000000000
+      internalID: 4801970408239053437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_14
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 219
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239924b6cb66d4510800000000000000
+      internalID: 1534996007442618674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_15
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 211
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701c8d1d3955aad10800000000000000
+      internalID: 2137615066509918471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_16
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 148
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3ac1c0ca14f3ce0800000000000000
+      internalID: -1423346750032403523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_17
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 148
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf6afe6801178d70800000000000000
+      internalID: 9045217104516247489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_18
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 160
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc4c9aeaa44a0b10800000000000000
+      internalID: 1948445289662401755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_19
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 171
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1d4c8e34a183da0800000000000000
+      internalID: -5964988827481878095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_20
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 150
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d2bdec686e421a0800000000000000
+      internalID: -6835084867771093643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_21
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 153
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d1e3e8ad23dab10800000000000000
+      internalID: 1994306124265692535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_22
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 147
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf91d5516435e43b0800000000000000
+      internalID: -5526388132265780741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_23
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 156
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce04bfe07d204e6d0800000000000000
+      internalID: -2962239532210372372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_24
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 154
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2894a8916000c25d0800000000000000
+      internalID: -3086091618457335422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_25
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 147
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f748a11a4243840800000000000000
+      internalID: 5202823743872991026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_26
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 161
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e884769dae0bbb0800000000000000
+      internalID: -4922176173254341073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_27
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 155
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d74efe53478f0e0800000000000000
+      internalID: -2235909439982633659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_28
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 149
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4977efb4d7376cd10800000000000000
+      internalID: 2145529254471694228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_29
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 158
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1513293c6c7ca1620800000000000000
+      internalID: 2745726579334328657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_30
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 159
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6faef0c871a4f370800000000000000
+      internalID: 8355480748685176686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_31
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 149
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed148cc6ea4e68e0800000000000000
+      internalID: -1698337654337954329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_32
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 149
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3a8f9474b61d890800000000000000
+      internalID: -7435043555884096569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_33
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 153
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e8733d0f29d0750800000000000000
+      internalID: 6272831419030408772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_34
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 86
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a59e903dfab77af0800000000000000
+      internalID: -398644445393807967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_35
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 85
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe5b71f8363b6ee0800000000000000
+      internalID: -1266859251977199875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_36
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 84
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093ff795d6c2bac20800000000000000
+      internalID: 3218715206850966416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_37
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 89
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa86b97b6bd70920800000000000000
+      internalID: 2956572935042009841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_38
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 91
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d38817a9e488d00800000000000000
+      internalID: 975115744562396470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_39
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 89
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beea718934efaaeb0800000000000000
+      internalID: -4707670894194479381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_40
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 85
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce79fb5b3d9b0f180800000000000000
+      internalID: -9083556129467820052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_41
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 84
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f478971d1baed1e30800000000000000
+      internalID: 4475991654120654671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_42
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 89
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b13039bbd90ca490800000000000000
+      internalID: -7733795620792553034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_43
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 92
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1016f63617332430800000000000000
+      internalID: 3756907082708029471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_44
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 89
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6480d7c6ee41060800000000000000
+      internalID: 6923420676896868000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_45
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 87
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74999ddce6be94110800000000000000
+      internalID: 1245785633077172551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_46
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 83
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6113e404689bc70800000000000000
+      internalID: 8987362142142404308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_47
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 21
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d706bce09e9505b0800000000000000
+      internalID: -5402737832677210157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_48
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 22
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6687dc316767e2be0800000000000000
+      internalID: -1500131376357345178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_49
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 20
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385281f65ae09d150800000000000000
+      internalID: 5897761290714621315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_50
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 25
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f2358eeca6dc720800000000000000
+      internalID: 2868065974598446874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_51
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6452277efa00350800000000000000
+      internalID: 5980973713735370445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_52
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 20
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fe3d2e7a9a264b0800000000000000
+      internalID: -5448606060634706084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_53
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 21
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85b31a5e37bfd340800000000000000
+      internalID: 4890829198774744460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_54
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 25
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2272c69d06b1cd150800000000000000
+      internalID: 5898619714727061282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_55
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 25
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96cf36724fe3995e0800000000000000
+      internalID: -1902420149233517463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_56
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 25
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6edfede81985b7170800000000000000
+      internalID: 8177226930611748326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_57
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 19
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155a9ea44c5faa8b0800000000000000
+      internalID: -5140025801270778543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_58
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 23
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c840a15edd8f036a0800000000000000
+      internalID: -6471399032616254324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp3_Death_fire_soot_59
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 28
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142f7e1df98ab25a0800000000000000
+      internalID: -6544952229077978559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
