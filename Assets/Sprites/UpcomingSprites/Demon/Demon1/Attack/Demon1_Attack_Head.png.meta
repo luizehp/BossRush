@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Demon/PNG/Demon1/Attack/Demon1_Attack_Head.png.meta
+guid: 1d53dda8858d1be4d9fb4a57680abe8e
+=======
 guid: 6ebabe9bfc768d84481fe2cf72caf730
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Demon/Demon1/Attack/Demon1_Attack_Head.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -226,6 +230,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Demon/PNG/Demon1/Attack/Demon1_Attack_Head.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -239,6 +245,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Demon/Demon1/Attack/Demon1_Attack_Head.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

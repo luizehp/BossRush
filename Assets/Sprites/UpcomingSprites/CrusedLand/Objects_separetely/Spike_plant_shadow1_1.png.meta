@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/CrusedLand/PNG/Objects_separetely/Spike_plant_shadow1_1.png.meta
+guid: cee32a36a806a094eb989b303009be7a
+=======
 guid: 6c1f431f3e231a244bb516b5ad193732
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/CrusedLand/Objects_separetely/Spike_plant_shadow1_1.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -109,6 +113,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/CrusedLand/PNG/Objects_separetely/Spike_plant_shadow1_1.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -122,6 +128,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/CrusedLand/Objects_separetely/Spike_plant_shadow1_1.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/CaveTiles/PNG/Objects_separately/spider_element3_light_shadow.png.meta
+guid: 2e30f8efc349000418b74a0fa1a2a527
+=======
 guid: 6ccbd8a7472fb354fb89f8cac9bf293a
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/CaveTiles/Objects_separately/spider_element3_light_shadow.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -109,6 +113,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/CaveTiles/PNG/Objects_separately/spider_element3_light_shadow.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -122,6 +128,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/CaveTiles/Objects_separately/spider_element3_light_shadow.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

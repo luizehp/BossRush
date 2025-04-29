@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder2.meta
+guid: 017f3401f52c6f94ab14dd1e59a2dada
+=======
 guid: 29c5c4a5f25042b4689221d113401a4f
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder2.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

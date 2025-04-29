@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton3/Hurt/Skeleton3_Hurt_full.png.meta
+guid: 73c2ba83865b8044f9019c4ae3b89af4
+=======
 guid: d22c3b354f00b984ab13830cd0bf7e7f
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton3/Hurt/Skeleton3_Hurt_full.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -154,6 +158,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton3/Hurt/Skeleton3_Hurt_full.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -167,6 +173,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton3/Hurt/Skeleton3_Hurt_full.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

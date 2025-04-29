@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton3/Run/Skeleton3_Run_body.png.meta
+guid: f3839ebe97be8f240a7566dd38324596
+=======
 guid: c01c7f579572bdf44a2322a43a680f8d
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton3/Run/Skeleton3_Run_body.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -202,6 +206,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton3/Run/Skeleton3_Run_body.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -215,6 +221,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton3/Run/Skeleton3_Run_body.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

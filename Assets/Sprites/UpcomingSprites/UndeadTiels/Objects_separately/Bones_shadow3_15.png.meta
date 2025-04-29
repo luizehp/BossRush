@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/UndeadTiels/PNG/Objects_separately/Bones_shadow3_15.png.meta
+guid: d2e741a4afc701642816348752e2e6e5
+=======
 guid: 37b9ea4a9f70ab34e90ca50f72dd2ba6
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/UndeadTiels/Objects_separately/Bones_shadow3_15.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -109,6 +113,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/UndeadTiels/PNG/Objects_separately/Bones_shadow3_15.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -122,6 +128,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/UndeadTiels/Objects_separately/Bones_shadow3_15.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

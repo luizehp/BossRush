@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/ImpMobs/PNG/Imp3/Idle/Imp3_Idle_body.png.meta
+guid: cd03dbbe52a22b54eb1b8c04f640243b
+=======
 guid: b49e1802544bf7f439e0333bd0d7c71b
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/ImpMobs/Imp3/Idle/Imp3_Idle_body.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -154,6 +158,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/ImpMobs/PNG/Imp3/Idle/Imp3_Idle_body.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -167,6 +173,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/ImpMobs/Imp3/Idle/Imp3_Idle_body.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

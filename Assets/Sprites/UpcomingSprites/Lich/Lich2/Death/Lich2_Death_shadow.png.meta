@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Lich/PNG/Lich2/Death/Lich2_Death_shadow.png.meta
+guid: a52f771c54ee55449956a4ad53b35c73
+=======
 guid: 4a465b043baad7942b67ed744241931e
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Lich/Lich2/Death/Lich2_Death_shadow.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -226,6 +230,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Lich/PNG/Lich2/Death/Lich2_Death_shadow.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -239,6 +245,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Lich/Lich2/Death/Lich2_Death_shadow.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

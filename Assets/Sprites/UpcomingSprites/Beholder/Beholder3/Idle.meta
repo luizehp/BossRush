@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder3/Idle.meta
+guid: 195e2964e350563469b5367e067601f4
+=======
 guid: 03e4f7f5a033d83448dc0c25a6a0215a
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder3/Idle.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

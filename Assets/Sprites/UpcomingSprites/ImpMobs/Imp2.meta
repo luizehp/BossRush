@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/ImpMobs/PNG/Imp2.meta
+guid: 776a121e41060044ba80dcecc40f0b0c
+=======
 guid: 1cf0d9f508d411348a356a4c27d67eff
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/ImpMobs/Imp2.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

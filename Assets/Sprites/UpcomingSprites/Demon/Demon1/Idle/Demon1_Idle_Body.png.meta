@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Demon/PNG/Demon1/Idle/Demon1_Idle_Body.png.meta
+guid: 9c843c40224bad7488bf3f0679bb94c6
+=======
 guid: c0b5425dcdfe81c4a9b83b8cd9ad9ee2
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Demon/Demon1/Idle/Demon1_Idle_Body.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -154,6 +158,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Demon/PNG/Demon1/Idle/Demon1_Idle_Body.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -167,6 +173,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Demon/Demon1/Idle/Demon1_Idle_Body.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

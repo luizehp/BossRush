@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder3/Hurt/Beholder3_Hurt_full.png.meta
+guid: b9a857dc2d93fc14ab082585520cc350
+=======
 guid: 463849ef47b119d4ba0cacffdab14536
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder3/Hurt/Beholder3_Hurt_full.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -178,6 +182,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder3/Hurt/Beholder3_Hurt_full.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -191,6 +197,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder3/Hurt/Beholder3_Hurt_full.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

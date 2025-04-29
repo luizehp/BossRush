@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder1/Walk/Beholder1_Walk_shadow.png.meta
+guid: be698d016a618264691b5c798f17ea80
+=======
 guid: e02580f95b1ae6544b6be91c2c209b7b
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder1/Walk/Beholder1_Walk_shadow.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -202,6 +206,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder1/Walk/Beholder1_Walk_shadow.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -215,6 +221,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder1/Walk/Beholder1_Walk_shadow.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

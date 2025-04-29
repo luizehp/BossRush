@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/CaveTiles/PNG/Objects_separately/Demon_head_light_shadow_frame1.png.meta
+guid: a5b15efad8c9e0f4296091e29fa2bf2a
+=======
 guid: 5ec958f23e9d1414fb04cbb50793a0e1
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/CaveTiles/Objects_separately/Demon_head_light_shadow_frame1.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -109,6 +113,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/CaveTiles/PNG/Objects_separately/Demon_head_light_shadow_frame1.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -122,6 +128,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/CaveTiles/Objects_separately/Demon_head_light_shadow_frame1.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Demon/PNG/Demon1/Hurt/Demon1_Hurt_Spear.png.meta
+guid: 06e7c1818143fde4685ca79b523ab0c6
+=======
 guid: 6c52fd952adef4143b47aeee655235a0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Demon/Demon1/Hurt/Demon1_Hurt_Spear.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -154,6 +158,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Demon/PNG/Demon1/Hurt/Demon1_Hurt_Spear.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -167,6 +173,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Demon/Demon1/Hurt/Demon1_Hurt_Spear.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

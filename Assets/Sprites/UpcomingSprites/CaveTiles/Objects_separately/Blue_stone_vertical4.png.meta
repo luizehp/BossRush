@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/CaveTiles/PNG/Objects_separately/Blue_stone_vertical4.png.meta
+guid: 02f4233b8d49c944da2308c12c207623
+=======
 guid: 2d061b6fd5a7b8e4e99293c95b1c52a3
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/CaveTiles/Objects_separately/Blue_stone_vertical4.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -109,6 +113,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/CaveTiles/PNG/Objects_separately/Blue_stone_vertical4.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -122,6 +128,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/CaveTiles/Objects_separately/Blue_stone_vertical4.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

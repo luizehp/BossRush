@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Lich/PNG/Lich1/Attack/Lich1_Attack_fire.png.meta
+guid: 0733b232a9ca3f44e81e2efa3f8135fb
+=======
 guid: 678af47b3eee61343b1906bff9b835c1
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Lich/Lich1/Attack/Lich1_Attack_fire.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -142,6 +146,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Lich/PNG/Lich1/Attack/Lich1_Attack_fire.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -155,6 +161,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Lich/Lich1/Attack/Lich1_Attack_fire.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

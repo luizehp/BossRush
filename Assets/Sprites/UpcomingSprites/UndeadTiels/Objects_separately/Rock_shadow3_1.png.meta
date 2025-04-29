@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/UndeadTiels/PNG/Objects_separately/Rock_shadow3_1.png.meta
+guid: 057a019c53d5c0a4bb98f408829cc930
+=======
 guid: c495fe905a088214685a5fad57a06936
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/UndeadTiels/Objects_separately/Rock_shadow3_1.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -109,6 +113,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/UndeadTiels/PNG/Objects_separately/Rock_shadow3_1.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -122,6 +128,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/UndeadTiels/Objects_separately/Rock_shadow3_1.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

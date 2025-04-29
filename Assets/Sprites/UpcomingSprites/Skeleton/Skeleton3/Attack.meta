@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton3/Attack.meta
+guid: 7d931c5bd124d6e4e8d99119303f3ab9
+=======
 guid: c3a7b09df553827438be7fa3c7005f3d
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton3/Attack.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

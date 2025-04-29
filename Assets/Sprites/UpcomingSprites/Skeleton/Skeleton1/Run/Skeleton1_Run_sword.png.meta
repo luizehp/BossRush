@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton1/Run/Skeleton1_Run_sword.png.meta
+guid: 0454acc815803fd46b6748ba4210a80f
+=======
 guid: 44e3911ac67cffb4a85f0bddcc7cfb92
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton1/Run/Skeleton1_Run_sword.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -202,6 +206,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton1/Run/Skeleton1_Run_sword.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -215,6 +221,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton1/Run/Skeleton1_Run_sword.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

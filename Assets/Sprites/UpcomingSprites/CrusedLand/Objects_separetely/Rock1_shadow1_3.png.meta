@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/CrusedLand/PNG/Objects_separetely/Rock1_shadow1_3.png.meta
+guid: af3d45940eefa894aaa9c3ae4596812a
+=======
 guid: 2e6e83a39a19df34cb47a28a5e50f7fe
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/CrusedLand/Objects_separetely/Rock1_shadow1_3.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -109,6 +113,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/CrusedLand/PNG/Objects_separetely/Rock1_shadow1_3.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -122,6 +128,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/CrusedLand/Objects_separetely/Rock1_shadow1_3.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

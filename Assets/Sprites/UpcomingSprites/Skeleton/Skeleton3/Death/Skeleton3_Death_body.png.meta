@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton3/Death/Skeleton3_Death_body.png.meta
+guid: a2f0bf11b77f6ae4280ec7bcee09d6f6
+=======
 guid: 20eff5e58a32b354ea957607b67051f3
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton3/Death/Skeleton3_Death_body.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -187,6 +191,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton3/Death/Skeleton3_Death_body.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -200,6 +206,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton3/Death/Skeleton3_Death_body.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

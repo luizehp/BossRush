@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton1/Walk/Skeleton1_Walk_shadow.png.meta
+guid: 5b80cab98acb48549a817ed5aabc3e39
+=======
 guid: f004e096d2fe2084fa1c4204b05e8979
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton1/Walk/Skeleton1_Walk_shadow.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -178,6 +182,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton1/Walk/Skeleton1_Walk_shadow.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -191,6 +197,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton1/Walk/Skeleton1_Walk_shadow.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

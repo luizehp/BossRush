@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/UndeadTiels/PNG/Objects_separately/Ruin_shadow3_2.png.meta
+guid: bdc85c990149f8c44912652a53a9e651
+=======
 guid: 076d484d5e2f1f4439714435be198a27
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/UndeadTiels/Objects_separately/Ruin_shadow3_2.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -109,6 +113,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/UndeadTiels/PNG/Objects_separately/Ruin_shadow3_2.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -122,6 +128,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/UndeadTiels/Objects_separately/Ruin_shadow3_2.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

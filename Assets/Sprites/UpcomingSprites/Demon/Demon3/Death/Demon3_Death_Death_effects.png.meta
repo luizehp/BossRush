@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Demon/PNG/Demon3/Death/Demon3_Death_Death_effects.png.meta
+guid: b2ef580bc5437d546a51dd461c713085
+=======
 guid: e3db314e177715a458a0c62624bcf480
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Demon/Demon3/Death/Demon3_Death_Death_effects.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -376,6 +380,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Demon/PNG/Demon3/Death/Demon3_Death_Death_effects.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -389,6 +395,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Demon/Demon3/Death/Demon3_Death_Death_effects.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/CrusedLand/PNG/Objects_separetely/Tentacle_plant_shadow1_3.png.meta
+guid: b2271c9cb28506849af8d7a67eb38920
+=======
 guid: e2bc3f0116fa43d448e95dfcd9222c5e
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/CrusedLand/Objects_separetely/Tentacle_plant_shadow1_3.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -109,6 +113,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/CrusedLand/PNG/Objects_separetely/Tentacle_plant_shadow1_3.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -122,6 +128,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/CrusedLand/Objects_separetely/Tentacle_plant_shadow1_3.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/UndeadTiels/PNG/Objects_separately/Dead_arm_shadow2_2.png.meta
+guid: 5bf7f7984f0d7d24d833da87730148b8
+=======
 guid: 3e791059ce8392640b77d0c6e1ad5d8d
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/UndeadTiels/Objects_separately/Dead_arm_shadow2_2.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -109,6 +113,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/UndeadTiels/PNG/Objects_separately/Dead_arm_shadow2_2.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -122,6 +128,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/UndeadTiels/Objects_separately/Dead_arm_shadow2_2.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/UndeadTiels/PNG/Objects_separately/Grave_shadow2_12.png.meta
+guid: ae0d67293780b6447b6e90162c0046b3
+=======
 guid: 8470e78b6bc2c854fa89f941d027dcd3
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/UndeadTiels/Objects_separately/Grave_shadow2_12.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -109,6 +113,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/UndeadTiels/PNG/Objects_separately/Grave_shadow2_12.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -122,6 +128,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/UndeadTiels/Objects_separately/Grave_shadow2_12.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

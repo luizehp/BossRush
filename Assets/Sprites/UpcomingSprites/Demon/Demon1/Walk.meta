@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Demon/PNG/Demon1/Walk.meta
+guid: f2101edddbb32464da76cdec393a5acf
+=======
 guid: da30e47c24efd994ca4bfdad83cb68bd
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Demon/Demon1/Walk.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

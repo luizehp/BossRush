@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Demon/PNG/Demon3/Idle.meta
+guid: d2346cb27ae2a28489c30a75924816d3
+=======
 guid: f8ce8b1f1a9661045ae62964509dd274
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Demon/Demon3/Idle.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

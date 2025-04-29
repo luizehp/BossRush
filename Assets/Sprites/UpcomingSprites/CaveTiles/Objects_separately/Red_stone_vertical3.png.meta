@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/CaveTiles/PNG/Objects_separately/Red_stone_vertical3.png.meta
+guid: a9b46d62ac7c64b4db703d8422886ac7
+=======
 guid: 2cd3b34034e435d41b4cf44d5015a55f
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/CaveTiles/Objects_separately/Red_stone_vertical3.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -109,6 +113,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/CaveTiles/PNG/Objects_separately/Red_stone_vertical3.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -122,6 +128,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/CaveTiles/Objects_separately/Red_stone_vertical3.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

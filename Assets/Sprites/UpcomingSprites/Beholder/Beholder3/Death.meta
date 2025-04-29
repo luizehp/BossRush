@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder3/Death.meta
+guid: fa420cf9feb3e4643ba37867f8d7954d
+=======
 guid: 74a351f01ff12ea429c5425b290d250c
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder3/Death.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

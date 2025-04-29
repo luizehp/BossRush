@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Demon/PNG/Demon1/Death.meta
+guid: af0886bae16f7834d863d5287aa6f096
+=======
 guid: ded6ff1a7416d79489a6dbcdaec093fe
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Demon/Demon1/Death.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

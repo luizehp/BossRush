@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder2/Hurt.meta
+guid: 411235bd58adc484298e3f61fe9a14f4
+=======
 guid: 9f8e47ec8eb13274294e371a2d16940b
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder2/Hurt.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

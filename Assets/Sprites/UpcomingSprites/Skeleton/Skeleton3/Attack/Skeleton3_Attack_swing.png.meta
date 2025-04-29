@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton3/Attack/Skeleton3_Attack_swing.png.meta
+guid: 3aa13858b278ed742be591c8b9e0bba8
+=======
 guid: c5f6f5b44b770e54aa0c45480514bbae
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton3/Attack/Skeleton3_Attack_swing.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -163,6 +167,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton3/Attack/Skeleton3_Attack_swing.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -176,6 +182,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton3/Attack/Skeleton3_Attack_swing.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

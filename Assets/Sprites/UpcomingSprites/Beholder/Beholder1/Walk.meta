@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder1/Walk.meta
+guid: 6e9a3141608e2544db5176a99bb1464d
+=======
 guid: a08e57e55bf1bec44ad2c9233de16b22
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder1/Walk.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

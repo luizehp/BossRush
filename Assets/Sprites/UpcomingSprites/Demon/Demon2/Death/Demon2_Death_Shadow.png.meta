@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Demon/PNG/Demon2/Death/Demon2_Death_Shadow.png.meta
+guid: 39d49ed92151b164c8c59411c56a03f0
+=======
 guid: a30be4ba8dc87694088acc8072ee2c11
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Demon/Demon2/Death/Demon2_Death_Shadow.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -262,6 +266,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Demon/PNG/Demon2/Death/Demon2_Death_Shadow.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -275,6 +281,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Demon/Demon2/Death/Demon2_Death_Shadow.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

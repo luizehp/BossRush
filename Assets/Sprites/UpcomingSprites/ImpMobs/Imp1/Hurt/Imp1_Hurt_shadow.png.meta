@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/ImpMobs/PNG/Imp1/Hurt/Imp1_Hurt_shadow.png.meta
+guid: 2eb9171c786155c40b1a1214f0516c4c
+=======
 guid: 77c7e7eac54e3034c9018bf02ca630bb
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/ImpMobs/Imp1/Hurt/Imp1_Hurt_shadow.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -154,6 +158,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/ImpMobs/PNG/Imp1/Hurt/Imp1_Hurt_shadow.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -167,6 +173,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/ImpMobs/Imp1/Hurt/Imp1_Hurt_shadow.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

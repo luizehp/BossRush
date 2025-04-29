@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Lich/PNG/Lich1/Walk.meta
+guid: 8f4eaa2e1e3c12d40ae77e9ea5418511
+=======
 guid: 029e554ebb7944f4ca3387ca6c91f07a
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Lich/Lich1/Walk.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

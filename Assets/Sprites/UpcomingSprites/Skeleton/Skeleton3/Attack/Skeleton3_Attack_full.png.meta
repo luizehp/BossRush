@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton3/Attack/Skeleton3_Attack_full.png.meta
+guid: d43a5a96b9d8aa148bdec4e5f9bea774
+=======
 guid: 7abc0b300e0ae67438a39a509abb4772
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton3/Attack/Skeleton3_Attack_full.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -214,6 +218,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton3/Attack/Skeleton3_Attack_full.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -227,6 +233,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton3/Attack/Skeleton3_Attack_full.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder1/Death/Beholder1_Death_full.png.meta
+guid: 415a6d888b71815448ed5c448fb9574b
+=======
 guid: a04ff007aaf90684c875f7670799cab4
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder1/Death/Beholder1_Death_full.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -238,6 +242,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder1/Death/Beholder1_Death_full.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -251,6 +257,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder1/Death/Beholder1_Death_full.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

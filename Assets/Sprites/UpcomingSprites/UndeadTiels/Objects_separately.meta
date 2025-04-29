@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/UndeadTiels/PNG/Objects_separately.meta
+guid: ec4591499470a5348a96b56f4ce611d9
+=======
 guid: 138e0c90729de1347b99cf65015563b0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/UndeadTiels/Objects_separately.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

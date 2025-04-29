@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Demon/PNG/Demon1/Hurt/Demon1_Hurt_Red.png.meta
+guid: fbedd3c225eaeab4bbdaef372ad52fe0
+=======
 guid: a235a098b7c546b42b5facf6acba02ae
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Demon/Demon1/Hurt/Demon1_Hurt_Red.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -142,6 +146,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Demon/PNG/Demon1/Hurt/Demon1_Hurt_Red.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -155,6 +161,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Demon/Demon1/Hurt/Demon1_Hurt_Red.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

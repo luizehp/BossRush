@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/CaveTiles/PNG/Objects_separately.meta
+guid: 2bcd16853fe00dd4ca93681a1607225d
+=======
 guid: 6f20058ca518a3c4f8aba168d8f0b3d4
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/CaveTiles/Objects_separately.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

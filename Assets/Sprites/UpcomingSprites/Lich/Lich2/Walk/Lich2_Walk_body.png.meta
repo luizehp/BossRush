@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Lich/PNG/Lich2/Walk/Lich2_Walk_body.png.meta
+guid: dbc72f94c0f70be478dc4e3d7efaac0e
+=======
 guid: 71a8ef7251cec474d8e16fed8c719642
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Lich/Lich2/Walk/Lich2_Walk_body.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -178,6 +182,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Lich/PNG/Lich2/Walk/Lich2_Walk_body.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -191,6 +197,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Lich/Lich2/Walk/Lich2_Walk_body.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

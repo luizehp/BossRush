@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton3/Walk/Skeleton3_Walk_body.png.meta
+guid: 34a59b894ed90e945a0210ede0aafaa3
+=======
 guid: 740cc05d83b3d3e4fb8263f6b88b6c21
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton3/Walk/Skeleton3_Walk_body.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -178,6 +182,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton3/Walk/Skeleton3_Walk_body.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -191,6 +197,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton3/Walk/Skeleton3_Walk_body.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

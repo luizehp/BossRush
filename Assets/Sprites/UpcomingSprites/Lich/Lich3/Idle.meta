@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Lich/PNG/Lich3/Idle.meta
+guid: 64dfec1e8a74b0141ab1fd04a7c72b4f
+=======
 guid: 5108eeea577aad1459a2c150c48c01e2
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Lich/Lich3/Idle.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

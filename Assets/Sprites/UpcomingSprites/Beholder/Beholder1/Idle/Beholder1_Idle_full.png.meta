@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder1/Idle/Beholder1_Idle_full.png.meta
+guid: 65b858e2e7fcfa64b88ad7fc8ec9ab04
+=======
 guid: ba8aeaf3ec6484c418a283581073c54f
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder1/Idle/Beholder1_Idle_full.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -376,6 +380,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder1/Idle/Beholder1_Idle_full.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -389,6 +395,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder1/Idle/Beholder1_Idle_full.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

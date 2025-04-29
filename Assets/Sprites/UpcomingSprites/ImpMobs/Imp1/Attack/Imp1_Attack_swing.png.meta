@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/ImpMobs/PNG/Imp1/Attack/Imp1_Attack_swing.png.meta
+guid: 18fd523b55bd82046888f6f22319aa6d
+=======
 guid: fc04ae739ecf4a64bb6a9eb8099390b6
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/ImpMobs/Imp1/Attack/Imp1_Attack_swing.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -136,6 +140,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/ImpMobs/PNG/Imp1/Attack/Imp1_Attack_swing.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -149,6 +155,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/ImpMobs/Imp1/Attack/Imp1_Attack_swing.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder2/Attack/Beholder2_Attack_full.png.meta
+guid: b64b361bc3e3ba04691d49f26262cb83
+=======
 guid: d32a0a81ad1ee4c43b34c60eff5bda83
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder2/Attack/Beholder2_Attack_full.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -310,6 +314,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder2/Attack/Beholder2_Attack_full.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -323,6 +329,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder2/Attack/Beholder2_Attack_full.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Lich/PNG/Lich3/Death/Lich3_Death_full.png.meta
+guid: c8dd8fb5f4389414a823d8b847200069
+=======
 guid: 94ed9749f0d34d34bbb91be255443388
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Lich/Lich3/Death/Lich3_Death_full.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -226,6 +230,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Lich/PNG/Lich3/Death/Lich3_Death_full.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -239,6 +245,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Lich/Lich3/Death/Lich3_Death_full.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

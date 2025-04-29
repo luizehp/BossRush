@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Lich/PNG/Lich3/Run.meta
+guid: 6c5b2f5f916d1764fb263d7ce2942820
+=======
 guid: 6745a687eda248e42a29a702db774380
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Lich/Lich3/Run.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

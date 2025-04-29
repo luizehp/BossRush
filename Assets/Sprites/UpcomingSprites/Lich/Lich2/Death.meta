@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Lich/PNG/Lich2/Death.meta
+guid: 5d82ee8e691f64549810b16b770ef914
+=======
 guid: bbe85c0273a51ac4a9f62893b1f984bc
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Lich/Lich2/Death.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

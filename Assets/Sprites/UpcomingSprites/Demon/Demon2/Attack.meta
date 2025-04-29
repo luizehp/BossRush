@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Demon/PNG/Demon2/Attack.meta
+guid: e69ed5b823c435e4cb77f9c6ae573b4d
+=======
 guid: 022f973cd03547642b6f8eb03bd07f38
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Demon/Demon2/Attack.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

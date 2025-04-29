@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/CaveTiles/PNG/Objects_separately/small_mushrooms_gray_light_shadow1.png.meta
+guid: 7e343fff47e84fa469ad16b57b7ced4b
+=======
 guid: e7c9ca89bd236404baa0123380d7b370
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/CaveTiles/Objects_separately/small_mushrooms_gray_light_shadow1.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -112,6 +116,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/CaveTiles/PNG/Objects_separately/small_mushrooms_gray_light_shadow1.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -125,6 +131,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/CaveTiles/Objects_separately/small_mushrooms_gray_light_shadow1.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

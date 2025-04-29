@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Lich/PNG/Lich2/Attack.meta
+guid: ad8322afe1b96224b9fa91d9388b7faa
+=======
 guid: 3e3d460142bff9e4a9d62cc1a1fc14ea
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Lich/Lich2/Attack.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

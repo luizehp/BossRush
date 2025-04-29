@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton1/Walk.meta
+guid: b075ae1167d4d2c4ba93603a0fb3a7b7
+=======
 guid: 54f40666b0865b741ba43cf127e125ad
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton1/Walk.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

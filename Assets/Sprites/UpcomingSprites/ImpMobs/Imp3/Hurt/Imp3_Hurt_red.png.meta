@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/ImpMobs/PNG/Imp3/Hurt/Imp3_Hurt_red.png.meta
+guid: c9a0ce05b30783f4bac238463521a47f
+=======
 guid: 1f628b74f6fb6474c9c8baf3a7406254
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/ImpMobs/Imp3/Hurt/Imp3_Hurt_red.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -142,6 +146,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/ImpMobs/PNG/Imp3/Hurt/Imp3_Hurt_red.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -155,6 +161,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/ImpMobs/Imp3/Hurt/Imp3_Hurt_red.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:

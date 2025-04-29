@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Skeleton/PNG/Skeleton3/Idle.meta
+guid: 80c835fd6eca0434faec92484a4055c4
+=======
 guid: abeca61adc90752418178a3625e1e89d
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Skeleton/Skeleton3/Idle.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

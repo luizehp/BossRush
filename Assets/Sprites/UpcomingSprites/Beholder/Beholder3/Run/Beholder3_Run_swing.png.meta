@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder3/Run/Beholder3_Run_swing.png.meta
+guid: 2e06e413cdc18b44d86f27ef16e35b3f
+=======
 guid: c26f1b2c1bc191c44a7f3853eea9c01d
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder3/Run/Beholder3_Run_swing.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -118,6 +122,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder3/Run/Beholder3_Run_swing.png.meta
+=======
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -131,6 +137,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder3/Run/Beholder3_Run_swing.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:
