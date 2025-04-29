@@ -1,0 +1,3653 @@
+fileFormatVersion: 2
+guid: 7801959a82aab1d41b73bfc5abad36d4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 354597103082264322
+    second: lava_detilazation_0
+  - first:
+      213: 6520607502863137609
+    second: lava_detilazation_1
+  - first:
+      213: 8353653049015509485
+    second: lava_detilazation_2
+  - first:
+      213: -322832209126992497
+    second: lava_detilazation_3
+  - first:
+      213: 8353846965048549495
+    second: lava_detilazation_4
+  - first:
+      213: 7766422620816145908
+    second: lava_detilazation_5
+  - first:
+      213: 1052456313739530299
+    second: lava_detilazation_6
+  - first:
+      213: -9032223138592051416
+    second: lava_detilazation_7
+  - first:
+      213: -8582317677919087146
+    second: lava_detilazation_8
+  - first:
+      213: 6870978168099141112
+    second: lava_detilazation_9
+  - first:
+      213: -6346536650206296905
+    second: lava_detilazation_10
+  - first:
+      213: -6887428633164332868
+    second: lava_detilazation_11
+  - first:
+      213: -3965389793693748572
+    second: lava_detilazation_12
+  - first:
+      213: -799115380568738962
+    second: lava_detilazation_13
+  - first:
+      213: 1267823596450594562
+    second: lava_detilazation_14
+  - first:
+      213: 1125038049439884470
+    second: lava_detilazation_15
+  - first:
+      213: 7979737618968295144
+    second: lava_detilazation_16
+  - first:
+      213: 4632041342445893
+    second: lava_detilazation_17
+  - first:
+      213: 6847487694459485617
+    second: lava_detilazation_18
+  - first:
+      213: -2898582125263362931
+    second: lava_detilazation_19
+  - first:
+      213: -936300004437335101
+    second: lava_detilazation_20
+  - first:
+      213: -8286791471647502292
+    second: lava_detilazation_21
+  - first:
+      213: 470974242541540894
+    second: lava_detilazation_22
+  - first:
+      213: 2282262972925439283
+    second: lava_detilazation_23
+  - first:
+      213: 1207662513311101862
+    second: lava_detilazation_24
+  - first:
+      213: 888286952845582705
+    second: lava_detilazation_25
+  - first:
+      213: -6924369245987941487
+    second: lava_detilazation_26
+  - first:
+      213: -3486702831851465909
+    second: lava_detilazation_27
+  - first:
+      213: 6003249771303992958
+    second: lava_detilazation_28
+  - first:
+      213: -4075497853595345264
+    second: lava_detilazation_29
+  - first:
+      213: -2470592519858009597
+    second: lava_detilazation_30
+  - first:
+      213: -3076816223677138128
+    second: lava_detilazation_31
+  - first:
+      213: -5587233826111642274
+    second: lava_detilazation_32
+  - first:
+      213: 6162914357679142893
+    second: lava_detilazation_33
+  - first:
+      213: 2719102880148912506
+    second: lava_detilazation_34
+  - first:
+      213: -7284990037116185913
+    second: lava_detilazation_35
+  - first:
+      213: -4577555048896200338
+    second: lava_detilazation_36
+  - first:
+      213: 52673015931613149
+    second: lava_detilazation_37
+  - first:
+      213: 8678471220532967741
+    second: lava_detilazation_38
+  - first:
+      213: -7139407744150467465
+    second: lava_detilazation_39
+  - first:
+      213: 1498085941083924816
+    second: lava_detilazation_40
+  - first:
+      213: 448481803501981495
+    second: lava_detilazation_41
+  - first:
+      213: 5681395178555147956
+    second: lava_detilazation_42
+  - first:
+      213: -1548516823069879009
+    second: lava_detilazation_43
+  - first:
+      213: 8108914559194714445
+    second: lava_detilazation_44
+  - first:
+      213: 3878648486327863722
+    second: lava_detilazation_45
+  - first:
+      213: -4432139424245096942
+    second: lava_detilazation_46
+  - first:
+      213: -7211591859797313537
+    second: lava_detilazation_47
+  - first:
+      213: 1248301005878645699
+    second: lava_detilazation_48
+  - first:
+      213: 1008083583389845059
+    second: lava_detilazation_49
+  - first:
+      213: 2081013481046846414
+    second: lava_detilazation_50
+  - first:
+      213: -4675094452601915528
+    second: lava_detilazation_51
+  - first:
+      213: 7340326262031942220
+    second: lava_detilazation_52
+  - first:
+      213: -1234505006592720773
+    second: lava_detilazation_53
+  - first:
+      213: 221303119779843896
+    second: lava_detilazation_54
+  - first:
+      213: 3888161066049755403
+    second: lava_detilazation_55
+  - first:
+      213: 1436001763936553290
+    second: lava_detilazation_56
+  - first:
+      213: 2064172937953892669
+    second: lava_detilazation_57
+  - first:
+      213: -4409376091542023646
+    second: lava_detilazation_58
+  - first:
+      213: -6053527731931387351
+    second: lava_detilazation_59
+  - first:
+      213: 1395101312734202940
+    second: lava_detilazation_60
+  - first:
+      213: 1675782959962166134
+    second: lava_detilazation_61
+  - first:
+      213: -3519445274805418997
+    second: lava_detilazation_62
+  - first:
+      213: -7383296693826207714
+    second: lava_detilazation_63
+  - first:
+      213: -2363497018484265712
+    second: lava_detilazation_64
+  - first:
+      213: 6970470246553531639
+    second: lava_detilazation_65
+  - first:
+      213: -604088748393879046
+    second: lava_detilazation_66
+  - first:
+      213: -740406844139019717
+    second: lava_detilazation_67
+  - first:
+      213: 6904299149966498159
+    second: lava_detilazation_68
+  - first:
+      213: -5333041780930364197
+    second: lava_detilazation_69
+  - first:
+      213: 4502992104641124991
+    second: lava_detilazation_70
+  - first:
+      213: 4744391173244970403
+    second: lava_detilazation_71
+  - first:
+      213: -563070403873328672
+    second: lava_detilazation_72
+  - first:
+      213: -4358008738884467922
+    second: lava_detilazation_73
+  - first:
+      213: -3099133814636268459
+    second: lava_detilazation_74
+  - first:
+      213: -7160358231817769455
+    second: lava_detilazation_75
+  - first:
+      213: -944887462068438936
+    second: lava_detilazation_76
+  - first:
+      213: 4679597505585411954
+    second: lava_detilazation_77
+  - first:
+      213: 5509475556099685874
+    second: lava_detilazation_78
+  - first:
+      213: 1742052724697087898
+    second: lava_detilazation_79
+  - first:
+      213: 4477716207401638327
+    second: lava_detilazation_80
+  - first:
+      213: -780436444586051102
+    second: lava_detilazation_81
+  - first:
+      213: 2948413426574851764
+    second: lava_detilazation_82
+  - first:
+      213: -7579046534827944759
+    second: lava_detilazation_83
+  - first:
+      213: 1542754952348462377
+    second: lava_detilazation_84
+  - first:
+      213: -7001446363917452731
+    second: lava_detilazation_85
+  - first:
+      213: -7171915103589213061
+    second: lava_detilazation_86
+  - first:
+      213: -5046335292135381824
+    second: lava_detilazation_87
+  - first:
+      213: -9067536051794191268
+    second: lava_detilazation_88
+  - first:
+      213: 8679144059917909276
+    second: lava_detilazation_89
+  - first:
+      213: -4764536965110164649
+    second: lava_detilazation_90
+  - first:
+      213: 7323826275196715190
+    second: lava_detilazation_91
+  - first:
+      213: 1636063675399526779
+    second: lava_detilazation_92
+  - first:
+      213: -8584016054193184575
+    second: lava_detilazation_93
+  - first:
+      213: 1650610527284579947
+    second: lava_detilazation_94
+  - first:
+      213: 1202220605492609510
+    second: lava_detilazation_95
+  - first:
+      213: -6239976258579354651
+    second: lava_detilazation_96
+  - first:
+      213: 1876025231342753818
+    second: lava_detilazation_97
+  - first:
+      213: 5576318061233860371
+    second: lava_detilazation_98
+  - first:
+      213: 3039020154098894887
+    second: lava_detilazation_99
+  - first:
+      213: -3607154890260892704
+    second: lava_detilazation_100
+  - first:
+      213: -5737490977871839919
+    second: lava_detilazation_101
+  - first:
+      213: 5962273418563039759
+    second: lava_detilazation_102
+  - first:
+      213: -406113831337699022
+    second: lava_detilazation_103
+  - first:
+      213: 4742760114497673856
+    second: lava_detilazation_104
+  - first:
+      213: 5161780230985720278
+    second: lava_detilazation_105
+  - first:
+      213: 242332790421071430
+    second: lava_detilazation_106
+  - first:
+      213: -2591880493992764223
+    second: lava_detilazation_107
+  - first:
+      213: 3651211000567775214
+    second: lava_detilazation_108
+  - first:
+      213: -7419097842895843589
+    second: lava_detilazation_109
+  - first:
+      213: 2547263538071007504
+    second: lava_detilazation_110
+  - first:
+      213: 2858713152487191532
+    second: lava_detilazation_111
+  - first:
+      213: -8773039983117699964
+    second: lava_detilazation_112
+  - first:
+      213: -2668757988819032279
+    second: lava_detilazation_113
+  - first:
+      213: 983774676205571528
+    second: lava_detilazation_114
+  - first:
+      213: -7023550541727835518
+    second: lava_detilazation_115
+  - first:
+      213: 4818272444479908984
+    second: lava_detilazation_116
+  - first:
+      213: 547032667918515919
+    second: lava_detilazation_117
+  - first:
+      213: -8859013190749839404
+    second: lava_detilazation_118
+  - first:
+      213: -2654311422772868720
+    second: lava_detilazation_119
+  - first:
+      213: 1124237468317112771
+    second: lava_detilazation_120
+  - first:
+      213: -7134085926276879801
+    second: lava_detilazation_121
+  - first:
+      213: 9078125357964401763
+    second: lava_detilazation_122
+  - first:
+      213: -625107080134240053
+    second: lava_detilazation_123
+  - first:
+      213: -4738940688886449497
+    second: lava_detilazation_124
+  - first:
+      213: 986686859298246501
+    second: lava_detilazation_125
+  - first:
+      213: 6037177240461055786
+    second: lava_detilazation_126
+  - first:
+      213: 1443226350448404064
+    second: lava_detilazation_127
+  - first:
+      213: -4563365582938761698
+    second: lava_detilazation_128
+  - first:
+      213: -8676180242249346034
+    second: lava_detilazation_129
+  - first:
+      213: -587932171443104894
+    second: lava_detilazation_130
+  - first:
+      213: 1358381043840382929
+    second: lava_detilazation_131
+  - first:
+      213: -8227223424530773993
+    second: lava_detilazation_132
+  - first:
+      213: 3964765944419066257
+    second: lava_detilazation_133
+  - first:
+      213: -3527070692465142174
+    second: lava_detilazation_134
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lava_detilazation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1232
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd01e3e9f464734c8a592642bcccb00
+      internalID: -164217978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1208
+        width: 17
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e785ad6bb66b5546b9e0ecb7579aa22
+      internalID: -225327753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1199
+        width: 231
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0edabc4733c2914a916f082c89ce9d0
+      internalID: 1232954403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_3
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1204
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c2c5985744425499fd827f97ce9055
+      internalID: -503065703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_4
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1208
+        width: 116
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072997d109086e44ea32435618d7804b
+      internalID: -186550985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_5
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1197
+        width: 72
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22864a8c6e2dd54daa5953d0dfa5661
+      internalID: 1219431375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_6
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1207
+        width: 51
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18ce5a711acd09498fef14216829949
+      internalID: 24813815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_7
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1198
+        width: 51
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4fd39c8bf45524bba7a482b5474e16
+      internalID: 645417696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_8
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1202
+        width: 23
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3de2dbb28ddda44da8fdc4f7d9fe780
+      internalID: -1867387961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_9
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1190
+        width: 62
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0e8972304354147a79e2b3e57559cc
+      internalID: -442448936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_10
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1195
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985b771647df7a9498b8de6625dd9070
+      internalID: -923292314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_11
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1191
+        width: 29
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e9c61fb3596f54aa8607feab2c2b4f
+      internalID: 1649448290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_12
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1175
+        width: 40
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dcbc8fa33127744aed4e726b70122d
+      internalID: 1723321328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_13
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1130
+        width: 177
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abe0276cf50b2047a9860809e4cde13
+      internalID: -2009195012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_14
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1139
+        width: 113
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688f8fa4bde7f374b894395bd6591dcd
+      internalID: 1639215423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_15
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1145
+        width: 69
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6290ee1839d5769468c0caa03d739f86
+      internalID: 1586289024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_16
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1142
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9cda3496ea1eb46b508f2c7feb844e
+      internalID: -448326022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_17
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1101
+        width: 97
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8e1a648d182b94eab6615fafa07238
+      internalID: 444405169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1099
+        width: 38
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b924ed0e86790e4791960e77c82179a
+      internalID: 847330323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_19
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1105
+        width: 26
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f646b12f4ba85764186c6808dc170063
+      internalID: 1310005359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1075
+        width: 196
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64230ee41eaf5554fab66a1ea8168e44
+      internalID: -242728554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_21
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1096
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e5361713243834e8810ccea06d728c
+      internalID: -1611009692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_22
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1000
+        width: 19
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c52cae136bacf45b0307476eb9d351
+      internalID: -181976252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_23
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 987
+        width: 233
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f0d9f779f663547950592a7b23d256
+      internalID: 846678928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_24
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 997
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e772a33da568a4ca78638562e09480
+      internalID: 420535009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_25
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1000
+        width: 118
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6354b54d5e0014a83b283ebc27c454
+      internalID: -1787693535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_26
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 989
+        width: 74
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9123058bddc4043b5b03a118745700
+      internalID: 864982319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_27
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1000
+        width: 53
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be82cddc265001468840733eb6fccc1
+      internalID: 1128997570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_28
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 995
+        width: 23
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e82418ee60f8e49b91a14b6cb4dc2e
+      internalID: 1973680139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_29
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 991
+        width: 53
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19578778fca983846a5d2e8ae24024a9
+      internalID: 79047922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_30
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 982
+        width: 64
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0858fe951326824588b38bc52554716
+      internalID: 2022870771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_31
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 983
+        width: 31
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c82ea80a89cde41851217bf72eac9c
+      internalID: 143007467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_32
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 967
+        width: 42
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde04d9dc3ab389488d5f16441aabc10
+      internalID: -1596499305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_33
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 922
+        width: 180
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203ac29fa99ce3344bfd579d305a5698
+      internalID: -563609689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_34
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 939
+        width: 115
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a24aad3c9cb5d41b5c3e1d260b612c
+      internalID: 1414714015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_35
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 937
+        width: 67
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258d9f8302f6a604abdb1a90b4ab3b20
+      internalID: 1203090067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_36
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 948
+        width: 28
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6530bf57e55ec4daa7b4d1871878d3
+      internalID: 594504222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_37
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 931
+        width: 68
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf76164685227b048bf1fa5f6051d3ec
+      internalID: -864050934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_38
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 934
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5aef67614293e409f95ee1c7853160
+      internalID: 748735821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_39
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 893
+        width: 99
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f459f3c5a2f0849a277f259dbdf421
+      internalID: 632837188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_40
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 891
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d432e9442c3d9478400099523ef804
+      internalID: 1198725667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_41
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 897
+        width: 28
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b5bac66b4ba3445a36024616e89010
+      internalID: 1386039471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 867
+        width: 198
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af8f1a7683437f4ca28c874acd2cbb2
+      internalID: 1877052839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_43
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 888
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e6e2a9c76a21640b22b2013f566bf8
+      internalID: 1758006332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 791
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3b4356642b01341b0622492e4d8725
+      internalID: -170631584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_45
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 783
+        width: 235
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8dec2b740ca3c40a013dcc3c9b9a64
+      internalID: -1362832639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_46
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 789
+        width: 34
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8dd8882d520b44cbe1addecae12f24
+      internalID: 2106894998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_47
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 792
+        width: 120
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b7ec8ccb26e3940a19769914271d2c
+      internalID: -1180053425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_48
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 790
+        width: 55
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49715cbc539cfa844aa6a72ddee6c831
+      internalID: 146949992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_49
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 792
+        width: 55
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbf2f02ff225af4c92985c99fcf589e
+      internalID: 127527370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_50
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 783
+        width: 52
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c5f3986d73d104abe8b9c423135bd0
+      internalID: 1383919659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_51
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 782
+        width: 61
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560f981bd472bc34a9170b83c5b2851c
+      internalID: -613430158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_52
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 786
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1bd90ec0ca50644aa0d75ef19fd304
+      internalID: 973130716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_53
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 774
+        width: 66
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7d704bc0685c64e90449ace751cd00
+      internalID: -2039887915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_54
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 779
+        width: 25
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25d88ab78ccd584299b82c03b9ba918
+      internalID: 182341473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_55
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 775
+        width: 33
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76510781cfbd4fd42bd8d9c4b516ab97
+      internalID: -885557426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_56
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 759
+        width: 44
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a964f89841860749981ff22f8e472bd
+      internalID: -1347334697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_57
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 714
+        width: 182
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ce071ded4c4604a88a5d7aca447d55
+      internalID: -1155288848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_58
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 732
+        width: 117
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c835e9a70cc0984b8d70779c0b1703b
+      internalID: 1967168416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_59
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 729
+        width: 69
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8de5dd819f8cc408c2c8bcfc30eac2
+      internalID: 1742890654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_60
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 739
+        width: 30
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a5408f6cf374649a81ec2ed9073646
+      internalID: 613109761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_61
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 723
+        width: 70
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4fa849ed25f23449671469ed184fe8
+      internalID: -71820513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_62
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 726
+        width: 25
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3360ee71e124249a806be44f6ee1e0
+      internalID: -627709813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_63
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 685
+        width: 101
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134f50ec4dc88ba4797ded58682a5438
+      internalID: -203357540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_64
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 683
+        width: 43
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74b01129fa32ba45803df7e72149be0
+      internalID: 1979334396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_65
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 689
+        width: 29
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0924410e874c6c44fbf55afd797394f6
+      internalID: 55735388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_66
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 659
+        width: 200
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff03d830afcdc6a438248cf5da7067fb
+      internalID: -1059544621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_67
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 680
+        width: 26
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca95526ef6601044bd0a2add5a0845b
+      internalID: 2058992710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_68
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 575
+        width: 239
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f2ffe91ef52144e9e08575353afbae
+      internalID: 793066879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_69
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 584
+        width: 122
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203d99e2f5f607749ae33abd5a052d64
+      internalID: 789138989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_70
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 582
+        width: 56
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cf19b15081db045ad83d42ddc29ecb
+      internalID: 1518622246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_71
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 585
+        width: 57
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a860ee8f51b2c1c47a508ec4bd639164
+      internalID: 1668394823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_72
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 574
+        width: 48
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20a762436841cb4e8b40f7496aea3a7
+      internalID: 630120656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_73
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 574
+        width: 61
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e6f68a12f439b4dbdae013ac9e36b5
+      internalID: -1851420177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_74
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 578
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fd40c6f9cec6a45a7335d7fa7795fb
+      internalID: -1225983584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_75
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 567
+        width: 69
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72f1f1df0d771d4aa23fe9146f81a9f
+      internalID: 1107474445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_76
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 571
+        width: 29
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6b0cba342e8564d90998345c31cb73
+      internalID: 837570478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_77
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 567
+        width: 36
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b7132d01fc60b4eabd2f68c54dd520
+      internalID: -677593568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_78
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 551
+        width: 46
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7722fb50d31484d8657abf559d7aa0
+      internalID: -1022484275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_79
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 506
+        width: 184
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb2c51264aafb746accc65678559bc2
+      internalID: -109828145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_80
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 524
+        width: 119
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8633e033d2842354cb2a51d0e756ba54
+      internalID: -1159223417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_81
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 521
+        width: 75
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47055d2edc50394bb25b9b1d60c307c
+      internalID: -1087140614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_82
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 515
+        width: 71
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be15c799ef6c6464b85858fb3759e559
+      internalID: 278865453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_83
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 518
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bf9f6839f7f3e43a7833019b87618e
+      internalID: -323347376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_84
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 477
+        width: 103
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333057e921c0fd047af24ee56cdec1e2
+      internalID: 1680527848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_85
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 479
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17969cd4522595f44880fc4d43d44efc
+      internalID: -1311473736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_86
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 482
+        width: 29
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea89f5f33b49ade4293590c2d9566b8e
+      internalID: 636802186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_87
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 472
+        width: 26
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f7e9af3c820044cb579545e162fe55
+      internalID: -1240622170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_88
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 475
+        width: 39
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b56c55d06eb90438c97700780d9b0a
+      internalID: -1904252484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_89
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 456
+        width: 202
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d3f2bedb21df740930c1c722920bf0
+      internalID: -386172501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_90
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 451
+        width: 53
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682efa8e51dae4e419d8d770afc7cb14
+      internalID: -1174992052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_91
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 376
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3179c61ce887b784785faef4edaffb6a
+      internalID: -1537331996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_92
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 367
+        width: 237
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f86a45e216f7c045bd8245f4d377383
+      internalID: 1531618711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_93
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 376
+        width: 122
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cb6230f5238704ab9067eb58b99c36
+      internalID: 1020668144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_94
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 373
+        width: 59
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f85ac4bd57660245be21836d738c0ed
+      internalID: 831267372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_95
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 376
+        width: 59
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22fd5a5ce8045441b252ac30e32790d
+      internalID: -1298747699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_96
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 366
+        width: 50
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837aa5c3004bf134c8a4ff5f74c7bcbf
+      internalID: -273389405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_97
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 365
+        width: 58
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a010aacb4b1c22249bfdd258b44e0ee4
+      internalID: -1081072240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_98
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 370
+        width: 28
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cada87d73d08441941a7caf6b4e211
+      internalID: -1827352760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_99
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 358
+        width: 70
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33ceb888fcb5fa4394286f42e9ee7d7
+      internalID: -96439036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_100
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 363
+        width: 26
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80686595d62eac14baeda278b9229edd
+      internalID: -655879175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_101
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 359
+        width: 35
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03347602d829b394d9de19f72928e587
+      internalID: 1873406822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_102
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 343
+        width: 46
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f2961a102cdd84b9d5007ad634702b
+      internalID: 297772567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_103
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 298
+        width: 188
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a6929e26ba2ac4ca1e57d22a3c2156
+      internalID: -1759874446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_104
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 323
+        width: 21
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9910364f82ad724eb0802755d20fb97
+      internalID: 1030412430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_105
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 324
+        width: 31
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8443712e7f736814e820eec716c9fd14
+      internalID: -1618056232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_106
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 307
+        width: 116
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1e029f68e0ca74c834255939d79b6a
+      internalID: 795943413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_107
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 313
+        width: 72
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de01837c0f51d0f4fba90768a93639a5
+      internalID: -1578032952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_108
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 310
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b8d3b0b4950024fab92b4fa0e0e44c
+      internalID: 1454304832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_109
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 269
+        width: 103
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60155876d9c04a247b1e556c011061bc
+      internalID: -163172464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_110
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 267
+        width: 45
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689efd68c8133a44497ce6f9a3056835
+      internalID: -1888092340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_111
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 273
+        width: 26
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b07e0250677db46b9008b93c503552
+      internalID: 536352339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_112
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 243
+        width: 203
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea2561d6fc20fb48a32800c5f3312d8
+      internalID: -1062541885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_113
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 264
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4345bdc2951cca4a828624a27fe9323
+      internalID: -1948280381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_114
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 168
+        width: 17
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c62242e78cb96409ff712181d05865
+      internalID: -1136027978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_115
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 159
+        width: 234
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38464c7bbb61474290f62a3819a13f8
+      internalID: -1563623907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_116
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 168
+        width: 119
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feefca52da6d42b46b8b97a6409ad900
+      internalID: -1554547196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_117
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 157
+        width: 72
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b12a3372ef62f43b2d13fbbf524769
+      internalID: -1357791710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_118
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 167
+        width: 54
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdd609be6b6480488a52af35b2e352d
+      internalID: 1281808891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_119
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 158
+        width: 51
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd384b320c683548865a2563462d23a
+      internalID: -322866356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_120
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 162
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb013e3cce1b9574581fded9243153c9
+      internalID: -1913930525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_121
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 150
+        width: 66
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33681d58447dd4d47b00e248f58ffa74
+      internalID: -585620897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_122
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 155
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f951d8f36d9bb4dae36035050e023d
+      internalID: 408166122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_123
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 151
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5776b4ad64e2acd4b83d18db6f22f59f
+      internalID: -1705086154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_124
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 135
+        width: 42
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1521485cd9473dd4db2d4e88cbe1f571
+      internalID: 1509824677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_125
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 90
+        width: 183
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d011e10702dee6a4b88efb24277b328f
+      internalID: -449800428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_126
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 99
+        width: 114
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a024d281e3f42794daa9d0be77cef000
+      internalID: 719335002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_127
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 105
+        width: 68
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c64b3c32baa884a8385f311b678e2b
+      internalID: -1627705773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_128
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 116
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a25382462387ba43a739b439f00121e
+      internalID: 382743773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_129
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 102
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d877c4bd406e041b83bb2f8d65fd18
+      internalID: 1862406960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_130
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 61
+        width: 101
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c162bad4c2565a645ae927cf1b61f671
+      internalID: -1062898032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_131
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 59
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28671530a2326f143acfc780d6e29a58
+      internalID: 373413594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_132
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 65
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18dcbe0a87a2b6499d64414c8793f59
+      internalID: 1224954311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_133
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 36
+        width: 199
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6a9c45ae3a9e84caf28f5fbb3edc55
+      internalID: 1796975735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lava_detilazation_134
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 56
+        width: 21
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8525cfa9822fa524e97c29eb0c3b7574
+      internalID: -574740234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4946f12236a96b049983d83f4db86893
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      lava_detilazation_0: -164217978
+      lava_detilazation_1: -225327753
+      lava_detilazation_10: -923292314
+      lava_detilazation_100: -655879175
+      lava_detilazation_101: 1873406822
+      lava_detilazation_102: 297772567
+      lava_detilazation_103: -1759874446
+      lava_detilazation_104: 1030412430
+      lava_detilazation_105: -1618056232
+      lava_detilazation_106: 795943413
+      lava_detilazation_107: -1578032952
+      lava_detilazation_108: 1454304832
+      lava_detilazation_109: -163172464
+      lava_detilazation_11: 1649448290
+      lava_detilazation_110: -1888092340
+      lava_detilazation_111: 536352339
+      lava_detilazation_112: -1062541885
+      lava_detilazation_113: -1948280381
+      lava_detilazation_114: -1136027978
+      lava_detilazation_115: -1563623907
+      lava_detilazation_116: -1554547196
+      lava_detilazation_117: -1357791710
+      lava_detilazation_118: 1281808891
+      lava_detilazation_119: -322866356
+      lava_detilazation_12: 1723321328
+      lava_detilazation_120: -1913930525
+      lava_detilazation_121: -585620897
+      lava_detilazation_122: 408166122
+      lava_detilazation_123: -1705086154
+      lava_detilazation_124: 1509824677
+      lava_detilazation_125: -449800428
+      lava_detilazation_126: 719335002
+      lava_detilazation_127: -1627705773
+      lava_detilazation_128: 382743773
+      lava_detilazation_129: 1862406960
+      lava_detilazation_13: -2009195012
+      lava_detilazation_130: -1062898032
+      lava_detilazation_131: 373413594
+      lava_detilazation_132: 1224954311
+      lava_detilazation_133: 1796975735
+      lava_detilazation_134: -574740234
+      lava_detilazation_14: 1639215423
+      lava_detilazation_15: 1586289024
+      lava_detilazation_16: -448326022
+      lava_detilazation_17: 444405169
+      lava_detilazation_18: 847330323
+      lava_detilazation_19: 1310005359
+      lava_detilazation_2: 1232954403
+      lava_detilazation_20: -242728554
+      lava_detilazation_21: -1611009692
+      lava_detilazation_22: -181976252
+      lava_detilazation_23: 846678928
+      lava_detilazation_24: 420535009
+      lava_detilazation_25: -1787693535
+      lava_detilazation_26: 864982319
+      lava_detilazation_27: 1128997570
+      lava_detilazation_28: 1973680139
+      lava_detilazation_29: 79047922
+      lava_detilazation_3: -503065703
+      lava_detilazation_30: 2022870771
+      lava_detilazation_31: 143007467
+      lava_detilazation_32: -1596499305
+      lava_detilazation_33: -563609689
+      lava_detilazation_34: 1414714015
+      lava_detilazation_35: 1203090067
+      lava_detilazation_36: 594504222
+      lava_detilazation_37: -864050934
+      lava_detilazation_38: 748735821
+      lava_detilazation_39: 632837188
+      lava_detilazation_4: -186550985
+      lava_detilazation_40: 1198725667
+      lava_detilazation_41: 1386039471
+      lava_detilazation_42: 1877052839
+      lava_detilazation_43: 1758006332
+      lava_detilazation_44: -170631584
+      lava_detilazation_45: -1362832639
+      lava_detilazation_46: 2106894998
+      lava_detilazation_47: -1180053425
+      lava_detilazation_48: 146949992
+      lava_detilazation_49: 127527370
+      lava_detilazation_5: 1219431375
+      lava_detilazation_50: 1383919659
+      lava_detilazation_51: -613430158
+      lava_detilazation_52: 973130716
+      lava_detilazation_53: -2039887915
+      lava_detilazation_54: 182341473
+      lava_detilazation_55: -885557426
+      lava_detilazation_56: -1347334697
+      lava_detilazation_57: -1155288848
+      lava_detilazation_58: 1967168416
+      lava_detilazation_59: 1742890654
+      lava_detilazation_6: 24813815
+      lava_detilazation_60: 613109761
+      lava_detilazation_61: -71820513
+      lava_detilazation_62: -627709813
+      lava_detilazation_63: -203357540
+      lava_detilazation_64: 1979334396
+      lava_detilazation_65: 55735388
+      lava_detilazation_66: -1059544621
+      lava_detilazation_67: 2058992710
+      lava_detilazation_68: 793066879
+      lava_detilazation_69: 789138989
+      lava_detilazation_7: 645417696
+      lava_detilazation_70: 1518622246
+      lava_detilazation_71: 1668394823
+      lava_detilazation_72: 630120656
+      lava_detilazation_73: -1851420177
+      lava_detilazation_74: -1225983584
+      lava_detilazation_75: 1107474445
+      lava_detilazation_76: 837570478
+      lava_detilazation_77: -677593568
+      lava_detilazation_78: -1022484275
+      lava_detilazation_79: -109828145
+      lava_detilazation_8: -1867387961
+      lava_detilazation_80: -1159223417
+      lava_detilazation_81: -1087140614
+      lava_detilazation_82: 278865453
+      lava_detilazation_83: -323347376
+      lava_detilazation_84: 1680527848
+      lava_detilazation_85: -1311473736
+      lava_detilazation_86: 636802186
+      lava_detilazation_87: -1240622170
+      lava_detilazation_88: -1904252484
+      lava_detilazation_89: -386172501
+      lava_detilazation_9: -442448936
+      lava_detilazation_90: -1174992052
+      lava_detilazation_91: -1537331996
+      lava_detilazation_92: 1531618711
+      lava_detilazation_93: 1020668144
+      lava_detilazation_94: 831267372
+      lava_detilazation_95: -1298747699
+      lava_detilazation_96: -273389405
+      lava_detilazation_97: -1081072240
+      lava_detilazation_98: -1827352760
+      lava_detilazation_99: -96439036
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
