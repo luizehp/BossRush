@@ -1,48 +1,42 @@
 using UnityEngine;
 
-public class MinionSpawner : MonoBehaviour
+namespace Necromancer.Minion
 {
-    [Header("Referências")]
-    [Tooltip("Arraste aqui o prefab do Minion")]
-    public GameObject minionPrefab;
-
-    [Header("Quantidade & Raio")]
-    [Tooltip("Quantos Minions serão instanciados ao apertar V")]
-    public int spawnCount = 3;
-    [Tooltip("Raio em unidades ao redor do Player onde eles vão aparecer")]
-    public float spawnRadius = 5f;
-
-    private Transform player;
-
-    void Start()
+    public class MinionSpawner : MonoBehaviour
     {
-        player = GameObject.FindGameObjectWithTag("Player")?.transform;
-        if (player == null)
-            Debug.LogError("MinionSpawner: não encontrou objeto com tag 'Player'!");
-    }
+        public GameObject minionPrefab;
+        public int spawnCount = 3;
+        public float spawnRadius = 5f;
+        private Transform playerPos;
+        private Animator necromancerAnimator;
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.V))
+        void Start()
         {
-            if (minionPrefab == null)
-            {
-                Debug.LogError("MinionSpawner: 'minionPrefab' não está atribuído no Inspector!");
-                return;
-            }
-            if (player == null)
-                return;
+            necromancerAnimator = GetComponent<Animator>();
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player is not null)
+                playerPos = GameObject.FindGameObjectWithTag("Player").transform;
+        }
 
+        void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.V))
+            {
+                if (playerPos is null)
+                    return;
+                necromancerAnimator.SetTrigger("Summon");
+            }
+        }
+
+        public void SpawnMinions()
+        {
             for (int i = 0; i < spawnCount; i++)
             {
-                // gera ponto aleatório num círculo de raio spawnRadius
                 Vector2 offset = Random.insideUnitCircle * spawnRadius;
-                Vector3 spawnPos = player.position + new Vector3(offset.x, offset.y, 0f);
+                Vector3 spawnPos = playerPos.position + new Vector3(offset.x, offset.y, 0f);
 
                 Instantiate(minionPrefab, spawnPos, Quaternion.identity);
             }
-
-            Debug.Log($"MinionSpawner: instanciados {spawnCount} minions em raio {spawnRadius} ao redor de {player.name}");
         }
     }
 }

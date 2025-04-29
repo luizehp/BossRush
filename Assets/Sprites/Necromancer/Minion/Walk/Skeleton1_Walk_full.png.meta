@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeleton1_Walk_full_0: 356217656813484277
+      Skeleton1_Walk_full_1: -6109233259461823746
+      Skeleton1_Walk_full_10: -8558175107692357032
+      Skeleton1_Walk_full_11: 1589782325009140413
+      Skeleton1_Walk_full_12: 5627355035291666801
+      Skeleton1_Walk_full_13: 3908066113035176134
+      Skeleton1_Walk_full_14: -6866080254381848737
+      Skeleton1_Walk_full_15: -704725571441781643
+      Skeleton1_Walk_full_16: -6692458412216019971
+      Skeleton1_Walk_full_17: -1054774662827648140
+      Skeleton1_Walk_full_18: -7777347535622395477
+      Skeleton1_Walk_full_19: -5595470824597901895
+      Skeleton1_Walk_full_2: -8350853041995336021
+      Skeleton1_Walk_full_20: 2106362827788579663
+      Skeleton1_Walk_full_21: 5931156264539358248
+      Skeleton1_Walk_full_22: -4441242234525720539
+      Skeleton1_Walk_full_23: 5486961181144281902
+      Skeleton1_Walk_full_3: -5253524811917892704
+      Skeleton1_Walk_full_4: -2898619401355701372
+      Skeleton1_Walk_full_5: -1232049209539011837
+      Skeleton1_Walk_full_6: 2479769615499163337
+      Skeleton1_Walk_full_7: -8286100115218412373
+      Skeleton1_Walk_full_8: -3437196201332289735
+      Skeleton1_Walk_full_9: 422436358692268880
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
