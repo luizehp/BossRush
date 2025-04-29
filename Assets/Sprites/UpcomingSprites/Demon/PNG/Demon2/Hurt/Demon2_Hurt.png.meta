@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -174,20 +174,20 @@ TextureImporter:
       name: Demon2_Hurt_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 417
-        width: 37
-        height: 52
+        x: 32
+        y: 416
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a0d3da92b45501480800000000000000
-      internalID: -8930544279765566198
+      spriteID: 5332eb7bea661c74f83f2b90b0834353
+      internalID: -1039284889
       vertices: []
       indices: 
       edges: []
@@ -196,20 +196,20 @@ TextureImporter:
       name: Demon2_Hurt_1
       rect:
         serializedVersion: 2
-        x: 172
-        y: 417
-        width: 38
-        height: 51
+        x: 160
+        y: 416
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9f06faba0e02035d0800000000000000
-      internalID: -3084929595423629063
+      spriteID: 482bac78644080a41a2dc581351da114
+      internalID: -1542614468
       vertices: []
       indices: 
       edges: []
@@ -218,20 +218,20 @@ TextureImporter:
       name: Demon2_Hurt_2
       rect:
         serializedVersion: 2
-        x: 298
+        x: 288
         y: 416
-        width: 40
-        height: 51
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 87d684e85b55feb00800000000000000
-      internalID: 860000292115606904
+      spriteID: 9b82f8527dd0e3c42a67553459717c3e
+      internalID: -697149539
       vertices: []
       indices: 
       edges: []
@@ -240,20 +240,20 @@ TextureImporter:
       name: Demon2_Hurt_3
       rect:
         serializedVersion: 2
-        x: 428
-        y: 417
-        width: 38
-        height: 51
+        x: 416
+        y: 416
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c6267f43e6eb05df0800000000000000
-      internalID: -193445403432623508
+      spriteID: 46a2f42d3578f464694d9e1e0680f119
+      internalID: -536283447
       vertices: []
       indices: 
       edges: []
@@ -262,20 +262,20 @@ TextureImporter:
       name: Demon2_Hurt_4
       rect:
         serializedVersion: 2
-        x: 45
-        y: 302
-        width: 37
-        height: 47
+        x: 32
+        y: 288
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b221710cd7f29fd20800000000000000
-      internalID: 3312731218047865387
+      spriteID: 5819e57bcf3c53441a369b7aedf30846
+      internalID: 1061678214
       vertices: []
       indices: 
       edges: []
@@ -284,20 +284,20 @@ TextureImporter:
       name: Demon2_Hurt_5
       rect:
         serializedVersion: 2
-        x: 173
-        y: 302
-        width: 38
-        height: 47
+        x: 160
+        y: 288
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7400b1809beb97140800000000000000
-      internalID: 4718011786561519687
+      spriteID: 682ac28339834b340af0e129368d674f
+      internalID: 348020518
       vertices: []
       indices: 
       edges: []
@@ -306,20 +306,20 @@ TextureImporter:
       name: Demon2_Hurt_6
       rect:
         serializedVersion: 2
-        x: 301
-        y: 302
-        width: 40
-        height: 46
+        x: 288
+        y: 288
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a4884de868a8d65e0800000000000000
-      internalID: -1914721956036048822
+      spriteID: 6749a439b73f13645a6f81d8499b5c5c
+      internalID: 1569876736
       vertices: []
       indices: 
       edges: []
@@ -328,20 +328,20 @@ TextureImporter:
       name: Demon2_Hurt_7
       rect:
         serializedVersion: 2
-        x: 429
-        y: 302
-        width: 38
-        height: 47
+        x: 416
+        y: 288
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 51c1b845fe7aaa310800000000000000
-      internalID: 1417129679118867477
+      spriteID: 04bb95c161c7c914493765e1540b9b18
+      internalID: -1586831097
       vertices: []
       indices: 
       edges: []
@@ -350,20 +350,20 @@ TextureImporter:
       name: Demon2_Hurt_8
       rect:
         serializedVersion: 2
-        x: 33
-        y: 174
-        width: 48
-        height: 39
+        x: 32
+        y: 160
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cb6310d984fa551c0800000000000000
-      internalID: -4515510324962445636
+      spriteID: 3689d5f9173f29941ad0840b0e5e74db
+      internalID: 1386425907
       vertices: []
       indices: 
       edges: []
@@ -372,20 +372,20 @@ TextureImporter:
       name: Demon2_Hurt_9
       rect:
         serializedVersion: 2
-        x: 162
-        y: 174
-        width: 47
-        height: 38
+        x: 160
+        y: 160
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 17ee087e4e2d0fb30800000000000000
-      internalID: 4319183923226668657
+      spriteID: 6876739b19cfdf94597d250a74a38804
+      internalID: 373357385
       vertices: []
       indices: 
       edges: []
@@ -394,20 +394,20 @@ TextureImporter:
       name: Demon2_Hurt_10
       rect:
         serializedVersion: 2
-        x: 292
-        y: 174
-        width: 43
-        height: 37
+        x: 288
+        y: 160
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bf954df185616a1b0800000000000000
-      internalID: -5645800515115394565
+      spriteID: 227069a7a1526d7438866c91c0523a3b
+      internalID: 120316875
       vertices: []
       indices: 
       edges: []
@@ -416,20 +416,20 @@ TextureImporter:
       name: Demon2_Hurt_11
       rect:
         serializedVersion: 2
-        x: 418
-        y: 174
-        width: 47
-        height: 38
+        x: 416
+        y: 160
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ce93faaf8d17e2560800000000000000
-      internalID: 7290890023492073964
+      spriteID: 8b05ec4bd9beccc449ba6bcfcd086b28
+      internalID: -516676531
       vertices: []
       indices: 
       edges: []
@@ -438,20 +438,20 @@ TextureImporter:
       name: Demon2_Hurt_12
       rect:
         serializedVersion: 2
-        x: 46
-        y: 46
-        width: 48
-        height: 39
+        x: 32
+        y: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2ceb1a46e0874de90800000000000000
-      internalID: -7001839517441081662
+      spriteID: dd4e4a12785abc44caf7120e858f8165
+      internalID: -979092902
       vertices: []
       indices: 
       edges: []
@@ -460,20 +460,20 @@ TextureImporter:
       name: Demon2_Hurt_13
       rect:
         serializedVersion: 2
-        x: 174
-        y: 46
-        width: 47
-        height: 38
+        x: 160
+        y: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 38e3c5f5fe321d6c0800000000000000
-      internalID: -4120472673063256445
+      spriteID: 0dac1ca5915e3d54faa425ae76aa7cf4
+      internalID: -868168843
       vertices: []
       indices: 
       edges: []
@@ -482,20 +482,20 @@ TextureImporter:
       name: Demon2_Hurt_14
       rect:
         serializedVersion: 2
-        x: 304
-        y: 46
-        width: 43
-        height: 37
+        x: 288
+        y: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 18ab95308cd7a3910800000000000000
-      internalID: 1817903697600559745
+      spriteID: 0963becf0f4522c489680cfb0215ffb4
+      internalID: -140796552
       vertices: []
       indices: 
       edges: []
@@ -504,20 +504,20 @@ TextureImporter:
       name: Demon2_Hurt_15
       rect:
         serializedVersion: 2
-        x: 430
-        y: 46
-        width: 47
-        height: 38
+        x: 416
+        y: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 20e3e4eb90ed135e0800000000000000
-      internalID: -1931518631736361470
+      spriteID: b06c3ff81ca9dda4b8f8311d2313cee1
+      internalID: -1186858389
       vertices: []
       indices: 
       edges: []
@@ -526,7 +526,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6a439661f5185e94aaa1fead704e2db6
     internalID: 0
     vertices: []
     indices: 
@@ -535,7 +535,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Demon2_Hurt_0: -1039284889
+      Demon2_Hurt_1: -1542614468
+      Demon2_Hurt_10: 120316875
+      Demon2_Hurt_11: -516676531
+      Demon2_Hurt_12: -979092902
+      Demon2_Hurt_13: -868168843
+      Demon2_Hurt_14: -140796552
+      Demon2_Hurt_15: -1186858389
+      Demon2_Hurt_2: -697149539
+      Demon2_Hurt_3: -536283447
+      Demon2_Hurt_4: 1061678214
+      Demon2_Hurt_5: 348020518
+      Demon2_Hurt_6: 1569876736
+      Demon2_Hurt_7: -1586831097
+      Demon2_Hurt_8: 1386425907
+      Demon2_Hurt_9: 373357385
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
