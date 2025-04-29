@@ -1,0 +1,1435 @@
+fileFormatVersion: 2
+guid: c633ceaefa092ac45a2fced5aa9079c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4356831696393790324
+    second: Demon2_Attack_0
+  - first:
+      213: -5317504498248164215
+    second: Demon2_Attack_1
+  - first:
+      213: -7626853760098659421
+    second: Demon2_Attack_2
+  - first:
+      213: -1123423339058484108
+    second: Demon2_Attack_3
+  - first:
+      213: 5870693372290227627
+    second: Demon2_Attack_4
+  - first:
+      213: -8003179804102565250
+    second: Demon2_Attack_5
+  - first:
+      213: -7640560128168161075
+    second: Demon2_Attack_6
+  - first:
+      213: -1151500211800927473
+    second: Demon2_Attack_7
+  - first:
+      213: 184857385215792274
+    second: Demon2_Attack_8
+  - first:
+      213: 7937649736950690479
+    second: Demon2_Attack_9
+  - first:
+      213: -3963852879861737479
+    second: Demon2_Attack_10
+  - first:
+      213: 8378820336187293108
+    second: Demon2_Attack_11
+  - first:
+      213: -1419197421960385920
+    second: Demon2_Attack_12
+  - first:
+      213: 1224683565051121942
+    second: Demon2_Attack_13
+  - first:
+      213: -2373348013111780023
+    second: Demon2_Attack_14
+  - first:
+      213: -3807213602724123200
+    second: Demon2_Attack_15
+  - first:
+      213: -1661378994158893306
+    second: Demon2_Attack_16
+  - first:
+      213: -3627115733722079720
+    second: Demon2_Attack_17
+  - first:
+      213: -457723909643114786
+    second: Demon2_Attack_18
+  - first:
+      213: 7567534492127198555
+    second: Demon2_Attack_19
+  - first:
+      213: -8720184734551929405
+    second: Demon2_Attack_20
+  - first:
+      213: -8087470103359410369
+    second: Demon2_Attack_21
+  - first:
+      213: -1559469674535380697
+    second: Demon2_Attack_22
+  - first:
+      213: 8848119054707437792
+    second: Demon2_Attack_23
+  - first:
+      213: -1069758269199454099
+    second: Demon2_Attack_24
+  - first:
+      213: -2734552149669967483
+    second: Demon2_Attack_25
+  - first:
+      213: -885651217071642208
+    second: Demon2_Attack_26
+  - first:
+      213: 9012336808049738884
+    second: Demon2_Attack_27
+  - first:
+      213: -7986061302926831709
+    second: Demon2_Attack_28
+  - first:
+      213: -5134491942061233894
+    second: Demon2_Attack_29
+  - first:
+      213: -7005511048092616913
+    second: Demon2_Attack_30
+  - first:
+      213: -7804280069575036109
+    second: Demon2_Attack_31
+  - first:
+      213: -4057323218189508308
+    second: Demon2_Attack_32
+  - first:
+      213: 2438009262840099432
+    second: Demon2_Attack_33
+  - first:
+      213: 6810674050247232354
+    second: Demon2_Attack_34
+  - first:
+      213: -7089801690298250886
+    second: Demon2_Attack_35
+  - first:
+      213: -5222994463962087980
+    second: Demon2_Attack_36
+  - first:
+      213: 816035852072543243
+    second: Demon2_Attack_37
+  - first:
+      213: 2018895149090758795
+    second: Demon2_Attack_38
+  - first:
+      213: 4313253326486908311
+    second: Demon2_Attack_39
+  - first:
+      213: 1030389522705061734
+    second: Demon2_Attack_40
+  - first:
+      213: -1472103648551552707
+    second: Demon2_Attack_41
+  - first:
+      213: -6380049353508903788
+    second: Demon2_Attack_42
+  - first:
+      213: 2307066280441788121
+    second: Demon2_Attack_43
+  - first:
+      213: 3927008768374094940
+    second: Demon2_Attack_44
+  - first:
+      213: 1391316846182905647
+    second: Demon2_Attack_45
+  - first:
+      213: -1798156349184069092
+    second: Demon2_Attack_46
+  - first:
+      213: -4983991214200208445
+    second: Demon2_Attack_47
+  - first:
+      213: -1259827180098355897
+    second: Demon2_Attack_48
+  - first:
+      213: -4367633511952830233
+    second: Demon2_Attack_49
+  - first:
+      213: 8803940856622985041
+    second: Demon2_Attack_50
+  - first:
+      213: 2460061284910294174
+    second: Demon2_Attack_51
+  - first:
+      213: -6419196216523483784
+    second: Demon2_Attack_52
+  - first:
+      213: 7792042147240721171
+    second: Demon2_Attack_53
+  - first:
+      213: -7529846331936057877
+    second: Demon2_Attack_54
+  - first:
+      213: 7383554896322895568
+    second: Demon2_Attack_55
+  - first:
+      213: 6578306152978259481
+    second: Demon2_Attack_56
+  - first:
+      213: -8649693930653294503
+    second: Demon2_Attack_57
+  - first:
+      213: -4322357891847411356
+    second: Demon2_Attack_58
+  - first:
+      213: -311119389363906065
+    second: Demon2_Attack_59
+  - first:
+      213: -4986580314336196033
+    second: Demon2_Attack_60
+  - first:
+      213: 8631070926715298998
+    second: Demon2_Attack_61
+  - first:
+      213: 8273744166748559918
+    second: Demon2_Attack_62
+  - first:
+      213: -701627509523884602
+    second: Demon2_Attack_63
+  - first:
+      213: 2029538252540245058
+    second: Demon2_Attack_64
+  - first:
+      213: 3662643912929812266
+    second: Demon2_Attack_65
+  - first:
+      213: 1574756087170486385
+    second: Demon2_Attack_66
+  - first:
+      213: -9007416910189134186
+    second: Demon2_Attack_67
+  - first:
+      213: -9075332362762319682
+    second: Demon2_Attack_68
+  - first:
+      213: -8578254505518543603
+    second: Demon2_Attack_69
+  - first:
+      213: -1824847725173785026
+    second: Demon2_Attack_70
+  - first:
+      213: -716660227599002390
+    second: Demon2_Attack_71
+  - first:
+      213: 5297176775794440000
+    second: Demon2_Attack_72
+  - first:
+      213: 5740891798699337436
+    second: Demon2_Attack_73
+  - first:
+      213: -1127094975409684790
+    second: Demon2_Attack_74
+  - first:
+      213: -8743813920677046355
+    second: Demon2_Attack_75
+  - first:
+      213: -2858350646716879052
+    second: Demon2_Attack_76
+  - first:
+      213: 601715473643034575
+    second: Demon2_Attack_77
+  - first:
+      213: -2212798591569477333
+    second: Demon2_Attack_78
+  - first:
+      213: 7542917865039716001
+    second: Demon2_Attack_79
+  - first:
+      213: -4460677509544814525
+    second: Demon2_Attack_80
+  - first:
+      213: 2099255906188309192
+    second: Demon2_Attack_81
+  - first:
+      213: -5294510260296991985
+    second: Demon2_Attack_82
+  - first:
+      213: -5480138625091853028
+    second: Demon2_Attack_83
+  - first:
+      213: 6985941543238074042
+    second: Demon2_Attack_84
+  - first:
+      213: 8934721599952726451
+    second: Demon2_Attack_85
+  - first:
+      213: 6193896699411830199
+    second: Demon2_Attack_86
+  - first:
+      213: 8264266555210795441
+    second: Demon2_Attack_87
+  - first:
+      213: -740919047833488251
+    second: Demon2_Attack_88
+  - first:
+      213: 7431565138673320386
+    second: Demon2_Attack_89
+  - first:
+      213: -7815888166172134993
+    second: Demon2_Attack_90
+  - first:
+      213: 2243351679086594510
+    second: Demon2_Attack_91
+  - first:
+      213: -2996927812403886495
+    second: Demon2_Attack_92
+  - first:
+      213: -5277648998994341569
+    second: Demon2_Attack_93
+  - first:
+      213: 7551927511682532601
+    second: Demon2_Attack_94
+  - first:
+      213: 5293802126827297364
+    second: Demon2_Attack_95
+  - first:
+      213: -2544705740347726165
+    second: Demon2_Attack_96
+  - first:
+      213: -8576361867941749853
+    second: Demon2_Attack_97
+  - first:
+      213: -2706592130121169350
+    second: Demon2_Attack_98
+  - first:
+      213: 2845723885641832982
+    second: Demon2_Attack_99
+  - first:
+      213: -1944820621237933531
+    second: Demon2_Attack_100
+  - first:
+      213: 6163978971526457628
+    second: Demon2_Attack_101
+  - first:
+      213: 2618964870898197385
+    second: Demon2_Attack_102
+  - first:
+      213: -4386561056290101925
+    second: Demon2_Attack_103
+  - first:
+      213: 7786881047763801842
+    second: Demon2_Attack_104
+  - first:
+      213: -7475085297016200322
+    second: Demon2_Attack_105
+  - first:
+      213: 4954290472300800880
+    second: Demon2_Attack_106
+  - first:
+      213: -6161255559219825797
+    second: Demon2_Attack_107
+  - first:
+      213: 222386367692564851
+    second: Demon2_Attack_108
+  - first:
+      213: 5469997042516743216
+    second: Demon2_Attack_109
+  - first:
+      213: 3897570538411585282
+    second: Demon2_Attack_110
+  - first:
+      213: 2517870604287146053
+    second: Demon2_Attack_111
+  - first:
+      213: 7528031322705252205
+    second: Demon2_Attack_112
+  - first:
+      213: 2579879497548528908
+    second: Demon2_Attack_113
+  - first:
+      213: -6658709122880955083
+    second: Demon2_Attack_114
+  - first:
+      213: 332667133393862237
+    second: Demon2_Attack_115
+  - first:
+      213: 4495960871355724549
+    second: Demon2_Attack_116
+  - first:
+      213: -2720864512567461034
+    second: Demon2_Attack_117
+  - first:
+      213: -7247021449999645902
+    second: Demon2_Attack_118
+  - first:
+      213: 1514955882004583602
+    second: Demon2_Attack_119
+  - first:
+      213: -962868072715565266
+    second: Demon2_Attack_120
+  - first:
+      213: -8788292888721315116
+    second: Demon2_Attack_121
+  - first:
+      213: -7308058113691777448
+    second: Demon2_Attack_122
+  - first:
+      213: -6356043218160291735
+    second: Demon2_Attack_123
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Demon2_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c1946d7ac6983c0800000000000000
+      internalID: -4356831696393790324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c506a05dd6436b0800000000000000
+      internalID: -5317504498248164215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3977bf9e8f72690800000000000000
+      internalID: -7626853760098659421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c290fdc6cc860f0800000000000000
+      internalID: -1123423339058484108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad59909484e87150800000000000000
+      internalID: 5870693372290227627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72e2eeee5efee090800000000000000
+      internalID: -8003179804102565250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0168b7b0747f590800000000000000
+      internalID: -7640560128168161075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0391d488ac0500f0800000000000000
+      internalID: -1151500211800927473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29415ebffceb09200800000000000000
+      internalID: 184857385215792274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa23b6a5162382e60800000000000000
+      internalID: 7937649736950690479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f79ee1aec09df8c0800000000000000
+      internalID: -3963852879861737479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd334fe3bc874470800000000000000
+      internalID: 8378820336187293108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08aa6e5c67ffd4ce0800000000000000
+      internalID: -1419197421960385920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6119129b633fef010800000000000000
+      internalID: 1224683565051121942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94dd71e7e8c201fd0800000000000000
+      internalID: -2373348013111780023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cde799566f0a2bc0800000000000000
+      internalID: -3807213602724123200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6070ddf6b9891f8e0800000000000000
+      internalID: -1661378994158893306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ed34c1575e9adc0800000000000000
+      internalID: -3627115733722079720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6e4808786d5a9f0800000000000000
+      internalID: -457723909643114786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5df1cca688450960800000000000000
+      internalID: 7567534492127198555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd8f397f2eabf680800000000000000
+      internalID: -8720184734551929405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3fabad4ac883cf80800000000000000
+      internalID: -8087470103359410369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729135be796ab5ae0800000000000000
+      internalID: -1559469674535380697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0b332a665daca70800000000000000
+      internalID: 8848119054707437792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6074d0a5847721f0800000000000000
+      internalID: -1069758269199454099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5890423ee4bec0ad0800000000000000
+      internalID: -2734552149669967483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a96d8319e885b3f0800000000000000
+      internalID: -885651217071642208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_27
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4848bf7d390421d70800000000000000
+      internalID: 9012336808049738884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af8d849e8fcb2190800000000000000
+      internalID: -7986061302926831709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_29
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19a55b48ce9eb8b0800000000000000
+      internalID: -5134491942061233894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f277d5c81dc67ce90800000000000000
+      internalID: -7005511048092616913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333b15520a0a1b390800000000000000
+      internalID: -7804280069575036109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21aed8970e71b7c0800000000000000
+      internalID: -4057323218189508308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86232b6e18c85d120800000000000000
+      internalID: 2438009262840099432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b05f5d6ff548e50800000000000000
+      internalID: 6810674050247232354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_35
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a790fc11de6fb9d90800000000000000
+      internalID: -7089801690298250886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd35b725323487b0800000000000000
+      internalID: -5222994463962087980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_37
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0464cea844235b00800000000000000
+      internalID: 816035852072543243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_38
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b806058017e840c10800000000000000
+      internalID: 2018895149090758795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon2_Attack_39
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d268f3c01cbdb30800000000000000
+      internalID: 4313253326486908311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d175610471dee404cb3b46f52e360710
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Demon2_Attack_0: -4356831696393790324
+      Demon2_Attack_1: -5317504498248164215
+      Demon2_Attack_10: -3963852879861737479
+      Demon2_Attack_11: 8378820336187293108
+      Demon2_Attack_12: -1419197421960385920
+      Demon2_Attack_13: 1224683565051121942
+      Demon2_Attack_14: -2373348013111780023
+      Demon2_Attack_15: -3807213602724123200
+      Demon2_Attack_16: -1661378994158893306
+      Demon2_Attack_17: -3627115733722079720
+      Demon2_Attack_18: -457723909643114786
+      Demon2_Attack_19: 7567534492127198555
+      Demon2_Attack_2: -7626853760098659421
+      Demon2_Attack_20: -8720184734551929405
+      Demon2_Attack_21: -8087470103359410369
+      Demon2_Attack_22: -1559469674535380697
+      Demon2_Attack_23: 8848119054707437792
+      Demon2_Attack_24: -1069758269199454099
+      Demon2_Attack_25: -2734552149669967483
+      Demon2_Attack_26: -885651217071642208
+      Demon2_Attack_27: 9012336808049738884
+      Demon2_Attack_28: -7986061302926831709
+      Demon2_Attack_29: -5134491942061233894
+      Demon2_Attack_3: -1123423339058484108
+      Demon2_Attack_30: -7005511048092616913
+      Demon2_Attack_31: -7804280069575036109
+      Demon2_Attack_32: -4057323218189508308
+      Demon2_Attack_33: 2438009262840099432
+      Demon2_Attack_34: 6810674050247232354
+      Demon2_Attack_35: -7089801690298250886
+      Demon2_Attack_36: -5222994463962087980
+      Demon2_Attack_37: 816035852072543243
+      Demon2_Attack_38: 2018895149090758795
+      Demon2_Attack_39: 4313253326486908311
+      Demon2_Attack_4: 5870693372290227627
+      Demon2_Attack_5: -8003179804102565250
+      Demon2_Attack_6: -7640560128168161075
+      Demon2_Attack_7: -1151500211800927473
+      Demon2_Attack_8: 184857385215792274
+      Demon2_Attack_9: 7937649736950690479
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
