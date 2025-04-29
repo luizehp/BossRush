@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Beholder1_Run_swing_0: 551495084216564910
+      Beholder1_Run_swing_1: -3127951621118867680
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lich2_Run_shadow_0: 6394452793966693251
+      Lich2_Run_shadow_1: -4956292972485195598
+      Lich2_Run_shadow_10: 4169626315901363189
+      Lich2_Run_shadow_11: -908848821433792664
+      Lich2_Run_shadow_12: 7731889684121041163
+      Lich2_Run_shadow_13: 8194039432107964609
+      Lich2_Run_shadow_14: -5928658923066633622
+      Lich2_Run_shadow_15: -2780862457846270860
+      Lich2_Run_shadow_16: 2816754657881483200
+      Lich2_Run_shadow_17: -2062643363761098336
+      Lich2_Run_shadow_18: 748558183847987532
+      Lich2_Run_shadow_19: 4217322621238654147
+      Lich2_Run_shadow_2: 2581044877956209986
+      Lich2_Run_shadow_20: 7781876859911156141
+      Lich2_Run_shadow_21: 6161946578319650266
+      Lich2_Run_shadow_22: 1145034551488150439
+      Lich2_Run_shadow_23: 541172780924246721
+      Lich2_Run_shadow_3: 539235028552926209
+      Lich2_Run_shadow_4: 4693949317529904325
+      Lich2_Run_shadow_5: 5175484450171577981
+      Lich2_Run_shadow_6: 4164922515216056387
+      Lich2_Run_shadow_7: -2147497448787044572
+      Lich2_Run_shadow_8: 7025921443813821559
+      Lich2_Run_shadow_9: -6688553704673660530
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

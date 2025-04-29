@@ -935,7 +935,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Imp1_Runbody_0: 1220190695241193799
+      Imp1_Runbody_1: -4625556766219176117
+      Imp1_Runbody_10: 609429138472954833
+      Imp1_Runbody_11: -6221323354709590783
+      Imp1_Runbody_12: 4651650832453580253
+      Imp1_Runbody_13: -7746302115185369447
+      Imp1_Runbody_14: 8999051199369972744
+      Imp1_Runbody_15: -4954037604939155423
+      Imp1_Runbody_16: 624872617457251112
+      Imp1_Runbody_17: 7738358772880194449
+      Imp1_Runbody_18: 1388023637576630335
+      Imp1_Runbody_19: -3889890826420987947
+      Imp1_Runbody_2: 2942279301929055986
+      Imp1_Runbody_20: -5634683294599948914
+      Imp1_Runbody_21: -4375584208018238998
+      Imp1_Runbody_22: 6083235074562367182
+      Imp1_Runbody_23: -6824805740393087015
+      Imp1_Runbody_24: -2620946481216991431
+      Imp1_Runbody_25: 2644226370735742029
+      Imp1_Runbody_26: -2735739943541972463
+      Imp1_Runbody_27: -872599458785081107
+      Imp1_Runbody_28: 4319475422180135008
+      Imp1_Runbody_29: -3296549589839374157
+      Imp1_Runbody_3: -4906750333826867197
+      Imp1_Runbody_30: 3078309970251202653
+      Imp1_Runbody_31: -7699222656666641259
+      Imp1_Runbody_4: 2008116041484574327
+      Imp1_Runbody_5: -7851267654224116834
+      Imp1_Runbody_6: -2531741013701587492
+      Imp1_Runbody_7: 3861036628710204538
+      Imp1_Runbody_8: 7290478872524912719
+      Imp1_Runbody_9: -1453273018044740863
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

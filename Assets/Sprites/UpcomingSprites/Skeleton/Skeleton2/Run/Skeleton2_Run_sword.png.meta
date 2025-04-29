@@ -935,7 +935,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeleton2_Run_sword_0: -6096942209114933226
+      Skeleton2_Run_sword_1: 8119615559313873275
+      Skeleton2_Run_sword_10: 5108967079442852267
+      Skeleton2_Run_sword_11: 3380019703777086723
+      Skeleton2_Run_sword_12: -4882747862213428989
+      Skeleton2_Run_sword_13: 5971337441768765829
+      Skeleton2_Run_sword_14: 1891652483629789192
+      Skeleton2_Run_sword_15: -6735781657415919760
+      Skeleton2_Run_sword_16: -5500847402221855908
+      Skeleton2_Run_sword_17: 5512333660606220200
+      Skeleton2_Run_sword_18: 8062521987526509646
+      Skeleton2_Run_sword_19: -3537229709153813657
+      Skeleton2_Run_sword_2: 7483032011231934440
+      Skeleton2_Run_sword_20: 5073235998033161127
+      Skeleton2_Run_sword_21: 700783621019192210
+      Skeleton2_Run_sword_22: -5252765526185948087
+      Skeleton2_Run_sword_23: -8527401984361370277
+      Skeleton2_Run_sword_24: 7588136745001340832
+      Skeleton2_Run_sword_25: 8827609243577021727
+      Skeleton2_Run_sword_26: -4967989333988479203
+      Skeleton2_Run_sword_27: 7297191974379188950
+      Skeleton2_Run_sword_28: 3737388545671556266
+      Skeleton2_Run_sword_29: -7885966122676178353
+      Skeleton2_Run_sword_3: -4193189915424207775
+      Skeleton2_Run_sword_30: -5920776760687981928
+      Skeleton2_Run_sword_31: -8779450442085760198
+      Skeleton2_Run_sword_4: 626439107651959907
+      Skeleton2_Run_sword_5: -5682489296968336800
+      Skeleton2_Run_sword_6: 3589038358916688052
+      Skeleton2_Run_sword_7: -4886357835488032020
+      Skeleton2_Run_sword_8: 3286443933429915307
+      Skeleton2_Run_sword_9: -4559297569139769447
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

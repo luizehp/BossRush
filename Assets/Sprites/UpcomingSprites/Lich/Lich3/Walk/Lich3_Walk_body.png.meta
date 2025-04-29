@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lich3_Walk_body_0: -2742213728251660819
+      Lich3_Walk_body_1: -535577963964493954
+      Lich3_Walk_body_10: -1929578849030325291
+      Lich3_Walk_body_11: 6791274800006863117
+      Lich3_Walk_body_12: 4614006397115915816
+      Lich3_Walk_body_13: 2107512667087926725
+      Lich3_Walk_body_14: -7553344704039940666
+      Lich3_Walk_body_15: 6450392470466747409
+      Lich3_Walk_body_16: 2079149839574603507
+      Lich3_Walk_body_17: 1328212738248941946
+      Lich3_Walk_body_18: 6253168667386951913
+      Lich3_Walk_body_19: 7509235041068710851
+      Lich3_Walk_body_2: -3043012509385613525
+      Lich3_Walk_body_20: -4392608712250859219
+      Lich3_Walk_body_21: 2550112141156860636
+      Lich3_Walk_body_22: 3196940955924655623
+      Lich3_Walk_body_23: -2413920538975611759
+      Lich3_Walk_body_3: 5869394446452455602
+      Lich3_Walk_body_4: 5609738316036901257
+      Lich3_Walk_body_5: 4375986761810224987
+      Lich3_Walk_body_6: -5805989790364523490
+      Lich3_Walk_body_7: -7737935628079336253
+      Lich3_Walk_body_8: -7732084152762575865
+      Lich3_Walk_body_9: -6540573522931066283
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

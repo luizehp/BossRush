@@ -535,7 +535,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeleton1_Idle_shadow_0: 4245881697905227862
+      Skeleton1_Idle_shadow_1: -4907387996169629169
+      Skeleton1_Idle_shadow_10: -8117512456469026516
+      Skeleton1_Idle_shadow_11: 6982700922075245385
+      Skeleton1_Idle_shadow_12: -8439102178435248814
+      Skeleton1_Idle_shadow_13: -4285063608066968767
+      Skeleton1_Idle_shadow_14: 4384692813724843145
+      Skeleton1_Idle_shadow_15: 9021247775903461115
+      Skeleton1_Idle_shadow_2: -8222703341400868472
+      Skeleton1_Idle_shadow_3: 7347044072644127301
+      Skeleton1_Idle_shadow_4: -8467975669450243878
+      Skeleton1_Idle_shadow_5: -7115599831039668118
+      Skeleton1_Idle_shadow_6: 394360712886898703
+      Skeleton1_Idle_shadow_7: -5983099472557219984
+      Skeleton1_Idle_shadow_8: 3277825237152686479
+      Skeleton1_Idle_shadow_9: -7508854204064215860
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

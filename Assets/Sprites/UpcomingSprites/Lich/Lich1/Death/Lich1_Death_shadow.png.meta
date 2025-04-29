@@ -1135,7 +1135,47 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lich1_Death_shadow_0: -7026191845868753163
+      Lich1_Death_shadow_1: 5894583088445104848
+      Lich1_Death_shadow_10: 7645268735179318063
+      Lich1_Death_shadow_11: -1773440151153392819
+      Lich1_Death_shadow_12: -7030305085950636995
+      Lich1_Death_shadow_13: -1006377671757500741
+      Lich1_Death_shadow_14: 8604006086733364260
+      Lich1_Death_shadow_15: 6067040525314271641
+      Lich1_Death_shadow_16: 7384953511174875374
+      Lich1_Death_shadow_17: -2191131857541064764
+      Lich1_Death_shadow_18: 3809506040320840597
+      Lich1_Death_shadow_19: -1664569044974511845
+      Lich1_Death_shadow_2: 8511539810933962875
+      Lich1_Death_shadow_20: -3467607665134800080
+      Lich1_Death_shadow_21: 2323626092530130708
+      Lich1_Death_shadow_22: 8387647760768156124
+      Lich1_Death_shadow_23: -8528908710365376812
+      Lich1_Death_shadow_24: -421126011810819321
+      Lich1_Death_shadow_25: 4297723635410038246
+      Lich1_Death_shadow_26: 2818483137137045708
+      Lich1_Death_shadow_27: 6366092864109079495
+      Lich1_Death_shadow_28: -4890891047872282770
+      Lich1_Death_shadow_29: 1428590440846271966
+      Lich1_Death_shadow_3: -43294192860063507
+      Lich1_Death_shadow_30: -7720953588135200952
+      Lich1_Death_shadow_31: -8574161803657234491
+      Lich1_Death_shadow_32: -2809848784437595869
+      Lich1_Death_shadow_33: 6047600734895447097
+      Lich1_Death_shadow_34: 5575000941434291090
+      Lich1_Death_shadow_35: -9020562704042527025
+      Lich1_Death_shadow_36: 5678749639768005183
+      Lich1_Death_shadow_37: -2608921461338546587
+      Lich1_Death_shadow_38: 6616730856250992433
+      Lich1_Death_shadow_39: -8663397096633808604
+      Lich1_Death_shadow_4: -7620981629741244383
+      Lich1_Death_shadow_5: 2829538554481068690
+      Lich1_Death_shadow_6: -2955283036843431870
+      Lich1_Death_shadow_7: 8560236027668699005
+      Lich1_Death_shadow_8: 5604126757162238822
+      Lich1_Death_shadow_9: 1242199714281678100
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

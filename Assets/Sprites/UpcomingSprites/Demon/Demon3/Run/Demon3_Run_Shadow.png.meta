@@ -935,7 +935,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Demon3_Run_Shadow_0: 1288824658800427285
+      Demon3_Run_Shadow_1: -8218384801534667788
+      Demon3_Run_Shadow_10: -5644421875955117260
+      Demon3_Run_Shadow_11: -709518900810661189
+      Demon3_Run_Shadow_12: 2591866169945740327
+      Demon3_Run_Shadow_13: -8486330198295002870
+      Demon3_Run_Shadow_14: 728175749225637778
+      Demon3_Run_Shadow_15: -1205138833120250089
+      Demon3_Run_Shadow_16: -5796390221323276982
+      Demon3_Run_Shadow_17: 1773762706746943482
+      Demon3_Run_Shadow_18: 5070776687606909441
+      Demon3_Run_Shadow_19: 5912869774237746818
+      Demon3_Run_Shadow_2: 1108238728642112846
+      Demon3_Run_Shadow_20: -418110653566212886
+      Demon3_Run_Shadow_21: 5396679730418724394
+      Demon3_Run_Shadow_22: 3509599457761446527
+      Demon3_Run_Shadow_23: -6004903195394664531
+      Demon3_Run_Shadow_24: -7678658546628870008
+      Demon3_Run_Shadow_25: -4792259438689117186
+      Demon3_Run_Shadow_26: 7343164753919718069
+      Demon3_Run_Shadow_27: -3140754879259674098
+      Demon3_Run_Shadow_28: 1258687476530502978
+      Demon3_Run_Shadow_29: -1609952468700084081
+      Demon3_Run_Shadow_3: -2374948657653338345
+      Demon3_Run_Shadow_30: -4949250688797941227
+      Demon3_Run_Shadow_31: 333942046781171121
+      Demon3_Run_Shadow_4: 6895718846601475100
+      Demon3_Run_Shadow_5: -3358987726618285892
+      Demon3_Run_Shadow_6: 7453624880608011209
+      Demon3_Run_Shadow_7: -6569308822267685922
+      Demon3_Run_Shadow_8: -3441413240342222718
+      Demon3_Run_Shadow_9: 7170668359463890074
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

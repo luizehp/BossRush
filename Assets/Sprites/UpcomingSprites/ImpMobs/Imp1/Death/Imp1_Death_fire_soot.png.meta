@@ -1235,7 +1235,51 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Imp1_Death_fire_soot_0: 650517591724224564
+      Imp1_Death_fire_soot_1: -3220622150491023081
+      Imp1_Death_fire_soot_10: -7043132589749355556
+      Imp1_Death_fire_soot_11: -7611016204258596230
+      Imp1_Death_fire_soot_12: -1322751742445541390
+      Imp1_Death_fire_soot_13: -1920773111420262065
+      Imp1_Death_fire_soot_14: -3000905400899441716
+      Imp1_Death_fire_soot_15: 1859956323185449413
+      Imp1_Death_fire_soot_16: -4607532392530451223
+      Imp1_Death_fire_soot_17: 8707197018899786133
+      Imp1_Death_fire_soot_18: 4699665643868384671
+      Imp1_Death_fire_soot_19: -6728600601989026785
+      Imp1_Death_fire_soot_2: -2656870671037181392
+      Imp1_Death_fire_soot_20: 5559889518468354450
+      Imp1_Death_fire_soot_21: 8749732723906435634
+      Imp1_Death_fire_soot_22: -2531989561140440782
+      Imp1_Death_fire_soot_23: -6361242797576877594
+      Imp1_Death_fire_soot_24: 7092768578650475654
+      Imp1_Death_fire_soot_25: -7835719340410333437
+      Imp1_Death_fire_soot_26: 3410124860798420816
+      Imp1_Death_fire_soot_27: 8082906255313203997
+      Imp1_Death_fire_soot_28: 4611283171647689746
+      Imp1_Death_fire_soot_29: -5407901759430456672
+      Imp1_Death_fire_soot_3: -175142252364741294
+      Imp1_Death_fire_soot_30: 139003978979280413
+      Imp1_Death_fire_soot_31: -3917275124117655345
+      Imp1_Death_fire_soot_32: -3596092135070060524
+      Imp1_Death_fire_soot_33: -3050082280420889775
+      Imp1_Death_fire_soot_34: 1506160207784547267
+      Imp1_Death_fire_soot_35: 8084266361863164980
+      Imp1_Death_fire_soot_36: -560915929301323220
+      Imp1_Death_fire_soot_37: 6833089798003489693
+      Imp1_Death_fire_soot_38: -1367998366711134885
+      Imp1_Death_fire_soot_39: 5206542189995277336
+      Imp1_Death_fire_soot_4: -8152820438935971789
+      Imp1_Death_fire_soot_40: -1788216739867503721
+      Imp1_Death_fire_soot_41: -3411171717998342216
+      Imp1_Death_fire_soot_42: -5379833922530824466
+      Imp1_Death_fire_soot_43: -2247339287952708052
+      Imp1_Death_fire_soot_5: -4333847905434470854
+      Imp1_Death_fire_soot_6: 1404638273298923373
+      Imp1_Death_fire_soot_7: 1963994753749257960
+      Imp1_Death_fire_soot_8: -960688371599000896
+      Imp1_Death_fire_soot_9: 5756257858328873923
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Imp1_Walk_body_0: 7513158893366606261
+      Imp1_Walk_body_1: 8286441308955888828
+      Imp1_Walk_body_10: -6391276705283046344
+      Imp1_Walk_body_11: -3182233815507805877
+      Imp1_Walk_body_12: -8719995494980612747
+      Imp1_Walk_body_13: -7080699513058288294
+      Imp1_Walk_body_14: 4137250198920837847
+      Imp1_Walk_body_15: 2624625192339774346
+      Imp1_Walk_body_16: 3101206107570854392
+      Imp1_Walk_body_17: -1560858893785362667
+      Imp1_Walk_body_18: -3407134684110783103
+      Imp1_Walk_body_19: -2238869207579049099
+      Imp1_Walk_body_2: -5918816883727636132
+      Imp1_Walk_body_20: 2905634401102120644
+      Imp1_Walk_body_21: -7899647167527626118
+      Imp1_Walk_body_22: 2739327896910320057
+      Imp1_Walk_body_23: -2784087063593498964
+      Imp1_Walk_body_3: -3073703262197278165
+      Imp1_Walk_body_4: 5931372703963328556
+      Imp1_Walk_body_5: -8593923145798926238
+      Imp1_Walk_body_6: 7247372081404598657
+      Imp1_Walk_body_7: -3159129638553148570
+      Imp1_Walk_body_8: -6062126246452242584
+      Imp1_Walk_body_9: 4769187865451717592
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

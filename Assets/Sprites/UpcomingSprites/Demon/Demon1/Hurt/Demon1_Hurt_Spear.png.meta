@@ -535,7 +535,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Demon1_Hurt_Spear_0: 151337531018705933
+      Demon1_Hurt_Spear_1: -6797276729848560306
+      Demon1_Hurt_Spear_10: 3537406428384299415
+      Demon1_Hurt_Spear_11: 3469255205999793741
+      Demon1_Hurt_Spear_12: -5635140856660796986
+      Demon1_Hurt_Spear_13: -8605816047777503095
+      Demon1_Hurt_Spear_14: -3635044629721100507
+      Demon1_Hurt_Spear_15: -1521238822099333892
+      Demon1_Hurt_Spear_2: -3545829069712061496
+      Demon1_Hurt_Spear_3: -5399300342893929393
+      Demon1_Hurt_Spear_4: -8904816348003929777
+      Demon1_Hurt_Spear_5: 6051605774775200033
+      Demon1_Hurt_Spear_6: 8865254014780248877
+      Demon1_Hurt_Spear_7: -1943024179393136600
+      Demon1_Hurt_Spear_8: -8556211442749613253
+      Demon1_Hurt_Spear_9: -8998810720103542352
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

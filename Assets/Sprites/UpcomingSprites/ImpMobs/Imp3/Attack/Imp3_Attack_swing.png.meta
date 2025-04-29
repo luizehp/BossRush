@@ -385,7 +385,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Imp3_Attack_swing_0: -5066066013162284902
+      Imp3_Attack_swing_1: -3771675833999809657
+      Imp3_Attack_swing_2: 5934915554536951376
+      Imp3_Attack_swing_3: -5052446532371794662
+      Imp3_Attack_swing_4: -4870796765043029564
+      Imp3_Attack_swing_5: -917170819732518885
+      Imp3_Attack_swing_6: 1532438987755497536
+      Imp3_Attack_swing_7: 7853543855625890909
+      Imp3_Attack_swing_8: -9107341683374410105
+      Imp3_Attack_swing_9: 7992104453588743137
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

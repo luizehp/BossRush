@@ -1085,7 +1085,45 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeleton1_Attack_sword_0: -4056093553751195651
+      Skeleton1_Attack_sword_1: -7123554261332827054
+      Skeleton1_Attack_sword_10: -6944079428993774001
+      Skeleton1_Attack_sword_11: -7936180514644899543
+      Skeleton1_Attack_sword_12: 4200403059317977342
+      Skeleton1_Attack_sword_13: 1609581835321890755
+      Skeleton1_Attack_sword_14: -6332846774441680734
+      Skeleton1_Attack_sword_15: 4853348999674167023
+      Skeleton1_Attack_sword_16: 8801443933543452106
+      Skeleton1_Attack_sword_17: 2733034104914654875
+      Skeleton1_Attack_sword_18: 2258067178575234462
+      Skeleton1_Attack_sword_19: -4340176829939090237
+      Skeleton1_Attack_sword_2: 3799019686564632043
+      Skeleton1_Attack_sword_20: -1404599431374331278
+      Skeleton1_Attack_sword_21: 733643956955344569
+      Skeleton1_Attack_sword_22: 3141821079256189118
+      Skeleton1_Attack_sword_23: 8785895135716608342
+      Skeleton1_Attack_sword_24: 1777890585702386656
+      Skeleton1_Attack_sword_25: 8917191102651184956
+      Skeleton1_Attack_sword_26: 5518502455826160551
+      Skeleton1_Attack_sword_27: 6339056668561754052
+      Skeleton1_Attack_sword_28: 1027112126798343321
+      Skeleton1_Attack_sword_29: -114694160310580674
+      Skeleton1_Attack_sword_3: 2457917103814216886
+      Skeleton1_Attack_sword_30: -1701237015415413453
+      Skeleton1_Attack_sword_31: 1953594578883590435
+      Skeleton1_Attack_sword_32: 7946047907739826197
+      Skeleton1_Attack_sword_33: -5429653936929778081
+      Skeleton1_Attack_sword_34: -3009590802399733624
+      Skeleton1_Attack_sword_35: 106938428640592358
+      Skeleton1_Attack_sword_36: -4541842709819093383
+      Skeleton1_Attack_sword_37: 3500697470344625305
+      Skeleton1_Attack_sword_4: -4479493890389053689
+      Skeleton1_Attack_sword_5: 2612990358875308588
+      Skeleton1_Attack_sword_6: -1030255631304508303
+      Skeleton1_Attack_sword_7: -3124832547088909177
+      Skeleton1_Attack_sword_8: 2769549829543879046
+      Skeleton1_Attack_sword_9: -1778430062198715134
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

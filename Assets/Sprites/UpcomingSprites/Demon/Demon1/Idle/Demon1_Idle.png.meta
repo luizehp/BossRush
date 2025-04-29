@@ -535,7 +535,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Demon1_Idle_0: -7031912702460242254
+      Demon1_Idle_1: -2408491137578649720
+      Demon1_Idle_10: 9105507642945811670
+      Demon1_Idle_11: 9118365251165953462
+      Demon1_Idle_12: -1448093061754617387
+      Demon1_Idle_13: -3572461243183242819
+      Demon1_Idle_14: -6071263278050395755
+      Demon1_Idle_15: -4589909207055018383
+      Demon1_Idle_2: 4234848565720462404
+      Demon1_Idle_3: -310209733539058733
+      Demon1_Idle_4: -656728630283992646
+      Demon1_Idle_5: 2680254936221280492
+      Demon1_Idle_6: -3686330070731011897
+      Demon1_Idle_7: -7927825536844958260
+      Demon1_Idle_8: 5370000205521300489
+      Demon1_Idle_9: 8114898548372757237
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

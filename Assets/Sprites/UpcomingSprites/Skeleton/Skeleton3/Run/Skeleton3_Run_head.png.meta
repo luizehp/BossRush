@@ -935,7 +935,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeleton3_Run_head_0: -9175659448302606022
+      Skeleton3_Run_head_1: -8841385073047887460
+      Skeleton3_Run_head_10: 2155105962477607353
+      Skeleton3_Run_head_11: 7952690998153281421
+      Skeleton3_Run_head_12: -3556209004526528984
+      Skeleton3_Run_head_13: 4517391527411527497
+      Skeleton3_Run_head_14: 8071113897262012186
+      Skeleton3_Run_head_15: 5307206982744104634
+      Skeleton3_Run_head_16: -8372733120707083614
+      Skeleton3_Run_head_17: 5994038129198603715
+      Skeleton3_Run_head_18: 5338317121127605191
+      Skeleton3_Run_head_19: 759453743387101093
+      Skeleton3_Run_head_2: -738650264776162237
+      Skeleton3_Run_head_20: -3968745592673639873
+      Skeleton3_Run_head_21: -5922703048437785407
+      Skeleton3_Run_head_22: -6848598708050068755
+      Skeleton3_Run_head_23: 2897988122113834396
+      Skeleton3_Run_head_24: 2385395360985037316
+      Skeleton3_Run_head_25: 4039652775472357833
+      Skeleton3_Run_head_26: -5967493204150535742
+      Skeleton3_Run_head_27: 7527212251234254790
+      Skeleton3_Run_head_28: -7857010473735082347
+      Skeleton3_Run_head_29: 8305771679234363800
+      Skeleton3_Run_head_3: 2220856959942900238
+      Skeleton3_Run_head_30: 8332323126262243404
+      Skeleton3_Run_head_31: 4289315647256492404
+      Skeleton3_Run_head_4: 2071409455601693237
+      Skeleton3_Run_head_5: -7583623581784687751
+      Skeleton3_Run_head_6: 3148579218430133828
+      Skeleton3_Run_head_7: -7751263782900344658
+      Skeleton3_Run_head_8: -2296090582029623154
+      Skeleton3_Run_head_9: 4879825257847605611
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

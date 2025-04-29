@@ -535,7 +535,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lich3_Hurt_full_0: 1956710077043114704
+      Lich3_Hurt_full_1: 3672609084182448906
+      Lich3_Hurt_full_10: 8739419971579278492
+      Lich3_Hurt_full_11: -7864150175539502776
+      Lich3_Hurt_full_12: -5299199380409646228
+      Lich3_Hurt_full_13: -2838071725541185313
+      Lich3_Hurt_full_14: -8934197842879075062
+      Lich3_Hurt_full_15: 1461855993859090079
+      Lich3_Hurt_full_2: -1619043986668893652
+      Lich3_Hurt_full_3: 8390359470269190766
+      Lich3_Hurt_full_4: -2717458129838215314
+      Lich3_Hurt_full_5: 6459296769361642553
+      Lich3_Hurt_full_6: 2018487765576986288
+      Lich3_Hurt_full_7: 8350964006087385185
+      Lich3_Hurt_full_8: -5721463929851260862
+      Lich3_Hurt_full_9: 5270841402504401054
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

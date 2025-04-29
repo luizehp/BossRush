@@ -535,7 +535,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Imp3_Hurt_shadow_0: -6899050674245991342
+      Imp3_Hurt_shadow_1: -8512392247177038323
+      Imp3_Hurt_shadow_10: -1937068608586578672
+      Imp3_Hurt_shadow_11: -5000414356307187727
+      Imp3_Hurt_shadow_12: -569553762807832140
+      Imp3_Hurt_shadow_13: 504974248041574991
+      Imp3_Hurt_shadow_14: -137025944042926461
+      Imp3_Hurt_shadow_15: -517010827352853368
+      Imp3_Hurt_shadow_2: 3270273162160184741
+      Imp3_Hurt_shadow_3: 2862195269958046151
+      Imp3_Hurt_shadow_4: 3263076386689078696
+      Imp3_Hurt_shadow_5: 1023557941422807728
+      Imp3_Hurt_shadow_6: 395633372084553574
+      Imp3_Hurt_shadow_7: -9131601569536594667
+      Imp3_Hurt_shadow_8: -6741089856008346024
+      Imp3_Hurt_shadow_9: -3237511078469329073
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

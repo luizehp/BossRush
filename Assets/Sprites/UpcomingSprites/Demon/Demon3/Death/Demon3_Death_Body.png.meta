@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Demon3_Death_Body_0: -2589152099886826165
+      Demon3_Death_Body_1: -7865882482314622357
+      Demon3_Death_Body_10: -6102728622884123068
+      Demon3_Death_Body_11: -8766679345282122210
+      Demon3_Death_Body_12: -4394849138201296359
+      Demon3_Death_Body_13: -6315935320616541473
+      Demon3_Death_Body_14: -6502484679983403828
+      Demon3_Death_Body_15: 3551822982026387639
+      Demon3_Death_Body_16: 26255299346228569
+      Demon3_Death_Body_17: -2093413005023391094
+      Demon3_Death_Body_18: -4303570000576238666
+      Demon3_Death_Body_19: 8734031329547360349
+      Demon3_Death_Body_2: -2053993091442179620
+      Demon3_Death_Body_20: 2373651607242723444
+      Demon3_Death_Body_21: -4947309546915752027
+      Demon3_Death_Body_22: -1931119073602239577
+      Demon3_Death_Body_23: -1260959078968811744
+      Demon3_Death_Body_3: -4354655381366698164
+      Demon3_Death_Body_4: 6507568272508138558
+      Demon3_Death_Body_5: 681031637404376847
+      Demon3_Death_Body_6: 1013512521744439622
+      Demon3_Death_Body_7: -6588054077891100882
+      Demon3_Death_Body_8: -1712735610623616538
+      Demon3_Death_Body_9: -7223835364025839792
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

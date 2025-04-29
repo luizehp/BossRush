@@ -535,7 +535,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lich1_Idle_shadow_0: -8522308467144575834
+      Lich1_Idle_shadow_1: -6856986824148581932
+      Lich1_Idle_shadow_10: 3053714080606145806
+      Lich1_Idle_shadow_11: 3383723815578203098
+      Lich1_Idle_shadow_12: 8718543716564884431
+      Lich1_Idle_shadow_13: 3589622952582642855
+      Lich1_Idle_shadow_14: 8718206682492087938
+      Lich1_Idle_shadow_15: -2980635029226271866
+      Lich1_Idle_shadow_2: -8840726102144609314
+      Lich1_Idle_shadow_3: -1243655070087533356
+      Lich1_Idle_shadow_4: -2206844570580633204
+      Lich1_Idle_shadow_5: 4842618094696739760
+      Lich1_Idle_shadow_6: -5430010683996669641
+      Lich1_Idle_shadow_7: -366327293947334280
+      Lich1_Idle_shadow_8: 8279591412460277631
+      Lich1_Idle_shadow_9: 8679971276952301743
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

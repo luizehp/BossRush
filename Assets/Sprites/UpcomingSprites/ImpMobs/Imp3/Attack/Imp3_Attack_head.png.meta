@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Imp3_Attack_head_0: -4123047474060232220
+      Imp3_Attack_head_1: 4574258634070905840
+      Imp3_Attack_head_10: -7239381865235597042
+      Imp3_Attack_head_11: -4240443147820863954
+      Imp3_Attack_head_12: -7100765789819206202
+      Imp3_Attack_head_13: 3133865602950377061
+      Imp3_Attack_head_14: -4315902124832469884
+      Imp3_Attack_head_15: 7609594645609978389
+      Imp3_Attack_head_16: -8612398923432461578
+      Imp3_Attack_head_17: -8508541282126407180
+      Imp3_Attack_head_18: 1139036839801698355
+      Imp3_Attack_head_19: -953999795975622351
+      Imp3_Attack_head_2: -8955802572213040787
+      Imp3_Attack_head_20: 568221063955669490
+      Imp3_Attack_head_21: -2758949401225862237
+      Imp3_Attack_head_22: -2424277727826443802
+      Imp3_Attack_head_23: 812784568676426406
+      Imp3_Attack_head_3: -6513404822557455660
+      Imp3_Attack_head_4: 553199946487557762
+      Imp3_Attack_head_5: -317680648856935837
+      Imp3_Attack_head_6: 768876494889200491
+      Imp3_Attack_head_7: 5515136087326148175
+      Imp3_Attack_head_8: 819975731990092567
+      Imp3_Attack_head_9: 2459907317094086009
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

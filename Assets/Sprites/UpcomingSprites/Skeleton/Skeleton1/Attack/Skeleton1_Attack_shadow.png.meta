@@ -1035,7 +1035,43 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeleton1_Attack_shadow_0: -4370129124901222437
+      Skeleton1_Attack_shadow_1: 7414507856741011347
+      Skeleton1_Attack_shadow_10: -2626187202176437259
+      Skeleton1_Attack_shadow_11: 3719548102805988098
+      Skeleton1_Attack_shadow_12: 852903600260057157
+      Skeleton1_Attack_shadow_13: 5057904974890913237
+      Skeleton1_Attack_shadow_14: 2126685956883626668
+      Skeleton1_Attack_shadow_15: -6215420384356673793
+      Skeleton1_Attack_shadow_16: -4053252146467390106
+      Skeleton1_Attack_shadow_17: 4121195806310380620
+      Skeleton1_Attack_shadow_18: -1305411351139659987
+      Skeleton1_Attack_shadow_19: -3203232629742162694
+      Skeleton1_Attack_shadow_2: -5468081717357942732
+      Skeleton1_Attack_shadow_20: -4593356674259057980
+      Skeleton1_Attack_shadow_21: -7270456058593855473
+      Skeleton1_Attack_shadow_22: 6875785368754234617
+      Skeleton1_Attack_shadow_23: -2170770871593795491
+      Skeleton1_Attack_shadow_24: -6552440540414139006
+      Skeleton1_Attack_shadow_25: 1507169331249269998
+      Skeleton1_Attack_shadow_26: 2528453721302755101
+      Skeleton1_Attack_shadow_27: -6494778106238903867
+      Skeleton1_Attack_shadow_28: -7742867077935910928
+      Skeleton1_Attack_shadow_29: -6824296794975633791
+      Skeleton1_Attack_shadow_3: -955739276911807542
+      Skeleton1_Attack_shadow_30: -7871905932573576933
+      Skeleton1_Attack_shadow_31: 5850624880805861347
+      Skeleton1_Attack_shadow_32: -2620701148494445574
+      Skeleton1_Attack_shadow_33: -8440704147567365818
+      Skeleton1_Attack_shadow_34: -5227448190778233306
+      Skeleton1_Attack_shadow_35: -7114732538294676410
+      Skeleton1_Attack_shadow_4: 7022607982868849501
+      Skeleton1_Attack_shadow_5: 1792566961995875055
+      Skeleton1_Attack_shadow_6: 8296465465385026923
+      Skeleton1_Attack_shadow_7: -8625323296315266875
+      Skeleton1_Attack_shadow_8: 7688671213293621639
+      Skeleton1_Attack_shadow_9: -4168880885600955281
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

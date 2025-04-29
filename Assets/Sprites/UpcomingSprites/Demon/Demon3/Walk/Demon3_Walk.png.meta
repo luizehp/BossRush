@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Demon3_Walk_0: -7845459135960527316
+      Demon3_Walk_1: -8393020423625631296
+      Demon3_Walk_10: -5247132278172893042
+      Demon3_Walk_11: -574613549681172206
+      Demon3_Walk_12: 3750910924457959285
+      Demon3_Walk_13: 5085874672247285582
+      Demon3_Walk_14: -6595874612345017061
+      Demon3_Walk_15: -6079920708567077147
+      Demon3_Walk_16: 7579237583808303528
+      Demon3_Walk_17: 8334365256725992626
+      Demon3_Walk_18: -3895053405151273582
+      Demon3_Walk_19: 2060955274917228961
+      Demon3_Walk_2: 5309211036890660489
+      Demon3_Walk_20: -5152239419143478043
+      Demon3_Walk_21: -4012412772557914387
+      Demon3_Walk_22: -4280956915898264206
+      Demon3_Walk_23: -2870069367573510815
+      Demon3_Walk_3: -8886992152689398180
+      Demon3_Walk_4: -6099181440637885291
+      Demon3_Walk_5: 8903392702531361910
+      Demon3_Walk_6: -6662328978496706888
+      Demon3_Walk_7: -5718334603897508257
+      Demon3_Walk_8: -5392446425863521833
+      Demon3_Walk_9: -1543682179040946249
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

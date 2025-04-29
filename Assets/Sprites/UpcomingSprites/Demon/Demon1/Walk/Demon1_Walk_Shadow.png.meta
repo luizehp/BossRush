@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Demon1_Walk_Shadow_0: -2569355687948002964
+      Demon1_Walk_Shadow_1: -4003273476137991114
+      Demon1_Walk_Shadow_10: 1905475811284193421
+      Demon1_Walk_Shadow_11: 7097189303516344654
+      Demon1_Walk_Shadow_12: 8526215546432544828
+      Demon1_Walk_Shadow_13: -4673926898342185268
+      Demon1_Walk_Shadow_14: -8424575595125985802
+      Demon1_Walk_Shadow_15: -2131102620516055378
+      Demon1_Walk_Shadow_16: -7128720664984625749
+      Demon1_Walk_Shadow_17: 1728204191868585129
+      Demon1_Walk_Shadow_18: 8497035434169058711
+      Demon1_Walk_Shadow_19: 8624136491731609204
+      Demon1_Walk_Shadow_2: 7759287786278906968
+      Demon1_Walk_Shadow_20: 4846023374923650977
+      Demon1_Walk_Shadow_21: 3991806678617932888
+      Demon1_Walk_Shadow_22: -3355058841785633231
+      Demon1_Walk_Shadow_23: -2972443361694830359
+      Demon1_Walk_Shadow_3: 6809136182520576346
+      Demon1_Walk_Shadow_4: 3040103523845738239
+      Demon1_Walk_Shadow_5: 7650824866509227848
+      Demon1_Walk_Shadow_6: 853079015606850931
+      Demon1_Walk_Shadow_7: -4600422264659617206
+      Demon1_Walk_Shadow_8: -8447287183414530226
+      Demon1_Walk_Shadow_9: -6871612243509374334
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

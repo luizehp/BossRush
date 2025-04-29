@@ -1035,7 +1035,43 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeleton2_Attack_head_0: 4071603526487760960
+      Skeleton2_Attack_head_1: -7250261349425234788
+      Skeleton2_Attack_head_10: 4273489680384061606
+      Skeleton2_Attack_head_11: -8593469369006176163
+      Skeleton2_Attack_head_12: 4032438846931279349
+      Skeleton2_Attack_head_13: 4799384645240771600
+      Skeleton2_Attack_head_14: -4089341399536832514
+      Skeleton2_Attack_head_15: 2627627778376956642
+      Skeleton2_Attack_head_16: 7859440293327245649
+      Skeleton2_Attack_head_17: 634334005404162350
+      Skeleton2_Attack_head_18: 1939427386980488178
+      Skeleton2_Attack_head_19: -1934053202326062272
+      Skeleton2_Attack_head_2: -9041991707865086056
+      Skeleton2_Attack_head_20: 1041594031502428667
+      Skeleton2_Attack_head_21: 2227208885889391631
+      Skeleton2_Attack_head_22: 8640858790116536297
+      Skeleton2_Attack_head_23: -5546520630714078625
+      Skeleton2_Attack_head_24: -5599275658822115689
+      Skeleton2_Attack_head_25: 7771444752205549357
+      Skeleton2_Attack_head_26: -7221988048641781716
+      Skeleton2_Attack_head_27: -2507979716570447878
+      Skeleton2_Attack_head_28: -8912888689034726518
+      Skeleton2_Attack_head_29: -8382860463708711980
+      Skeleton2_Attack_head_3: -4938789005141888790
+      Skeleton2_Attack_head_30: -8895863783416369931
+      Skeleton2_Attack_head_31: -1651355161066366115
+      Skeleton2_Attack_head_32: 4846367065610686994
+      Skeleton2_Attack_head_33: -2546754814963849364
+      Skeleton2_Attack_head_34: 1003821267870339541
+      Skeleton2_Attack_head_35: 7452397352371582601
+      Skeleton2_Attack_head_4: -1062885266170239899
+      Skeleton2_Attack_head_5: -136291171722896672
+      Skeleton2_Attack_head_6: 6757897771324788478
+      Skeleton2_Attack_head_7: -2583725691318390430
+      Skeleton2_Attack_head_8: -5192297301625835360
+      Skeleton2_Attack_head_9: -6144583744230255926
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

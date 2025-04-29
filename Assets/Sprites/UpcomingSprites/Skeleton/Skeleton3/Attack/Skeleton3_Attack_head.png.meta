@@ -1035,7 +1035,43 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeleton3_Attack_head_0: 8916375077555530864
+      Skeleton3_Attack_head_1: -3500260147652226747
+      Skeleton3_Attack_head_10: -244314164088758876
+      Skeleton3_Attack_head_11: 632501826026416462
+      Skeleton3_Attack_head_12: 8500661017817302969
+      Skeleton3_Attack_head_13: 1384929265934543707
+      Skeleton3_Attack_head_14: -8980115031553864941
+      Skeleton3_Attack_head_15: -477156265684456780
+      Skeleton3_Attack_head_16: 6614625684175475328
+      Skeleton3_Attack_head_17: 2138835397718797952
+      Skeleton3_Attack_head_18: 2697373600538492900
+      Skeleton3_Attack_head_19: -8088376545558011149
+      Skeleton3_Attack_head_2: 1432474875952348449
+      Skeleton3_Attack_head_20: -2197301522201855105
+      Skeleton3_Attack_head_21: -766750302582087106
+      Skeleton3_Attack_head_22: 3767337977930513132
+      Skeleton3_Attack_head_23: -2580081898475422562
+      Skeleton3_Attack_head_24: -8645490679982683525
+      Skeleton3_Attack_head_25: 7827232590252094396
+      Skeleton3_Attack_head_26: -3510768150915358029
+      Skeleton3_Attack_head_27: 8790210759798075128
+      Skeleton3_Attack_head_28: -4754742205352190389
+      Skeleton3_Attack_head_29: 8466046552197489715
+      Skeleton3_Attack_head_3: -4261300762699939768
+      Skeleton3_Attack_head_30: 1459450325061152290
+      Skeleton3_Attack_head_31: 2762096088543049684
+      Skeleton3_Attack_head_32: 4733095503493663944
+      Skeleton3_Attack_head_33: 8879999994251180650
+      Skeleton3_Attack_head_34: 2280043371484147198
+      Skeleton3_Attack_head_35: 68789233682786460
+      Skeleton3_Attack_head_4: 7289407606468415711
+      Skeleton3_Attack_head_5: 4885492557967926317
+      Skeleton3_Attack_head_6: -3299152563461313438
+      Skeleton3_Attack_head_7: 159782650951169134
+      Skeleton3_Attack_head_8: 1488216066696037430
+      Skeleton3_Attack_head_9: -2512474601485535608
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

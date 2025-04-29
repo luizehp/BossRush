@@ -535,7 +535,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeleton2_Hurt_body_0: -5845720644401514702
+      Skeleton2_Hurt_body_1: -7491999373541328437
+      Skeleton2_Hurt_body_10: 3812813394759501198
+      Skeleton2_Hurt_body_11: 5630338783479941403
+      Skeleton2_Hurt_body_12: 3017170816681925464
+      Skeleton2_Hurt_body_13: -2402914359584975549
+      Skeleton2_Hurt_body_14: 2617788397871472321
+      Skeleton2_Hurt_body_15: -7058073598428816130
+      Skeleton2_Hurt_body_2: 1694278469152183550
+      Skeleton2_Hurt_body_3: 1244795815294053492
+      Skeleton2_Hurt_body_4: -7134072393835320367
+      Skeleton2_Hurt_body_5: -6684105980430373823
+      Skeleton2_Hurt_body_6: 3746217377485691878
+      Skeleton2_Hurt_body_7: -4485913655250833732
+      Skeleton2_Hurt_body_8: -5001280968585989319
+      Skeleton2_Hurt_body_9: 8509467745767400141
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

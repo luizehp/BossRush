@@ -435,7 +435,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeleton2_Death_sword_0: 7007968712981239038
+      Skeleton2_Death_sword_1: 8808652611582115705
+      Skeleton2_Death_sword_10: -7897897781880580258
+      Skeleton2_Death_sword_11: -8867198356635083109
+      Skeleton2_Death_sword_2: 4470525791586670398
+      Skeleton2_Death_sword_3: 5756479838358864266
+      Skeleton2_Death_sword_4: 8208234856037415186
+      Skeleton2_Death_sword_5: 2738406528848354226
+      Skeleton2_Death_sword_6: 8520102755009573037
+      Skeleton2_Death_sword_7: 5456173342327294503
+      Skeleton2_Death_sword_8: -4666991319239303311
+      Skeleton2_Death_sword_9: -274355877789856476
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

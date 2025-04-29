@@ -610,7 +610,26 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeleton2_Attack_swing_0: 6863539344086090357
+      Skeleton2_Attack_swing_1: 26519076783177381
+      Skeleton2_Attack_swing_10: -7562530547622137381
+      Skeleton2_Attack_swing_11: 9210292361374086085
+      Skeleton2_Attack_swing_12: 7206709761485693364
+      Skeleton2_Attack_swing_13: -2853073384198470141
+      Skeleton2_Attack_swing_14: 1573048873686394919
+      Skeleton2_Attack_swing_15: -811881259766611251
+      Skeleton2_Attack_swing_16: 548871345622759237
+      Skeleton2_Attack_swing_17: 2050675302036604112
+      Skeleton2_Attack_swing_18: 5928883759849275205
+      Skeleton2_Attack_swing_2: 3095613244298802091
+      Skeleton2_Attack_swing_3: 6786578295995295788
+      Skeleton2_Attack_swing_4: -679953559938286790
+      Skeleton2_Attack_swing_5: -3061767233473712167
+      Skeleton2_Attack_swing_6: 2989303761153726332
+      Skeleton2_Attack_swing_7: -7735477082595729888
+      Skeleton2_Attack_swing_8: 6325675750622828287
+      Skeleton2_Attack_swing_9: -4745595482348325686
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

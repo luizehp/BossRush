@@ -1035,7 +1035,43 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeleton2_Attack_shadow_0: -5301744025739075395
+      Skeleton2_Attack_shadow_1: -5545404319975746261
+      Skeleton2_Attack_shadow_10: -3686768172497738968
+      Skeleton2_Attack_shadow_11: 2147271689264984186
+      Skeleton2_Attack_shadow_12: 8005682029972628307
+      Skeleton2_Attack_shadow_13: -1360863427967093472
+      Skeleton2_Attack_shadow_14: 7467204772531114980
+      Skeleton2_Attack_shadow_15: -4338708152862384664
+      Skeleton2_Attack_shadow_16: -8090101085095501156
+      Skeleton2_Attack_shadow_17: -855415378926430613
+      Skeleton2_Attack_shadow_18: 444597632505318839
+      Skeleton2_Attack_shadow_19: 1338369489076582714
+      Skeleton2_Attack_shadow_2: -5912998936555778347
+      Skeleton2_Attack_shadow_20: -236961731493581920
+      Skeleton2_Attack_shadow_21: 1664515033218955469
+      Skeleton2_Attack_shadow_22: -7615700016276128581
+      Skeleton2_Attack_shadow_23: 1485204702501704475
+      Skeleton2_Attack_shadow_24: -6972857365581690658
+      Skeleton2_Attack_shadow_25: 7686408310991755755
+      Skeleton2_Attack_shadow_26: -2347212146517819221
+      Skeleton2_Attack_shadow_27: 3451841122918573934
+      Skeleton2_Attack_shadow_28: 3035120980979558276
+      Skeleton2_Attack_shadow_29: 8484793799416935874
+      Skeleton2_Attack_shadow_3: -7441471776692109049
+      Skeleton2_Attack_shadow_30: 5958236948507688004
+      Skeleton2_Attack_shadow_31: -5198299304415705121
+      Skeleton2_Attack_shadow_32: 5971677963177561227
+      Skeleton2_Attack_shadow_33: 2029115343980379079
+      Skeleton2_Attack_shadow_34: -7205568813185358406
+      Skeleton2_Attack_shadow_35: 3588705614300893001
+      Skeleton2_Attack_shadow_4: 6937358709957296974
+      Skeleton2_Attack_shadow_5: -765008003151331890
+      Skeleton2_Attack_shadow_6: 643607441730438829
+      Skeleton2_Attack_shadow_7: 2377023023564167245
+      Skeleton2_Attack_shadow_8: -3228606857346315262
+      Skeleton2_Attack_shadow_9: 8414189772205728266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

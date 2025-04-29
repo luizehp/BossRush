@@ -935,7 +935,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeleton3_Run_full_0: -4115172891670847099
+      Skeleton3_Run_full_1: -5427586387475048418
+      Skeleton3_Run_full_10: 2912040868433080395
+      Skeleton3_Run_full_11: 631592299128293105
+      Skeleton3_Run_full_12: -3169557418379857610
+      Skeleton3_Run_full_13: -4034029902509148451
+      Skeleton3_Run_full_14: -1414186945271682829
+      Skeleton3_Run_full_15: -6650026987465986441
+      Skeleton3_Run_full_16: -6563034410895945413
+      Skeleton3_Run_full_17: 4054343033966580085
+      Skeleton3_Run_full_18: -215618089202773883
+      Skeleton3_Run_full_19: 6876768386110516615
+      Skeleton3_Run_full_2: -629923175577715613
+      Skeleton3_Run_full_20: -3847626086643955986
+      Skeleton3_Run_full_21: -7505633302229558936
+      Skeleton3_Run_full_22: -8494173307121406768
+      Skeleton3_Run_full_23: -1633532865909679563
+      Skeleton3_Run_full_24: -7186613556707971488
+      Skeleton3_Run_full_25: -6213206625045028300
+      Skeleton3_Run_full_26: -2190264488205108433
+      Skeleton3_Run_full_27: -2401059422631344370
+      Skeleton3_Run_full_28: -3412308805038788143
+      Skeleton3_Run_full_29: 5176220072941390355
+      Skeleton3_Run_full_3: -7562971254912118900
+      Skeleton3_Run_full_30: -1565262576086261423
+      Skeleton3_Run_full_31: -1480747436509407079
+      Skeleton3_Run_full_4: 4331121682144911844
+      Skeleton3_Run_full_5: 8329979752071778549
+      Skeleton3_Run_full_6: 7673650685476946040
+      Skeleton3_Run_full_7: -2007444114662112527
+      Skeleton3_Run_full_8: 6624566032976198545
+      Skeleton3_Run_full_9: -2098393085421286148
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

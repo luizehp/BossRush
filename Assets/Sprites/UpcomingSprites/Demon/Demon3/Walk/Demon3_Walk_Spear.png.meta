@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Demon3_Walk_Spear_0: -3404776182815176122
+      Demon3_Walk_Spear_1: -8208828424348244104
+      Demon3_Walk_Spear_10: -5684411729949841192
+      Demon3_Walk_Spear_11: -8548887578418483211
+      Demon3_Walk_Spear_12: -7771490341544832864
+      Demon3_Walk_Spear_13: -595817004945871349
+      Demon3_Walk_Spear_14: 3386067721415763761
+      Demon3_Walk_Spear_15: -2284177873730383617
+      Demon3_Walk_Spear_16: -7630797520430555156
+      Demon3_Walk_Spear_17: -2060911006833419699
+      Demon3_Walk_Spear_18: -3428015009357583060
+      Demon3_Walk_Spear_19: 7913233535165406714
+      Demon3_Walk_Spear_2: 8648821017026807550
+      Demon3_Walk_Spear_20: 2879765682304951357
+      Demon3_Walk_Spear_21: 5895399642826612613
+      Demon3_Walk_Spear_22: 4399974327232703354
+      Demon3_Walk_Spear_23: 6113271895977113838
+      Demon3_Walk_Spear_3: -2576172960672773124
+      Demon3_Walk_Spear_4: 4332580529279999656
+      Demon3_Walk_Spear_5: 4220726295416001742
+      Demon3_Walk_Spear_6: 1817704785667107373
+      Demon3_Walk_Spear_7: 5202725337216660036
+      Demon3_Walk_Spear_8: -6642234886625066970
+      Demon3_Walk_Spear_9: -510646451774956761
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

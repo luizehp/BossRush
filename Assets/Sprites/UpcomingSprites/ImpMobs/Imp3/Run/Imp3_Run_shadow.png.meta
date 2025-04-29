@@ -935,7 +935,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Imp3_Run_shadow_0: 8768728753441326121
+      Imp3_Run_shadow_1: -5443633240358305619
+      Imp3_Run_shadow_10: 3739618038969081695
+      Imp3_Run_shadow_11: 7978255916943943176
+      Imp3_Run_shadow_12: 5834832648336976980
+      Imp3_Run_shadow_13: -5648632564498179922
+      Imp3_Run_shadow_14: 6854347069595333920
+      Imp3_Run_shadow_15: 4816706546119804500
+      Imp3_Run_shadow_16: -9192092839695175215
+      Imp3_Run_shadow_17: -8039469356032258508
+      Imp3_Run_shadow_18: -5387563965932844983
+      Imp3_Run_shadow_19: -4149994023783850466
+      Imp3_Run_shadow_2: -674141750642272240
+      Imp3_Run_shadow_20: -2535975370716414592
+      Imp3_Run_shadow_21: -6060461626570205551
+      Imp3_Run_shadow_22: -1953584615903288962
+      Imp3_Run_shadow_23: -1979604018634223198
+      Imp3_Run_shadow_24: 6662045815900051530
+      Imp3_Run_shadow_25: -2479317369411386129
+      Imp3_Run_shadow_26: 1809041811191103755
+      Imp3_Run_shadow_27: 8789232752268080768
+      Imp3_Run_shadow_28: -1917070580746196482
+      Imp3_Run_shadow_29: 8818966122458518169
+      Imp3_Run_shadow_3: 6006512475650106527
+      Imp3_Run_shadow_30: -6904445509603499445
+      Imp3_Run_shadow_31: 1287511359862938471
+      Imp3_Run_shadow_4: -7142501576277164960
+      Imp3_Run_shadow_5: -6517545436166488639
+      Imp3_Run_shadow_6: -3776078010909344726
+      Imp3_Run_shadow_7: -4108066583548626910
+      Imp3_Run_shadow_8: -2790876621571276004
+      Imp3_Run_shadow_9: -4441226059353993396
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

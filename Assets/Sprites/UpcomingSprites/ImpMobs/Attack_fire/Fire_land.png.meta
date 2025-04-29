@@ -635,7 +635,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fire_land_0: 4614064198653552770
+      Fire_land_1: -1642237283383552782
+      Fire_land_10: -7893451055937276592
+      Fire_land_11: 7476917967388010463
+      Fire_land_12: 2198505323652999082
+      Fire_land_13: -7990652798294784714
+      Fire_land_14: -6459924898661076479
+      Fire_land_15: -969019945262154132
+      Fire_land_16: -5758384031547557274
+      Fire_land_17: -4468422844088781931
+      Fire_land_18: -2330004109457289896
+      Fire_land_19: 4658985478557821994
+      Fire_land_2: -1601142525526841673
+      Fire_land_3: 5917543557534130031
+      Fire_land_4: 7417306121155170144
+      Fire_land_5: -4727980692941260105
+      Fire_land_6: -5545658538578940268
+      Fire_land_7: -5493106788537199598
+      Fire_land_8: 6615526213446003522
+      Fire_land_9: 4748352787063283838
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

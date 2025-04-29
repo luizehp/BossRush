@@ -1235,7 +1235,51 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Demon1_Attack_Body_0: -8370224561986979428
+      Demon1_Attack_Body_1: -7148404279477138093
+      Demon1_Attack_Body_10: -6412658924586545157
+      Demon1_Attack_Body_11: 5882327609738677681
+      Demon1_Attack_Body_12: -5397553311653432251
+      Demon1_Attack_Body_13: -3783414816912540616
+      Demon1_Attack_Body_14: -8264808637496872290
+      Demon1_Attack_Body_15: -7430954469075280105
+      Demon1_Attack_Body_16: 988366471416080356
+      Demon1_Attack_Body_17: -905724756250189673
+      Demon1_Attack_Body_18: -3099361910488765631
+      Demon1_Attack_Body_19: -5379230878060348708
+      Demon1_Attack_Body_2: 3681611038646878744
+      Demon1_Attack_Body_20: 8971122103877322267
+      Demon1_Attack_Body_21: 2727835983362103930
+      Demon1_Attack_Body_22: -94139297486311659
+      Demon1_Attack_Body_23: -133994076635541438
+      Demon1_Attack_Body_24: 371275630892929518
+      Demon1_Attack_Body_25: -4517856041580367038
+      Demon1_Attack_Body_26: -4043686474084378903
+      Demon1_Attack_Body_27: -3036454425936889849
+      Demon1_Attack_Body_28: 8131568251768901507
+      Demon1_Attack_Body_29: -563011494887220214
+      Demon1_Attack_Body_3: -4118249585001871150
+      Demon1_Attack_Body_30: 8848324023737740044
+      Demon1_Attack_Body_31: 5472717782122300632
+      Demon1_Attack_Body_32: -3938905710985085060
+      Demon1_Attack_Body_33: -3463695296415248614
+      Demon1_Attack_Body_34: -3429481404623988526
+      Demon1_Attack_Body_35: -2621634188257243079
+      Demon1_Attack_Body_36: -109868471589770227
+      Demon1_Attack_Body_37: -4105269585836799813
+      Demon1_Attack_Body_38: -5673296087865798500
+      Demon1_Attack_Body_39: 2798847320345207248
+      Demon1_Attack_Body_4: 8532171457309312282
+      Demon1_Attack_Body_40: -1341333961575051127
+      Demon1_Attack_Body_41: -2208354214148336222
+      Demon1_Attack_Body_42: 325813369907953972
+      Demon1_Attack_Body_43: -7521579985613104664
+      Demon1_Attack_Body_5: 3346174859176736337
+      Demon1_Attack_Body_6: -6870337425998760071
+      Demon1_Attack_Body_7: 8130548803969246223
+      Demon1_Attack_Body_8: -8965406544691692712
+      Demon1_Attack_Body_9: -7592190068143404139
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

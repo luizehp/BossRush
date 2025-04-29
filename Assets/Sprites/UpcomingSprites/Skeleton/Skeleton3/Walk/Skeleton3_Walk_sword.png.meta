@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeleton3_Walk_sword_0: 7245051182223052646
+      Skeleton3_Walk_sword_1: 7520581062238909365
+      Skeleton3_Walk_sword_10: 3752096276504295388
+      Skeleton3_Walk_sword_11: 3270758564256497720
+      Skeleton3_Walk_sword_12: 5063997665245669583
+      Skeleton3_Walk_sword_13: 8448673370410318615
+      Skeleton3_Walk_sword_14: -3602369845216454483
+      Skeleton3_Walk_sword_15: -5825243487029083536
+      Skeleton3_Walk_sword_16: 8934606392915184216
+      Skeleton3_Walk_sword_17: 2299591108596790910
+      Skeleton3_Walk_sword_18: 805185771908349727
+      Skeleton3_Walk_sword_19: 5834785675141908476
+      Skeleton3_Walk_sword_2: 4128260445677236006
+      Skeleton3_Walk_sword_20: -2790805673681910940
+      Skeleton3_Walk_sword_21: -8365186541471379588
+      Skeleton3_Walk_sword_22: 2904158785125819455
+      Skeleton3_Walk_sword_23: 8954239727197699180
+      Skeleton3_Walk_sword_3: -6603541122112264599
+      Skeleton3_Walk_sword_4: -5512414031517206187
+      Skeleton3_Walk_sword_5: -3741089559269311074
+      Skeleton3_Walk_sword_6: -175817501722405407
+      Skeleton3_Walk_sword_7: 797891388529846872
+      Skeleton3_Walk_sword_8: 5555753956005921240
+      Skeleton3_Walk_sword_9: 8063073287821546336
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

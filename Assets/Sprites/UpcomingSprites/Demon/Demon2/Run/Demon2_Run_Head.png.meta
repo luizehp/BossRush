@@ -935,7 +935,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Demon2_Run_Head_0: 707357169752513111
+      Demon2_Run_Head_1: 6938514635013578265
+      Demon2_Run_Head_10: -1255537756445297551
+      Demon2_Run_Head_11: 3740859659084231327
+      Demon2_Run_Head_12: -1757180401422693480
+      Demon2_Run_Head_13: 8442249727626803892
+      Demon2_Run_Head_14: -5182855446462915523
+      Demon2_Run_Head_15: 2980145802985345111
+      Demon2_Run_Head_16: 8343294821392050596
+      Demon2_Run_Head_17: -5594586389762399076
+      Demon2_Run_Head_18: 3511406363909437668
+      Demon2_Run_Head_19: 6221783215293067115
+      Demon2_Run_Head_2: -6619037989059725164
+      Demon2_Run_Head_20: -631932456627760887
+      Demon2_Run_Head_21: 7736671023409770503
+      Demon2_Run_Head_22: -1365679977148903687
+      Demon2_Run_Head_23: -5937649552886074346
+      Demon2_Run_Head_24: 7048100080844342276
+      Demon2_Run_Head_25: -7349582362433851152
+      Demon2_Run_Head_26: -3861127771342532204
+      Demon2_Run_Head_27: -1710026911902566144
+      Demon2_Run_Head_28: -202787372706774623
+      Demon2_Run_Head_29: 7387264623743229405
+      Demon2_Run_Head_3: -3805921729326155669
+      Demon2_Run_Head_30: -8037597633726419395
+      Demon2_Run_Head_31: 575765259040197513
+      Demon2_Run_Head_4: 6317605143405923825
+      Demon2_Run_Head_5: 1741891756175570580
+      Demon2_Run_Head_6: -7590467519944246986
+      Demon2_Run_Head_7: 4890067845671747444
+      Demon2_Run_Head_8: -5145432474549248511
+      Demon2_Run_Head_9: 1138668554752170214
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

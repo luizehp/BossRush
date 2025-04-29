@@ -935,7 +935,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lich2_Attack_body_0: 111902254583571190
+      Lich2_Attack_body_1: 1569161633111399295
+      Lich2_Attack_body_10: 3878321755597604526
+      Lich2_Attack_body_11: -7037640419246658992
+      Lich2_Attack_body_12: 3919649725929998477
+      Lich2_Attack_body_13: 7941822398846809878
+      Lich2_Attack_body_14: 7125352829961624968
+      Lich2_Attack_body_15: 6013542841243084312
+      Lich2_Attack_body_16: 1165529485117609170
+      Lich2_Attack_body_17: -2623432348237935893
+      Lich2_Attack_body_18: -6055337371476030670
+      Lich2_Attack_body_19: -131336455234722456
+      Lich2_Attack_body_2: -7048939868869323668
+      Lich2_Attack_body_20: -4812163231706578805
+      Lich2_Attack_body_21: 3241597271781314080
+      Lich2_Attack_body_22: -1243841552224552922
+      Lich2_Attack_body_23: -4607168655915788527
+      Lich2_Attack_body_24: 8960064506358337960
+      Lich2_Attack_body_25: 4205618512520219602
+      Lich2_Attack_body_26: 5742892069175240191
+      Lich2_Attack_body_27: 4282243927760612807
+      Lich2_Attack_body_28: -1925223030546853760
+      Lich2_Attack_body_29: -1012164339455148181
+      Lich2_Attack_body_3: 8901426283753504380
+      Lich2_Attack_body_30: -1758159584799114236
+      Lich2_Attack_body_31: -6020514782781299773
+      Lich2_Attack_body_4: -4990158479841323113
+      Lich2_Attack_body_5: -3507292138110670040
+      Lich2_Attack_body_6: -391310400426665420
+      Lich2_Attack_body_7: -8978046764002803860
+      Lich2_Attack_body_8: -3313895499826649459
+      Lich2_Attack_body_9: 320170772935793017
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

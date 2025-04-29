@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Imp2_Death_bones_0: -8794416605548816017
+      Imp2_Death_bones_1: -8683611441435438830
+      Imp2_Death_bones_10: 4275558317005872500
+      Imp2_Death_bones_11: -3426665225263224793
+      Imp2_Death_bones_12: 8213570895068920821
+      Imp2_Death_bones_13: 8929815880604695388
+      Imp2_Death_bones_14: 8079409679705785752
+      Imp2_Death_bones_15: -4859122277994840276
+      Imp2_Death_bones_16: -6953007301962419599
+      Imp2_Death_bones_17: -1297085411977631058
+      Imp2_Death_bones_18: -1904497716425614112
+      Imp2_Death_bones_19: -3253665866522070183
+      Imp2_Death_bones_2: -4163110563824951753
+      Imp2_Death_bones_20: 1244003665844176290
+      Imp2_Death_bones_21: 4345334800397961451
+      Imp2_Death_bones_22: -3859481655186021833
+      Imp2_Death_bones_23: -669766132220511380
+      Imp2_Death_bones_3: -406026582428171447
+      Imp2_Death_bones_4: 856517745264002690
+      Imp2_Death_bones_5: 1633712317860467452
+      Imp2_Death_bones_6: -5110501089322971257
+      Imp2_Death_bones_7: -5564749483261594489
+      Imp2_Death_bones_8: 3382209055502308982
+      Imp2_Death_bones_9: 2967545591333806695
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

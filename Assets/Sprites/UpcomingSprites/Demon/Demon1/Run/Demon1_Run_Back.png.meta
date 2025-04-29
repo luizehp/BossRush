@@ -1035,7 +1035,43 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Demon1_Run_Back_0: -6000745139920825302
+      Demon1_Run_Back_1: -9022780644242297056
+      Demon1_Run_Back_10: 2768118306387533955
+      Demon1_Run_Back_11: -6094587874942413972
+      Demon1_Run_Back_12: 8636566156657527484
+      Demon1_Run_Back_13: -3035354555871276870
+      Demon1_Run_Back_14: -4577233297847933270
+      Demon1_Run_Back_15: -4233235478841116841
+      Demon1_Run_Back_16: -6485884440662930014
+      Demon1_Run_Back_17: -8813275213218059828
+      Demon1_Run_Back_18: -6407443337946060461
+      Demon1_Run_Back_19: 5704542973914325259
+      Demon1_Run_Back_2: 576610400851213037
+      Demon1_Run_Back_20: -6764044348226473153
+      Demon1_Run_Back_21: 7154594850143343656
+      Demon1_Run_Back_22: -4651564414408121074
+      Demon1_Run_Back_23: -1939477333568537007
+      Demon1_Run_Back_24: 6978763209450860334
+      Demon1_Run_Back_25: -3460476319291716420
+      Demon1_Run_Back_26: -8496776178164795063
+      Demon1_Run_Back_27: 4976623240012984102
+      Demon1_Run_Back_28: -8239268943428434804
+      Demon1_Run_Back_29: 911533330054564837
+      Demon1_Run_Back_3: -960905751803956340
+      Demon1_Run_Back_30: -5018334949068685603
+      Demon1_Run_Back_31: -7624247369753636424
+      Demon1_Run_Back_32: 5961589304519851460
+      Demon1_Run_Back_33: 8183530635697861322
+      Demon1_Run_Back_34: -3509466496984822777
+      Demon1_Run_Back_35: 2565970344577724295
+      Demon1_Run_Back_4: 8050498118049939554
+      Demon1_Run_Back_5: -3594375698925394618
+      Demon1_Run_Back_6: -2554866090583771644
+      Demon1_Run_Back_7: -3478527836879002834
+      Demon1_Run_Back_8: -8614084010074167497
+      Demon1_Run_Back_9: -6655479275128015817
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

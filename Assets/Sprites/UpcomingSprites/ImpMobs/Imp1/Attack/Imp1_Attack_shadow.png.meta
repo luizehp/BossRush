@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Imp1_Attack_shadow_0: -7124082455762657984
+      Imp1_Attack_shadow_1: -8324342451100165538
+      Imp1_Attack_shadow_10: -548430017813436593
+      Imp1_Attack_shadow_11: -5964641861366081210
+      Imp1_Attack_shadow_12: -212526284724023292
+      Imp1_Attack_shadow_13: -9135728969221468890
+      Imp1_Attack_shadow_14: 6341136883798439007
+      Imp1_Attack_shadow_15: -2002031250848868788
+      Imp1_Attack_shadow_16: -3361893183870010668
+      Imp1_Attack_shadow_17: -4925921300191326012
+      Imp1_Attack_shadow_18: -1784948300553103852
+      Imp1_Attack_shadow_19: -1749019086885381100
+      Imp1_Attack_shadow_2: 327089647439229584
+      Imp1_Attack_shadow_20: 3452113193726340723
+      Imp1_Attack_shadow_21: -8205511557594081529
+      Imp1_Attack_shadow_22: 1062913610136923598
+      Imp1_Attack_shadow_23: -7525923307469515471
+      Imp1_Attack_shadow_3: -6420300085148534891
+      Imp1_Attack_shadow_4: 915385711073697026
+      Imp1_Attack_shadow_5: -5875209645755964928
+      Imp1_Attack_shadow_6: 2342483756135254078
+      Imp1_Attack_shadow_7: 2592258388688288607
+      Imp1_Attack_shadow_8: -5932545435073625801
+      Imp1_Attack_shadow_9: -2658213587386125554
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -935,7 +935,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Demon3_Run_Head_0: -732802464511294778
+      Demon3_Run_Head_1: -3866485922029898649
+      Demon3_Run_Head_10: -7144186376538701857
+      Demon3_Run_Head_11: -3412809765746515660
+      Demon3_Run_Head_12: -6256875750681657040
+      Demon3_Run_Head_13: -8031877380255310691
+      Demon3_Run_Head_14: -5537258895089754386
+      Demon3_Run_Head_15: 3283090018372893645
+      Demon3_Run_Head_16: 1450346660898840554
+      Demon3_Run_Head_17: -5398707617705354456
+      Demon3_Run_Head_18: 3426541668946985456
+      Demon3_Run_Head_19: -1886555427478607744
+      Demon3_Run_Head_2: 6726042799611444120
+      Demon3_Run_Head_20: -563823149075157029
+      Demon3_Run_Head_21: 6349618323318888150
+      Demon3_Run_Head_22: -8824607542265290635
+      Demon3_Run_Head_23: -8865935969230446874
+      Demon3_Run_Head_24: -8707789661141150367
+      Demon3_Run_Head_25: 1558962791125387576
+      Demon3_Run_Head_26: 8620336788774170578
+      Demon3_Run_Head_27: -7929825646767382899
+      Demon3_Run_Head_28: 802004601389965627
+      Demon3_Run_Head_29: 4296892090245889110
+      Demon3_Run_Head_3: -158812585372237648
+      Demon3_Run_Head_30: 1675948549770230135
+      Demon3_Run_Head_31: -5956888470530877691
+      Demon3_Run_Head_4: -6840868756568017106
+      Demon3_Run_Head_5: -6614460731362886002
+      Demon3_Run_Head_6: 1542943325099892476
+      Demon3_Run_Head_7: -1881815450204448628
+      Demon3_Run_Head_8: -931881967484857324
+      Demon3_Run_Head_9: -3804828095390511376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

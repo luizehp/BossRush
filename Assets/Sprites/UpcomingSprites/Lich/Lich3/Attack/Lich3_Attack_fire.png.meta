@@ -585,7 +585,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lich3_Attack_fire_0: -3708792541426500067
+      Lich3_Attack_fire_1: -962940254090733573
+      Lich3_Attack_fire_10: 8200376756545281802
+      Lich3_Attack_fire_11: -4295046017181246185
+      Lich3_Attack_fire_12: -3548114915573498586
+      Lich3_Attack_fire_13: 5062376976916079613
+      Lich3_Attack_fire_14: 7947706011750226205
+      Lich3_Attack_fire_15: -1558092864244156612
+      Lich3_Attack_fire_16: -3327987717390528748
+      Lich3_Attack_fire_17: 3385609352686467832
+      Lich3_Attack_fire_2: 8565090609827470079
+      Lich3_Attack_fire_3: 2848578436584348382
+      Lich3_Attack_fire_4: -4222469258128886779
+      Lich3_Attack_fire_5: 6914125910969305545
+      Lich3_Attack_fire_6: 3248825491518040565
+      Lich3_Attack_fire_7: -3204215274124265364
+      Lich3_Attack_fire_8: -4077721613937485881
+      Lich3_Attack_fire_9: 3533684466199104375
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

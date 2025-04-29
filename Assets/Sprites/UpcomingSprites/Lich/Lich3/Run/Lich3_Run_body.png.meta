@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lich3_Run_body_0: 6069597226844202521
+      Lich3_Run_body_1: -6697009106013721453
+      Lich3_Run_body_10: -227257485683387661
+      Lich3_Run_body_11: -6174405300556068866
+      Lich3_Run_body_12: 4343330425488990774
+      Lich3_Run_body_13: 2014035767734633090
+      Lich3_Run_body_14: 6310639650211066826
+      Lich3_Run_body_15: -1633216580607291620
+      Lich3_Run_body_16: 1966119680071943405
+      Lich3_Run_body_17: 7618199728951581271
+      Lich3_Run_body_18: -242986578210384847
+      Lich3_Run_body_19: -4107500895951036258
+      Lich3_Run_body_2: 8131095524811440321
+      Lich3_Run_body_20: 188943037311987186
+      Lich3_Run_body_21: -2519378026319275441
+      Lich3_Run_body_22: 8395046141596475643
+      Lich3_Run_body_23: -7759111529269542434
+      Lich3_Run_body_3: 7422238397711231984
+      Lich3_Run_body_4: -4622819488506366821
+      Lich3_Run_body_5: 2487802898533929161
+      Lich3_Run_body_6: -1708577433027099877
+      Lich3_Run_body_7: 8500474981274372185
+      Lich3_Run_body_8: -1836579514144763867
+      Lich3_Run_body_9: -3127565416854110043
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

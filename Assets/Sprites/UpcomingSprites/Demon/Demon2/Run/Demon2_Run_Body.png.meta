@@ -1210,7 +1210,50 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Demon2_Run_Body_0: 8515963446544114560
+      Demon2_Run_Body_1: -2118050389538521390
+      Demon2_Run_Body_10: -3586621882545120756
+      Demon2_Run_Body_11: 586093599353426603
+      Demon2_Run_Body_12: -3212925374221697136
+      Demon2_Run_Body_13: 7251633266023035914
+      Demon2_Run_Body_14: -4043130085681302162
+      Demon2_Run_Body_15: -7679088829648974100
+      Demon2_Run_Body_16: 3038710953821988880
+      Demon2_Run_Body_17: -623799394633489667
+      Demon2_Run_Body_18: -4605557565233225768
+      Demon2_Run_Body_19: -4147127002007908410
+      Demon2_Run_Body_2: -2164907167932441434
+      Demon2_Run_Body_20: 4581498576127008200
+      Demon2_Run_Body_21: -7181024819902544575
+      Demon2_Run_Body_22: -5940073412595279948
+      Demon2_Run_Body_23: -7700366946679327947
+      Demon2_Run_Body_24: -2719286963414337892
+      Demon2_Run_Body_25: 6429698068521228321
+      Demon2_Run_Body_26: 6595414970420899611
+      Demon2_Run_Body_27: 2838082052698990246
+      Demon2_Run_Body_28: -4333497429441552690
+      Demon2_Run_Body_29: -48619324745204417
+      Demon2_Run_Body_3: 1379527276779500596
+      Demon2_Run_Body_30: -7313934452701403911
+      Demon2_Run_Body_31: 4078508073911965367
+      Demon2_Run_Body_32: -6315838996880669528
+      Demon2_Run_Body_33: 341190033292056436
+      Demon2_Run_Body_34: -4787947395168393900
+      Demon2_Run_Body_35: -215743060456516584
+      Demon2_Run_Body_36: 4512729548521402750
+      Demon2_Run_Body_37: 2539233909679650051
+      Demon2_Run_Body_38: -7852804270023291355
+      Demon2_Run_Body_39: 3582541563274511518
+      Demon2_Run_Body_4: 8621343203807607516
+      Demon2_Run_Body_40: -3239932348937101488
+      Demon2_Run_Body_41: -8996483411194711976
+      Demon2_Run_Body_42: -6556529435003546314
+      Demon2_Run_Body_5: 7366341010752341848
+      Demon2_Run_Body_6: 6573087714509507315
+      Demon2_Run_Body_7: 4898546825503038512
+      Demon2_Run_Body_8: -4248524212162505376
+      Demon2_Run_Body_9: -6584139650195444269
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

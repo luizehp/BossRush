@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fire_loop_0: -4580324444262494291
+      Fire_loop_1: -3108173899756062785
+      Fire_loop_10: 7144584526287019343
+      Fire_loop_11: -7431758263283733097
+      Fire_loop_12: 4284074796082898309
+      Fire_loop_13: 1368464035428312374
+      Fire_loop_14: -4361323516961270741
+      Fire_loop_15: -917966279479429003
+      Fire_loop_16: -2793059625580174132
+      Fire_loop_17: -7671473290172713175
+      Fire_loop_18: -4377419589680875859
+      Fire_loop_19: 5918786899140366576
+      Fire_loop_2: -5704427230413451043
+      Fire_loop_20: 6141380731608612146
+      Fire_loop_21: -4929258144891191920
+      Fire_loop_22: -2039667242973170744
+      Fire_loop_23: 4853322214086257380
+      Fire_loop_3: 300566644230957879
+      Fire_loop_4: -2047403168533213494
+      Fire_loop_5: -3818820711337572774
+      Fire_loop_6: -3725759676895392524
+      Fire_loop_7: 8798838645111703449
+      Fire_loop_8: 5998241219571891674
+      Fire_loop_9: 8869178240935982710
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
