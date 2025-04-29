@@ -1,43 +1,55 @@
 fileFormatVersion: 2
-guid: 773f947c32345b44185d5914c01179ff
+guid: 6ec3aebdbe68f454c9c497456f8ac4c9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7755506178765019599
-    second: spr_player_back_idle_0
+      213: -1142111569835325005
+    second: Skeleton1_Hurt_full_0
   - first:
-      213: -3259839013253934672
-    second: spr_player_back_idle_1
+      213: -3366045028335322900
+    second: Skeleton1_Hurt_full_1
   - first:
-      213: 1163414263539118520
-    second: spr_player_back_idle_2
+      213: 5875596839339494025
+    second: Skeleton1_Hurt_full_2
   - first:
-      213: 1757650707004051654
-    second: spr_player_back_idle_3
+      213: 6614820626837429598
+    second: Skeleton1_Hurt_full_3
   - first:
-      213: 3720130357245250806
-    second: spr_player_back_idle_4
+      213: 3911903896663281587
+    second: Skeleton1_Hurt_full_4
   - first:
-      213: -239005814493607320
-    second: spr_player_back_idle_5
+      213: -5275175430503752292
+    second: Skeleton1_Hurt_full_5
   - first:
-      213: 4559852492377160981
-    second: spr_player_back_idle_6
+      213: 8811470975161287352
+    second: Skeleton1_Hurt_full_6
   - first:
-      213: 5069636663576641713
-    second: spr_player_back_idle_7
+      213: 5173426916883139992
+    second: Skeleton1_Hurt_full_7
   - first:
-      213: -957965922663300877
-    second: spr_player_back_idle_8
+      213: -3930050272100230943
+    second: Skeleton1_Hurt_full_8
   - first:
-      213: 6066043519956564161
-    second: spr_player_back_idle_9
+      213: -2613015011824831864
+    second: Skeleton1_Hurt_full_9
   - first:
-      213: 8087993412177068299
-    second: spr_player_back_idle_10
+      213: -2774831822940117008
+    second: Skeleton1_Hurt_full_10
   - first:
-      213: -3984292729765724221
-    second: spr_player_back_idle_11
+      213: -4592609713444491374
+    second: Skeleton1_Hurt_full_11
+  - first:
+      213: 1697553043043314204
+    second: Skeleton1_Hurt_full_12
+  - first:
+      213: -6628841299777834775
+    second: Skeleton1_Hurt_full_13
+  - first:
+      213: -5891169858674842112
+    second: Skeleton1_Hurt_full_14
+  - first:
+      213: -2826384656407125817
+    second: Skeleton1_Hurt_full_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -159,7 +171,271 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_player_back_idle_0
+      name: Skeleton1_Hurt_full_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b90a1214976620f0800000000000000
+      internalID: -1142111569835325005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_full_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce87a1c71e76941d0800000000000000
+      internalID: -3366045028335322900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_full_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a0d34f1305a8150800000000000000
+      internalID: 5875596839339494025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_full_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d529330509ccb50800000000000000
+      internalID: 6614820626837429598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_full_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfc41c2edfd94630800000000000000
+      internalID: 3911903896663281587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_full_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d94f025efcac6b0800000000000000
+      internalID: -5275175430503752292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_full_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2472faa22a84a70800000000000000
+      internalID: 8811470975161287352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_full_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d8344fe54bbc740800000000000000
+      internalID: 5173426916883139992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_full_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8d90e8918a579c0800000000000000
+      internalID: -3930050272100230943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_full_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882fa6be0b4bcbbd0800000000000000
+      internalID: -2613015011824831864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_full_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f76432a821dd79d0800000000000000
+      internalID: -2774831822940117008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_full_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fe12e5cc5c340c0800000000000000
+      internalID: -4592609713444491374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton1_Hurt_full_12
       rect:
         serializedVersion: 2
         x: 0
@@ -167,21 +443,21 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b2e4846b40a9acd4ab02d9fcb3c40333
-      internalID: 1311253034
+      spriteID: c1aeaf5af7bee8710800000000000000
+      internalID: 1697553043043314204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_back_idle_1
+      name: Skeleton1_Hurt_full_13
       rect:
         serializedVersion: 2
         x: 64
@@ -189,21 +465,21 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e41fd62a7e8b26843bea1cea3cd1d559
-      internalID: -1563858987
+      spriteID: 9e0bd4e75ff9104a0800000000000000
+      internalID: -6628841299777834775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_back_idle_2
+      name: Skeleton1_Hurt_full_14
       rect:
         serializedVersion: 2
         x: 128
@@ -211,21 +487,21 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ef8d8c5f68c68c941a8d5cb950e944ae
-      internalID: 2136374216
+      spriteID: 006a23ee93c5e3ea0800000000000000
+      internalID: -5891169858674842112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_back_idle_3
+      name: Skeleton1_Hurt_full_15
       rect:
         serializedVersion: 2
         x: 192
@@ -233,191 +509,15 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0e9d7d50c10ec984f8f858ad0f3eb1c8
-      internalID: 1539789463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_player_back_idle_4
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97fe703ef218f9146b7a1f2a07eb1328
-      internalID: 987067220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_player_back_idle_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: efe0b3d4b78c15f46bac06da73dc1115
-      internalID: 1418864692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_player_back_idle_6
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de861620dc56683458d52df1d809f613
-      internalID: -1843332304
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_player_back_idle_7
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c83638e59d1cda04fb0b33e9c52d839e
-      internalID: 1670587514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_player_back_idle_8
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 37127b793a15ce849b207256e71186b1
-      internalID: 1008562631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_player_back_idle_9
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3e8b46988a3d714fab4b76d88f4ee6a
-      internalID: -432530447
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_player_back_idle_10
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9857b292b1683e34bb1e5b9213931ced
-      internalID: 1641893112
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_player_back_idle_11
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a89bf8e8ddae194989de5abae71de16
-      internalID: 712833711
+      spriteID: 7c02d3c312aa6c8d0800000000000000
+      internalID: -2826384656407125817
       vertices: []
       indices: 
       edges: []
@@ -426,7 +526,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: cc66622556677e440b4071f8da275164
+    spriteID: 47460726c94f7684f99655acb5e214dd
     internalID: 0
     vertices: []
     indices: 
@@ -436,18 +536,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      spr_player_back_idle_0: 1311253034
-      spr_player_back_idle_1: -1563858987
-      spr_player_back_idle_10: 1641893112
-      spr_player_back_idle_11: 712833711
-      spr_player_back_idle_2: 2136374216
-      spr_player_back_idle_3: 1539789463
-      spr_player_back_idle_4: 987067220
-      spr_player_back_idle_5: 1418864692
-      spr_player_back_idle_6: -1843332304
-      spr_player_back_idle_7: 1670587514
-      spr_player_back_idle_8: 1008562631
-      spr_player_back_idle_9: -432530447
+      Skeleton1_Hurt_full_0: -1142111569835325005
+      Skeleton1_Hurt_full_1: -3366045028335322900
+      Skeleton1_Hurt_full_10: -2774831822940117008
+      Skeleton1_Hurt_full_11: -4592609713444491374
+      Skeleton1_Hurt_full_12: 1697553043043314204
+      Skeleton1_Hurt_full_13: -6628841299777834775
+      Skeleton1_Hurt_full_14: -5891169858674842112
+      Skeleton1_Hurt_full_15: -2826384656407125817
+      Skeleton1_Hurt_full_2: 5875596839339494025
+      Skeleton1_Hurt_full_3: 6614820626837429598
+      Skeleton1_Hurt_full_4: 3911903896663281587
+      Skeleton1_Hurt_full_5: -5275175430503752292
+      Skeleton1_Hurt_full_6: 8811470975161287352
+      Skeleton1_Hurt_full_7: 5173426916883139992
+      Skeleton1_Hurt_full_8: -3930050272100230943
+      Skeleton1_Hurt_full_9: -2613015011824831864
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
