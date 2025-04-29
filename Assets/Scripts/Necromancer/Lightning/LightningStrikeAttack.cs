@@ -8,12 +8,14 @@ namespace Necromancer.Lightning
         private enum State { Idle, CastingShadow, LockingPosition, Striking, Recovering }
         private State currentState = State.Idle;
         public Animator animator;
+        public Animator lightningAnimator;
         public GameObject shadowPrefab;
         public GameObject lightningPrefab;
         public float shadowFollowDuration = 2f;
         public float lightningDelay = 0.2f;
         private GameObject player;
         private GameObject shadow;
+        private GameObject lightning;
         private Vector3 lockedPosition;
         private float timer;
         
@@ -24,6 +26,7 @@ namespace Necromancer.Lightning
 
         void Update()
         {
+            Debug.Log("State: " + currentState);
             if (currentState == State.Idle)
             {
                 if (!Input.GetKeyDown(KeyCode.B)) return;
@@ -59,7 +62,8 @@ namespace Necromancer.Lightning
                 if (shadow is not null)
                     Destroy(shadow);
 
-                Instantiate(lightningPrefab, lockedPosition, Quaternion.identity);
+                lightning = Instantiate(lightningPrefab, lockedPosition, Quaternion.identity);
+                lightningAnimator.SetTrigger("LightBolt");
             }
 
             else if (currentState == State.Striking)

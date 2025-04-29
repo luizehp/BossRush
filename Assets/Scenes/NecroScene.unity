@@ -675,8 +675,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 487016378}
+  lightningAnimator: {fileID: 1315774224987363933, guid: dc3a01c82f1a8794991789b9d3a68bce, type: 3}
   shadowPrefab: {fileID: 8792461686158674593, guid: c1d93169a77008a4683950fc17b94f37, type: 3}
-  lightningPrefab: {fileID: 1094759764199458301, guid: c483f0f302a17b14f8d303e6f5f0d2da, type: 3}
+  lightningPrefab: {fileID: 2973810862946447129, guid: dc3a01c82f1a8794991789b9d3a68bce, type: 3}
   shadowFollowDuration: 2
   lightningDelay: 0.2
 --- !u!1 &519420028
