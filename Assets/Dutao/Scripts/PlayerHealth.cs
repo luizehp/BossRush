@@ -1,27 +1,32 @@
 using UnityEngine;
 using System.Collections;
+using UnityEditor.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    [Header("Health Settings")]
-    public int maxHealth = 5;
-
-    [Header("Invincibility Frames")]
-    [Tooltip("Seconds of immunity after getting hit")]
+    public int health = 5;
+    public int maxHealth;
     public float invincibilityDuration = 1f;
     private bool isInvincible = false;
 
-    // Optional: reference to sprite renderer for flash effect
     private SpriteRenderer spriteRenderer;
+    private Animator animator;
+    private bool died = false;
+    private Animator playerAnimator;
+    private Rigidbody2D rb;
+    private PlayerMovement playerMovement;
 
-    void Awake()
+    void Start()
     {
+        maxHealth = health;
         spriteRenderer = GetComponent<SpriteRenderer>();
+        playerAnimator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+        playerMovement = GetComponent<PlayerMovement>();
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Check if collided with an "EnemyAttack" trigger
         if (!isInvincible && other.CompareTag("EnemyAttack"))
         {
             TakeDamage(1);
@@ -30,14 +35,15 @@ public class PlayerHealth : MonoBehaviour
 
     private void TakeDamage(int damage)
     {
-        maxHealth -= damage;
-        maxHealth = Mathf.Max(maxHealth, 0);
-        Debug.Log($"Player hit! Health: {maxHealth}/{maxHealth}");
+        health -= damage;
+        health = Mathf.Max(health, 0);
+        Debug.Log($"Player hit! Health: {health}/{maxHealth}");
+        if (died)
+        {
+            return;
+        }
 
-        // TODO: Play damage animation or sound here
-        // animator.SetTrigger("Hurt");
-
-        if (maxHealth <= 0)
+        if (health <= 0)
         {
             Die();
         }
@@ -68,10 +74,11 @@ public class PlayerHealth : MonoBehaviour
     private void Die()
     {
         Debug.Log("Player died!");
-        // TODO: Trigger death animation, disable input, reload scene, etc.
-        // animator.SetBool("Dead", true);
-        // GetComponent<PlayerController>().enabled = false;
+        animator = GetComponent<Animator>();
+        animator.SetTrigger("Death");
+        playerMovement.enabled = false;
+        rb.constraints = RigidbodyConstraints2D.FreezeAll;
+        playerAnimator.SetBool("Moving", false);
+        died = true;
     }
-
-    // Optional: public method to heal the player
 }

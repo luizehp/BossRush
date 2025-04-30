@@ -26,7 +26,6 @@ namespace Necromancer.Lightning
 
         void Update()
         {
-            Debug.Log("State: " + currentState);
             if (currentState == State.Idle)
             {
                 if (!Input.GetKeyDown(KeyCode.B)) return;

@@ -1,70 +1,70 @@
 using System.Collections;
 using UnityEngine;
 
-public class MinionController : MonoBehaviour
+namespace Necromancer.Minion
 {
-    [Header("Configurações Gerais")]
-    public float speed = 2f;               // Velocidade de movimento
-    public float attackRange = 1.5f;       // Distância para iniciar o ataque
-    public float spawnDuration = 0.7f;     // Duração (s) da animação de spawn
-    public float attackDuration = 0.5f;    // Duração (s) da animação de ataque
-
-    private Transform player;
-    private Animator anim;
-
-    private enum State { Spawning, Chasing, Attacking }
-    private State state;
-
-    void Start()
+    public class MinionController : MonoBehaviour
     {
-        player = GameObject.FindGameObjectWithTag("Player")?.transform;
-        if (player == null)
-            Debug.LogError("MinionController: não encontrou objeto com tag 'Player'!");
+        public float speed = 2f;
+        public float attackRange = 1.5f;
+        public float spawnDuration = 0.7f;
+        public float attackDuration = 0.5f;
 
-        anim = GetComponent<Animator>();
-        if (anim == null)
-            Debug.LogError("MinionController: não encontrou Animator no Minion!");
+        private Transform playerPos;
+        private Animator anim;
 
-        state = State.Spawning;
-        StartCoroutine(DoSpawn());
-    }
+        private enum State { Spawning, Chasing, Attacking }
+        private State state;
 
-    IEnumerator DoSpawn()
-    {
-        anim.Play("MinionSpawnDown");
-        yield return new WaitForSeconds(spawnDuration);
-        state = State.Chasing;
-    }
+        void Start()
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player is not null)
+                playerPos = GameObject.FindGameObjectWithTag("Player").transform;
 
-    void Update()
-    {
-        if (state == State.Chasing && player != null)
-            Chase();
-    }
+            anim = GetComponent<Animator>();
 
-    void Chase()
-    {
-        Vector3 dir = (player.position - transform.position);
-        float distance = dir.magnitude;
-        dir.Normalize();
+            state = State.Spawning;
+            StartCoroutine(DoSpawn());
+        }
 
-        bool goingUp = player.position.y > transform.position.y + 0.1f;
-        anim.Play(goingUp ? "MinionRunUp" : "MinionRunDown");
+        IEnumerator DoSpawn()
+        {
+            anim.Play("MinionSpawnDown");
+            yield return new WaitForSeconds(spawnDuration);
+            state = State.Chasing;
+        }
 
-        transform.position += dir * speed * Time.deltaTime;
+        void Update()
+        {
+            if (state == State.Chasing && playerPos is not null)
+                Chase();
+        }
 
-        if (distance <= attackRange && state != State.Attacking)
-            StartCoroutine(DoAttack());
-    }
+        void Chase()
+        {
+            Vector3 dir = (playerPos.position - transform.position);
+            float distance = dir.magnitude;
+            dir.Normalize();
 
-    IEnumerator DoAttack()
-    {
-        state = State.Attacking;
+            bool goingUp = playerPos.position.y > transform.position.y + 0.1f;
+            anim.Play(goingUp ? "MinionRunUp" : "MinionRunDown");
 
-        bool goingUp = player.position.y > transform.position.y + 0.1f;
-        anim.Play(goingUp ? "MinionAttackUp" : "MinionAttackDown");
+            transform.position += dir * (speed * Time.deltaTime);
 
-        yield return new WaitForSeconds(attackDuration);
-        state = State.Chasing;
+            if (distance <= attackRange && state != State.Attacking)
+                StartCoroutine(DoAttack());
+        }
+
+        IEnumerator DoAttack()
+        {
+            state = State.Attacking;
+
+            bool goingUp = playerPos.position.y > transform.position.y + 0.1f;
+            anim.Play(goingUp ? "MinionAttackUp" : "MinionAttackDown");
+
+            yield return new WaitForSeconds(attackDuration);
+            state = State.Chasing;
+        }
     }
 }
