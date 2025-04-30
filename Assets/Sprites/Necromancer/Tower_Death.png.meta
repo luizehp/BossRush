@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: 1b23e5b2c07bbba4cbf1dc0ef8779cb5
+guid: 83ed6893901c2784fb4bc43e75195120
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6069461575021410573
-    second: spr_player_death_0
+      213: 6383801013628143759
+    second: Tower_Death_0
   - first:
-      213: 854212482046795643
-    second: spr_player_death_1
+      213: -5260127958864356010
+    second: Tower_Death_1
   - first:
-      213: -6159084308269865550
-    second: spr_player_death_2
+      213: -81325358030714100
+    second: Tower_Death_2
   - first:
-      213: -4999062145569849225
-    second: spr_player_death_3
+      213: -8252790665280209837
+    second: Tower_Death_3
   - first:
-      213: -2948033175646041947
-    second: spr_player_death_4
+      213: 6781613063379297320
+    second: Tower_Death_4
   - first:
-      213: 7672826193148651999
-    second: spr_player_death_5
-  - first:
-      213: -8789077112541283084
-    second: spr_player_death_6
-  - first:
-      213: -4248400897512548133
-    second: spr_player_death_7
+      213: -7850281554971863962
+    second: Tower_Death_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -147,13 +141,79 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_player_death_0
+      name: Tower_Death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f888516f231d79850800000000000000
+      internalID: 6383801013628143759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower_Death_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d1ac2ad754007b0800000000000000
+      internalID: -5260127958864356010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower_Death_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b095b84031fdef0800000000000000
+      internalID: -81325358030714100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tower_Death_3
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 80
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d09b805252f0b3450800000000000000
-      internalID: 6069461575021410573
+      spriteID: 35c30567d92387d80800000000000000
+      internalID: -8252790665280209837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_death_1
+      name: Tower_Death_4
       rect:
         serializedVersion: 2
-        x: 64
+        x: 80
         y: 0
-        width: 64
-        height: 64
+        width: 80
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7f9a130ab5cadb00800000000000000
-      internalID: 854212482046795643
+      spriteID: 8242fde86212d1e50800000000000000
+      internalID: 6781613063379297320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_death_2
+      name: Tower_Death_5
       rect:
         serializedVersion: 2
-        x: 128
+        x: 160
         y: 0
-        width: 64
-        height: 64
+        width: 80
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,118 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b564ef2479868aa0800000000000000
-      internalID: -6159084308269865550
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_player_death_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 770053bf673cf9ab0800000000000000
-      internalID: -4999062145569849225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_player_death_4
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5a80d83327b7617d0800000000000000
-      internalID: -2948033175646041947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_player_death_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd920f135ca5b7a60800000000000000
-      internalID: 7672826193148651999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_player_death_6
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4fcf573ceece60680800000000000000
-      internalID: -8789077112541283084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_player_death_7
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bd8505884e5aa05c0800000000000000
-      internalID: -4248400897512548133
+      spriteID: 664d911b4823e0390800000000000000
+      internalID: -7850281554971863962
       vertices: []
       indices: 
       edges: []
@@ -326,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 596d41e5c3aa8f742bcf81e5fe0e5b26
+    spriteID: 1392d9f29f4e7384db4daf2613d9137c
     internalID: 0
     vertices: []
     indices: 
@@ -336,14 +286,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      spr_player_death_0: 6069461575021410573
-      spr_player_death_1: 854212482046795643
-      spr_player_death_2: -6159084308269865550
-      spr_player_death_3: -4999062145569849225
-      spr_player_death_4: -2948033175646041947
-      spr_player_death_5: 7672826193148651999
-      spr_player_death_6: -8789077112541283084
-      spr_player_death_7: -4248400897512548133
+      Tower_Death_0: 6383801013628143759
+      Tower_Death_1: -5260127958864356010
+      Tower_Death_2: -81325358030714100
+      Tower_Death_3: -8252790665280209837
+      Tower_Death_4: 6781613063379297320
+      Tower_Death_5: -7850281554971863962
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
