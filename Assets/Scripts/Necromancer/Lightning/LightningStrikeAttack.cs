@@ -11,16 +11,17 @@ namespace Necromancer.Lightning
         public Animator lightningAnimator;
         public GameObject shadowPrefab;
         public GameObject lightningPrefab;
-        public float shadowFollowDuration = 2f;
-        public float lightningDelay = 0.2f;
+        public float shadowFollowDuration = 1.5f;
         private GameObject player;
         private GameObject shadow;
         private GameObject lightning;
         private Vector3 lockedPosition;
         private float timer;
+        private bool wasCalled = false;
         
         void Start()
         {
+            currentState = State.Idle;
             player = GameObject.FindWithTag("Player");
         }
 
@@ -28,8 +29,7 @@ namespace Necromancer.Lightning
         {
             if (currentState == State.Idle)
             {
-                if (!Input.GetKeyDown(KeyCode.B)) return;
-                animator.SetTrigger("LightningStrike");
+                if (!wasCalled) return;
                 currentState = State.CastingShadow;
                 timer = 0f;
 
@@ -53,9 +53,6 @@ namespace Necromancer.Lightning
 
             else if (currentState == State.LockingPosition)
             {
-                timer += Time.deltaTime;
-
-                if (!(timer >= lightningDelay)) return;
                 currentState = State.Striking;
 
                 if (shadow is not null)
@@ -70,13 +67,18 @@ namespace Necromancer.Lightning
                 currentState = State.Recovering;
                 StartCoroutine(RecoverAfterStrike(0.5f));
             }
+        }
 
+        public void ExecuteLightningStrike()
+        {
+            wasCalled = true;
         }
 
         IEnumerator RecoverAfterStrike(float duration)
         {
             yield return new WaitForSeconds(duration);
             currentState = State.Idle;
+            wasCalled = false;
         }
 
     }
