@@ -3639,6 +3639,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3027725913440923397, guid: 4cc1963e8a9afd743a64d20610709399, type: 3}
+      propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6227492744186992220, guid: 4cc1963e8a9afd743a64d20610709399, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.24
@@ -3694,6 +3698,10 @@ PrefabInstance:
     - target: {fileID: 6623260149846432850, guid: 4cc1963e8a9afd743a64d20610709399, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7867525773751831074, guid: 4cc1963e8a9afd743a64d20610709399, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3864,7 +3872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minionPrefab: {fileID: 5346825790499720216, guid: 42513e850d5c9e840858b2e6b6497e62, type: 3}
-  spawnCount: 5
+  spawnCount: 3
   spawnRadius: 5
 --- !u!114 &487016383
 MonoBehaviour:

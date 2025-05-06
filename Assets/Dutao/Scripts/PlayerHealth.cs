@@ -27,9 +27,21 @@ public class PlayerHealth : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        Collider2D selfCollider = GetComponent<Collider2D>();
+        bool selfIsTrigger = selfCollider.isTrigger;
+        bool otherIsTrigger = other.isTrigger;
+
+        Debug.Log($"[TriggerCheck] Self: {selfIsTrigger}, Other: {otherIsTrigger}");
+
         if (!isInvincible && other.CompareTag("EnemyAttack"))
         {
-            TakeDamage(1);
+            // Dano só ocorre se:
+            // - ambos são trigger (ambos atacando)
+            // - ou só o inimigo (other) é trigger (inimigo atacando)
+            if (otherIsTrigger || (selfIsTrigger && otherIsTrigger))
+            {
+                TakeDamage(1);
+            }
         }
     }
 

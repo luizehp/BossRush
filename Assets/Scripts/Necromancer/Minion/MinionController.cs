@@ -11,10 +11,6 @@ namespace Necromancer.Minion
         public float spawnDuration = 0.7f;
         public float attackDuration = 0.5f;
         public int damageAmount = 1;            // Quanto dano o minion causa
-
-        [Header("Hitbox")]
-        [SerializeField] private GameObject attackHitbox; // Arraste aqui o filho AttackHitbox
-
         private Transform playerPos;
         private PlayerHealth playerHealth;
         private Animator anim;
@@ -30,22 +26,24 @@ namespace Necromancer.Minion
             {
                 playerPos = player.transform;
                 playerHealth = player.GetComponent<PlayerHealth>();
-                if (playerHealth == null)
-                    Debug.LogWarning("PlayerHealth não encontrado no Player!");
             }
 
             anim = GetComponent<Animator>();
             state = State.Spawning;
             StartCoroutine(DoSpawn());
-
-            // Garante que o hitbox começa desativado
-            if (attackHitbox != null)
-                attackHitbox.SetActive(false);
         }
 
         IEnumerator DoSpawn()
         {
-            anim.Play("MinionSpawnDown");
+            Vector3 dir = (playerPos.position - transform.position).normalized;
+            bool goingUp = playerPos.position.y > transform.position.y + 0.1f;
+            if (goingUp)
+            {
+            }
+            else
+            {
+                anim.SetTrigger("spawnDown");
+            }
             yield return new WaitForSeconds(spawnDuration);
             state = State.Chasing;
         }
@@ -60,12 +58,25 @@ namespace Necromancer.Minion
         {
             Vector3 dir = (playerPos.position - transform.position).normalized;
             bool goingUp = playerPos.position.y > transform.position.y + 0.1f;
-            anim.Play(goingUp ? "MinionRunUp" : "MinionRunDown");
+            if (goingUp)
+            {
+                anim.SetBool("chaseDown", false);
+                anim.SetBool("chaseUp", true);
+            }
+            else
+            {
+                anim.SetBool("chaseUp", false);
+                anim.SetBool("chaseDown", true);
+            }
             transform.position += dir * (speed * Time.deltaTime);
 
             float distance = Vector3.Distance(transform.position, playerPos.position);
             if (distance <= attackRange && state != State.Attacking)
+            {
+                anim.SetBool("chaseDown", false);
+                anim.SetBool("chaseUp", false);
                 StartCoroutine(DoAttack());
+            }
         }
 
         IEnumerator DoAttack()
@@ -74,21 +85,19 @@ namespace Necromancer.Minion
 
             // Dispara animação de ataque
             bool goingUp = playerPos.position.y > transform.position.y + 0.1f;
-            anim.Play(goingUp ? "MinionAttackUp" : "MinionAttackDown");
-
-            // 1) Ativa o hitbox para causar trigger no PlayerHealth
-            if (attackHitbox != null)
-                attackHitbox.SetActive(true);
+            if (goingUp)
+            {
+                anim.SetTrigger("attackUp");
+            }
+            else
+            {
+                anim.SetTrigger("attackDown");
+            }
 
             // 2) Aguarda fim da animação de ataque
             yield return new WaitForSeconds(attackDuration);
-
-            // 3) Desativa o hitbox
-            if (attackHitbox != null)
-                attackHitbox.SetActive(false);
-
+            
             state = State.Chasing;
         }
-
     }
 }
