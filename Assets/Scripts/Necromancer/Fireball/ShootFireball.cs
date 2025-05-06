@@ -36,7 +36,6 @@ namespace Necromancer.Fireball
             spawnPos.z = 0f;
             //singleFireballAudio.Play();
             GameObject fireball = Instantiate(singleFireballPrefab, spawnPos, rotation);
-    
             Animator fireballAnimator = fireball.GetComponent<Animator>();
             if (fireballAnimator is not null)
             {

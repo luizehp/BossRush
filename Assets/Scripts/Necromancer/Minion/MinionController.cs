@@ -1,70 +1,94 @@
 using System.Collections;
 using UnityEngine;
 
-public class MinionController : MonoBehaviour
+namespace Necromancer.Minion
 {
-    [Header("Configurações Gerais")]
-    public float speed = 2f;               // Velocidade de movimento
-    public float attackRange = 1.5f;       // Distância para iniciar o ataque
-    public float spawnDuration = 0.7f;     // Duração (s) da animação de spawn
-    public float attackDuration = 0.5f;    // Duração (s) da animação de ataque
-
-    private Transform player;
-    private Animator anim;
-
-    private enum State { Spawning, Chasing, Attacking }
-    private State state;
-
-    void Start()
+    public class MinionController : MonoBehaviour
     {
-        player = GameObject.FindGameObjectWithTag("Player")?.transform;
-        if (player == null)
-            Debug.LogError("MinionController: não encontrou objeto com tag 'Player'!");
+        [Header("Movimentação e Ataque")]
+        public float speed = 2f;
+        public float attackRange = 0.8f;
+        public float spawnDuration = 0.7f;
+        public float attackDuration = 0.5f;
+        public int damageAmount = 1;            // Quanto dano o minion causa
 
-        anim = GetComponent<Animator>();
-        if (anim == null)
-            Debug.LogError("MinionController: não encontrou Animator no Minion!");
+        [Header("Hitbox")]
+        [SerializeField] private GameObject attackHitbox; // Arraste aqui o filho AttackHitbox
 
-        state = State.Spawning;
-        StartCoroutine(DoSpawn());
-    }
+        private Transform playerPos;
+        private PlayerHealth playerHealth;
+        private Animator anim;
 
-    IEnumerator DoSpawn()
-    {
-        anim.Play("MinionSpawnDown");
-        yield return new WaitForSeconds(spawnDuration);
-        state = State.Chasing;
-    }
+        private enum State { Spawning, Chasing, Attacking }
+        private State state;
 
-    void Update()
-    {
-        if (state == State.Chasing && player != null)
-            Chase();
-    }
+        void Start()
+        {
+            // Busca o Player pela tag e pega seu PlayerHealth
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                playerPos = player.transform;
+                playerHealth = player.GetComponent<PlayerHealth>();
+                if (playerHealth == null)
+                    Debug.LogWarning("PlayerHealth não encontrado no Player!");
+            }
 
-    void Chase()
-    {
-        Vector3 dir = (player.position - transform.position);
-        float distance = dir.magnitude;
-        dir.Normalize();
+            anim = GetComponent<Animator>();
+            state = State.Spawning;
+            StartCoroutine(DoSpawn());
 
-        bool goingUp = player.position.y > transform.position.y + 0.1f;
-        anim.Play(goingUp ? "MinionRunUp" : "MinionRunDown");
+            // Garante que o hitbox começa desativado
+            if (attackHitbox != null)
+                attackHitbox.SetActive(false);
+        }
 
-        transform.position += dir * speed * Time.deltaTime;
+        IEnumerator DoSpawn()
+        {
+            anim.Play("MinionSpawnDown");
+            yield return new WaitForSeconds(spawnDuration);
+            state = State.Chasing;
+        }
 
-        if (distance <= attackRange && state != State.Attacking)
-            StartCoroutine(DoAttack());
-    }
+        void Update()
+        {
+            if (state == State.Chasing && playerPos != null)
+                Chase();
+        }
 
-    IEnumerator DoAttack()
-    {
-        state = State.Attacking;
+        void Chase()
+        {
+            Vector3 dir = (playerPos.position - transform.position).normalized;
+            bool goingUp = playerPos.position.y > transform.position.y + 0.1f;
+            anim.Play(goingUp ? "MinionRunUp" : "MinionRunDown");
+            transform.position += dir * (speed * Time.deltaTime);
 
-        bool goingUp = player.position.y > transform.position.y + 0.1f;
-        anim.Play(goingUp ? "MinionAttackUp" : "MinionAttackDown");
+            float distance = Vector3.Distance(transform.position, playerPos.position);
+            if (distance <= attackRange && state != State.Attacking)
+                StartCoroutine(DoAttack());
+        }
 
-        yield return new WaitForSeconds(attackDuration);
-        state = State.Chasing;
+        IEnumerator DoAttack()
+        {
+            state = State.Attacking;
+
+            // Dispara animação de ataque
+            bool goingUp = playerPos.position.y > transform.position.y + 0.1f;
+            anim.Play(goingUp ? "MinionAttackUp" : "MinionAttackDown");
+
+            // 1) Ativa o hitbox para causar trigger no PlayerHealth
+            if (attackHitbox != null)
+                attackHitbox.SetActive(true);
+
+            // 2) Aguarda fim da animação de ataque
+            yield return new WaitForSeconds(attackDuration);
+
+            // 3) Desativa o hitbox
+            if (attackHitbox != null)
+                attackHitbox.SetActive(false);
+
+            state = State.Chasing;
+        }
+
     }
 }
