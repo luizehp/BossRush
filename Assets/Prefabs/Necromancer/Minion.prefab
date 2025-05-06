@@ -129,8 +129,12 @@ MonoBehaviour:
   attackRange: 0.8
   spawnDuration: 0.7
   attackDuration: 0.5
+<<<<<<< Updated upstream
   damageAmount: 1
   attackHitbox: {fileID: 7377343731992020268}
+=======
+  towerSpawner: {fileID: 2000210681621995304, guid: 7ae52f2adf6f5554a94f392696fba174, type: 3}
+>>>>>>> Stashed changes
 --- !u!114 &1510165020527450942
 MonoBehaviour:
   m_ObjectHideFlags: 0

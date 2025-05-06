@@ -1,4 +1,5 @@
 using System.Collections;
+using Necromancer.Tower;
 using UnityEngine;
 
 namespace Necromancer.Minion
@@ -10,17 +11,14 @@ namespace Necromancer.Minion
         public float attackRange = 0.8f;
         public float spawnDuration = 0.7f;
         public float attackDuration = 0.5f;
-        public int damageAmount = 1;            // Quanto dano o minion causa
-
-        [Header("Hitbox")]
-        [SerializeField] private GameObject attackHitbox; // Arraste aqui o filho AttackHitbox
-
+        private GameObject towerSpawner;
         private Transform playerPos;
         private PlayerHealth playerHealth;
         private Animator anim;
 
         private enum State { Spawning, Chasing, Attacking }
         private State state;
+        private TowerSpawner towerSpawnerController;
 
         void Start()
         {
@@ -33,7 +31,8 @@ namespace Necromancer.Minion
                 if (playerHealth == null)
                     Debug.LogWarning("PlayerHealth não encontrado no Player!");
             }
-
+            towerSpawner = GameObject.FindWithTag("TowerSpawner");
+            towerSpawnerController = towerSpawner.GetComponent<TowerSpawner>();
             anim = GetComponent<Animator>();
             state = State.Spawning;
             StartCoroutine(DoSpawn());
@@ -52,8 +51,12 @@ namespace Necromancer.Minion
 
         void Update()
         {
-            if (state == State.Chasing && playerPos != null)
+            if (state == State.Chasing && playerPos is not null)
                 Chase();
+            if (towerSpawnerController.Ended)
+            {
+                anim.SetTrigger("Death");
+            }
         }
 
         void Chase()
