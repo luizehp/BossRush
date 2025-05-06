@@ -26,7 +26,6 @@ public class PortalTrigger : MonoBehaviour
 
     private IEnumerator FadeAndLoad()
     {
-        Debug.Log("Fade: " + fadeCanvas is null);
         fadeCanvas.gameObject.SetActive(true);
 
         float t = 0f;

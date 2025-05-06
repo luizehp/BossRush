@@ -33,7 +33,10 @@ public class PlayerHealth : MonoBehaviour
 
         if (!isInvincible && other.CompareTag("EnemyAttack"))
         {
-            TakeDamage(1);
+            if (otherIsTrigger || (selfIsTrigger && otherIsTrigger))
+            {
+                TakeDamage(1);
+            }
         }
     }
 

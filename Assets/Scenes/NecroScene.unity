@@ -3880,7 +3880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eaa5b26bc6276f45ba971ed7c7688c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minionPrefab: {fileID: 5346825790499720216, guid: 42513e850d5c9e840858b2e6b6497e62, type: 3}
+  minionPrefab: {fileID: 927032860901756231, guid: 42513e850d5c9e840858b2e6b6497e62, type: 3}
   spawnCount: 5
   spawnRadius: 5
 --- !u!114 &487016383
@@ -13697,6 +13697,10 @@ PrefabInstance:
       propertyPath: quantidade
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2000210681621995304, guid: 7ae52f2adf6f5554a94f392696fba174, type: 3}
+      propertyPath: collectable
+      value: 
+      objectReference: {fileID: 9034156157545166538, guid: 91bfb9dc3c506b146adb2b5ac5cffce2, type: 3}
     - target: {fileID: 2000210681621995304, guid: 7ae52f2adf6f5554a94f392696fba174, type: 3}
       propertyPath: necromancer
       value: 
