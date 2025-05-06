@@ -18,6 +18,13 @@ namespace Necromancer.Minion
         private enum State { Spawning, Chasing, Attacking }
         private State state;
 
+        [Header("Áudio de Morte")]
+        public AudioClip deathSFX;
+
+        [Header("Áudio de Ataque")]
+        public AudioClip attackSFX;
+                  
+
         void Start()
         {
             // Busca o Player pela tag e pega seu PlayerHealth
@@ -94,10 +101,20 @@ namespace Necromancer.Minion
                 anim.SetTrigger("attackDown");
             }
 
+            if (attackSFX != null)
+                AudioSource.PlayClipAtPoint(attackSFX, transform.position, 1f);
+
             // 2) Aguarda fim da animação de ataque
             yield return new WaitForSeconds(attackDuration);
             
             state = State.Chasing;
         }
+
+        void OnDestroy()
+        {
+            if (deathSFX != null)
+                AudioSource.PlayClipAtPoint(deathSFX, transform.position, 1f);
+        }
+
     }
 }
