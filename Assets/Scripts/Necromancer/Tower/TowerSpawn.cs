@@ -14,7 +14,7 @@ namespace Necromancer.Tower
         public Transform mainCamera;
         public float duracaoTransicao = 2f;
 
-        private List<GameObject> instancias = new();
+        public List<GameObject> instancias = new();
         private bool todasDestruidas = false;
         private Animator playerAnimator;
         private Rigidbody2D rb;
