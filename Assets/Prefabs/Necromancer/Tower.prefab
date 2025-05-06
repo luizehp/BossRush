@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 5
-  maxHealth: 5
+  maxHealth: 20
   invincibilityDuration: 1
   flashInterval: 0.1
 --- !u!70 &5142253022683957484
