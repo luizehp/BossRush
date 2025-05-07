@@ -1,4 +1,5 @@
 using System.Collections;
+using Necromancer.Tower;
 using UnityEngine;
 
 namespace Necromancer.Minion
@@ -10,20 +11,14 @@ namespace Necromancer.Minion
         public float attackRange = 0.8f;
         public float spawnDuration = 0.7f;
         public float attackDuration = 0.5f;
-        public int damageAmount = 1;            // Quanto dano o minion causa
+        private GameObject towerSpawner;
         private Transform playerPos;
         private PlayerHealth playerHealth;
         private Animator anim;
 
         private enum State { Spawning, Chasing, Attacking }
         private State state;
-
-        [Header("Áudio de Morte")]
-        public AudioClip deathSFX;
-
-        [Header("Áudio de Ataque")]
-        public AudioClip attackSFX;
-                  
+        private TowerSpawner towerSpawnerController;
 
         void Start()
         {
@@ -34,7 +29,8 @@ namespace Necromancer.Minion
                 playerPos = player.transform;
                 playerHealth = player.GetComponent<PlayerHealth>();
             }
-
+            towerSpawner = GameObject.FindWithTag("TowerSpawner");
+            towerSpawnerController = towerSpawner.GetComponent<TowerSpawner>();
             anim = GetComponent<Animator>();
             state = State.Spawning;
             StartCoroutine(DoSpawn());
@@ -42,29 +38,34 @@ namespace Necromancer.Minion
 
         IEnumerator DoSpawn()
         {
-            Vector3 dir = (playerPos.position - transform.position).normalized;
-            bool goingUp = playerPos.position.y > transform.position.y + 0.1f;
-            if (goingUp)
-            {
-            }
-            else
-            {
-                anim.SetTrigger("spawnDown");
-            }
             yield return new WaitForSeconds(spawnDuration);
             state = State.Chasing;
         }
 
         void Update()
         {
-            if (state == State.Chasing && playerPos != null)
+            if (state == State.Chasing && playerPos is not null)
                 Chase();
+            if (towerSpawnerController.Ended)
+            {
+                anim.SetTrigger("Death");
+            }
         }
 
         void Chase()
         {
             Vector3 dir = (playerPos.position - transform.position).normalized;
             bool goingUp = playerPos.position.y > transform.position.y + 0.1f;
+            if (goingUp)
+            {
+                anim.SetBool("chaseDown", false);
+                anim.SetBool("chaseUp", true);
+            }
+            else
+            {
+                anim.SetBool("chaseUp", false);
+                anim.SetBool("chaseDown", true);
+            }
             if (goingUp)
             {
                 anim.SetBool("chaseDown", false);
@@ -82,7 +83,11 @@ namespace Necromancer.Minion
             {
                 anim.SetBool("chaseDown", false);
                 anim.SetBool("chaseUp", false);
-                StartCoroutine(DoAttack());
+                {
+                    anim.SetBool("chaseDown", false);
+                    anim.SetBool("chaseUp", false);
+                    StartCoroutine(DoAttack());
+                }
             }
         }
 
@@ -90,31 +95,27 @@ namespace Necromancer.Minion
         {
             state = State.Attacking;
 
-            // Dispara animação de ataque
             bool goingUp = playerPos.position.y > transform.position.y + 0.1f;
             if (goingUp)
             {
-                anim.SetTrigger("attackUp");
+                anim.SetBool("attackDown", false);
+                anim.SetBool("attackUp", true);
             }
             else
             {
-                anim.SetTrigger("attackDown");
+                anim.SetBool("attackUp", false);
+                anim.SetBool("attackDown", true);
             }
 
-            if (attackSFX != null)
-                AudioSource.PlayClipAtPoint(attackSFX, transform.position, 1f);
-
-            // 2) Aguarda fim da animação de ataque
             yield return new WaitForSeconds(attackDuration);
-            
+
+
             state = State.Chasing;
         }
 
-        void OnDestroy()
+        public void Destroy()
         {
-            if (deathSFX != null)
-                AudioSource.PlayClipAtPoint(deathSFX, transform.position, 1f);
+            Destroy(gameObject);
         }
-
     }
 }

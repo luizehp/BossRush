@@ -7,7 +7,7 @@ public class PlayerHealth : MonoBehaviour
     public int health = 5;
     public int maxHealth;
     public float invincibilityDuration = 1f;
-    private bool isInvincible = false;
+    public bool isInvincible = false;
 
     private SpriteRenderer spriteRenderer;
     private Animator animator;
@@ -31,13 +31,8 @@ public class PlayerHealth : MonoBehaviour
         bool selfIsTrigger = selfCollider.isTrigger;
         bool otherIsTrigger = other.isTrigger;
 
-        Debug.Log($"[TriggerCheck] Self: {selfIsTrigger}, Other: {otherIsTrigger}");
-
         if (!isInvincible && other.CompareTag("EnemyAttack"))
         {
-            // Dano só ocorre se:
-            // - ambos são trigger (ambos atacando)
-            // - ou só o inimigo (other) é trigger (inimigo atacando)
             if (otherIsTrigger || (selfIsTrigger && otherIsTrigger))
             {
                 TakeDamage(1);
