@@ -6,6 +6,7 @@ public class DemonAI : MonoBehaviour
     [Header("References")]
     public Transform player;
     private Animator animator;
+    private EnemyJumpAttack jumpAttack;
 
     [Header("Movement Settings")]
     public float speed = 3f;
@@ -23,37 +24,42 @@ public class DemonAI : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        jumpAttack = GetComponent<EnemyJumpAttack>();
     }
 
     void Update()
     {
+        if (jumpAttack != null && jumpAttack.IsJumping)
+            return; // Não faz nada se estiver pulando
+
         float dist = Vector2.Distance(transform.position, player.position);
+
+        // Trigger de teste: jogador aperta B e inimigo faz o pulo
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            Vector2 target = player.position;
+            jumpAttack.StartJump(target);
+            return;
+        }
 
         switch (currentState)
         {
             case State.Idle:
                 animator.SetBool("Walking", false);
                 if (dist <= chaseRadius)
-                {
                     currentState = State.Chase;
-                    // Debug.Log("Transition to Chase");
-                }
                 break;
 
             case State.Chase:
-                // Cancel any attack flag if somehow still set
                 animator.SetBool("Attacking", false);
-
                 if (dist > chaseRadius)
                 {
                     currentState = State.Idle;
-                    // Debug.Log("Transition to Idle");
                 }
                 else if (dist <= attackRadius && !isAttacking)
                 {
                     currentState = State.Attack;
                     StartCoroutine(PerformAttack());
-                    // Debug.Log("Transition to Attack");
                 }
                 else
                 {
@@ -62,7 +68,7 @@ public class DemonAI : MonoBehaviour
                 break;
 
             case State.Attack:
-                // Do nothing: the coroutine handles attack & recovery
+                // ataque controlado pela coroutine
                 break;
         }
     }
@@ -72,10 +78,7 @@ public class DemonAI : MonoBehaviour
         Vector2 currentPos = transform.position;
         Vector2 dir = ((Vector2)player.position - currentPos).normalized;
 
-        // Move
-        transform.position = Vector2.MoveTowards(currentPos, (Vector2)player.position, speed * Time.deltaTime);
-
-        // Animate
+        transform.position = Vector2.MoveTowards(currentPos, player.position, speed * Time.deltaTime);
         animator.SetFloat("x", dir.x);
         animator.SetFloat("y", dir.y);
         animator.SetBool("Walking", true);
@@ -85,26 +88,20 @@ public class DemonAI : MonoBehaviour
     {
         isAttacking = true;
 
-        // Face the player when starting the attack
         Vector2 dir = ((Vector2)player.position - (Vector2)transform.position).normalized;
         animator.SetFloat("x", dir.x);
         animator.SetFloat("y", dir.y);
 
-        // Play attack
         animator.SetBool("Walking", false);
         animator.SetBool("Attacking", true);
 
         yield return new WaitForSeconds(attackDuration);
 
-        // End attack animation
         animator.SetBool("Attacking", false);
 
-        // Recovery delay
         yield return new WaitForSeconds(recoveryDuration);
 
-        // Resume chasing
         isAttacking = false;
         currentState = State.Chase;
-        // Debug.Log("Attack complete, back to Chase");
     }
 }

@@ -6,7 +6,7 @@ public class DemonFB : MonoBehaviour
     public Transform FBPos;      // spawn point
 
     // how often to fire the volley
-    public float volleyCooldown = 4f;
+    public float volleyCooldown = 6f;
     private float timer = 0f;
 
     public float[] extraDelays = new float[] { 0f, 0.3f, 0.6f };

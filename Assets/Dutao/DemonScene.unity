@@ -2658,6 +2658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15af61534e195034ca2370182693c1da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 5
   maxHealth: 5
   invincibilityDuration: 1
 --- !u!1 &291289101
@@ -5424,7 +5425,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1976313369}
-  - component: {fileID: 1976313373}
   - component: {fileID: 1976313375}
   - component: {fileID: 1976313374}
   - component: {fileID: 1976313368}
@@ -5577,18 +5577,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1976313373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1976313365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd3285b931bc46b44a232adb7b3d7f4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1976313374
 MonoBehaviour:
   m_ObjectHideFlags: 0
