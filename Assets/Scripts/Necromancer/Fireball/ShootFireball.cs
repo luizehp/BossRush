@@ -11,6 +11,7 @@ namespace Necromancer.Fireball
         public Transform multiFireSpawn;
         public Animator animator;
         public int intervalo = 20;
+        public Transform player;
 
         [Header("Áudio")]
         public AudioClip singleFireSFX;
@@ -32,13 +33,18 @@ namespace Necromancer.Fireball
 
         public void ShootOneFireball()
         {
-            Quaternion rotation = Quaternion.Euler(0, 0, 0);
             Vector3 spawnPos = multiFireSpawn.position;
-            spawnPos.z = 0f;
+            Vector3 direction = player.position - spawnPos;
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90f;
+            print(angle);
+            Quaternion rotation = Quaternion.Euler(0, 0, angle);
+
             GameObject fireball = Instantiate(singleFireballPrefab, spawnPos, rotation);
+    
             Animator fireballAnimator = fireball.GetComponent<Animator>();
             if (fireballAnimator != null)
                 fireballAnimator.SetTrigger("SingleCall");
+    
             if (singleFireSFX != null)
                 AudioSource.PlayClipAtPoint(singleFireSFX, spawnPos, audioVolume);
         }
