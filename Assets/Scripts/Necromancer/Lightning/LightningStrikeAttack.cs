@@ -5,6 +5,10 @@ namespace Necromancer.Lightning
 {
     public class LightningStrikeAttack : MonoBehaviour
     {
+        [Header("Áudio")]
+        public AudioClip thunderAttackClip;   // arraste aqui seu ThunderAttack.wav
+        private AudioSource audioSrc;
+
         private enum State { Idle, CastingShadow, LockingPosition, Striking, Recovering }
         private State currentState = State.Idle;
         public Animator animator;
@@ -23,6 +27,10 @@ namespace Necromancer.Lightning
         {
             currentState = State.Idle;
             player = GameObject.FindWithTag("Player");
+
+            audioSrc = GetComponent<AudioSource>();
+            if (audioSrc == null)
+                Debug.LogError("LightningStrikeAttack precisa de um AudioSource!");
         }
 
         void Update()
@@ -60,6 +68,9 @@ namespace Necromancer.Lightning
 
                 lightning = Instantiate(lightningPrefab, lockedPosition, Quaternion.identity);
                 lightningAnimator.SetTrigger("LightBolt");
+
+                if (thunderAttackClip != null && audioSrc != null)
+                    audioSrc.PlayOneShot(thunderAttackClip);
             }
 
             else if (currentState == State.Striking)

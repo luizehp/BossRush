@@ -28,8 +28,6 @@ namespace Necromancer.Minion
             {
                 playerPos = player.transform;
                 playerHealth = player.GetComponent<PlayerHealth>();
-                if (playerHealth == null)
-                    Debug.LogWarning("PlayerHealth não encontrado no Player!");
             }
             towerSpawner = GameObject.FindWithTag("TowerSpawner");
             towerSpawnerController = towerSpawner.GetComponent<TowerSpawner>();
@@ -68,6 +66,16 @@ namespace Necromancer.Minion
                 anim.SetBool("chaseUp", false);
                 anim.SetBool("chaseDown", true);
             }
+            if (goingUp)
+            {
+                anim.SetBool("chaseDown", false);
+                anim.SetBool("chaseUp", true);
+            }
+            else
+            {
+                anim.SetBool("chaseUp", false);
+                anim.SetBool("chaseDown", true);
+            }
             transform.position += dir * (speed * Time.deltaTime);
 
             float distance = Vector3.Distance(transform.position, playerPos.position);
@@ -75,7 +83,11 @@ namespace Necromancer.Minion
             {
                 anim.SetBool("chaseDown", false);
                 anim.SetBool("chaseUp", false);
-                StartCoroutine(DoAttack());
+                {
+                    anim.SetBool("chaseDown", false);
+                    anim.SetBool("chaseUp", false);
+                    StartCoroutine(DoAttack());
+                }
             }
         }
 
@@ -94,9 +106,9 @@ namespace Necromancer.Minion
                 anim.SetBool("attackUp", false);
                 anim.SetBool("attackDown", true);
             }
-            
+
             yield return new WaitForSeconds(attackDuration);
-            
+
 
             state = State.Chasing;
         }

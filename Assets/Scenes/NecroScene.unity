@@ -3656,6 +3656,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3027725913440923397, guid: 4cc1963e8a9afd743a64d20610709399, type: 3}
+      propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6227492744186992220, guid: 4cc1963e8a9afd743a64d20610709399, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.24
@@ -3712,6 +3716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7867525773751831074, guid: 4cc1963e8a9afd743a64d20610709399, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3732,6 +3740,10 @@ GameObject:
   - component: {fileID: 487016381}
   - component: {fileID: 487016382}
   - component: {fileID: 487016383}
+  - component: {fileID: 487016384}
+  - component: {fileID: 487016385}
+  - component: {fileID: 487016387}
+  - component: {fileID: 487016386}
   m_Layer: 0
   m_Name: Necromancer
   m_TagString: Untagged
@@ -3757,6 +3769,9 @@ MonoBehaviour:
   multiFireSpawn: {fileID: 30112344}
   animator: {fileID: 487016378}
   intervalo: 12
+  singleFireSFX: {fileID: 8300000, guid: 2b08c4801ce9cb5478c17ffc12090b92, type: 3}
+  burstFireSFX: {fileID: 8300000, guid: 897d0a1c9f0c0f44e97cd38cc94a1004, type: 3}
+  audioVolume: 1
 --- !u!95 &487016378
 Animator:
   serializedVersion: 7
@@ -3863,6 +3878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccd7e817b4b1e4540b25cab425a4dee4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thunderAttackClip: {fileID: 8300000, guid: a30f9c3abe33588479f7fab5d6188315, type: 3}
   animator: {fileID: 487016378}
   lightningAnimator: {fileID: 1315774224987363933, guid: dc3a01c82f1a8794991789b9d3a68bce, type: 3}
   shadowPrefab: {fileID: 8792461686158674593, guid: c1d93169a77008a4683950fc17b94f37, type: 3}
@@ -3883,6 +3899,7 @@ MonoBehaviour:
   minionPrefab: {fileID: 927032860901756231, guid: 42513e850d5c9e840858b2e6b6497e62, type: 3}
   spawnCount: 5
   spawnRadius: 5
+  summonSFX: {fileID: 8300000, guid: 0adfbbcf1fd442f499e233bb08e1bf47, type: 3}
 --- !u!114 &487016383
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,155 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder3/Idle/Beholder3_Idle_full.png.meta
 guid: 3310bc5efec61f34b89c99c5cab76d4f
-=======
-guid: 9a3ff5f9f5425914480a65c84139930c
->>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder3/Idle/Beholder3_Idle_full.png.meta
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 2075397036755811584
-    second: Beholder3_Idle_full_0
-  - first:
-      213: 7555066521278608055
-    second: Beholder3_Idle_full_1
-  - first:
-      213: -5591435014144464984
-    second: Beholder3_Idle_full_2
-  - first:
-      213: -3870610030468647196
-    second: Beholder3_Idle_full_3
-  - first:
-      213: -8400221744696739833
-    second: Beholder3_Idle_full_4
-  - first:
-      213: 6509590203757482195
-    second: Beholder3_Idle_full_5
-  - first:
-      213: -3105750852980605616
-    second: Beholder3_Idle_full_6
-  - first:
-      213: 2777543192755698134
-    second: Beholder3_Idle_full_7
-  - first:
-      213: 1343865372563061917
-    second: Beholder3_Idle_full_8
-  - first:
-      213: -5909430802767853005
-    second: Beholder3_Idle_full_9
-  - first:
-      213: -4096936818850162428
-    second: Beholder3_Idle_full_10
-  - first:
-      213: 8132454991836938984
-    second: Beholder3_Idle_full_11
-  - first:
-      213: -5652180111520531462
-    second: Beholder3_Idle_full_12
-  - first:
-      213: 4673317837936162247
-    second: Beholder3_Idle_full_13
-  - first:
-      213: -8592431230362211958
-    second: Beholder3_Idle_full_14
-  - first:
-      213: -6141537343325092209
-    second: Beholder3_Idle_full_15
-  - first:
-      213: -2611032725319694875
-    second: Beholder3_Idle_full_16
-  - first:
-      213: -8314726931600060418
-    second: Beholder3_Idle_full_17
-  - first:
-      213: 2475060425921702204
-    second: Beholder3_Idle_full_18
-  - first:
-      213: 2513879570438368100
-    second: Beholder3_Idle_full_19
-  - first:
-      213: -8918045416096277665
-    second: Beholder3_Idle_full_20
-  - first:
-      213: 8667287966521779958
-    second: Beholder3_Idle_full_21
-  - first:
-      213: 6175422302090396860
-    second: Beholder3_Idle_full_22
-  - first:
-      213: -2266825666747217232
-    second: Beholder3_Idle_full_23
-  - first:
-      213: 4751770621590040579
-    second: Beholder3_Idle_full_24
-  - first:
-      213: 7762866312315958522
-    second: Beholder3_Idle_full_25
-  - first:
-      213: -4756450556838919231
-    second: Beholder3_Idle_full_26
-  - first:
-      213: -7089041088705582033
-    second: Beholder3_Idle_full_27
-  - first:
-      213: 7938179296567792246
-    second: Beholder3_Idle_full_28
-  - first:
-      213: 4502128492965807991
-    second: Beholder3_Idle_full_29
-  - first:
-      213: -9094357821810959677
-    second: Beholder3_Idle_full_30
-  - first:
-      213: 4499023810496634141
-    second: Beholder3_Idle_full_31
-  - first:
-      213: 5501407910308044803
-    second: Beholder3_Idle_full_32
-  - first:
-      213: -7818250352147279559
-    second: Beholder3_Idle_full_33
-  - first:
-      213: 3650060325238263275
-    second: Beholder3_Idle_full_34
-  - first:
-      213: -6053510883831209966
-    second: Beholder3_Idle_full_35
-  - first:
-      213: -773392046896533099
-    second: Beholder3_Idle_full_36
-  - first:
-      213: -4925524116408049769
-    second: Beholder3_Idle_full_37
-  - first:
-      213: 5274447848861916117
-    second: Beholder3_Idle_full_38
-  - first:
-      213: -2275454022499883300
-    second: Beholder3_Idle_full_39
-  - first:
-      213: -8962880583843257410
-    second: Beholder3_Idle_full_40
-  - first:
-      213: 8747480934345413297
-    second: Beholder3_Idle_full_41
-  - first:
-      213: -3421335222404348729
-    second: Beholder3_Idle_full_42
-  - first:
-      213: 4547938771918569458
-    second: Beholder3_Idle_full_43
-  - first:
-      213: -1082424018849101479
-    second: Beholder3_Idle_full_44
-  - first:
-      213: 656119991161559026
-    second: Beholder3_Idle_full_45
-  - first:
-      213: 2925994012840872176
-    second: Beholder3_Idle_full_46
-  - first:
-      213: 5610643707068814914
-    second: Beholder3_Idle_full_47
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -187,7 +39,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -211,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -233,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -246,7 +98,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -254,22 +106,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder3/Idle/Beholder3_Idle_full.png.meta
-=======
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
->>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder3/Idle/Beholder3_Idle_full.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -277,20 +113,20 @@ TextureImporter:
       name: Beholder3_Idle_full_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 194
-        width: 60
-        height: 61
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00d7ab7eb9a4dcc10800000000000000
-      internalID: 2075397036755811584
+      spriteID: c76e68ea1fb6f0a45b545da486ee1b06
+      internalID: -1996800044
       vertices: []
       indices: 
       edges: []
@@ -299,20 +135,20 @@ TextureImporter:
       name: Beholder3_Idle_full_1
       rect:
         serializedVersion: 2
-        x: 68
-        y: 194
-        width: 60
-        height: 61
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7b2f14ff8fcf8d860800000000000000
-      internalID: 7555066521278608055
+      spriteID: 11efa075f19647549aa7e23045495aae
+      internalID: 970117507
       vertices: []
       indices: 
       edges: []
@@ -321,20 +157,20 @@ TextureImporter:
       name: Beholder3_Idle_full_2
       rect:
         serializedVersion: 2
-        x: 131
-        y: 194
-        width: 59
-        height: 60
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8a7ec35ba7b3762b0800000000000000
-      internalID: -5591435014144464984
+      spriteID: 06420d2bf0d5ed9428fbd2aab7013fd3
+      internalID: -31158442
       vertices: []
       indices: 
       edges: []
@@ -343,20 +179,20 @@ TextureImporter:
       name: Beholder3_Idle_full_3
       rect:
         serializedVersion: 2
-        x: 194
-        y: 193
-        width: 60
-        height: 62
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4e63ad54fa4d84ac0800000000000000
-      internalID: -3870610030468647196
+      spriteID: 7df7d98032b62024fb57edb295cb1b1f
+      internalID: -143544590
       vertices: []
       indices: 
       edges: []
@@ -366,19 +202,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 193
-        width: 61
-        height: 62
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 708b6d854da6c6b80800000000000000
-      internalID: -8400221744696739833
+      spriteID: b1d00ad6b32fc0f42969862cc7528928
+      internalID: 1620087090
       vertices: []
       indices: 
       edges: []
@@ -387,20 +223,20 @@ TextureImporter:
       name: Beholder3_Idle_full_5
       rect:
         serializedVersion: 2
-        x: 323
-        y: 193
-        width: 58
-        height: 63
+        x: 320
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3d0d3501dc5b65a50800000000000000
-      internalID: 6509590203757482195
+      spriteID: def45b6ec55e94a4ea27105cb3115f26
+      internalID: -768346296
       vertices: []
       indices: 
       edges: []
@@ -409,20 +245,20 @@ TextureImporter:
       name: Beholder3_Idle_full_6
       rect:
         serializedVersion: 2
-        x: 386
-        y: 194
-        width: 60
-        height: 61
+        x: 384
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 05d793fdd0826e4d0800000000000000
-      internalID: -3105750852980605616
+      spriteID: 3572806e89b14f04eb5575ee13c8aa5c
+      internalID: 1849582856
       vertices: []
       indices: 
       edges: []
@@ -431,20 +267,20 @@ TextureImporter:
       name: Beholder3_Idle_full_7
       rect:
         serializedVersion: 2
-        x: 452
-        y: 194
-        width: 60
-        height: 61
+        x: 448
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6d9f18851d0db8620800000000000000
-      internalID: 2777543192755698134
+      spriteID: e86e95a04c4ec2d4f89e88701e02aaff
+      internalID: 1220994400
       vertices: []
       indices: 
       edges: []
@@ -453,20 +289,20 @@ TextureImporter:
       name: Beholder3_Idle_full_8
       rect:
         serializedVersion: 2
-        x: 515
-        y: 194
-        width: 59
-        height: 60
+        x: 512
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d9cb19daf6e56a210800000000000000
-      internalID: 1343865372563061917
+      spriteID: 7855d78a7590e6a4a9a6c49499580944
+      internalID: 674119127
       vertices: []
       indices: 
       edges: []
@@ -475,20 +311,20 @@ TextureImporter:
       name: Beholder3_Idle_full_9
       rect:
         serializedVersion: 2
-        x: 578
-        y: 193
-        width: 60
-        height: 62
+        x: 576
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 33a45409efb7dfda0800000000000000
-      internalID: -5909430802767853005
+      spriteID: 05a763d3cb9e75946b78ff85c58e8012
+      internalID: 1647813086
       vertices: []
       indices: 
       edges: []
@@ -498,19 +334,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 640
-        y: 193
-        width: 61
-        height: 62
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 40997357ba1c427c0800000000000000
-      internalID: -4096936818850162428
+      spriteID: b2e9d03bb4155f54cb60a3cc45824a72
+      internalID: 316601948
       vertices: []
       indices: 
       edges: []
@@ -519,20 +355,20 @@ TextureImporter:
       name: Beholder3_Idle_full_11
       rect:
         serializedVersion: 2
-        x: 707
-        y: 193
-        width: 58
-        height: 63
+        x: 704
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8e20b4c3ab84cd070800000000000000
-      internalID: 8132454991836938984
+      spriteID: 66434e2937fdb674e8f29aec928cf614
+      internalID: 1460453858
       vertices: []
       indices: 
       edges: []
@@ -541,20 +377,20 @@ TextureImporter:
       name: Beholder3_Idle_full_12
       rect:
         serializedVersion: 2
-        x: 3
-        y: 130
-        width: 60
-        height: 61
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: afb7a46922c6f81b0800000000000000
-      internalID: -5652180111520531462
+      spriteID: 776e7dab8227951418bcc7454b64f115
+      internalID: 1250917690
       vertices: []
       indices: 
       edges: []
@@ -563,20 +399,20 @@ TextureImporter:
       name: Beholder3_Idle_full_13
       rect:
         serializedVersion: 2
-        x: 65
-        y: 130
-        width: 60
-        height: 61
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7c57ea430d5fad040800000000000000
-      internalID: 4673317837936162247
+      spriteID: 55c594ed3c1fd2442821bba0703f2e85
+      internalID: 691145551
       vertices: []
       indices: 
       edges: []
@@ -585,20 +421,20 @@ TextureImporter:
       name: Beholder3_Idle_full_14
       rect:
         serializedVersion: 2
-        x: 131
-        y: 130
-        width: 59
-        height: 60
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a89a945125d81c880800000000000000
-      internalID: -8592431230362211958
+      spriteID: 9e69b607eb825c9409a085bb3f2a1eef
+      internalID: 1281568384
       vertices: []
       indices: 
       edges: []
@@ -607,20 +443,20 @@ TextureImporter:
       name: Beholder3_Idle_full_15
       rect:
         serializedVersion: 2
-        x: 195
-        y: 129
-        width: 60
-        height: 62
+        x: 192
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f86cf445350e4caa0800000000000000
-      internalID: -6141537343325092209
+      spriteID: 4a6fc02b450355540be955b223f67c4b
+      internalID: -1569258046
       vertices: []
       indices: 
       edges: []
@@ -629,20 +465,20 @@ TextureImporter:
       name: Beholder3_Idle_full_16
       rect:
         serializedVersion: 2
-        x: 260
-        y: 129
-        width: 61
-        height: 62
+        x: 256
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5e54666f19fb3cbd0800000000000000
-      internalID: -2611032725319694875
+      spriteID: 7b253fbad3b94cd42b22e8dca490e88b
+      internalID: -1876287466
       vertices: []
       indices: 
       edges: []
@@ -651,20 +487,20 @@ TextureImporter:
       name: Beholder3_Idle_full_17
       rect:
         serializedVersion: 2
-        x: 324
-        y: 129
-        width: 58
-        height: 63
+        x: 320
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: effca95b8e72c9c80800000000000000
-      internalID: -8314726931600060418
+      spriteID: b749037cc9a58ac4694ad01074f43ebb
+      internalID: 1751894362
       vertices: []
       indices: 
       edges: []
@@ -673,20 +509,20 @@ TextureImporter:
       name: Beholder3_Idle_full_18
       rect:
         serializedVersion: 2
-        x: 387
-        y: 130
-        width: 60
-        height: 61
+        x: 384
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c39a0bc085e295220800000000000000
-      internalID: 2475060425921702204
+      spriteID: 1f23b14c6d19edc458d51ad7d640681c
+      internalID: -1117530609
       vertices: []
       indices: 
       edges: []
@@ -695,20 +531,20 @@ TextureImporter:
       name: Beholder3_Idle_full_19
       rect:
         serializedVersion: 2
-        x: 449
-        y: 130
-        width: 60
-        height: 61
+        x: 448
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 46b2714762813e220800000000000000
-      internalID: 2513879570438368100
+      spriteID: a4a988d293a0e3b44957517e897532f3
+      internalID: 1443621047
       vertices: []
       indices: 
       edges: []
@@ -717,20 +553,20 @@ TextureImporter:
       name: Beholder3_Idle_full_20
       rect:
         serializedVersion: 2
-        x: 515
-        y: 130
-        width: 59
-        height: 60
+        x: 512
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f5bd7c2a1fcbc3480800000000000000
-      internalID: -8918045416096277665
+      spriteID: 7eddbbb4287b90446ad9843a11bfe610
+      internalID: -1544806922
       vertices: []
       indices: 
       edges: []
@@ -739,20 +575,20 @@ TextureImporter:
       name: Beholder3_Idle_full_21
       rect:
         serializedVersion: 2
-        x: 579
-        y: 129
-        width: 60
-        height: 62
+        x: 576
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6f66c8afb74684870800000000000000
-      internalID: 8667287966521779958
+      spriteID: 12c50ba96892a8a42b073bb0207e1535
+      internalID: -1924327045
       vertices: []
       indices: 
       edges: []
@@ -761,20 +597,20 @@ TextureImporter:
       name: Beholder3_Idle_full_22
       rect:
         serializedVersion: 2
-        x: 644
-        y: 129
-        width: 61
-        height: 62
+        x: 640
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cb48f1e6dd183b550800000000000000
-      internalID: 6175422302090396860
+      spriteID: 9ef51fba89cb86f4782baede7de67516
+      internalID: 632095553
       vertices: []
       indices: 
       edges: []
@@ -783,20 +619,20 @@ TextureImporter:
       name: Beholder3_Idle_full_23
       rect:
         serializedVersion: 2
-        x: 708
-        y: 129
-        width: 58
-        height: 63
+        x: 704
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0ba4bc5f01e9a80e0800000000000000
-      internalID: -2266825666747217232
+      spriteID: 216105b3961489140924207f418f3b33
+      internalID: 141766879
       vertices: []
       indices: 
       edges: []
@@ -805,20 +641,20 @@ TextureImporter:
       name: Beholder3_Idle_full_24
       rect:
         serializedVersion: 2
-        x: 19
-        y: 66
-        width: 34
-        height: 57
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 300f202543ea1f140800000000000000
-      internalID: 4751770621590040579
+      spriteID: fb9bc20a1379c1041820cb10cf901bcc
+      internalID: 453595811
       vertices: []
       indices: 
       edges: []
@@ -827,20 +663,20 @@ TextureImporter:
       name: Beholder3_Idle_full_25
       rect:
         serializedVersion: 2
-        x: 83
-        y: 66
-        width: 36
-        height: 58
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: af4707818cd3bbb60800000000000000
-      internalID: 7762866312315958522
+      spriteID: 3cf64a2ab4ab8ac4b8404476e421edc4
+      internalID: 155448453
       vertices: []
       indices: 
       edges: []
@@ -849,20 +685,20 @@ TextureImporter:
       name: Beholder3_Idle_full_26
       rect:
         serializedVersion: 2
-        x: 147
-        y: 66
-        width: 34
-        height: 60
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1c348e75b61bdfdb0800000000000000
-      internalID: -4756450556838919231
+      spriteID: b60f09a5c16cd324fab13a6ae8f6a9db
+      internalID: 490828182
       vertices: []
       indices: 
       edges: []
@@ -871,20 +707,20 @@ TextureImporter:
       name: Beholder3_Idle_full_27
       rect:
         serializedVersion: 2
-        x: 211
-        y: 65
-        width: 34
-        height: 62
+        x: 192
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f2c2e8d60baae9d90800000000000000
-      internalID: -7089041088705582033
+      spriteID: 9b65a3e7b276edb48841387718e8971c
+      internalID: -1575320217
       vertices: []
       indices: 
       edges: []
@@ -893,20 +729,20 @@ TextureImporter:
       name: Beholder3_Idle_full_28
       rect:
         serializedVersion: 2
-        x: 275
-        y: 65
-        width: 33
-        height: 62
+        x: 256
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 672984f03041a2e60800000000000000
-      internalID: 7938179296567792246
+      spriteID: 676d1f3cc029eda49a01868e15191394
+      internalID: -629858218
       vertices: []
       indices: 
       edges: []
@@ -915,20 +751,20 @@ TextureImporter:
       name: Beholder3_Idle_full_29
       rect:
         serializedVersion: 2
-        x: 339
-        y: 66
-        width: 33
-        height: 59
+        x: 320
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7774464d206ca7e30800000000000000
-      internalID: 4502128492965807991
+      spriteID: b6978db44671a72428df736980e95595
+      internalID: -1534459103
       vertices: []
       indices: 
       edges: []
@@ -937,20 +773,20 @@ TextureImporter:
       name: Beholder3_Idle_full_30
       rect:
         serializedVersion: 2
-        x: 403
-        y: 66
-        width: 34
-        height: 57
+        x: 384
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3ca99aabeb95ac180800000000000000
-      internalID: -9094357821810959677
+      spriteID: 4794349ba3263d844bf2eec65744a79b
+      internalID: 2112138303
       vertices: []
       indices: 
       edges: []
@@ -959,20 +795,20 @@ TextureImporter:
       name: Beholder3_Idle_full_31
       rect:
         serializedVersion: 2
-        x: 467
-        y: 66
-        width: 36
-        height: 58
+        x: 448
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d1d1dac915ebf6e30800000000000000
-      internalID: 4499023810496634141
+      spriteID: 75e02b6d059a08047b275d7ac74faf7f
+      internalID: 1558600660
       vertices: []
       indices: 
       edges: []
@@ -981,20 +817,20 @@ TextureImporter:
       name: Beholder3_Idle_full_32
       rect:
         serializedVersion: 2
-        x: 531
-        y: 66
-        width: 34
-        height: 60
+        x: 512
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3006f62c85de85c40800000000000000
-      internalID: 5501407910308044803
+      spriteID: 42800ab7b771f8844a1f9fde3d10a153
+      internalID: 663454536
       vertices: []
       indices: 
       edges: []
@@ -1003,20 +839,20 @@ TextureImporter:
       name: Beholder3_Idle_full_33
       rect:
         serializedVersion: 2
-        x: 595
-        y: 65
-        width: 34
-        height: 62
+        x: 576
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 93150334abeff7390800000000000000
-      internalID: -7818250352147279559
+      spriteID: b338bdba37e9db049b60558385c80957
+      internalID: 1051843897
       vertices: []
       indices: 
       edges: []
@@ -1025,20 +861,20 @@ TextureImporter:
       name: Beholder3_Idle_full_34
       rect:
         serializedVersion: 2
-        x: 659
-        y: 65
-        width: 33
-        height: 62
+        x: 640
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bedc296e68e97a230800000000000000
-      internalID: 3650060325238263275
+      spriteID: 9dc52237ae1d54240869bce26058d4bf
+      internalID: 1438353089
       vertices: []
       indices: 
       edges: []
@@ -1047,20 +883,20 @@ TextureImporter:
       name: Beholder3_Idle_full_35
       rect:
         serializedVersion: 2
-        x: 723
-        y: 66
-        width: 33
-        height: 59
+        x: 704
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 210a74d8ceb9dfba0800000000000000
-      internalID: -6053510883831209966
+      spriteID: ada165fcd3569a04091724eb99c110bc
+      internalID: 1858624206
       vertices: []
       indices: 
       edges: []
@@ -1069,20 +905,20 @@ TextureImporter:
       name: Beholder3_Idle_full_36
       rect:
         serializedVersion: 2
-        x: 10
-        y: 2
-        width: 36
-        height: 59
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 591be9ce70c5445f0800000000000000
-      internalID: -773392046896533099
+      spriteID: ed662d4b11e287b47ad08104c605d62c
+      internalID: -667267920
       vertices: []
       indices: 
       edges: []
@@ -1091,20 +927,20 @@ TextureImporter:
       name: Beholder3_Idle_full_37
       rect:
         serializedVersion: 2
-        x: 76
-        y: 1
-        width: 34
-        height: 60
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 79fd0e4a9e505abb0800000000000000
-      internalID: -4925524116408049769
+      spriteID: 5874952eec849c643bb2808ca209aa5f
+      internalID: -962278758
       vertices: []
       indices: 
       edges: []
@@ -1113,20 +949,20 @@ TextureImporter:
       name: Beholder3_Idle_full_38
       rect:
         serializedVersion: 2
-        x: 139
-        y: 2
-        width: 37
-        height: 57
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5dbdcb19f5a923940800000000000000
-      internalID: 5274447848861916117
+      spriteID: 8924d1a766b37104f934eac12676c0f3
+      internalID: -780480793
       vertices: []
       indices: 
       edges: []
@@ -1135,20 +971,20 @@ TextureImporter:
       name: Beholder3_Idle_full_39
       rect:
         serializedVersion: 2
-        x: 202
-        y: 2
-        width: 40
-        height: 57
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cd629265f96fb60e0800000000000000
-      internalID: -2275454022499883300
+      spriteID: 9b3b3003b2c7b314c95224c5543523c8
+      internalID: 1938543783
       vertices: []
       indices: 
       edges: []
@@ -1157,20 +993,20 @@ TextureImporter:
       name: Beholder3_Idle_full_40
       rect:
         serializedVersion: 2
-        x: 264
-        y: 2
-        width: 41
-        height: 58
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eb3e6cba8937d9380800000000000000
-      internalID: -8962880583843257410
+      spriteID: 0f50535d1260fe449b39e28f43effcba
+      internalID: 503145888
       vertices: []
       indices: 
       edges: []
@@ -1179,20 +1015,20 @@ TextureImporter:
       name: Beholder3_Idle_full_41
       rect:
         serializedVersion: 2
-        x: 331
+        x: 320
         y: 0
-        width: 37
-        height: 62
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1b2192b409b456970800000000000000
-      internalID: 8747480934345413297
+      spriteID: 9bd3d6c6678a9084b88b7a8ff075c597
+      internalID: 1815601475
       vertices: []
       indices: 
       edges: []
@@ -1201,20 +1037,20 @@ TextureImporter:
       name: Beholder3_Idle_full_42
       rect:
         serializedVersion: 2
-        x: 394
-        y: 2
-        width: 36
-        height: 59
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7c48e030eb9f480d0800000000000000
-      internalID: -3421335222404348729
+      spriteID: 20bf506ae5d4fb248a0d8bfa2b844e6d
+      internalID: -275650146
       vertices: []
       indices: 
       edges: []
@@ -1223,20 +1059,20 @@ TextureImporter:
       name: Beholder3_Idle_full_43
       rect:
         serializedVersion: 2
-        x: 460
-        y: 1
-        width: 34
-        height: 60
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2ffbe6097368d1f30800000000000000
-      internalID: 4547938771918569458
+      spriteID: b7f9c49ac13cb5245a8a677f5e371667
+      internalID: 1865973279
       vertices: []
       indices: 
       edges: []
@@ -1245,20 +1081,20 @@ TextureImporter:
       name: Beholder3_Idle_full_44
       rect:
         serializedVersion: 2
-        x: 523
-        y: 2
-        width: 37
-        height: 57
+        x: 512
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 959062cf6157af0f0800000000000000
-      internalID: -1082424018849101479
+      spriteID: 8d214bf92bc80134ca65a0a7732e03ae
+      internalID: -689928031
       vertices: []
       indices: 
       edges: []
@@ -1267,20 +1103,20 @@ TextureImporter:
       name: Beholder3_Idle_full_45
       rect:
         serializedVersion: 2
-        x: 586
-        y: 2
-        width: 40
-        height: 57
+        x: 576
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2f7973bd7a10b1900800000000000000
-      internalID: 656119991161559026
+      spriteID: 4e62cedf04459b5459436a1156c45865
+      internalID: 447133944
       vertices: []
       indices: 
       edges: []
@@ -1289,20 +1125,20 @@ TextureImporter:
       name: Beholder3_Idle_full_46
       rect:
         serializedVersion: 2
-        x: 648
-        y: 2
-        width: 41
-        height: 58
+        x: 640
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0f8cc465d083b9820800000000000000
-      internalID: 2925994012840872176
+      spriteID: 6f776c4617e9ee24bab4e4922e5fb8d0
+      internalID: 868792362
       vertices: []
       indices: 
       edges: []
@@ -1311,20 +1147,20 @@ TextureImporter:
       name: Beholder3_Idle_full_47
       rect:
         serializedVersion: 2
-        x: 715
+        x: 704
         y: 0
-        width: 37
-        height: 62
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2461e11a9b20ddd40800000000000000
-      internalID: 5610643707068814914
+      spriteID: 2babed22d2fa6ce4fa92053af4cd0107
+      internalID: 1914518667
       vertices: []
       indices: 
       edges: []
@@ -1333,7 +1169,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7af65cc4579ee3a46b52ecae894ddf68
     internalID: 0
     vertices: []
     indices: 
@@ -1342,7 +1178,55 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Beholder3_Idle_full_0: -1996800044
+      Beholder3_Idle_full_1: 970117507
+      Beholder3_Idle_full_10: 316601948
+      Beholder3_Idle_full_11: 1460453858
+      Beholder3_Idle_full_12: 1250917690
+      Beholder3_Idle_full_13: 691145551
+      Beholder3_Idle_full_14: 1281568384
+      Beholder3_Idle_full_15: -1569258046
+      Beholder3_Idle_full_16: -1876287466
+      Beholder3_Idle_full_17: 1751894362
+      Beholder3_Idle_full_18: -1117530609
+      Beholder3_Idle_full_19: 1443621047
+      Beholder3_Idle_full_2: -31158442
+      Beholder3_Idle_full_20: -1544806922
+      Beholder3_Idle_full_21: -1924327045
+      Beholder3_Idle_full_22: 632095553
+      Beholder3_Idle_full_23: 141766879
+      Beholder3_Idle_full_24: 453595811
+      Beholder3_Idle_full_25: 155448453
+      Beholder3_Idle_full_26: 490828182
+      Beholder3_Idle_full_27: -1575320217
+      Beholder3_Idle_full_28: -629858218
+      Beholder3_Idle_full_29: -1534459103
+      Beholder3_Idle_full_3: -143544590
+      Beholder3_Idle_full_30: 2112138303
+      Beholder3_Idle_full_31: 1558600660
+      Beholder3_Idle_full_32: 663454536
+      Beholder3_Idle_full_33: 1051843897
+      Beholder3_Idle_full_34: 1438353089
+      Beholder3_Idle_full_35: 1858624206
+      Beholder3_Idle_full_36: -667267920
+      Beholder3_Idle_full_37: -962278758
+      Beholder3_Idle_full_38: -780480793
+      Beholder3_Idle_full_39: 1938543783
+      Beholder3_Idle_full_4: 1620087090
+      Beholder3_Idle_full_40: 503145888
+      Beholder3_Idle_full_41: 1815601475
+      Beholder3_Idle_full_42: -275650146
+      Beholder3_Idle_full_43: 1865973279
+      Beholder3_Idle_full_44: -689928031
+      Beholder3_Idle_full_45: 447133944
+      Beholder3_Idle_full_46: 868792362
+      Beholder3_Idle_full_47: 1914518667
+      Beholder3_Idle_full_5: -768346296
+      Beholder3_Idle_full_6: 1849582856
+      Beholder3_Idle_full_7: 1220994400
+      Beholder3_Idle_full_8: 674119127
+      Beholder3_Idle_full_9: 1647813086
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
