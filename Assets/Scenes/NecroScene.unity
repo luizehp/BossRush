@@ -3740,10 +3740,6 @@ GameObject:
   - component: {fileID: 487016381}
   - component: {fileID: 487016382}
   - component: {fileID: 487016383}
-  - component: {fileID: 487016384}
-  - component: {fileID: 487016385}
-  - component: {fileID: 487016387}
-  - component: {fileID: 487016386}
   m_Layer: 0
   m_Name: Necromancer
   m_TagString: Untagged
@@ -4118,10 +4114,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: e5de2f51a3d928941b86ae06ec662792, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7bf5166d4b42bde47b5a6958cde34960, type: 3}
+  m_Resource: {fileID: 8300000, guid: 7bf5166d4b42bde47b5a6958cde34960, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 1
   Mute: 0

@@ -29,8 +29,6 @@ namespace Necromancer.Lightning
             player = GameObject.FindWithTag("Player");
 
             audioSrc = GetComponent<AudioSource>();
-            if (audioSrc == null)
-                Debug.LogError("LightningStrikeAttack precisa de um AudioSource!");
         }
 
         void Update()
