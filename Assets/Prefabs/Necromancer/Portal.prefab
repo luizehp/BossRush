@@ -127,10 +127,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1284067662207716785}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e9972a95ed5d6648b0158a11f6300dc, type: 3}
+  m_Script: {fileID: 11500000, guid: 766952eabe422d3438d673f2098c8e0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: SampleScene
+  sceneToLoad: MainMenu
   delayBeforeLoad: 1.5
 --- !u!70 &8008515876541060360
 CapsuleCollider2D:

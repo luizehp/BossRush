@@ -20,6 +20,9 @@ namespace Necromancer.Minion
         private State state;
         private TowerSpawner towerSpawnerController;
 
+        [Header("Áudio de Ataque")]
+        public AudioClip attackSFX;
+
         void Start()
         {
             // Busca o Player pela tag e pega seu PlayerHealth
@@ -106,6 +109,9 @@ namespace Necromancer.Minion
                 anim.SetBool("attackUp", false);
                 anim.SetBool("attackDown", true);
             }
+
+            if (attackSFX != null)
+                AudioSource.PlayClipAtPoint(attackSFX, transform.position, 1f);
 
             yield return new WaitForSeconds(attackDuration);
 

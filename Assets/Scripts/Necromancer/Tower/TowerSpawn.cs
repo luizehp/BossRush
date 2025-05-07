@@ -17,7 +17,7 @@ namespace Necromancer.Tower
         public bool Ended;
         public GameObject collectable;
 
-        private List<GameObject> instancias = new();
+        public List<GameObject> instancias = new();
         private bool todasDestruidas = false;
         private Animator playerAnimator;
         private Rigidbody2D rb;
@@ -100,10 +100,10 @@ namespace Necromancer.Tower
             float safeDistance = 1.5f;
             float offsetY = 2f;
 
-            bool playerEstáPerto = Vector3.Distance(player.transform.position, centerPos) < safeDistance;
+            bool playerEstaPerto = Vector3.Distance(player.transform.position, centerPos) < safeDistance;
 
             Vector3 spawnPos;
-            if (playerEstáPerto)
+            if (playerEstaPerto)
             {
                 spawnPos = centerPos + new Vector3(0, offsetY, 0);
             }
