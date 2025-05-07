@@ -155,6 +155,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6623260149846432850, guid: 4cc1963e8a9afd743a64d20610709399, type: 3}
   m_PrefabInstance: {fileID: 479697281}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &197935133 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6227492744186992220, guid: 4cc1963e8a9afd743a64d20610709399, type: 3}
+  m_PrefabInstance: {fileID: 479697281}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &237308984
 GameObject:
   m_ObjectHideFlags: 0
@@ -3834,6 +3839,7 @@ MonoBehaviour:
   multiFireSpawn: {fileID: 30112344}
   animator: {fileID: 487016378}
   intervalo: 12
+  player: {fileID: 197935133}
   singleFireSFX: {fileID: 8300000, guid: 2b08c4801ce9cb5478c17ffc12090b92, type: 3}
   burstFireSFX: {fileID: 8300000, guid: 897d0a1c9f0c0f44e97cd38cc94a1004, type: 3}
   audioVolume: 1
