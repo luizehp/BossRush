@@ -1,10 +1,35 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/UI/Sliced Images/- 50%/- Resources/crystal.png.meta
 guid: ee32c9ca28a718e40a7e5793231f215c
+=======
+<<<<<<<< HEAD:Assets/VFX/smoke.png.meta
+guid: 183f1b04cddad9944abac78352a7c785
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9087577266532155448
+    second: smoke_0
+========
+guid: cd22146fa6d90d142be3f28223d6b822
+>>>>>>> a0b88deb1ca06ad006df7c27fd556fcbb24811d1
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 7479642271789056252
     second: crystal_0
+<<<<<<< HEAD
+========
+guid: 7ee894779a45d624999b860de8a54a6b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8288620156142017715
+    second: c_full_0
+>>>>>>>> a0b88deb1ca06ad006df7c27fd556fcbb24811d1:Assets/Sprites/UpcomingSprites/UI/Sliced Images/- 50%/- Window & Containers/c_full.png.meta
+=======
+>>>>>>>> a0b88deb1ca06ad006df7c27fd556fcbb24811d1:Assets/Sprites/UpcomingSprites/UI/Sliced Images/- 50%/- Resources/crystal.png.meta
+>>>>>>> a0b88deb1ca06ad006df7c27fd556fcbb24811d1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +151,40 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/UI/Sliced Images/- 50%/- Resources/crystal.png.meta
       name: crystal_0
+========
+      name: c_full_0
+>>>>>>>> a0b88deb1ca06ad006df7c27fd556fcbb24811d1:Assets/Sprites/UpcomingSprites/UI/Sliced Images/- 50%/- Window & Containers/c_full.png.meta
+=======
+<<<<<<<< HEAD:Assets/VFX/smoke.png.meta
+      name: smoke_0
+========
+      name: crystal_0
+>>>>>>>> a0b88deb1ca06ad006df7c27fd556fcbb24811d1:Assets/Sprites/UpcomingSprites/UI/Sliced Images/- 50%/- Resources/crystal.png.meta
+>>>>>>> a0b88deb1ca06ad006df7c27fd556fcbb24811d1
       rect:
         serializedVersion: 2
         x: 0
         y: 0
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/UI/Sliced Images/- 50%/- Resources/crystal.png.meta
         width: 89
         height: 140
+========
+        width: 1167
+        height: 757
+>>>>>>>> a0b88deb1ca06ad006df7c27fd556fcbb24811d1:Assets/Sprites/UpcomingSprites/UI/Sliced Images/- 50%/- Window & Containers/c_full.png.meta
+=======
+<<<<<<<< HEAD:Assets/VFX/smoke.png.meta
+        width: 512
+        height: 512
+========
+        width: 89
+        height: 140
+>>>>>>>> a0b88deb1ca06ad006df7c27fd556fcbb24811d1:Assets/Sprites/UpcomingSprites/UI/Sliced Images/- 50%/- Resources/crystal.png.meta
+>>>>>>> a0b88deb1ca06ad006df7c27fd556fcbb24811d1
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +193,23 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/UI/Sliced Images/- 50%/- Resources/crystal.png.meta
       spriteID: cf08bf074070dc760800000000000000
       internalID: 7479642271789056252
+========
+      spriteID: 3bcdcf4fd18170370800000000000000
+      internalID: 8288620156142017715
+>>>>>>>> a0b88deb1ca06ad006df7c27fd556fcbb24811d1:Assets/Sprites/UpcomingSprites/UI/Sliced Images/- 50%/- Window & Containers/c_full.png.meta
+=======
+<<<<<<<< HEAD:Assets/VFX/smoke.png.meta
+      spriteID: 8cf7f67cf9072e180800000000000000
+      internalID: -9087577266532155448
+========
+      spriteID: cf08bf074070dc760800000000000000
+      internalID: 7479642271789056252
+>>>>>>>> a0b88deb1ca06ad006df7c27fd556fcbb24811d1:Assets/Sprites/UpcomingSprites/UI/Sliced Images/- 50%/- Resources/crystal.png.meta
+>>>>>>> a0b88deb1ca06ad006df7c27fd556fcbb24811d1
       vertices: []
       indices: 
       edges: []

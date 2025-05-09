@@ -1,0 +1,337 @@
+fileFormatVersion: 2
+guid: 8a0ec5b2e45be004092d9c97c75a519a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4372454384059820879
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_0
+  - first:
+      213: 3222081645907666709
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_1
+  - first:
+      213: 8732819341918576302
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_2
+  - first:
+      213: -1507914946749811469
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_3
+  - first:
+      213: -1354612103337861078
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_4
+  - first:
+      213: -7336885026125759677
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_5
+  - first:
+      213: -4351340796494686756
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_6
+  - first:
+      213: 3419311251229736984
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_7
+  - first:
+      213: -289343927556295126
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_8
+  - first:
+      213: -6726182185852611531
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_9
+  - first:
+      213: -4394178313507500146
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_10
+  - first:
+      213: -5339040486655894995
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_11
+  - first:
+      213: -7932190397820717731
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_12
+  - first:
+      213: 8183602457085165892
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_13
+  - first:
+      213: 7124593134301641718
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_14
+  - first:
+      213: 1836626113055517404
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_15
+  - first:
+      213: 1422949931565162506
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_16
+  - first:
+      213: -8097890803730237918
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_17
+  - first:
+      213: 8762696944701853708
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_18
+  - first:
+      213: 4854420877274126802
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_19
+  - first:
+      213: -7667111643755263055
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_20
+  - first:
+      213: -2158378865051412111
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_21
+  - first:
+      213: -1789800754768407799
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_22
+  - first:
+      213: -692161539246489696
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_23
+  - first:
+      213: 6562831965401688988
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_24
+  - first:
+      213: 5285714814279450364
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_25
+  - first:
+      213: 4978343003094060557
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_26
+  - first:
+      213: 8265174489474332881
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_27
+  - first:
+      213: -4982346513733622995
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_28
+  - first:
+      213: -8567027598862938374
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_29
+  - first:
+      213: -70148919401040462
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_30
+  - first:
+      213: -4288399733363217784
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_31
+  - first:
+      213: 3788436594876806766
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_32
+  - first:
+      213: -2866148093642638770
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_33
+  - first:
+      213: 7598707284372461949
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_34
+  - first:
+      213: -4806793007724235126
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_35
+  - first:
+      213: -623199296962571722
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_36
+  - first:
+      213: -1547331247059619240
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_37
+  - first:
+      213: -8587339399105393535
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_38
+  - first:
+      213: -7201952828237237644
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_39
+  - first:
+      213: -728843740513711764
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_40
+  - first:
+      213: 5810303789179588526
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_41
+  - first:
+      213: -5571229458495647100
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_42
+  - first:
+      213: 4590784757547926170
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_43
+  - first:
+      213: 5515988462408387686
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_44
+  - first:
+      213: 707031147934279244
+    second: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 204
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e58747bd743d5b489855d0e1e7d0463
+      internalID: -656117181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 204
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44ae831e8f324a479e84f4e37f3283d
+      internalID: 248893360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 204
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea738b02e92d234b99425d4e54796c0
+      internalID: 723484159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 74541704ece44dd44b736bba38bf6af0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_0: -656117181
+      1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_1: 248893360
+      1601.m00.i104.n024.S.c12.286495379_Flame_with_smoke_animation_frames_in_pixel_art_style-removebg-preview_2: 723484159
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
