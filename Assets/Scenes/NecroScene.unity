@@ -4024,6 +4024,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8436253214498209573, guid: 4cc1963e8a9afd743a64d20610709399, type: 3}
+      propertyPath: isInvincible
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4345,7 +4349,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: a30f9c3abe33588479f7fab5d6188315, type: 3}
   m_Resource: {fileID: 8300000, guid: a30f9c3abe33588479f7fab5d6188315, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.704
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4442,7 +4446,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 2b08c4801ce9cb5478c17ffc12090b92, type: 3}
   m_Resource: {fileID: 8300000, guid: 2b08c4801ce9cb5478c17ffc12090b92, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.525
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4539,7 +4543,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 0adfbbcf1fd442f499e233bb08e1bf47, type: 3}
   m_Resource: {fileID: 8300000, guid: 0adfbbcf1fd442f499e233bb08e1bf47, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.494
   m_Pitch: 1
   Loop: 0
   Mute: 0
