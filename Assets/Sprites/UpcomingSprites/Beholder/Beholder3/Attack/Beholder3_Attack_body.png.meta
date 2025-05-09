@@ -1,158 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder3/Attack/Beholder3_Attack_body.png.meta
 guid: 8e7afc1b183c29e49b4baab417c10cd7
-=======
-guid: fe07d1c3097a57a4c9667849560c534b
->>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder3/Attack/Beholder3_Attack_body.png.meta
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -2620878605383122186
-    second: Beholder3_Attack_body_0
-  - first:
-      213: -4546913385100911749
-    second: Beholder3_Attack_body_1
-  - first:
-      213: 2391681079891038099
-    second: Beholder3_Attack_body_2
-  - first:
-      213: 3336716729939466416
-    second: Beholder3_Attack_body_3
-  - first:
-      213: 3617815129154431245
-    second: Beholder3_Attack_body_4
-  - first:
-      213: 3658413912678890895
-    second: Beholder3_Attack_body_5
-  - first:
-      213: -4477223299648399714
-    second: Beholder3_Attack_body_6
-  - first:
-      213: 6101523537493381489
-    second: Beholder3_Attack_body_7
-  - first:
-      213: 5614492890940747443
-    second: Beholder3_Attack_body_8
-  - first:
-      213: 3866866499472763599
-    second: Beholder3_Attack_body_9
-  - first:
-      213: -2358176504989783916
-    second: Beholder3_Attack_body_10
-  - first:
-      213: 4541465276115809035
-    second: Beholder3_Attack_body_11
-  - first:
-      213: 6667783357791127411
-    second: Beholder3_Attack_body_12
-  - first:
-      213: -4711608619151528297
-    second: Beholder3_Attack_body_13
-  - first:
-      213: -601215925908004211
-    second: Beholder3_Attack_body_14
-  - first:
-      213: 827423891606774468
-    second: Beholder3_Attack_body_15
-  - first:
-      213: -175836440777660855
-    second: Beholder3_Attack_body_16
-  - first:
-      213: 6112576038511879130
-    second: Beholder3_Attack_body_17
-  - first:
-      213: 2324133968874607742
-    second: Beholder3_Attack_body_18
-  - first:
-      213: 3247707174035792962
-    second: Beholder3_Attack_body_19
-  - first:
-      213: 8473452269216580725
-    second: Beholder3_Attack_body_20
-  - first:
-      213: -7570768522923746057
-    second: Beholder3_Attack_body_21
-  - first:
-      213: -630776767135891107
-    second: Beholder3_Attack_body_22
-  - first:
-      213: 6158406625485511418
-    second: Beholder3_Attack_body_23
-  - first:
-      213: -6960103510151205857
-    second: Beholder3_Attack_body_24
-  - first:
-      213: 5945200763995666865
-    second: Beholder3_Attack_body_25
-  - first:
-      213: 5359602694352433355
-    second: Beholder3_Attack_body_26
-  - first:
-      213: -3761536729532043863
-    second: Beholder3_Attack_body_27
-  - first:
-      213: -1781453784372845929
-    second: Beholder3_Attack_body_28
-  - first:
-      213: 5043369044662242021
-    second: Beholder3_Attack_body_29
-  - first:
-      213: 5442645047322509476
-    second: Beholder3_Attack_body_30
-  - first:
-      213: -5671224141417422642
-    second: Beholder3_Attack_body_31
-  - first:
-      213: 7109444605614135930
-    second: Beholder3_Attack_body_32
-  - first:
-      213: 8746661615171684409
-    second: Beholder3_Attack_body_33
-  - first:
-      213: -2322181874151106543
-    second: Beholder3_Attack_body_34
-  - first:
-      213: -2954893305756101713
-    second: Beholder3_Attack_body_35
-  - first:
-      213: -984004973261361938
-    second: Beholder3_Attack_body_36
-  - first:
-      213: 3422426524103523187
-    second: Beholder3_Attack_body_37
-  - first:
-      213: -872840437188136911
-    second: Beholder3_Attack_body_38
-  - first:
-      213: -4844294652876960677
-    second: Beholder3_Attack_body_39
-  - first:
-      213: 2201998209437476101
-    second: Beholder3_Attack_body_40
-  - first:
-      213: -4528818027978325266
-    second: Beholder3_Attack_body_41
-  - first:
-      213: -2156075989883378819
-    second: Beholder3_Attack_body_42
-  - first:
-      213: -3088888862633574363
-    second: Beholder3_Attack_body_43
-  - first:
-      213: 621113739058245368
-    second: Beholder3_Attack_body_44
-  - first:
-      213: 8084912886729915660
-    second: Beholder3_Attack_body_45
-  - first:
-      213: -6268364963220520840
-    second: Beholder3_Attack_body_46
-  - first:
-      213: 4990233940791703338
-    second: Beholder3_Attack_body_47
-  - first:
-      213: 4498518308879549847
-    second: Beholder3_Attack_body_48
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -185,12 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -214,16 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -236,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -249,7 +98,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -257,22 +106,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD:Assets/Sprites/UpcomingSprites/Beholder/PNG/Beholder3/Attack/Beholder3_Attack_body.png.meta
-=======
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
->>>>>>> 733af38e18cdf928625af39fa95e6d852a8c540c:Assets/Sprites/UpcomingSprites/Beholder/Beholder3/Attack/Beholder3_Attack_body.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -280,20 +113,20 @@ TextureImporter:
       name: Beholder3_Attack_body_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 198
-        width: 60
-        height: 57
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6f2c7be5bc4c0abd0800000000000000
-      internalID: -2620878605383122186
+      spriteID: 145b952d236fac744a359b8fa277d3d9
+      internalID: 1915088193
       vertices: []
       indices: 
       edges: []
@@ -302,20 +135,20 @@ TextureImporter:
       name: Beholder3_Attack_body_1
       rect:
         serializedVersion: 2
-        x: 68
-        y: 199
-        width: 56
-        height: 54
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b7b5798ed5e16e0c0800000000000000
-      internalID: -4546913385100911749
+      spriteID: ed3542d639760ec4f9bdfa69035e25e0
+      internalID: -978874042
       vertices: []
       indices: 
       edges: []
@@ -324,20 +157,20 @@ TextureImporter:
       name: Beholder3_Attack_body_2
       rect:
         serializedVersion: 2
-        x: 131
-        y: 206
-        width: 58
-        height: 48
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 39f8dee3545f03120800000000000000
-      internalID: 2391681079891038099
+      spriteID: d791d2850a48bae45bb09ad7c2458bcf
+      internalID: 1633618684
       vertices: []
       indices: 
       edges: []
@@ -346,20 +179,20 @@ TextureImporter:
       name: Beholder3_Attack_body_3
       rect:
         serializedVersion: 2
-        x: 191
-        y: 203
-        width: 66
-        height: 50
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0b8152cef266e4e20800000000000000
-      internalID: 3336716729939466416
+      spriteID: a80776c86d7f3e944b9b17485cab9f8f
+      internalID: -314768523
       vertices: []
       indices: 
       edges: []
@@ -368,20 +201,20 @@ TextureImporter:
       name: Beholder3_Attack_body_4
       rect:
         serializedVersion: 2
-        x: 257
-        y: 201
+        x: 256
+        y: 192
         width: 64
-        height: 52
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d09a84421bf053230800000000000000
-      internalID: 3617815129154431245
+      spriteID: cca1273e68626d14296eed7d40e61697
+      internalID: 970243204
       vertices: []
       indices: 
       edges: []
@@ -390,20 +223,20 @@ TextureImporter:
       name: Beholder3_Attack_body_5
       rect:
         serializedVersion: 2
-        x: 323
-        y: 199
-        width: 59
-        height: 51
+        x: 320
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f8d729a021c45c230800000000000000
-      internalID: 3658413912678890895
+      spriteID: ed078794d70bdf94cbefe93a61a0a1a4
+      internalID: 156212593
       vertices: []
       indices: 
       edges: []
@@ -412,20 +245,20 @@ TextureImporter:
       name: Beholder3_Attack_body_6
       rect:
         serializedVersion: 2
-        x: 386
-        y: 196
-        width: 60
-        height: 51
+        x: 384
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e96da5c5125bdd1c0800000000000000
-      internalID: -4477223299648399714
+      spriteID: 98641579c069f754884f800148c7e562
+      internalID: -1151416243
       vertices: []
       indices: 
       edges: []
@@ -434,20 +267,20 @@ TextureImporter:
       name: Beholder3_Attack_body_7
       rect:
         serializedVersion: 2
-        x: 449
-        y: 198
-        width: 61
-        height: 51
+        x: 448
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1715af08457fca450800000000000000
-      internalID: 6101523537493381489
+      spriteID: 145e36995711fe54fbbbeef26b836458
+      internalID: -417824627
       vertices: []
       indices: 
       edges: []
@@ -456,20 +289,20 @@ TextureImporter:
       name: Beholder3_Attack_body_8
       rect:
         serializedVersion: 2
-        x: 516
-        y: 202
-        width: 58
-        height: 50
+        x: 512
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3beaa76998faaed40800000000000000
-      internalID: 5614492890940747443
+      spriteID: 38aa4f6f81391bc40b27ca9aa9c66aae
+      internalID: 2018728253
       vertices: []
       indices: 
       edges: []
@@ -478,20 +311,20 @@ TextureImporter:
       name: Beholder3_Attack_body_9
       rect:
         serializedVersion: 2
-        x: 580
-        y: 203
-        width: 59
-        height: 50
+        x: 576
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fcaaeeef79ed9a530800000000000000
-      internalID: 3866866499472763599
+      spriteID: 7e8503d93c2fe83408f51bfb94e2a697
+      internalID: -1951989135
       vertices: []
       indices: 
       edges: []
@@ -500,20 +333,20 @@ TextureImporter:
       name: Beholder3_Attack_body_10
       rect:
         serializedVersion: 2
-        x: 645
-        y: 202
-        width: 55
-        height: 51
+        x: 640
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 498696e76f2164fd0800000000000000
-      internalID: -2358176504989783916
+      spriteID: 73dad3a9a1a76f84b8ea46137162ff21
+      internalID: -201428215
       vertices: []
       indices: 
       edges: []
@@ -522,20 +355,20 @@ TextureImporter:
       name: Beholder3_Attack_body_11
       rect:
         serializedVersion: 2
-        x: 708
-        y: 199
-        width: 56
-        height: 54
+        x: 704
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b0377ae5b96860f30800000000000000
-      internalID: 4541465276115809035
+      spriteID: 81914bdb2a468b243a8542e10f17b9c0
+      internalID: -1107522867
       vertices: []
       indices: 
       edges: []
@@ -544,20 +377,20 @@ TextureImporter:
       name: Beholder3_Attack_body_12
       rect:
         serializedVersion: 2
-        x: 3
-        y: 134
-        width: 60
-        height: 57
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 377c660f2a9b88c50800000000000000
-      internalID: 6667783357791127411
+      spriteID: 1f07248f287890f4b82b3b551183fd78
+      internalID: -684141623
       vertices: []
       indices: 
       edges: []
@@ -566,20 +399,20 @@ TextureImporter:
       name: Beholder3_Attack_body_13
       rect:
         serializedVersion: 2
-        x: 69
-        y: 135
-        width: 56
-        height: 54
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 79eedce8ce00d9eb0800000000000000
-      internalID: -4711608619151528297
+      spriteID: 3941147b139692b4a9c936dcbe47600b
+      internalID: 1595122287
       vertices: []
       indices: 
       edges: []
@@ -588,20 +421,20 @@ TextureImporter:
       name: Beholder3_Attack_body_14
       rect:
         serializedVersion: 2
-        x: 132
-        y: 142
-        width: 58
-        height: 48
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d8222fefc4d08a7f0800000000000000
-      internalID: -601215925908004211
+      spriteID: ef7a980af60139f428607a5071db1213
+      internalID: -1785202660
       vertices: []
       indices: 
       edges: []
@@ -611,19 +444,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 139
-        width: 65
-        height: 50
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4c2a4e145a99b7b00800000000000000
-      internalID: 827423891606774468
+      spriteID: 1f3e5fdacb8cfc34482fa5262efaa04e
+      internalID: -1048193257
       vertices: []
       indices: 
       edges: []
@@ -633,19 +466,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 137
+        y: 128
         width: 64
-        height: 52
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 946e0e050bd4f8df0800000000000000
-      internalID: -175836440777660855
+      spriteID: 7dba4f4fd7f4b9d4189e96aba64d596c
+      internalID: 709710585
       vertices: []
       indices: 
       edges: []
@@ -654,20 +487,20 @@ TextureImporter:
       name: Beholder3_Attack_body_17
       rect:
         serializedVersion: 2
-        x: 323
-        y: 135
-        width: 59
-        height: 51
+        x: 320
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ad3a01e658b34d450800000000000000
-      internalID: 6112576038511879130
+      spriteID: e778d7222f23c314b8e663de23f5d37c
+      internalID: -1003109007
       vertices: []
       indices: 
       edges: []
@@ -676,20 +509,20 @@ TextureImporter:
       name: Beholder3_Attack_body_18
       rect:
         serializedVersion: 2
-        x: 387
-        y: 132
-        width: 60
-        height: 51
+        x: 384
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e749039e78bf04020800000000000000
-      internalID: 2324133968874607742
+      spriteID: 96239137e117da846b7a91a280b0a08f
+      internalID: -1282050899
       vertices: []
       indices: 
       edges: []
@@ -698,20 +531,20 @@ TextureImporter:
       name: Beholder3_Attack_body_19
       rect:
         serializedVersion: 2
-        x: 451
-        y: 134
-        width: 61
-        height: 51
+        x: 448
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 24424eab77c221d20800000000000000
-      internalID: 3247707174035792962
+      spriteID: 3f5598a839069db4983cba9a742c0f1f
+      internalID: 1708778270
       vertices: []
       indices: 
       edges: []
@@ -720,20 +553,20 @@ TextureImporter:
       name: Beholder3_Attack_body_20
       rect:
         serializedVersion: 2
-        x: 515
-        y: 138
-        width: 58
-        height: 50
+        x: 512
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 574c1efc1ffb79570800000000000000
-      internalID: 8473452269216580725
+      spriteID: 29dfe174a14c1114b9546cafdf664eab
+      internalID: 1266976082
       vertices: []
       indices: 
       edges: []
@@ -742,20 +575,20 @@ TextureImporter:
       name: Beholder3_Attack_body_21
       rect:
         serializedVersion: 2
-        x: 578
-        y: 139
-        width: 59
-        height: 50
+        x: 576
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7fcdb6ad32a3fe690800000000000000
-      internalID: -7570768522923746057
+      spriteID: 51c97edf36e754546b1b9ac815b63152
+      internalID: 1027595677
       vertices: []
       indices: 
       edges: []
@@ -764,20 +597,20 @@ TextureImporter:
       name: Beholder3_Attack_body_22
       rect:
         serializedVersion: 2
-        x: 645
-        y: 138
-        width: 55
-        height: 51
+        x: 640
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d51cb4e4fd70f37f0800000000000000
-      internalID: -630776767135891107
+      spriteID: 58e10a6614dba3d488201c6908c55875
+      internalID: 384033128
       vertices: []
       indices: 
       edges: []
@@ -786,20 +619,20 @@ TextureImporter:
       name: Beholder3_Attack_body_23
       rect:
         serializedVersion: 2
-        x: 709
-        y: 135
-        width: 56
-        height: 54
+        x: 704
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: afad97e723e077550800000000000000
-      internalID: 6158406625485511418
+      spriteID: 8501cc729ba33334a93ecda3f59d72e5
+      internalID: -1420525004
       vertices: []
       indices: 
       edges: []
@@ -808,20 +641,20 @@ TextureImporter:
       name: Beholder3_Attack_body_24
       rect:
         serializedVersion: 2
-        x: 19
-        y: 70
-        width: 34
-        height: 53
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f1cec75dbbeb86f90800000000000000
-      internalID: -6960103510151205857
+      spriteID: 5e3ffaf8f18e2104bb6193ae1f6e2522
+      internalID: -963724920
       vertices: []
       indices: 
       edges: []
@@ -830,20 +663,20 @@ TextureImporter:
       name: Beholder3_Attack_body_25
       rect:
         serializedVersion: 2
-        x: 85
-        y: 71
-        width: 33
-        height: 52
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1b9b7588898918250800000000000000
-      internalID: 5945200763995666865
+      spriteID: 4a11aad20a0648643a09dd4f98a84551
+      internalID: 1396998930
       vertices: []
       indices: 
       edges: []
@@ -852,20 +685,20 @@ TextureImporter:
       name: Beholder3_Attack_body_26
       rect:
         serializedVersion: 2
-        x: 151
-        y: 78
-        width: 32
-        height: 47
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bc07a1e0142216a40800000000000000
-      internalID: 5359602694352433355
+      spriteID: b45e9ed644add9a4fa7505ee2ae5bac5
+      internalID: -736820862
       vertices: []
       indices: 
       edges: []
@@ -874,20 +707,20 @@ TextureImporter:
       name: Beholder3_Attack_body_27
       rect:
         serializedVersion: 2
-        x: 211
-        y: 75
-        width: 40
-        height: 46
+        x: 192
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9ad68a226465ccbc0800000000000000
-      internalID: -3761536729532043863
+      spriteID: 8bbc7ba66fe144047a3b17debc64120d
+      internalID: -653785610
       vertices: []
       indices: 
       edges: []
@@ -896,20 +729,20 @@ TextureImporter:
       name: Beholder3_Attack_body_28
       rect:
         serializedVersion: 2
-        x: 275
-        y: 73
-        width: 40
-        height: 46
+        x: 256
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7926eaeb8310747e0800000000000000
-      internalID: -1781453784372845929
+      spriteID: 8f35b8bdd53448b4c924d3db9a08a768
+      internalID: -37972144
       vertices: []
       indices: 
       edges: []
@@ -918,20 +751,20 @@ TextureImporter:
       name: Beholder3_Attack_body_29
       rect:
         serializedVersion: 2
-        x: 339
-        y: 71
-        width: 36
-        height: 48
+        x: 320
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5ea4b4adc65adf540800000000000000
-      internalID: 5043369044662242021
+      spriteID: 1e14e3e36c9c15a43a77b8e1ff0affe2
+      internalID: -1222458525
       vertices: []
       indices: 
       edges: []
@@ -940,20 +773,20 @@ TextureImporter:
       name: Beholder3_Attack_body_30
       rect:
         serializedVersion: 2
-        x: 403
-        y: 68
-        width: 37
-        height: 51
+        x: 384
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4a0823c85d8288b40800000000000000
-      internalID: 5442645047322509476
+      spriteID: c6bffc385cad0224d86b1c53ca4a44d4
+      internalID: 1177102820
       vertices: []
       indices: 
       edges: []
@@ -962,20 +795,20 @@ TextureImporter:
       name: Beholder3_Attack_body_31
       rect:
         serializedVersion: 2
-        x: 467
-        y: 72
-        width: 37
-        height: 47
+        x: 448
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ec0e139d0b3cb41b0800000000000000
-      internalID: -5671224141417422642
+      spriteID: 478124baef1cf884aa4b604176c207b7
+      internalID: 1684425471
       vertices: []
       indices: 
       edges: []
@@ -984,20 +817,20 @@ TextureImporter:
       name: Beholder3_Attack_body_32
       rect:
         serializedVersion: 2
-        x: 531
-        y: 74
-        width: 37
-        height: 45
+        x: 512
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a7a92fb8332d9a260800000000000000
-      internalID: 7109444605614135930
+      spriteID: 5c1c30ac9f72b4047a7ac4090ead7848
+      internalID: -2074363181
       vertices: []
       indices: 
       edges: []
@@ -1006,20 +839,20 @@ TextureImporter:
       name: Beholder3_Attack_body_33
       rect:
         serializedVersion: 2
-        x: 595
-        y: 76
-        width: 38
-        height: 45
+        x: 576
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9384adea562626970800000000000000
-      internalID: 8746661615171684409
+      spriteID: d8c0ff7f8d103994abf65eb2552f2b56
+      internalID: -2024452082
       vertices: []
       indices: 
       edges: []
@@ -1028,20 +861,20 @@ TextureImporter:
       name: Beholder3_Attack_body_34
       rect:
         serializedVersion: 2
-        x: 659
-        y: 74
-        width: 35
-        height: 47
+        x: 640
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1185f5f83e3f5cfd0800000000000000
-      internalID: -2322181874151106543
+      spriteID: 358bfe991cf3d6d40a26f45099dfbd1d
+      internalID: 1251964255
       vertices: []
       indices: 
       edges: []
@@ -1050,20 +883,20 @@ TextureImporter:
       name: Beholder3_Attack_body_35
       rect:
         serializedVersion: 2
-        x: 723
-        y: 71
-        width: 35
-        height: 51
+        x: 704
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fa35a31b13c1ef6d0800000000000000
-      internalID: -2954893305756101713
+      spriteID: 5799b63ac94a21048bd972a64179c53e
+      internalID: 738608361
       vertices: []
       indices: 
       edges: []
@@ -1072,20 +905,20 @@ TextureImporter:
       name: Beholder3_Attack_body_36
       rect:
         serializedVersion: 2
-        x: 481
-        y: 70
-        width: 7
-        height: 7
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eece987b0bc1852f0800000000000000
-      internalID: -984004973261361938
+      spriteID: 25b1f7de808f4c2438709052f7fa4355
+      internalID: 1408734746
       vertices: []
       indices: 
       edges: []
@@ -1094,20 +927,20 @@ TextureImporter:
       name: Beholder3_Attack_body_37
       rect:
         serializedVersion: 2
-        x: 7
-        y: 6
-        width: 39
-        height: 56
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 37bb0177ac6ee7f20800000000000000
-      internalID: 3422426524103523187
+      spriteID: 222e5d5e1370d8d46bf02be719f768aa
+      internalID: -1263787788
       vertices: []
       indices: 
       edges: []
@@ -1116,20 +949,20 @@ TextureImporter:
       name: Beholder3_Attack_body_38
       rect:
         serializedVersion: 2
-        x: 73
-        y: 7
-        width: 35
-        height: 53
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 130fdc33f3c03e3f0800000000000000
-      internalID: -872840437188136911
+      spriteID: ac33d4137c3a00140998b68deaef3417
+      internalID: -1238008141
       vertices: []
       indices: 
       edges: []
@@ -1138,20 +971,20 @@ TextureImporter:
       name: Beholder3_Attack_body_39
       rect:
         serializedVersion: 2
-        x: 136
-        y: 15
-        width: 34
-        height: 46
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b5cc1fbedab95ccb0800000000000000
-      internalID: -4844294652876960677
+      spriteID: 5c3ac0df1f7f18844b1f14082de49995
+      internalID: -483467802
       vertices: []
       indices: 
       edges: []
@@ -1160,20 +993,20 @@ TextureImporter:
       name: Beholder3_Attack_body_40
       rect:
         serializedVersion: 2
-        x: 196
-        y: 12
-        width: 42
-        height: 48
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 505219d64b11f8e10800000000000000
-      internalID: 2201998209437476101
+      spriteID: 5a229553276aded41a84dcad4617a204
+      internalID: -1548789190
       vertices: []
       indices: 
       edges: []
@@ -1182,20 +1015,20 @@ TextureImporter:
       name: Beholder3_Attack_body_41
       rect:
         serializedVersion: 2
-        x: 262
-        y: 9
-        width: 40
-        height: 51
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ee287fd8ff76621c0800000000000000
-      internalID: -4528818027978325266
+      spriteID: 47a3e09500e760d4887a7c89e4b88785
+      internalID: -2057327326
       vertices: []
       indices: 
       edges: []
@@ -1204,20 +1037,20 @@ TextureImporter:
       name: Beholder3_Attack_body_42
       rect:
         serializedVersion: 2
-        x: 328
-        y: 6
-        width: 38
-        height: 51
+        x: 384
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d73a0428f441412e0800000000000000
-      internalID: -2156075989883378819
+      spriteID: c4078433984c2604590a749a71970776
+      internalID: -2036301725
       vertices: []
       indices: 
       edges: []
@@ -1226,20 +1059,20 @@ TextureImporter:
       name: Beholder3_Attack_body_43
       rect:
         serializedVersion: 2
-        x: 391
-        y: 4
-        width: 39
-        height: 51
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 520c010f1ff0225d0800000000000000
-      internalID: -3088888862633574363
+      spriteID: 2f55b59fa12b43343b828989d933b6fc
+      internalID: -108168870
       vertices: []
       indices: 
       edges: []
@@ -1248,20 +1081,20 @@ TextureImporter:
       name: Beholder3_Attack_body_44
       rect:
         serializedVersion: 2
-        x: 454
-        y: 5
-        width: 40
-        height: 51
+        x: 512
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8fe6ea5a7a3ae9800800000000000000
-      internalID: 621113739058245368
+      spriteID: 7d7ec14edd40bb04c95cbb1a1f630720
+      internalID: 399434955
       vertices: []
       indices: 
       edges: []
@@ -1270,20 +1103,20 @@ TextureImporter:
       name: Beholder3_Attack_body_45
       rect:
         serializedVersion: 2
-        x: 521
-        y: 10
-        width: 37
-        height: 49
+        x: 576
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c0db38d4f61633070800000000000000
-      internalID: 8084912886729915660
+      spriteID: 9990cb9659bb8ca4f9e95c40606ae76c
+      internalID: -1635894715
       vertices: []
       indices: 
       edges: []
@@ -1292,20 +1125,20 @@ TextureImporter:
       name: Beholder3_Attack_body_46
       rect:
         serializedVersion: 2
-        x: 585
-        y: 12
-        width: 37
-        height: 48
+        x: 640
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8708cb4f64b4209a0800000000000000
-      internalID: -6268364963220520840
+      spriteID: e5398f16f70337a43b288384543f783f
+      internalID: -1393026533
       vertices: []
       indices: 
       edges: []
@@ -1314,42 +1147,20 @@ TextureImporter:
       name: Beholder3_Attack_body_47
       rect:
         serializedVersion: 2
-        x: 650
-        y: 10
-        width: 36
-        height: 50
+        x: 704
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a27bcfa645fd04540800000000000000
-      internalID: 4990233940791703338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Beholder3_Attack_body_48
-      rect:
-        serializedVersion: 2
-        x: 713
-        y: 6
-        width: 37
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7954b585192fd6e30800000000000000
-      internalID: 4498518308879549847
+      spriteID: f8b5fe62774862f4ab0efaa64cf19c1c
+      internalID: 1677125570
       vertices: []
       indices: 
       edges: []
@@ -1358,7 +1169,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8cdd9abbd096de74d8e3ff0737cc1d46
     internalID: 0
     vertices: []
     indices: 
@@ -1367,7 +1178,55 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Beholder3_Attack_body_0: 1915088193
+      Beholder3_Attack_body_1: -978874042
+      Beholder3_Attack_body_10: -201428215
+      Beholder3_Attack_body_11: -1107522867
+      Beholder3_Attack_body_12: -684141623
+      Beholder3_Attack_body_13: 1595122287
+      Beholder3_Attack_body_14: -1785202660
+      Beholder3_Attack_body_15: -1048193257
+      Beholder3_Attack_body_16: 709710585
+      Beholder3_Attack_body_17: -1003109007
+      Beholder3_Attack_body_18: -1282050899
+      Beholder3_Attack_body_19: 1708778270
+      Beholder3_Attack_body_2: 1633618684
+      Beholder3_Attack_body_20: 1266976082
+      Beholder3_Attack_body_21: 1027595677
+      Beholder3_Attack_body_22: 384033128
+      Beholder3_Attack_body_23: -1420525004
+      Beholder3_Attack_body_24: -963724920
+      Beholder3_Attack_body_25: 1396998930
+      Beholder3_Attack_body_26: -736820862
+      Beholder3_Attack_body_27: -653785610
+      Beholder3_Attack_body_28: -37972144
+      Beholder3_Attack_body_29: -1222458525
+      Beholder3_Attack_body_3: -314768523
+      Beholder3_Attack_body_30: 1177102820
+      Beholder3_Attack_body_31: 1684425471
+      Beholder3_Attack_body_32: -2074363181
+      Beholder3_Attack_body_33: -2024452082
+      Beholder3_Attack_body_34: 1251964255
+      Beholder3_Attack_body_35: 738608361
+      Beholder3_Attack_body_36: 1408734746
+      Beholder3_Attack_body_37: -1263787788
+      Beholder3_Attack_body_38: -1238008141
+      Beholder3_Attack_body_39: -483467802
+      Beholder3_Attack_body_4: 970243204
+      Beholder3_Attack_body_40: -1548789190
+      Beholder3_Attack_body_41: -2057327326
+      Beholder3_Attack_body_42: -2036301725
+      Beholder3_Attack_body_43: -108168870
+      Beholder3_Attack_body_44: 399434955
+      Beholder3_Attack_body_45: -1635894715
+      Beholder3_Attack_body_46: -1393026533
+      Beholder3_Attack_body_47: 1677125570
+      Beholder3_Attack_body_5: 156212593
+      Beholder3_Attack_body_6: -1151416243
+      Beholder3_Attack_body_7: -417824627
+      Beholder3_Attack_body_8: 2018728253
+      Beholder3_Attack_body_9: -1951989135
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
