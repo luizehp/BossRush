@@ -215,7 +215,6 @@ MonoBehaviour:
   attackRange: 0.8
   spawnDuration: 0.7
   attackDuration: 0.5
-  deathSFX: {fileID: 0}
   attackSFX: {fileID: 8300000, guid: bf9e752d6d0a20640ae066ddc91ac944, type: 3}
 --- !u!114 &1503026486457648450
 MonoBehaviour:
@@ -248,7 +247,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 0adfbbcf1fd442f499e233bb08e1bf47, type: 3}
   m_Resource: {fileID: 8300000, guid: 0adfbbcf1fd442f499e233bb08e1bf47, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.506
   m_Pitch: 1
   Loop: 0
   Mute: 0
