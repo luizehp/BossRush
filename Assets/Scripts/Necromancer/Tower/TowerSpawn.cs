@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Behavior;
 using UnityEngine;
 
 namespace Necromancer.Tower
@@ -13,19 +14,23 @@ namespace Necromancer.Tower
         public GameObject player;
         public Transform mainCamera;
         public float duracaoTransicao = 2f;
+        public bool Ended;
+        public GameObject collectable;
 
-        private List<GameObject> instancias = new();
+        public List<GameObject> instancias = new();
         private bool todasDestruidas = false;
         private Animator playerAnimator;
         private Rigidbody2D rb;
         private PlayerMovement playerMovement;
+        public GameObject portalPrefab;
+        public float portalOffsetY = 1.5f;
 
         void Start()
         {
             playerAnimator = player.GetComponent<Animator>();
             rb = player.GetComponent<Rigidbody2D>();
             playerMovement = player.GetComponent<PlayerMovement>();
-            
+            Ended = false;
             BoxCollider2D box = GetComponent<BoxCollider2D>();
 
             Vector2 centro = transform.position;
@@ -81,12 +86,36 @@ namespace Necromancer.Tower
         IEnumerator AllDead()
         {
             mainCamera.SetParent(null);
+            player.GetComponent<PlayerHealth>().isInvincible = true;
+            necromancer.GetComponent<BehaviorGraphAgent>().End();
+            Ended = true;
             yield return StartCoroutine(MoveCameraTowards(necromancer.transform.position));
             necromancer.GetComponent<Animator>().SetTrigger("Death");
             yield return new WaitForSeconds(1f);
             yield return StartCoroutine(MoveCameraTowards(player.transform.position));
-        
+            player.GetComponent<PlayerHealth>().isInvincible = false;
             mainCamera.SetParent(player.transform);
+            
+            Vector3 centerPos = transform.position;
+            float safeDistance = 1.5f;
+            float offsetY = 2f;
+
+            bool playerEstaPerto = Vector3.Distance(player.transform.position, centerPos) < safeDistance;
+
+            Vector3 spawnPos;
+            if (playerEstaPerto)
+            {
+                spawnPos = centerPos + new Vector3(0, offsetY, 0);
+            }
+            else
+            {
+                spawnPos = centerPos;
+            }
+
+            Instantiate(collectable, spawnPos, Quaternion.identity);
+            
+            Vector3 portalPos = necromancer.transform.position - new Vector3(0, portalOffsetY, 0);
+            Instantiate(portalPrefab, portalPos, Quaternion.identity);
         }
     
         IEnumerator MoveCameraTowards(Vector3 destino)
@@ -110,6 +139,7 @@ namespace Necromancer.Tower
             
             playerMovement.enabled = true;
             rb.constraints = RigidbodyConstraints2D.None;
+            rb.freezeRotation = true;
         }
     }
 }

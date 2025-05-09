@@ -8,6 +8,8 @@ public partial class Health : MonoBehaviour
     public int maxHealth = 100;
     public float invincibilityDuration = 1f;
     public float flashInterval = 0.1f;
+    public AudioClip deathSFX;
+    public float deathSFXVolume = 1f;
     private int currentHealth;
     private bool isInvincible = false;
     private bool isDead = false;
@@ -30,13 +32,14 @@ public partial class Health : MonoBehaviour
         {
             isDead = true;
             GetComponent<Animator>().SetTrigger("Death");
+            if (deathSFX != null)
+                AudioSource.PlayClipAtPoint(deathSFX, transform.position, deathSFXVolume);
         }
     }
-    
+
     private IEnumerator InvincibilityCoroutine()
     {
         isInvincible = true;
-        
         float elapsed = 0f;
         while (elapsed < invincibilityDuration)
         {
@@ -45,7 +48,6 @@ public partial class Health : MonoBehaviour
             elapsed += flashInterval;
         }
         spriteRenderer.enabled = true;
-
         isInvincible = false;
     }
 

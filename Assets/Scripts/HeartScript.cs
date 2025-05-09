@@ -8,6 +8,11 @@ public class HeartScript : MonoBehaviour
         // Check if the object that entered the trigger is the player
         if (collision.CompareTag("Player"))
         {
+            collision.GetComponent<PlayerHealth>().health += 1;
+            if (collision.GetComponent<PlayerHealth>().health > collision.GetComponent<PlayerHealth>().maxHealth)
+            {
+                collision.GetComponent<PlayerHealth>().health = collision.GetComponent<PlayerHealth>().maxHealth;
+            }
             // Destroy the heart object
             Destroy(gameObject);
          
