@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LoadingBar_2_Overlay_0: 4377862409375634962
+      LoadingBar_2_Overlay_1: 4153500472367593185
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
