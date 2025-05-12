@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Linq;
-using Necromancer.Tower;  // para acessar TowerSpawner :contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}
+using Necromancer.Tower;
 
 public class HUDController : MonoBehaviour
 {
@@ -13,9 +13,8 @@ public class HUDController : MonoBehaviour
     public Transform heartsParent;
 
     [Header("Boss Health Bar")]
-    public GameObject boss;            // SpawnableSpace ou outro objeto que controla as torres
-    public Image bossFillImage;        // o Image "Fill" do seu fundo de barra
-    public int bossMaxHealth = 100;    // ajuste no Inspector para definir vida máxima do boss
+    public GameObject boss;
+    public Image bossFillImage;
 
     private PlayerHealth playerHealth;
     private List<Image> hearts = new List<Image>();
@@ -23,33 +22,29 @@ public class HUDController : MonoBehaviour
     private FieldInfo currentHealthField;
     private TowerSpawner towerSpawner;
     private Health bossHealth;
+    private int maxTotalHealth;
+    private bool maxHealthInitialized = false;
 
     void Awake()
     {
-        // -- PlayerHealth (corações) --
         playerHealth = player.GetComponent<PlayerHealth>();
         if (playerHealth == null)
             Debug.LogError("HUDController: não encontrou PlayerHealth no player!");
 
-        // -- Reflection para ler private currentHealth em Health.cs --
         currentHealthField = typeof(Health)
             .GetField("currentHealth", BindingFlags.NonPublic | BindingFlags.Instance);
 
-        // -- TowerSpawner (boss de torres) ou Health (boss comum) --
         towerSpawner = boss.GetComponent<TowerSpawner>();
-        bossHealth   = boss.GetComponent<Health>();  // caso você queira suportar bosses “normais”
+        bossHealth   = boss.GetComponent<Health>();
     }
 
     void Start()
     {
-        // Instancia os corações iniciais de acordo com playerHealth.health
         for (int i = 0; i < playerHealth.health; i++)
         {
             var go = Instantiate(heartPrefab, heartsParent);
             hearts.Add(go.GetComponent<Image>());
         }
-
-        // Deixa a barra do boss cheia (1 = 100%)
         if (bossFillImage != null)
             bossFillImage.fillAmount = 1f;
     }
@@ -63,7 +58,6 @@ public class HUDController : MonoBehaviour
     private void AtualizaQuantidadeDeCoracoes()
     {
         int current = playerHealth.health;
-        // adiciona ou remove corações conforme a vida
         if (hearts.Count < current)
         {
             for (int i = hearts.Count; i < current; i++)
@@ -86,29 +80,41 @@ public class HUDController : MonoBehaviour
     {
         if (bossFillImage == null) return;
 
-        float pct = 0f;   // preenchimento 0..1
-
-        // ** Caso boss de torres **
-        if (towerSpawner != null)
+        if (!maxHealthInitialized)
         {
-            // soma a vida atual de cada torre
-            int somaAtual = 0;
+            if (towerSpawner != null && towerSpawner.instancias.Count > 0)
+            {
+                maxTotalHealth = towerSpawner.instancias
+                    .Where(t => t != null && t.GetComponent<Health>() != null)
+                    .Sum(t => t.GetComponent<Health>().maxHealth);
+                maxHealthInitialized = true;
+            }
+            else if (bossHealth != null)
+            {
+                maxTotalHealth = bossHealth.maxHealth;
+                maxHealthInitialized = true;
+            }
+        }
+
+        int current = 0;
+        if (towerSpawner != null && maxHealthInitialized)
+        {
             foreach (var t in towerSpawner.instancias)
             {
                 if (t == null) continue;
                 var h = t.GetComponent<Health>();
                 if (h != null)
-                    somaAtual += (int)currentHealthField.GetValue(h);
+                    current += (int)currentHealthField.GetValue(h);
             }
-            // percentagem relativa à bossMaxHealth
-            pct = (float)somaAtual / bossMaxHealth;
         }
-        // ** Caso boss “normal” usando Health.cs **
-        else if (bossHealth != null)
+        else if (bossHealth != null && maxHealthInitialized)
         {
-            int atual = (int)currentHealthField.GetValue(bossHealth);
-            pct = (float)atual / bossHealth.maxHealth;
+            current = (int)currentHealthField.GetValue(bossHealth);
         }
+
+        float pct = maxTotalHealth > 0
+            ? (float)current / maxTotalHealth
+            : 0f;
 
         bossFillImage.fillAmount = Mathf.Clamp01(pct);
     }
