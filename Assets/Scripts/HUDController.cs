@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Linq;
@@ -17,9 +18,22 @@ public class HUDController : MonoBehaviour
     public Image bossFillImage;
 
     [Header("Pause UI")]
-    public GameObject buttonPause;   // o botão de pause
-    public GameObject pauseLight;    // a luz (GameObject) que acende ao hover
-    public GameObject pausePanel;    // o painel de pause que abre ao clicar
+    public GameObject buttonPause;
+    public GameObject pauseLight;
+    public GameObject pausePanel;
+    public GameObject pauseCloseLight;
+    public GameObject controlsPauseLight;
+    public GameObject configPauseLight;
+    public GameObject exitPauseLight;
+
+    [Header("Popups")]
+    public GameObject controlsPopup;
+    public GameObject controlsCloseLight;
+    public GameObject settingsPopup;
+    public GameObject settingsCloseLight;
+
+    [Header("Cenas")]
+    public string mainMenuSceneName = "MainMenu";
 
     private PlayerHealth playerHealth;
     private List<Image> hearts = new List<Image>();
@@ -34,33 +48,47 @@ public class HUDController : MonoBehaviour
 
     void Awake()
     {
+        // pega PlayerHealth
         playerHealth = player.GetComponent<PlayerHealth>();
         if (playerHealth == null)
-            Debug.LogError("HUDController: não encontrou PlayerHealth no player!");
+            Debug.LogError("HUDController: PlayerHealth não encontrado no player!");
 
+        // reflection para currentHealth
         currentHealthField = typeof(Health)
             .GetField("currentHealth", BindingFlags.NonPublic | BindingFlags.Instance);
 
+        // tenta pegar TowerSpawner ou Health do boss
         towerSpawner = boss.GetComponent<TowerSpawner>();
         bossHealth   = boss.GetComponent<Health>();
     }
 
     void Start()
     {
-        // corações iniciais
+        // garante que, ao entrar na cena, não fique pausado
+        Time.timeScale = 1f;
+
+        // instancia corações iniciais
         for (int i = 0; i < playerHealth.health; i++)
         {
             var go = Instantiate(heartPrefab, heartsParent);
             hearts.Add(go.GetComponent<Image>());
         }
 
-        // boss bar cheia
+        // barra do boss cheia
         if (bossFillImage != null)
             bossFillImage.fillAmount = 1f;
 
-        // pause UI inicial
-        if (pauseLight  != null) pauseLight.SetActive(false);
-        if (pausePanel  != null) pausePanel.SetActive(false);
+        // UI de pausa e popups desligados
+        pauseLight?.SetActive(false);
+        pausePanel?.SetActive(false);
+        pauseCloseLight?.SetActive(false);
+        controlsPauseLight?.SetActive(false);
+        configPauseLight?.SetActive(false);
+        exitPauseLight?.SetActive(false);
+        controlsPopup?.SetActive(false);
+        controlsCloseLight?.SetActive(false);
+        settingsPopup?.SetActive(false);
+        settingsCloseLight?.SetActive(false);
     }
 
     void Update()
@@ -133,24 +161,46 @@ public class HUDController : MonoBehaviour
         bossFillImage.fillAmount = Mathf.Clamp01(pct);
     }
 
-    // Hover no botão de pause
-    public void HoverPause_Enter()
-    {
-        if (pauseLight != null)
-            pauseLight.SetActive(true);
-    }
-
-    public void HoverPause_Exit()
-    {
-        if (pauseLight != null)
-            pauseLight.SetActive(false);
-    }
-
+    // alterna o estado de pausa
     public void TogglePause()
     {
         isPaused = !isPaused;
         Time.timeScale = isPaused ? 0f : 1f;
-        if (pausePanel != null)
-            pausePanel.SetActive(isPaused);
+        pausePanel?.SetActive(isPaused);
     }
+
+    // popups
+    public void ShowControls()  => controlsPopup?.SetActive(true);
+    public void HideControls()  => controlsPopup?.SetActive(false);
+    public void ShowSettings()  => settingsPopup?.SetActive(true);
+    public void HideSettings()  => settingsPopup?.SetActive(false);
+
+    // volta ao menu principal e garante unpause
+    public void QuitGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(mainMenuSceneName);
+    }
+
+    // Hover effects
+    public void HoverPause_Enter()             => pauseLight?.SetActive(true);
+    public void HoverPause_Exit()              => pauseLight?.SetActive(false);
+
+    public void HoverPauseClose_Enter()        => pauseCloseLight?.SetActive(true);
+    public void HoverPauseClose_Exit()         => pauseCloseLight?.SetActive(false);
+
+    public void HoverControlsPause_Enter()     => controlsPauseLight?.SetActive(true);
+    public void HoverControlsPause_Exit()      => controlsPauseLight?.SetActive(false);
+
+    public void HoverConfigPause_Enter()       => configPauseLight?.SetActive(true);
+    public void HoverConfigPause_Exit()        => configPauseLight?.SetActive(false);
+
+    public void HoverExitPause_Enter()         => exitPauseLight?.SetActive(true);
+    public void HoverExitPause_Exit()          => exitPauseLight?.SetActive(false);
+
+    public void HoverControlsClose_Enter()     => controlsCloseLight?.SetActive(true);
+    public void HoverControlsClose_Exit()      => controlsCloseLight?.SetActive(false);
+
+    public void HoverSettingsClose_Enter()     => settingsCloseLight?.SetActive(true);
+    public void HoverSettingsClose_Exit()      => settingsCloseLight?.SetActive(false);
 }
