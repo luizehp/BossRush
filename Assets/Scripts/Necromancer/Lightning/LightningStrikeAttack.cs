@@ -5,8 +5,7 @@ namespace Necromancer.Lightning
 {
     public class LightningStrikeAttack : MonoBehaviour
     {
-        [Header("Áudio")]
-        public AudioClip thunderAttackClip;   // arraste aqui seu ThunderAttack.wav
+        public AudioClip thunderAttackClip;
         private AudioSource audioSrc;
 
         private enum State { Idle, CastingShadow, LockingPosition, Striking, Recovering }
@@ -22,6 +21,7 @@ namespace Necromancer.Lightning
         private Vector3 lockedPosition;
         private float timer;
         private bool wasCalled = false;
+        public Shake shakeScript;
         
         void Start()
         {
@@ -90,5 +90,9 @@ namespace Necromancer.Lightning
             wasCalled = false;
         }
 
+        public void TriggerShake()
+        {
+            shakeScript.TriggerShake();
+        }
     }
 }
