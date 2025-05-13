@@ -16,6 +16,11 @@ public class HUDController : MonoBehaviour
     public GameObject boss;
     public Image bossFillImage;
 
+    [Header("Pause UI")]
+    public GameObject buttonPause;   // o botão de pause
+    public GameObject pauseLight;    // a luz (GameObject) que acende ao hover
+    public GameObject pausePanel;    // o painel de pause que abre ao clicar
+
     private PlayerHealth playerHealth;
     private List<Image> hearts = new List<Image>();
 
@@ -24,6 +29,8 @@ public class HUDController : MonoBehaviour
     private Health bossHealth;
     private int maxTotalHealth;
     private bool maxHealthInitialized = false;
+
+    private bool isPaused = false;
 
     void Awake()
     {
@@ -40,13 +47,20 @@ public class HUDController : MonoBehaviour
 
     void Start()
     {
+        // corações iniciais
         for (int i = 0; i < playerHealth.health; i++)
         {
             var go = Instantiate(heartPrefab, heartsParent);
             hearts.Add(go.GetComponent<Image>());
         }
+
+        // boss bar cheia
         if (bossFillImage != null)
             bossFillImage.fillAmount = 1f;
+
+        // pause UI inicial
+        if (pauseLight  != null) pauseLight.SetActive(false);
+        if (pausePanel  != null) pausePanel.SetActive(false);
     }
 
     void Update()
@@ -117,5 +131,26 @@ public class HUDController : MonoBehaviour
             : 0f;
 
         bossFillImage.fillAmount = Mathf.Clamp01(pct);
+    }
+
+    // Hover no botão de pause
+    public void HoverPause_Enter()
+    {
+        if (pauseLight != null)
+            pauseLight.SetActive(true);
+    }
+
+    public void HoverPause_Exit()
+    {
+        if (pauseLight != null)
+            pauseLight.SetActive(false);
+    }
+
+    public void TogglePause()
+    {
+        isPaused = !isPaused;
+        Time.timeScale = isPaused ? 0f : 1f;
+        if (pausePanel != null)
+            pausePanel.SetActive(isPaused);
     }
 }
