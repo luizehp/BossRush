@@ -1,9 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Linq;
-using Necromancer.Tower;  // para acessar TowerSpawner :contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}
+using Necromancer.Tower;
 
 public class HUDController : MonoBehaviour
 {
@@ -13,9 +14,26 @@ public class HUDController : MonoBehaviour
     public Transform heartsParent;
 
     [Header("Boss Health Bar")]
-    public GameObject boss;            // SpawnableSpace ou outro objeto que controla as torres
-    public Image bossFillImage;        // o Image "Fill" do seu fundo de barra
-    public int bossMaxHealth = 100;    // ajuste no Inspector para definir vida máxima do boss
+    public GameObject boss;
+    public Image bossFillImage;
+
+    [Header("Pause UI")]
+    public GameObject buttonPause;
+    public GameObject pauseLight;
+    public GameObject pausePanel;
+    public GameObject pauseCloseLight;
+    public GameObject controlsPauseLight;
+    public GameObject configPauseLight;
+    public GameObject exitPauseLight;
+
+    [Header("Popups")]
+    public GameObject controlsPopup;
+    public GameObject controlsCloseLight;
+    public GameObject settingsPopup;
+    public GameObject settingsCloseLight;
+
+    [Header("Cenas")]
+    public string mainMenuSceneName = "MainMenu";
 
     private PlayerHealth playerHealth;
     private List<Image> hearts = new List<Image>();
@@ -23,35 +41,54 @@ public class HUDController : MonoBehaviour
     private FieldInfo currentHealthField;
     private TowerSpawner towerSpawner;
     private Health bossHealth;
+    private int maxTotalHealth;
+    private bool maxHealthInitialized = false;
+
+    private bool isPaused = false;
 
     void Awake()
     {
-        // -- PlayerHealth (corações) --
+        // pega PlayerHealth
         playerHealth = player.GetComponent<PlayerHealth>();
         if (playerHealth == null)
-            Debug.LogError("HUDController: não encontrou PlayerHealth no player!");
+            Debug.LogError("HUDController: PlayerHealth não encontrado no player!");
 
-        // -- Reflection para ler private currentHealth em Health.cs --
+        // reflection para currentHealth
         currentHealthField = typeof(Health)
             .GetField("currentHealth", BindingFlags.NonPublic | BindingFlags.Instance);
 
-        // -- TowerSpawner (boss de torres) ou Health (boss comum) --
+        // tenta pegar TowerSpawner ou Health do boss
         towerSpawner = boss.GetComponent<TowerSpawner>();
-        bossHealth   = boss.GetComponent<Health>();  // caso você queira suportar bosses “normais”
+        bossHealth   = boss.GetComponent<Health>();
     }
 
     void Start()
     {
-        // Instancia os corações iniciais de acordo com playerHealth.health
+        // garante que, ao entrar na cena, não fique pausado
+        Time.timeScale = 1f;
+
+        // instancia corações iniciais
         for (int i = 0; i < playerHealth.health; i++)
         {
             var go = Instantiate(heartPrefab, heartsParent);
             hearts.Add(go.GetComponent<Image>());
         }
 
-        // Deixa a barra do boss cheia (1 = 100%)
+        // barra do boss cheia
         if (bossFillImage != null)
             bossFillImage.fillAmount = 1f;
+
+        // UI de pausa e popups desligados
+        pauseLight?.SetActive(false);
+        pausePanel?.SetActive(false);
+        pauseCloseLight?.SetActive(false);
+        controlsPauseLight?.SetActive(false);
+        configPauseLight?.SetActive(false);
+        exitPauseLight?.SetActive(false);
+        controlsPopup?.SetActive(false);
+        controlsCloseLight?.SetActive(false);
+        settingsPopup?.SetActive(false);
+        settingsCloseLight?.SetActive(false);
     }
 
     void Update()
@@ -63,7 +100,6 @@ public class HUDController : MonoBehaviour
     private void AtualizaQuantidadeDeCoracoes()
     {
         int current = playerHealth.health;
-        // adiciona ou remove corações conforme a vida
         if (hearts.Count < current)
         {
             for (int i = hearts.Count; i < current; i++)
@@ -86,30 +122,85 @@ public class HUDController : MonoBehaviour
     {
         if (bossFillImage == null) return;
 
-        float pct = 0f;   // preenchimento 0..1
-
-        // ** Caso boss de torres **
-        if (towerSpawner != null)
+        if (!maxHealthInitialized)
         {
-            // soma a vida atual de cada torre
-            int somaAtual = 0;
+            if (towerSpawner != null && towerSpawner.instancias.Count > 0)
+            {
+                maxTotalHealth = towerSpawner.instancias
+                    .Where(t => t != null && t.GetComponent<Health>() != null)
+                    .Sum(t => t.GetComponent<Health>().maxHealth);
+                maxHealthInitialized = true;
+            }
+            else if (bossHealth != null)
+            {
+                maxTotalHealth = bossHealth.maxHealth;
+                maxHealthInitialized = true;
+            }
+        }
+
+        int current = 0;
+        if (towerSpawner != null && maxHealthInitialized)
+        {
             foreach (var t in towerSpawner.instancias)
             {
                 if (t == null) continue;
                 var h = t.GetComponent<Health>();
                 if (h != null)
-                    somaAtual += (int)currentHealthField.GetValue(h);
+                    current += (int)currentHealthField.GetValue(h);
             }
-            // percentagem relativa à bossMaxHealth
-            pct = (float)somaAtual / bossMaxHealth;
         }
-        // ** Caso boss “normal” usando Health.cs **
-        else if (bossHealth != null)
+        else if (bossHealth != null && maxHealthInitialized)
         {
-            int atual = (int)currentHealthField.GetValue(bossHealth);
-            pct = (float)atual / bossHealth.maxHealth;
+            current = (int)currentHealthField.GetValue(bossHealth);
         }
+
+        float pct = maxTotalHealth > 0
+            ? (float)current / maxTotalHealth
+            : 0f;
 
         bossFillImage.fillAmount = Mathf.Clamp01(pct);
     }
+
+    // alterna o estado de pausa
+    public void TogglePause()
+    {
+        isPaused = !isPaused;
+        Time.timeScale = isPaused ? 0f : 1f;
+        pausePanel?.SetActive(isPaused);
+    }
+
+    // popups
+    public void ShowControls()  => controlsPopup?.SetActive(true);
+    public void HideControls()  => controlsPopup?.SetActive(false);
+    public void ShowSettings()  => settingsPopup?.SetActive(true);
+    public void HideSettings()  => settingsPopup?.SetActive(false);
+
+    // volta ao menu principal e garante unpause
+    public void QuitGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(mainMenuSceneName);
+    }
+
+    // Hover effects
+    public void HoverPause_Enter()             => pauseLight?.SetActive(true);
+    public void HoverPause_Exit()              => pauseLight?.SetActive(false);
+
+    public void HoverPauseClose_Enter()        => pauseCloseLight?.SetActive(true);
+    public void HoverPauseClose_Exit()         => pauseCloseLight?.SetActive(false);
+
+    public void HoverControlsPause_Enter()     => controlsPauseLight?.SetActive(true);
+    public void HoverControlsPause_Exit()      => controlsPauseLight?.SetActive(false);
+
+    public void HoverConfigPause_Enter()       => configPauseLight?.SetActive(true);
+    public void HoverConfigPause_Exit()        => configPauseLight?.SetActive(false);
+
+    public void HoverExitPause_Enter()         => exitPauseLight?.SetActive(true);
+    public void HoverExitPause_Exit()          => exitPauseLight?.SetActive(false);
+
+    public void HoverControlsClose_Enter()     => controlsCloseLight?.SetActive(true);
+    public void HoverControlsClose_Exit()      => controlsCloseLight?.SetActive(false);
+
+    public void HoverSettingsClose_Enter()     => settingsCloseLight?.SetActive(true);
+    public void HoverSettingsClose_Exit()      => settingsCloseLight?.SetActive(false);
 }
