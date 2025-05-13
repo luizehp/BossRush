@@ -1153,7 +1153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlsPopup: {fileID: 1490193343}
   settingsPopup: {fileID: 1668724962}
-  startSceneName: NecroScene
+  startSceneName: PreNecromancer
   volumeSlider: {fileID: 2038422259}
   lightIniciar: {fileID: 757421167}
   lightControles: {fileID: 114711102}
@@ -2610,6 +2610,10 @@ PrefabInstance:
     - target: {fileID: 2948177528416818534, guid: 28dab6f1b212ede49a59b6f75b6d1903, type: 3}
       propertyPath: ShapeModule.type
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2948177528416818534, guid: 28dab6f1b212ede49a59b6f75b6d1903, type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
       objectReference: {fileID: 0}
     - target: {fileID: 2948177528416818534, guid: 28dab6f1b212ede49a59b6f75b6d1903, type: 3}
       propertyPath: InitialModule.startSize.scalar
