@@ -1,0 +1,1396 @@
+fileFormatVersion: 2
+guid: b5edaf5177459834c9d34d52ade45f47
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3908541513103462308
+    second: Demon3_Attack_BlueFlame_0
+  - first:
+      213: -8900707587927660334
+    second: Demon3_Attack_BlueFlame_1
+  - first:
+      213: 2286627716802961425
+    second: Demon3_Attack_BlueFlame_2
+  - first:
+      213: -1180786828711917190
+    second: Demon3_Attack_BlueFlame_3
+  - first:
+      213: -403753450371526903
+    second: Demon3_Attack_BlueFlame_4
+  - first:
+      213: 4984635281572488632
+    second: Demon3_Attack_BlueFlame_5
+  - first:
+      213: -4937487754254660513
+    second: Demon3_Attack_BlueFlame_6
+  - first:
+      213: 4788771271450540566
+    second: Demon3_Attack_BlueFlame_7
+  - first:
+      213: -6504019163726852478
+    second: Demon3_Attack_BlueFlame_8
+  - first:
+      213: 2156934664829250930
+    second: Demon3_Attack_BlueFlame_9
+  - first:
+      213: -1943380476070589473
+    second: Demon3_Attack_BlueFlame_10
+  - first:
+      213: 2794565894292190100
+    second: Demon3_Attack_BlueFlame_11
+  - first:
+      213: 6135774125110460153
+    second: Demon3_Attack_BlueFlame_12
+  - first:
+      213: -1030663965576768983
+    second: Demon3_Attack_BlueFlame_13
+  - first:
+      213: -7317839847562085062
+    second: Demon3_Attack_BlueFlame_14
+  - first:
+      213: 4473652479101752230
+    second: Demon3_Attack_BlueFlame_15
+  - first:
+      213: -2664285178853812132
+    second: Demon3_Attack_BlueFlame_16
+  - first:
+      213: 2654206015525785098
+    second: Demon3_Attack_BlueFlame_17
+  - first:
+      213: 2986616259196546580
+    second: Demon3_Attack_BlueFlame_18
+  - first:
+      213: -3717726907570804986
+    second: Demon3_Attack_BlueFlame_19
+  - first:
+      213: 7708081007218231211
+    second: Demon3_Attack_BlueFlame_20
+  - first:
+      213: -6203876167712643782
+    second: Demon3_Attack_BlueFlame_21
+  - first:
+      213: -4634526491933673772
+    second: Demon3_Attack_BlueFlame_22
+  - first:
+      213: -7996629480079209298
+    second: Demon3_Attack_BlueFlame_23
+  - first:
+      213: 1393189337292243288
+    second: Demon3_Attack_BlueFlame_24
+  - first:
+      213: -2745112120235133836
+    second: Demon3_Attack_BlueFlame_25
+  - first:
+      213: -1351824798297563075
+    second: Demon3_Attack_BlueFlame_26
+  - first:
+      213: -6984557590360919369
+    second: Demon3_Attack_BlueFlame_27
+  - first:
+      213: 6263940655204541040
+    second: Demon3_Attack_BlueFlame_28
+  - first:
+      213: -7945986655426658387
+    second: Demon3_Attack_BlueFlame_29
+  - first:
+      213: -740911528360146683
+    second: Demon3_Attack_BlueFlame_30
+  - first:
+      213: -5633513433838726881
+    second: Demon3_Attack_BlueFlame_31
+  - first:
+      213: 6312136733574375631
+    second: Demon3_Attack_BlueFlame_32
+  - first:
+      213: 7664856268017142452
+    second: Demon3_Attack_BlueFlame_33
+  - first:
+      213: -3498950238180785591
+    second: Demon3_Attack_BlueFlame_34
+  - first:
+      213: -2583937459622110093
+    second: Demon3_Attack_BlueFlame_35
+  - first:
+      213: -1549097268131049698
+    second: Demon3_Attack_BlueFlame_36
+  - first:
+      213: -4828221383577162433
+    second: Demon3_Attack_BlueFlame_37
+  - first:
+      213: -780362645170281486
+    second: Demon3_Attack_BlueFlame_38
+  - first:
+      213: -7061528528035938565
+    second: Demon3_Attack_BlueFlame_39
+  - first:
+      213: 1122664988343536205
+    second: Demon3_Attack_BlueFlame_40
+  - first:
+      213: 3470851977632664995
+    second: Demon3_Attack_BlueFlame_41
+  - first:
+      213: 7751590689531708033
+    second: Demon3_Attack_BlueFlame_42
+  - first:
+      213: 2951757736381809438
+    second: Demon3_Attack_BlueFlame_43
+  - first:
+      213: 8328232770321277905
+    second: Demon3_Attack_BlueFlame_44
+  - first:
+      213: -5445109768394099551
+    second: Demon3_Attack_BlueFlame_45
+  - first:
+      213: -4601339822531507205
+    second: Demon3_Attack_BlueFlame_46
+  - first:
+      213: 7218458208871720929
+    second: Demon3_Attack_BlueFlame_47
+  - first:
+      213: -2074042261019674887
+    second: Demon3_Attack_BlueFlame_48
+  - first:
+      213: 4292291433764775969
+    second: Demon3_Attack_BlueFlame_49
+  - first:
+      213: 4929963925658771614
+    second: Demon3_Attack_BlueFlame_50
+  - first:
+      213: -3237531635345206302
+    second: Demon3_Attack_BlueFlame_51
+  - first:
+      213: -4214456802152619965
+    second: Demon3_Attack_BlueFlame_52
+  - first:
+      213: 3414061991551776909
+    second: Demon3_Attack_BlueFlame_53
+  - first:
+      213: -9041204175312963382
+    second: Demon3_Attack_BlueFlame_54
+  - first:
+      213: 1026432623599687320
+    second: Demon3_Attack_BlueFlame_55
+  - first:
+      213: -4756678264948638276
+    second: Demon3_Attack_BlueFlame_56
+  - first:
+      213: -4508136842321693481
+    second: Demon3_Attack_BlueFlame_57
+  - first:
+      213: -3612982597067730763
+    second: Demon3_Attack_BlueFlame_58
+  - first:
+      213: -3392998785743126356
+    second: Demon3_Attack_BlueFlame_59
+  - first:
+      213: -6914602355115784068
+    second: Demon3_Attack_BlueFlame_60
+  - first:
+      213: -7266232939769694020
+    second: Demon3_Attack_BlueFlame_61
+  - first:
+      213: -2980255421342299407
+    second: Demon3_Attack_BlueFlame_62
+  - first:
+      213: 4552545471535518325
+    second: Demon3_Attack_BlueFlame_63
+  - first:
+      213: -1340605891493347764
+    second: Demon3_Attack_BlueFlame_64
+  - first:
+      213: -8703864506372764511
+    second: Demon3_Attack_BlueFlame_65
+  - first:
+      213: 2589827488294400175
+    second: Demon3_Attack_BlueFlame_66
+  - first:
+      213: 342018319598401781
+    second: Demon3_Attack_BlueFlame_67
+  - first:
+      213: -2165053203130659086
+    second: Demon3_Attack_BlueFlame_68
+  - first:
+      213: -6154800153100136372
+    second: Demon3_Attack_BlueFlame_69
+  - first:
+      213: -4474424158301880419
+    second: Demon3_Attack_BlueFlame_70
+  - first:
+      213: 367109038266094950
+    second: Demon3_Attack_BlueFlame_71
+  - first:
+      213: 8168817013686625531
+    second: Demon3_Attack_BlueFlame_72
+  - first:
+      213: 719747132985980802
+    second: Demon3_Attack_BlueFlame_73
+  - first:
+      213: 6717927753715155243
+    second: Demon3_Attack_BlueFlame_74
+  - first:
+      213: -6118919947181700590
+    second: Demon3_Attack_BlueFlame_75
+  - first:
+      213: -8959637925051032425
+    second: Demon3_Attack_BlueFlame_76
+  - first:
+      213: -1601126966585587206
+    second: Demon3_Attack_BlueFlame_77
+  - first:
+      213: -3232196140011099136
+    second: Demon3_Attack_BlueFlame_78
+  - first:
+      213: 2305959651284019994
+    second: Demon3_Attack_BlueFlame_79
+  - first:
+      213: 5865891680432563304
+    second: Demon3_Attack_BlueFlame_80
+  - first:
+      213: 2640022722978163968
+    second: Demon3_Attack_BlueFlame_81
+  - first:
+      213: 3107649158206707710
+    second: Demon3_Attack_BlueFlame_82
+  - first:
+      213: 96647531356939788
+    second: Demon3_Attack_BlueFlame_83
+  - first:
+      213: -6692539842516283953
+    second: Demon3_Attack_BlueFlame_84
+  - first:
+      213: 6416764103349924117
+    second: Demon3_Attack_BlueFlame_85
+  - first:
+      213: -4429931356174262113
+    second: Demon3_Attack_BlueFlame_86
+  - first:
+      213: -7226263445484249153
+    second: Demon3_Attack_BlueFlame_87
+  - first:
+      213: 1185120896956876087
+    second: Demon3_Attack_BlueFlame_88
+  - first:
+      213: 6053144578332995255
+    second: Demon3_Attack_BlueFlame_89
+  - first:
+      213: -8557821401632551859
+    second: Demon3_Attack_BlueFlame_90
+  - first:
+      213: -1686264277476046205
+    second: Demon3_Attack_BlueFlame_91
+  - first:
+      213: 7653140155836970087
+    second: Demon3_Attack_BlueFlame_92
+  - first:
+      213: 1942233341057347951
+    second: Demon3_Attack_BlueFlame_93
+  - first:
+      213: -8555302204436477084
+    second: Demon3_Attack_BlueFlame_94
+  - first:
+      213: -1105906020007826716
+    second: Demon3_Attack_BlueFlame_95
+  - first:
+      213: 8677328014859812224
+    second: Demon3_Attack_BlueFlame_96
+  - first:
+      213: -8220867507256025525
+    second: Demon3_Attack_BlueFlame_97
+  - first:
+      213: 105067959195383708
+    second: Demon3_Attack_BlueFlame_98
+  - first:
+      213: 5229598074397888296
+    second: Demon3_Attack_BlueFlame_99
+  - first:
+      213: -2316683022580889595
+    second: Demon3_Attack_BlueFlame_100
+  - first:
+      213: -7537479938054198351
+    second: Demon3_Attack_BlueFlame_101
+  - first:
+      213: 8346519197314197145
+    second: Demon3_Attack_BlueFlame_102
+  - first:
+      213: -2540255495678972672
+    second: Demon3_Attack_BlueFlame_103
+  - first:
+      213: -5915293277493645822
+    second: Demon3_Attack_BlueFlame_104
+  - first:
+      213: 4683813746129770074
+    second: Demon3_Attack_BlueFlame_105
+  - first:
+      213: 6283468401512561502
+    second: Demon3_Attack_BlueFlame_106
+  - first:
+      213: -8168181385147232566
+    second: Demon3_Attack_BlueFlame_107
+  - first:
+      213: 4845710760465571109
+    second: Demon3_Attack_BlueFlame_108
+  - first:
+      213: -2914347126021077543
+    second: Demon3_Attack_BlueFlame_109
+  - first:
+      213: 4891348664340535731
+    second: Demon3_Attack_BlueFlame_110
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd01440699313144ae667f00383bb7e
+      internalID: -1148645672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71132563f1acb064e9ab075941828f50
+      internalID: -101372058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c5247f9c7f8074a80a32cfbd298713
+      internalID: 1942080453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25862f9f7f7f05143b1e5f82ea95d9f8
+      internalID: 1894961964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6bcb2d499df0c4db32a096ae8d25e9
+      internalID: -1011153614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909c6fe078b0d934dae49db7e9ef7580
+      internalID: 1658826789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72ecdc72357bef4fbde96d5bde2107e
+      internalID: -1483075868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e62d95adb573824f973bb9ea4f4cdbd
+      internalID: 1769597857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a58912a7f26b2649a2249c73008d65e
+      internalID: -1398779649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131922d40a532de41be4f0952d19292c
+      internalID: -525534150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f442e87a16aeac4bab7f8d0b0dff49c
+      internalID: -1535315742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9319a8a8a4f32b48aa0cce43e76892c
+      internalID: 1123954468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dbec8c9a5422a49bcba4d4633bfca9
+      internalID: -1801837251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9224753ef7a9ad4a9133c3f7e8551d7
+      internalID: 761516285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff4b4b89703c2f4d90bc5d10d11958f
+      internalID: 1916746988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_15
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c421380a4aa6ef4e94cfe27e6d4975e
+      internalID: 890552186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2533ce8207af8dc4db8b019287abe890
+      internalID: 1483063707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_17
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3045bf63bd42a4947bcaf2c1b4386880
+      internalID: -1130473868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3343c58dde965f64595580622aed0edc
+      internalID: -93723943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_19
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa54cf383e244a4fae32baf2b7dd699
+      internalID: 1582739870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7873055dd407f6e4f9af2648d4e01109
+      internalID: -1752116672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26506f12dbc5bfb4cba9ca3c12cf74d4
+      internalID: -152492326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4748344a41ccaba4f98d2221d2198862
+      internalID: 196173646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bc84fc086fe1448b7e92a49782e19c
+      internalID: -23204208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc32350d32812d1428664fb97560d593
+      internalID: 1111340650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_25
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736fac1e95ef418468e70a19fa96a924
+      internalID: 539562195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90e6b5f748b3b5469e3fb20c8e2e387
+      internalID: -1945015718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_27
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972b6e00548e4d948b7c4fad6922c049
+      internalID: 36861806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf25f56e08acb7241a26c82463415fed
+      internalID: -1008073380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_29
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1212da21953d14b88c4c3230d9530d
+      internalID: -1065232651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e272d85f62b084f43a2a9891025d9e5a
+      internalID: -1602746281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6416a6dd5d352b3439ff1e54f42daf29
+      internalID: -626435245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ec9be5e56bc6245b4355d55303a0b0
+      internalID: 90405650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cf6b28e9af17943b94366f70c750b9
+      internalID: -2062713671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50327b7a878b43b4d92f69e5967f9f1c
+      internalID: -940988559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_35
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f65b24929587c418c18f008ff3dd55
+      internalID: 1284840542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d375bdf4e87fc4ca6d0380b07f654d
+      internalID: -1972727419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_37
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fd04db0fd94164d849b8d1828237c3
+      internalID: 1767217456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_38
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39901308cb22234cb56d7cc131405d4
+      internalID: -2031288935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Demon3_Attack_BlueFlame_39
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10377a8de0e0d94f9217565c1de1638
+      internalID: 995023264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 13a0ebfdc30593e48ac8aadf51a80959
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Demon3_Attack_BlueFlame_0: -1148645672
+      Demon3_Attack_BlueFlame_1: -101372058
+      Demon3_Attack_BlueFlame_10: -1535315742
+      Demon3_Attack_BlueFlame_11: 1123954468
+      Demon3_Attack_BlueFlame_12: -1801837251
+      Demon3_Attack_BlueFlame_13: 761516285
+      Demon3_Attack_BlueFlame_14: 1916746988
+      Demon3_Attack_BlueFlame_15: 890552186
+      Demon3_Attack_BlueFlame_16: 1483063707
+      Demon3_Attack_BlueFlame_17: -1130473868
+      Demon3_Attack_BlueFlame_18: -93723943
+      Demon3_Attack_BlueFlame_19: 1582739870
+      Demon3_Attack_BlueFlame_2: 1942080453
+      Demon3_Attack_BlueFlame_20: -1752116672
+      Demon3_Attack_BlueFlame_21: -152492326
+      Demon3_Attack_BlueFlame_22: 196173646
+      Demon3_Attack_BlueFlame_23: -23204208
+      Demon3_Attack_BlueFlame_24: 1111340650
+      Demon3_Attack_BlueFlame_25: 539562195
+      Demon3_Attack_BlueFlame_26: -1945015718
+      Demon3_Attack_BlueFlame_27: 36861806
+      Demon3_Attack_BlueFlame_28: -1008073380
+      Demon3_Attack_BlueFlame_29: -1065232651
+      Demon3_Attack_BlueFlame_3: 1894961964
+      Demon3_Attack_BlueFlame_30: -1602746281
+      Demon3_Attack_BlueFlame_31: -626435245
+      Demon3_Attack_BlueFlame_32: 90405650
+      Demon3_Attack_BlueFlame_33: -2062713671
+      Demon3_Attack_BlueFlame_34: -940988559
+      Demon3_Attack_BlueFlame_35: 1284840542
+      Demon3_Attack_BlueFlame_36: -1972727419
+      Demon3_Attack_BlueFlame_37: 1767217456
+      Demon3_Attack_BlueFlame_38: -2031288935
+      Demon3_Attack_BlueFlame_39: 995023264
+      Demon3_Attack_BlueFlame_4: -1011153614
+      Demon3_Attack_BlueFlame_5: 1658826789
+      Demon3_Attack_BlueFlame_6: -1483075868
+      Demon3_Attack_BlueFlame_7: 1769597857
+      Demon3_Attack_BlueFlame_8: -1398779649
+      Demon3_Attack_BlueFlame_9: -525534150
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

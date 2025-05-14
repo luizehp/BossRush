@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class DemonFB : MonoBehaviour
 {
-    public GameObject FB;        // your fireball prefab
-    public Transform FBPos;      // spawn point
+    public GameObject FB;
+    public Transform FBPos;
+    public BossController bossController;
+    public Color phaseTwoBulletColor = Color.cyan;
 
-    // how often to fire the volley
-    public float volleyCooldown = 4f;
+    public float volleyCooldown = 6f;
     private float timer = 0f;
 
     public float[] extraDelays = new float[] { 0f, 0.3f, 0.6f };
@@ -37,8 +38,17 @@ public class DemonFB : MonoBehaviour
                                                 Quaternion.identity);
 
             EnemyBulletScript ebs = fbInstance.GetComponent<EnemyBulletScript>();
-            if (ebs != null && i < extraDelays.Length)
-                ebs.launchDelay = extraDelays[i];
+            if (ebs != null)
+            {
+                if (i < extraDelays.Length)
+                    ebs.launchDelay = extraDelays[i];
+
+                if (bossController != null && bossController.phaseTwo)
+                {
+                    ebs.SetColor(phaseTwoBulletColor);
+                }
+            }
         }
     }
+
 }
