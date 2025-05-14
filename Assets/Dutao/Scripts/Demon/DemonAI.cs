@@ -16,6 +16,9 @@ public class DemonAI : MonoBehaviour
     public float attackRadius = 1f;
     public float attackDuration = 1f;
     public float recoveryDuration = 1f;
+    private float jumpCheckTimer = 0f;
+    public float jumpCheckInterval = 1.5f;
+    public float jumpChance = 0.2f; // 20% chance to jump when checked
 
     private enum State { Idle, Chase, Attack }
     private State currentState = State.Idle;
@@ -34,12 +37,17 @@ public class DemonAI : MonoBehaviour
 
         float dist = Vector2.Distance(transform.position, player.position);
 
-        // Trigger de teste: jogador aperta B e inimigo faz o pulo
-        if (Input.GetKeyDown(KeyCode.B))
+        jumpCheckTimer += Time.deltaTime;
+
+        if (jumpCheckTimer >= jumpCheckInterval)
         {
-            Vector2 target = player.position;
-            jumpAttack.StartJump(target);
-            return;
+            jumpCheckTimer = 0f;
+
+            if (Random.value < jumpChance)
+            {
+                Vector2 target = player.position;
+                jumpAttack.StartJump(target);
+            }
         }
 
         switch (currentState)

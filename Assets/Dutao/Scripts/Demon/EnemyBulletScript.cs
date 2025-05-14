@@ -14,6 +14,8 @@ public class EnemyBulletScript : MonoBehaviour
 
     private Rigidbody2D rb;
     private Transform playerTransform;
+    public SpriteRenderer bulletRenderer;
+
 
     void Awake()
     {
@@ -39,4 +41,12 @@ public class EnemyBulletScript : MonoBehaviour
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
         Destroy(gameObject, 3f);
     }
+
+
+    public void SetColor(Color color)
+    {
+        if (bulletRenderer != null)
+            bulletRenderer.color = color;
+    }
+
 }
