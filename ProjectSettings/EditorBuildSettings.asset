@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NecroScene.unity
     guid: f02d39af43864564983d05ba1fd1c704
+  - enabled: 1
+    path: Assets/Scenes/DemonScene.unity
+    guid: 80b857921dbb20740ae8092c9801f15d
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 99f9c9493070a9d4c979a8fec7c5a8d3, type: 2}
   m_UseUCBPForAssetBundles: 0
