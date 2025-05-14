@@ -10,12 +10,20 @@ namespace Necromancer.Minion
         private Transform playerPos;
         private Animator necromancerAnimator;
 
+        [Header("Áudio")]
+        public AudioClip summonSFX;
+        private AudioSource audioSrc;
+
         void Start()
         {
             necromancerAnimator = GetComponent<Animator>();
             GameObject player = GameObject.FindGameObjectWithTag("Player");
             if (player is not null)
                 playerPos = GameObject.FindGameObjectWithTag("Player").transform;
+            audioSrc = GetComponent<AudioSource>();
+            if (audioSrc == null)
+                audioSrc = gameObject.AddComponent<AudioSource>();
+            audioSrc.playOnAwake = false;
         }
 
         void Update()
@@ -36,6 +44,9 @@ namespace Necromancer.Minion
                 Vector3 spawnPos = playerPos.position + new Vector3(offset.x, offset.y, 0f);
 
                 Instantiate(minionPrefab, spawnPos, Quaternion.identity);
+
+                if (summonSFX != null && audioSrc != null)
+                    audioSrc.PlayOneShot(summonSFX);
             }
         }
     }

@@ -5,6 +5,9 @@ namespace Necromancer.Lightning
 {
     public class LightningStrikeAttack : MonoBehaviour
     {
+        public AudioClip thunderAttackClip;
+        private AudioSource audioSrc;
+
         private enum State { Idle, CastingShadow, LockingPosition, Striking, Recovering }
         private State currentState = State.Idle;
         public Animator animator;
@@ -18,11 +21,14 @@ namespace Necromancer.Lightning
         private Vector3 lockedPosition;
         private float timer;
         private bool wasCalled = false;
+        public Shake shakeScript;
         
         void Start()
         {
             currentState = State.Idle;
             player = GameObject.FindWithTag("Player");
+
+            audioSrc = GetComponent<AudioSource>();
         }
 
         void Update()
@@ -60,6 +66,9 @@ namespace Necromancer.Lightning
 
                 lightning = Instantiate(lightningPrefab, lockedPosition, Quaternion.identity);
                 lightningAnimator.SetTrigger("LightBolt");
+
+                if (thunderAttackClip != null && audioSrc != null)
+                    audioSrc.PlayOneShot(thunderAttackClip);
             }
 
             else if (currentState == State.Striking)
@@ -81,5 +90,9 @@ namespace Necromancer.Lightning
             wasCalled = false;
         }
 
+        public void TriggerShake()
+        {
+            shakeScript.TriggerShake();
+        }
     }
 }

@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/VFX/Smoke.mat.meta
+guid: 8ecb6dea22cf4694084ff639d4accfd6
+========
+guid: 6f3c232f2b19e4f4c868240598c9b834
+>>>>>>>> a0b88deb1ca06ad006df7c27fd556fcbb24811d1:Assets/Shaders/LaserMaterial.mat.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,7 +7,7 @@ public class PlayerHealth : MonoBehaviour
     public int health = 5;
     public int maxHealth;
     public float invincibilityDuration = 1f;
-    private bool isInvincible = false;
+    public bool isInvincible = false;
 
     private SpriteRenderer spriteRenderer;
     private Animator animator;
@@ -27,9 +27,16 @@ public class PlayerHealth : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        Collider2D selfCollider = GetComponent<Collider2D>();
+        bool selfIsTrigger = selfCollider.isTrigger;
+        bool otherIsTrigger = other.isTrigger;
+
         if (!isInvincible && other.CompareTag("EnemyAttack"))
         {
-            TakeDamage(1);
+            if (otherIsTrigger || (selfIsTrigger && otherIsTrigger))
+            {
+                TakeDamage(1);
+            }
         }
     }
 
