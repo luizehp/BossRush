@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
 
     public Animator animator;
 
+    private Vector2 lastMoveDirection = Vector2.down;
+
     //Dash variables
     private bool canDash = true;
     private bool isDashing;
@@ -68,25 +70,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void Animate()
     {
+        Moving = moveInput.magnitude > 0.1f;
 
-        if (true)
+        if (Moving)
         {
-            if (moveInput.magnitude > 0.1f || moveInput.magnitude < -0.1f)
-            {
-                Moving = true;
-            }
-
-            else
-            {
-                Moving = false;
-            }
-            if (Moving)
-            {
-                animator.SetFloat("x", x);
-                animator.SetFloat("y", y);
-            }
-            animator.SetBool("Moving", Moving);
+            lastMoveDirection = moveInput;
         }
 
+        animator.SetFloat("x", lastMoveDirection.x);
+        animator.SetFloat("y", lastMoveDirection.y);
+        animator.SetBool("Moving", Moving);
     }
+
+
 }
