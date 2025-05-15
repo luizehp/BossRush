@@ -187,16 +187,6 @@ Transform:
   - {fileID: 1574575828}
   m_Father: {fileID: 487016380}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &96697307 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5141259158689389543, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-  m_PrefabInstance: {fileID: 450170123}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &119784793 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 512416935687367974, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-  m_PrefabInstance: {fileID: 450170123}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &197935132 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6623260149846432850, guid: 4cc1963e8a9afd743a64d20610709399, type: 3}
@@ -3585,11 +3575,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 487016380}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &296698610 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7764076976891189885, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-  m_PrefabInstance: {fileID: 450170123}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &319821363
 GameObject:
   m_ObjectHideFlags: 0
@@ -3674,11 +3659,6 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
---- !u!1 &421847761 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4249553079369677348, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-  m_PrefabInstance: {fileID: 450170123}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &450170123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3687,10 +3667,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 420898776242693694, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-      propertyPath: m_Intensity
-      value: 7.18
-      objectReference: {fileID: 0}
     - target: {fileID: 1097521929367815675, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.098307
@@ -3735,26 +3711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HUDController
       objectReference: {fileID: 0}
-    - target: {fileID: 6149043463360148123, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -52
-      objectReference: {fileID: 0}
-    - target: {fileID: 6149043463360148123, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -55
-      objectReference: {fileID: 0}
     - target: {fileID: 8839956431352842081, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1492989156}
-    - target: {fileID: 8839956431352842081, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-      propertyPath: m_RenderMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8839956431352842081, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 9153058125022972074, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
       propertyPath: boss
       value: 
@@ -3763,42 +3723,6 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 197935132}
-    - target: {fileID: 9153058125022972074, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-      propertyPath: pausePanel
-      value: 
-      objectReference: {fileID: 718280099}
-    - target: {fileID: 9153058125022972074, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-      propertyPath: controlsPopup
-      value: 
-      objectReference: {fileID: 1102347341}
-    - target: {fileID: 9153058125022972074, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-      propertyPath: settingsPopup
-      value: 
-      objectReference: {fileID: 421847761}
-    - target: {fileID: 9153058125022972074, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-      propertyPath: exitPauseLight
-      value: 
-      objectReference: {fileID: 755990059}
-    - target: {fileID: 9153058125022972074, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-      propertyPath: pauseCloseLight
-      value: 
-      objectReference: {fileID: 2087459106}
-    - target: {fileID: 9153058125022972074, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-      propertyPath: configPauseLight
-      value: 
-      objectReference: {fileID: 119784793}
-    - target: {fileID: 9153058125022972074, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-      propertyPath: controlsCloseLight
-      value: 
-      objectReference: {fileID: 96697307}
-    - target: {fileID: 9153058125022972074, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-      propertyPath: controlsPauseLight
-      value: 
-      objectReference: {fileID: 296698610}
-    - target: {fileID: 9153058125022972074, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-      propertyPath: settingsCloseLight
-      value: 
-      objectReference: {fileID: 979623001}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4826,16 +4750,6 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
---- !u!1 &718280099 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3251190837396145970, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-  m_PrefabInstance: {fileID: 450170123}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &755990059 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6795135453157425199, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-  m_PrefabInstance: {fileID: 450170123}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &758873956
 GameObject:
   m_ObjectHideFlags: 0
@@ -4999,16 +4913,6 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
---- !u!1 &979623001 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 675922937112187819, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-  m_PrefabInstance: {fileID: 450170123}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1102347341 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8795645101560741992, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-  m_PrefabInstance: {fileID: 450170123}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1125685768
 GameObject:
   m_ObjectHideFlags: 0
@@ -14947,11 +14851,6 @@ Transform:
   - {fileID: 1584964468}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2087459106 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7264884690177477880, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
-  m_PrefabInstance: {fileID: 450170123}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &61809333747475953
 PrefabInstance:
   m_ObjectHideFlags: 0

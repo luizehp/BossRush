@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9e60c42434ca51042b468b338fed7c17
+guid: 020bde59b305ebc47bd8005683977e36
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1277574578974587372
-    second: BotaoQuadrado_0
+      213: 603476345245770672
+    second: LuciferAvatar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BotaoQuadrado_0
+      name: LuciferAvatar_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 506
-        height: 493
+        width: 341
+        height: 340
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 416862670b4254ee0800000000000000
-      internalID: -1277574578974587372
+      spriteID: 0b3a9b4e98aff5800800000000000000
+      internalID: 603476345245770672
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0de55b9e9ea2f4f4b94717b40def93aa
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BotaoQuadrado_0: -1277574578974587372
+      LuciferAvatar_0: 603476345245770672
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
