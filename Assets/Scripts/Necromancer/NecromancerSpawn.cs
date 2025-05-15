@@ -50,6 +50,9 @@ namespace Necromancer
             necromancer.GetComponent<Animator>().SetTrigger("Spawning");
             yield return new WaitUntil(() => spawningEnded);
             yield return StartCoroutine(MoveCameraTowards(player.transform.position));
+            playerMovement.enabled = true;
+            rb.constraints = RigidbodyConstraints2D.None;
+            rb.freezeRotation = true;
             player.GetComponent<PlayerHealth>().isInvincible = false;
             mainCamera.SetParent(player.transform);
             isSpawnFinished = true;
@@ -74,10 +77,6 @@ namespace Necromancer
             }
 
             mainCamera.position = destino;
-            
-            playerMovement.enabled = true;
-            rb.constraints = RigidbodyConstraints2D.None;
-            rb.freezeRotation = true;
         }
 
     }
