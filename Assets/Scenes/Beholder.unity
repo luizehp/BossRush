@@ -25532,6 +25532,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: HUDController
       objectReference: {fileID: 0}
+    - target: {fileID: 5871230938070837785, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_text
+      value: Beholder - The Watcher
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871230938070837785, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.8156863
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871230938070837785, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.06666668
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871230938070837785, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.4215848
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871230938070837785, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291826028
+      objectReference: {fileID: 0}
+    - target: {fileID: 6603452317731577976, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4835785800053133101, guid: dfe760ca0da1ed742951d778e57ef6c3, type: 3}
     - target: {fileID: 9153058125022972074, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
       propertyPath: boss
       value: 

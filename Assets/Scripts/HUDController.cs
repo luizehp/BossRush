@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Linq;
@@ -20,7 +21,7 @@ public class HUDController : MonoBehaviour
     [Header("Endgame UI")]
     public GameObject endGamePanelVictory;
     public GameObject endGamePanelDefeat;
-    public bool      eh_finalBoss; // checkbox no Inspector
+    public bool      eh_finalBoss;
 
     [Header("Pause UI")]
     public GameObject buttonPause;
@@ -40,50 +41,54 @@ public class HUDController : MonoBehaviour
     [Header("Cenas")]
     public string mainMenuSceneName = "MainMenu";
 
-    private PlayerHealth playerHealth;
-    private List<Image>  hearts = new List<Image>();
+    private PlayerHealth    playerHealth;
+    private List<Image>     hearts = new List<Image>();
 
-    private FieldInfo    currentHealthField;
-    private TowerSpawner towerSpawner;
-    private Health       bossHealth;
-    private int          maxTotalHealth;
-    private bool         maxHealthInitialized = false;
+    private FieldInfo       currentHealthField;
+    private TowerSpawner    towerSpawner;
+    private Health          bossHealth;
+    private BossController  bossController;
+    private int             maxTotalHealth;
+    private bool            maxHealthInitialized = false;
 
-    private bool isPaused = false;
+    private bool defeatTriggered  = false;
+    private bool victoryTriggered = false;
+    private bool isPaused         = false;
 
     void Awake()
     {
-        // pega PlayerHealth
+        // Pega PlayerHealth
         playerHealth = player.GetComponent<PlayerHealth>();
         if (playerHealth == null)
             Debug.LogError("HUDController: PlayerHealth não encontrado no player!");
 
-        // reflection para currentHealth
+        // Reflection para currentHealth de Health
         currentHealthField = typeof(Health)
             .GetField("currentHealth", BindingFlags.NonPublic | BindingFlags.Instance);
 
-        // tenta pegar TowerSpawner ou Health do boss
-        towerSpawner = boss.GetComponent<TowerSpawner>();
-        bossHealth   = boss.GetComponent<Health>();
+        // Tenta pegar TowerSpawner, Health ou BossController do boss
+        towerSpawner   = boss.GetComponent<TowerSpawner>();
+        bossHealth     = boss.GetComponent<Health>();
+        bossController = boss.GetComponent<BossController>();
     }
 
     void Start()
     {
-        // garante que, ao entrar na cena, não fique pausado
+        // Garante que, ao entrar na cena, não fique pausado
         Time.timeScale = 1f;
 
-        // instancia corações iniciais
+        // Instancia corações iniciais
         for (int i = 0; i < playerHealth.health; i++)
         {
             var go = Instantiate(heartPrefab, heartsParent);
             hearts.Add(go.GetComponent<Image>());
         }
 
-        // barra do boss cheia
+        // Barra do boss cheia
         if (bossFillImage != null)
             bossFillImage.fillAmount = 1f;
 
-        // UI de pausa e popups desligados
+        // Desliga UI de pausa e popups
         pauseLight?.SetActive(false);
         pausePanel?.SetActive(false);
         pauseCloseLight?.SetActive(false);
@@ -95,7 +100,7 @@ public class HUDController : MonoBehaviour
         settingsPopup?.SetActive(false);
         settingsCloseLight?.SetActive(false);
 
-        // esconde telas de endgame
+        // Esconde telas de endgame
         endGamePanelVictory?.SetActive(false);
         endGamePanelDefeat?.SetActive(false);
     }
@@ -131,6 +136,7 @@ public class HUDController : MonoBehaviour
     {
         if (bossFillImage == null) return;
 
+        // Inicializa maxTotalHealth apenas uma vez
         if (!maxHealthInitialized)
         {
             if (towerSpawner != null && towerSpawner.instancias.Count > 0)
@@ -145,8 +151,14 @@ public class HUDController : MonoBehaviour
                 maxTotalHealth = bossHealth.maxHealth;
                 maxHealthInitialized = true;
             }
+            else if (bossController != null)
+            {
+                maxTotalHealth = bossController.maxHealth;
+                maxHealthInitialized = true;
+            }
         }
 
+        // Obtém vida atual
         int current = 0;
         if (towerSpawner != null && maxHealthInitialized)
         {
@@ -158,9 +170,70 @@ public class HUDController : MonoBehaviour
         {
             current = (int)currentHealthField.GetValue(bossHealth);
         }
+        else if (bossController != null && maxHealthInitialized)
+        {
+            current = bossController.currentHealth;
+        }
 
-        float pct = maxTotalHealth > 0 ? (float)current / maxTotalHealth : 0f;
-        bossFillImage.fillAmount = Mathf.Clamp01(pct);
+        // Atualiza barra
+        bossFillImage.fillAmount = Mathf.Clamp01(
+            maxTotalHealth > 0 ? (float)current / maxTotalHealth : 0f
+        );
+
+        // Verifica condições de fim de jogo
+        CheckEndGame();
+    }
+
+    private void CheckEndGame()
+    {
+        // Derrota: delay de 2s
+        if (!defeatTriggered && playerHealth.health <= 0)
+        {
+            defeatTriggered = true;
+            StartCoroutine(ShowDefeatAfterDelay());
+        }
+
+        // Vitória (só se final boss): delay de 5s
+        if (!victoryTriggered && eh_finalBoss)
+        {
+            bool victory = false;
+
+            if (towerSpawner != null && maxHealthInitialized)
+            {
+                int sumHealth = towerSpawner.instancias
+                    .Where(t => t != null && t.GetComponent<Health>() != null)
+                    .Sum(t => (int)currentHealthField.GetValue(t.GetComponent<Health>()));
+                victory = sumHealth <= 0;
+            }
+            else if (bossHealth != null)
+            {
+                victory = (int)currentHealthField.GetValue(bossHealth) <= 0;
+            }
+            else if (bossController != null)
+            {
+                victory = bossController.currentHealth <= 0;
+            }
+
+            if (victory)
+            {
+                victoryTriggered = true;
+                StartCoroutine(ShowVictoryAfterDelay());
+            }
+        }
+    }
+
+    private IEnumerator ShowDefeatAfterDelay()
+    {
+        yield return new WaitForSeconds(2f);
+        Time.timeScale = 0f;
+        endGamePanelDefeat.SetActive(true);
+    }
+    
+    private IEnumerator ShowVictoryAfterDelay()
+    {
+        yield return new WaitForSeconds(5f);
+        Time.timeScale = 0f;
+        endGamePanelVictory.SetActive(true);
     }
 
     public void TogglePause()
@@ -170,83 +243,29 @@ public class HUDController : MonoBehaviour
         pausePanel?.SetActive(isPaused);
     }
 
-    // popups
     public void ShowControls()  => controlsPopup?.SetActive(true);
     public void HideControls()  => controlsPopup?.SetActive(false);
     public void ShowSettings()  => settingsPopup?.SetActive(true);
     public void HideSettings()  => settingsPopup?.SetActive(false);
 
-    // volta ao menu principal e garante unpause
     public void QuitGame()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(mainMenuSceneName);
     }
 
-    // verifica fim de jogo
-    void LateUpdate()
-    {
-        CheckEndGame();
-    }
-
-    private void CheckEndGame()
-    {
-        // DERROTA: player morreu
-        if (playerHealth.health <= 0 && !endGamePanelDefeat.activeSelf)
-        {
-            Time.timeScale = 0f;
-            endGamePanelDefeat.SetActive(true);
-        }
-
-        // VITÓRIA: só se checkbox marcado e todas as partes do "boss" morrerem
-        if (eh_finalBoss && !endGamePanelVictory.activeSelf)
-        {
-            bool victory = false;
-
-            // se estiver usando TowerSpawner (vários inimigos)
-            if (towerSpawner != null && maxHealthInitialized)
-            {
-                int sumHealth = towerSpawner.instancias
-                    .Where(t => t != null && t.GetComponent<Health>() != null)
-                    .Sum(t => (int)currentHealthField.GetValue(t.GetComponent<Health>()));
-                if (sumHealth <= 0)
-                    victory = true;
-            }
-            // se for um único boss com Health
-            else if (bossHealth != null)
-            {
-                int bossCurrent = (int)currentHealthField.GetValue(bossHealth);
-                if (bossCurrent <= 0)
-                    victory = true;
-            }
-
-            if (victory)
-            {
-                Time.timeScale = 0f;
-                endGamePanelVictory.SetActive(true);
-            }
-        }
-    }
-
-    // Hover effects
     public void HoverPause_Enter()             => pauseLight?.SetActive(true);
     public void HoverPause_Exit()              => pauseLight?.SetActive(false);
-
     public void HoverPauseClose_Enter()        => pauseCloseLight?.SetActive(true);
     public void HoverPauseClose_Exit()         => pauseCloseLight?.SetActive(false);
-
     public void HoverControlsPause_Enter()     => controlsPauseLight?.SetActive(true);
     public void HoverControlsPause_Exit()      => controlsPauseLight?.SetActive(false);
-
     public void HoverConfigPause_Enter()       => configPauseLight?.SetActive(true);
     public void HoverConfigPause_Exit()        => configPauseLight?.SetActive(false);
-
     public void HoverExitPause_Enter()         => exitPauseLight?.SetActive(true);
     public void HoverExitPause_Exit()          => exitPauseLight?.SetActive(false);
-
     public void HoverControlsClose_Enter()     => controlsCloseLight?.SetActive(true);
     public void HoverControlsClose_Exit()      => controlsCloseLight?.SetActive(false);
-
     public void HoverSettingsClose_Enter()     => settingsCloseLight?.SetActive(true);
     public void HoverSettingsClose_Exit()      => settingsCloseLight?.SetActive(false);
 }
