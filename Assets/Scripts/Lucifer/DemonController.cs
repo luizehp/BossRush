@@ -3,6 +3,7 @@ using System.Collections;
 
 public class BossController : MonoBehaviour
 {
+    public ChangeColor changeColor;
     public Camera mainCamera;
     public PlayerMovement playerMovement;
     public PlayerSlash playerSlash;
@@ -115,6 +116,7 @@ public class BossController : MonoBehaviour
 
         // Play phase transition animation
         animator.SetTrigger("PhaseTwo");
+        changeColor.Change();
         yield return new WaitForSeconds(phaseAnimationDuration);
 
         // Calculate return position based on current player position

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class DemonFB : MonoBehaviour
 {
@@ -6,6 +7,7 @@ public class DemonFB : MonoBehaviour
     public Transform FBPos;
     public BossController bossController;
     public Color phaseTwoBulletColor = Color.cyan;
+    public Color phaseTwoLightColor = Color.green;
 
     public float volleyCooldown = 6f;
     private float timer = 0f;
@@ -46,6 +48,13 @@ public class DemonFB : MonoBehaviour
                 if (bossController != null && bossController.phaseTwo)
                 {
                     ebs.SetColor(phaseTwoBulletColor);
+                    Light2D fbLight = fbInstance.GetComponent<Light2D>() ?? fbInstance.GetComponentInChildren<Light2D>();
+
+                    if (fbLight != null)
+                    {
+                        fbLight.color = phaseTwoLightColor;
+                    }
+
                 }
             }
         }
