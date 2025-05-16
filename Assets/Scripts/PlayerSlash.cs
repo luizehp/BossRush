@@ -11,6 +11,7 @@ public class PlayerSlash : MonoBehaviour
     private bool canSlash = true;
     public Slash slashScript;
     private Vector2 lastDirection = Vector2.right;
+    public AudioSource SlashSource;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -40,6 +41,7 @@ public class PlayerSlash : MonoBehaviour
         animator.SetFloat("AttackX", lastDirection.x);
         animator.SetFloat("AttackY", lastDirection.y);
         animator.SetBool("Slashing", isSlashing);
+        SlashSource.Play();
         yield return new WaitForSeconds(0.4f);
         isSlashing = false;
         animator.SetBool("Slashing", isSlashing);

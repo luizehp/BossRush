@@ -1,4 +1,5 @@
 using System.Collections;
+using Necromancer.Tower;
 using UnityEngine;
 
 namespace Necromancer.Lightning
@@ -21,6 +22,7 @@ namespace Necromancer.Lightning
         private float timer;
         private bool wasCalled = false;
         public Shake shakeScript;
+        public TowerSpawner towerSpawnerScript;
         
         void Start()
         {
@@ -89,6 +91,7 @@ namespace Necromancer.Lightning
 
         public void TriggerShake()
         {
+            if (towerSpawnerScript.Ended) return;
             shakeScript.TriggerShake();
         }
     }

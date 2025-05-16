@@ -232,8 +232,7 @@ MonoBehaviour:
   maxHealth: 10
   invincibilityDuration: 1
   flashInterval: 0.1
-  deathSFX: {fileID: 8300000, guid: 0adfbbcf1fd442f499e233bb08e1bf47, type: 3}
-  deathSFXVolume: 5
+  deathSFX: {fileID: 2381373547981223860}
 --- !u!82 &2381373547981223860
 AudioSource:
   m_ObjectHideFlags: 0
