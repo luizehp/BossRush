@@ -14,6 +14,8 @@ public class BeholderWalk : MonoBehaviour
     public GameObject meteorPrefab;
     public Transform firePoint;
     public float laserSpeed = 10f;
+    public bool isDead = false;
+
 
     public int meteorCount = 4;
 
@@ -39,6 +41,7 @@ public class BeholderWalk : MonoBehaviour
     private AudioSource beamAudioSource;
     private AudioSource meteorAudioSource;
 
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -47,6 +50,8 @@ public class BeholderWalk : MonoBehaviour
 
     void Update()
     {
+        if (isDead) return; // Se morreu, não faz mais nada
+
         if (isWalking)
         {
             Vector2 direction = (target.transform.position - transform.position).normalized;
@@ -86,6 +91,7 @@ public class BeholderWalk : MonoBehaviour
             RotateLaser();
         }
     }
+
 
     IEnumerator AttackRoutine()
     {
