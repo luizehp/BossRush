@@ -14,9 +14,10 @@ public class HUDController : MonoBehaviour
     public GameObject heartPrefab;
     public Transform  heartsParent;
 
-    [Header("Boss Health Bar")]
-    public GameObject boss;
-    public Image     bossFillImage;
+    [Header("Boss UI")]
+    public GameObject boss;                  // o prefab/instância do boss
+    public GameObject bossHealthBar;         // container inteiro do Health Bar (BossHealthBar)
+    public Image     bossFillImage;          // a barra de preenchimento
 
     [Header("Endgame UI")]
     public GameObject endGamePanelVictory;
@@ -24,8 +25,8 @@ public class HUDController : MonoBehaviour
     public bool      eh_finalBoss;
 
     [Header("Cooldown UI")]
-    public Image dashImage;    // arraste aqui o Image do Dash
-    public Image attackImage;  // arraste aqui o Image do Attack
+    public Image dashImage;
+    public Image attackImage;
     public float cooldownFillDuration = 1f;
 
     [Header("Pause UI")]
@@ -48,7 +49,6 @@ public class HUDController : MonoBehaviour
 
     private PlayerHealth    playerHealth;
     private List<Image>     hearts = new List<Image>();
-
     private FieldInfo       currentHealthField;
     private TowerSpawner    towerSpawner;
     private Health          bossHealth;
@@ -65,21 +65,24 @@ public class HUDController : MonoBehaviour
 
     void Awake()
     {
-        // pega PlayerHealth
+        // player
         playerHealth = player.GetComponent<PlayerHealth>();
         if (playerHealth == null)
-            Debug.LogError("HUDController: PlayerHealth não encontrado no player!");
+            Debug.LogError("HUDController: PlayerHealth não encontrado!");
 
         // reflection para Health.currentHealth
         currentHealthField = typeof(Health)
             .GetField("currentHealth", BindingFlags.NonPublic | BindingFlags.Instance);
 
-        // referências ao boss
-        towerSpawner   = boss.GetComponent<TowerSpawner>();
-        bossHealth     = boss.GetComponent<Health>();
-        bossController = boss.GetComponent<BossController>();
+        // só tenta obter componentes de boss se foi atribuído
+        if (boss != null)
+        {
+            towerSpawner   = boss.GetComponent<TowerSpawner>();
+            bossHealth     = boss.GetComponent<Health>();
+            bossController = boss.GetComponent<BossController>();
+        }
 
-        // configura imagens de cooldown
+        // configura cooldown images
         if (dashImage != null)
         {
             dashImage.type       = Image.Type.Filled;
@@ -100,14 +103,18 @@ public class HUDController : MonoBehaviour
     {
         Time.timeScale = 1f;
 
-        // instancia corações
+        // se nenhum boss foi atribuído, desative todo o container da barra
+        if (boss == null && bossHealthBar != null)
+            bossHealthBar.SetActive(false);
+
+        // corações iniciais
         for (int i = 0; i < playerHealth.health; i++)
         {
             var go = Instantiate(heartPrefab, heartsParent);
             hearts.Add(go.GetComponent<Image>());
         }
 
-        // barra do boss cheia
+        // inicializa fill
         if (bossFillImage != null)
             bossFillImage.fillAmount = 1f;
 
@@ -130,14 +137,14 @@ public class HUDController : MonoBehaviour
 
     void Update()
     {
-        // trigger de Dash: Shift pressionado
+        // Dash: Shift
         if (dashImage != null && Input.GetKeyDown(KeyCode.LeftShift))
         {
             if (dashRoutine != null) StopCoroutine(dashRoutine);
             dashRoutine = StartCoroutine(CooldownRoutine(dashImage));
         }
 
-        // trigger de Attack: Z pressionado
+        // Attack: Z
         if (attackImage != null && Input.GetKeyDown(KeyCode.Z))
         {
             if (attackRoutine != null) StopCoroutine(attackRoutine);
@@ -184,7 +191,8 @@ public class HUDController : MonoBehaviour
 
     private void AtualizaBossBar()
     {
-        if (bossFillImage == null) return;
+        // se não houver boss ou imagem, saia
+        if (boss == null || bossFillImage == null) return;
 
         if (!maxHealthInitialized)
         {
