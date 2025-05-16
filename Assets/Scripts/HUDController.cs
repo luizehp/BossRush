@@ -15,7 +15,12 @@ public class HUDController : MonoBehaviour
 
     [Header("Boss Health Bar")]
     public GameObject boss;
-    public Image bossFillImage;
+    public Image    bossFillImage;
+
+    [Header("Endgame UI")]
+    public GameObject endGamePanelVictory;
+    public GameObject endGamePanelDefeat;
+    public bool      eh_finalBoss; // checkbox no Inspector
 
     [Header("Pause UI")]
     public GameObject buttonPause;
@@ -36,13 +41,13 @@ public class HUDController : MonoBehaviour
     public string mainMenuSceneName = "MainMenu";
 
     private PlayerHealth playerHealth;
-    private List<Image> hearts = new List<Image>();
+    private List<Image>  hearts = new List<Image>();
 
-    private FieldInfo currentHealthField;
+    private FieldInfo    currentHealthField;
     private TowerSpawner towerSpawner;
-    private Health bossHealth;
-    private int maxTotalHealth;
-    private bool maxHealthInitialized = false;
+    private Health       bossHealth;
+    private int          maxTotalHealth;
+    private bool         maxHealthInitialized = false;
 
     private bool isPaused = false;
 
@@ -89,6 +94,10 @@ public class HUDController : MonoBehaviour
         controlsCloseLight?.SetActive(false);
         settingsPopup?.SetActive(false);
         settingsCloseLight?.SetActive(false);
+
+        // esconde telas de endgame
+        endGamePanelVictory?.SetActive(false);
+        endGamePanelDefeat?.SetActive(false);
     }
 
     void Update()
@@ -141,27 +150,19 @@ public class HUDController : MonoBehaviour
         int current = 0;
         if (towerSpawner != null && maxHealthInitialized)
         {
-            foreach (var t in towerSpawner.instancias)
-            {
-                if (t == null) continue;
-                var h = t.GetComponent<Health>();
-                if (h != null)
-                    current += (int)currentHealthField.GetValue(h);
-            }
+            current = towerSpawner.instancias
+                .Where(t => t != null && t.GetComponent<Health>() != null)
+                .Sum(t => (int)currentHealthField.GetValue(t.GetComponent<Health>()));
         }
         else if (bossHealth != null && maxHealthInitialized)
         {
             current = (int)currentHealthField.GetValue(bossHealth);
         }
 
-        float pct = maxTotalHealth > 0
-            ? (float)current / maxTotalHealth
-            : 0f;
-
+        float pct = maxTotalHealth > 0 ? (float)current / maxTotalHealth : 0f;
         bossFillImage.fillAmount = Mathf.Clamp01(pct);
     }
 
-    // alterna o estado de pausa
     public void TogglePause()
     {
         isPaused = !isPaused;
@@ -180,6 +181,51 @@ public class HUDController : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(mainMenuSceneName);
+    }
+
+    // verifica fim de jogo
+    void LateUpdate()
+    {
+        CheckEndGame();
+    }
+
+    private void CheckEndGame()
+    {
+        // DERROTA: player morreu
+        if (playerHealth.health <= 0 && !endGamePanelDefeat.activeSelf)
+        {
+            Time.timeScale = 0f;
+            endGamePanelDefeat.SetActive(true);
+        }
+
+        // VITÓRIA: só se checkbox marcado e todas as partes do "boss" morrerem
+        if (eh_finalBoss && !endGamePanelVictory.activeSelf)
+        {
+            bool victory = false;
+
+            // se estiver usando TowerSpawner (vários inimigos)
+            if (towerSpawner != null && maxHealthInitialized)
+            {
+                int sumHealth = towerSpawner.instancias
+                    .Where(t => t != null && t.GetComponent<Health>() != null)
+                    .Sum(t => (int)currentHealthField.GetValue(t.GetComponent<Health>()));
+                if (sumHealth <= 0)
+                    victory = true;
+            }
+            // se for um único boss com Health
+            else if (bossHealth != null)
+            {
+                int bossCurrent = (int)currentHealthField.GetValue(bossHealth);
+                if (bossCurrent <= 0)
+                    victory = true;
+            }
+
+            if (victory)
+            {
+                Time.timeScale = 0f;
+                endGamePanelVictory.SetActive(true);
+            }
+        }
     }
 
     // Hover effects

@@ -1153,7 +1153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlsPopup: {fileID: 1490193343}
   settingsPopup: {fileID: 1668724962}
-  startSceneName: PreNecromancer
+  startSceneName: PreBeholder
   volumeSlider: {fileID: 2038422259}
   lightIniciar: {fileID: 757421167}
   lightControles: {fileID: 114711102}

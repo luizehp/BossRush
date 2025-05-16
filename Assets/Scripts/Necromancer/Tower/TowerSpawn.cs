@@ -81,6 +81,14 @@ namespace Necromancer.Tower
 
                     GameObject beamObj = Instantiate(beamPrefab);
                     var lrs            = beamObj.GetComponentsInChildren<LineRenderer>();
+
+                    // ←←← Aqui apenas o necessário para garantir que o beam fique em Order in Layer -1
+                    foreach (var lr in lrs)
+                    {
+                        lr.sortingLayerName = "Default";
+                        lr.sortingOrder     = -1;
+                    }
+
                     LineRenderer mainBeam  = lrs[0];
                     LineRenderer noiseBeam = lrs[1];
 
