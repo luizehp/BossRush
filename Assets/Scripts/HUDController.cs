@@ -12,16 +12,21 @@ public class HUDController : MonoBehaviour
     [Header("Referências - Player")]
     public GameObject player;
     public GameObject heartPrefab;
-    public Transform heartsParent;
+    public Transform  heartsParent;
 
     [Header("Boss Health Bar")]
     public GameObject boss;
-    public Image    bossFillImage;
+    public Image     bossFillImage;
 
     [Header("Endgame UI")]
     public GameObject endGamePanelVictory;
     public GameObject endGamePanelDefeat;
     public bool      eh_finalBoss;
+
+    [Header("Cooldown UI")]
+    public Image dashImage;    // arraste aqui o Image do Dash
+    public Image attackImage;  // arraste aqui o Image do Attack
+    public float cooldownFillDuration = 1f;
 
     [Header("Pause UI")]
     public GameObject buttonPause;
@@ -55,40 +60,58 @@ public class HUDController : MonoBehaviour
     private bool victoryTriggered = false;
     private bool isPaused         = false;
 
+    private Coroutine dashRoutine;
+    private Coroutine attackRoutine;
+
     void Awake()
     {
-        // Pega PlayerHealth
+        // pega PlayerHealth
         playerHealth = player.GetComponent<PlayerHealth>();
         if (playerHealth == null)
             Debug.LogError("HUDController: PlayerHealth não encontrado no player!");
 
-        // Reflection para currentHealth de Health
+        // reflection para Health.currentHealth
         currentHealthField = typeof(Health)
             .GetField("currentHealth", BindingFlags.NonPublic | BindingFlags.Instance);
 
-        // Tenta pegar TowerSpawner, Health ou BossController do boss
+        // referências ao boss
         towerSpawner   = boss.GetComponent<TowerSpawner>();
         bossHealth     = boss.GetComponent<Health>();
         bossController = boss.GetComponent<BossController>();
+
+        // configura imagens de cooldown
+        if (dashImage != null)
+        {
+            dashImage.type       = Image.Type.Filled;
+            dashImage.fillMethod = Image.FillMethod.Vertical;
+            dashImage.fillOrigin = (int)Image.OriginVertical.Bottom;
+            dashImage.fillAmount = 1f;
+        }
+        if (attackImage != null)
+        {
+            attackImage.type       = Image.Type.Filled;
+            attackImage.fillMethod = Image.FillMethod.Vertical;
+            attackImage.fillOrigin = (int)Image.OriginVertical.Bottom;
+            attackImage.fillAmount = 1f;
+        }
     }
 
     void Start()
     {
-        // Garante que, ao entrar na cena, não fique pausado
         Time.timeScale = 1f;
 
-        // Instancia corações iniciais
+        // instancia corações
         for (int i = 0; i < playerHealth.health; i++)
         {
             var go = Instantiate(heartPrefab, heartsParent);
             hearts.Add(go.GetComponent<Image>());
         }
 
-        // Barra do boss cheia
+        // barra do boss cheia
         if (bossFillImage != null)
             bossFillImage.fillAmount = 1f;
 
-        // Desliga UI de pausa e popups
+        // desliga pause e popups
         pauseLight?.SetActive(false);
         pausePanel?.SetActive(false);
         pauseCloseLight?.SetActive(false);
@@ -100,15 +123,42 @@ public class HUDController : MonoBehaviour
         settingsPopup?.SetActive(false);
         settingsCloseLight?.SetActive(false);
 
-        // Esconde telas de endgame
+        // esconde endgame
         endGamePanelVictory?.SetActive(false);
         endGamePanelDefeat?.SetActive(false);
     }
 
     void Update()
     {
+        // trigger de Dash: Shift pressionado
+        if (dashImage != null && Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            if (dashRoutine != null) StopCoroutine(dashRoutine);
+            dashRoutine = StartCoroutine(CooldownRoutine(dashImage));
+        }
+
+        // trigger de Attack: Z pressionado
+        if (attackImage != null && Input.GetKeyDown(KeyCode.Z))
+        {
+            if (attackRoutine != null) StopCoroutine(attackRoutine);
+            attackRoutine = StartCoroutine(CooldownRoutine(attackImage));
+        }
+
         AtualizaQuantidadeDeCoracoes();
         AtualizaBossBar();
+    }
+
+    private IEnumerator CooldownRoutine(Image img)
+    {
+        img.fillAmount = 0f;
+        float t = 0f;
+        while (t < cooldownFillDuration)
+        {
+            t += Time.deltaTime;
+            img.fillAmount = Mathf.Clamp01(t / cooldownFillDuration);
+            yield return null;
+        }
+        img.fillAmount = 1f;
     }
 
     private void AtualizaQuantidadeDeCoracoes()
@@ -136,13 +186,12 @@ public class HUDController : MonoBehaviour
     {
         if (bossFillImage == null) return;
 
-        // Inicializa maxTotalHealth apenas uma vez
         if (!maxHealthInitialized)
         {
             if (towerSpawner != null && towerSpawner.instancias.Count > 0)
             {
                 maxTotalHealth = towerSpawner.instancias
-                    .Where(t => t != null && t.GetComponent<Health>() != null)
+                    .Where(t => t.GetComponent<Health>() != null)
                     .Sum(t => t.GetComponent<Health>().maxHealth);
                 maxHealthInitialized = true;
             }
@@ -158,61 +207,45 @@ public class HUDController : MonoBehaviour
             }
         }
 
-        // Obtém vida atual
         int current = 0;
         if (towerSpawner != null && maxHealthInitialized)
-        {
             current = towerSpawner.instancias
-                .Where(t => t != null && t.GetComponent<Health>() != null)
+                .Where(t => t.GetComponent<Health>() != null)
                 .Sum(t => (int)currentHealthField.GetValue(t.GetComponent<Health>()));
-        }
         else if (bossHealth != null && maxHealthInitialized)
-        {
             current = (int)currentHealthField.GetValue(bossHealth);
-        }
         else if (bossController != null && maxHealthInitialized)
-        {
             current = bossController.currentHealth;
-        }
 
-        // Atualiza barra
         bossFillImage.fillAmount = Mathf.Clamp01(
             maxTotalHealth > 0 ? (float)current / maxTotalHealth : 0f
         );
 
-        // Verifica condições de fim de jogo
         CheckEndGame();
     }
 
     private void CheckEndGame()
     {
-        // Derrota: delay de 2s
         if (!defeatTriggered && playerHealth.health <= 0)
         {
             defeatTriggered = true;
             StartCoroutine(ShowDefeatAfterDelay());
         }
 
-        // Vitória (só se final boss): delay de 5s
         if (!victoryTriggered && eh_finalBoss)
         {
             bool victory = false;
-
             if (towerSpawner != null && maxHealthInitialized)
             {
-                int sumHealth = towerSpawner.instancias
-                    .Where(t => t != null && t.GetComponent<Health>() != null)
+                int sum = towerSpawner.instancias
+                    .Where(t => t.GetComponent<Health>() != null)
                     .Sum(t => (int)currentHealthField.GetValue(t.GetComponent<Health>()));
-                victory = sumHealth <= 0;
+                victory = sum <= 0;
             }
             else if (bossHealth != null)
-            {
                 victory = (int)currentHealthField.GetValue(bossHealth) <= 0;
-            }
             else if (bossController != null)
-            {
                 victory = bossController.currentHealth <= 0;
-            }
 
             if (victory)
             {
@@ -228,7 +261,7 @@ public class HUDController : MonoBehaviour
         Time.timeScale = 0f;
         endGamePanelDefeat.SetActive(true);
     }
-    
+
     private IEnumerator ShowVictoryAfterDelay()
     {
         yield return new WaitForSeconds(5f);

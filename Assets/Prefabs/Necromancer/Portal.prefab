@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 766952eabe422d3438d673f2098c8e0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: DemonScene
+  sceneToLoad: PreDemon
   delayBeforeLoad: 1.5
 --- !u!70 &8008515876541060360
 CapsuleCollider2D:
