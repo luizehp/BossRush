@@ -255,6 +255,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HUDControllerPre
       objectReference: {fileID: 0}
+    - target: {fileID: 7129655289493601047, guid: 3eb641bda4ce6284dbd5c81fb2e627f4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -130
+      objectReference: {fileID: 0}
     - target: {fileID: 8839956431352842081, guid: 3eb641bda4ce6284dbd5c81fb2e627f4, type: 3}
       propertyPath: m_Camera
       value: 

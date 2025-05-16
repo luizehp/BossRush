@@ -1166,6 +1166,7 @@ MonoBehaviour:
   heartPrefab: {fileID: 825809650909574242, guid: c3dd24ccefb2cc44fa39f3cc3a44e7fe, type: 3}
   heartsParent: {fileID: 3877146750504623716}
   boss: {fileID: 0}
+  bossHealthBar: {fileID: 0}
   bossFillImage: {fileID: 0}
   endGamePanelVictory: {fileID: 4322586589282456747}
   endGamePanelDefeat: {fileID: 3769128769682535736}
@@ -1483,7 +1484,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 5.2704773, y: 5.2704463}
+  m_AnchoredPosition: {x: 5.270508, y: 5.270447}
   m_SizeDelta: {x: 0, y: 100}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &2982734793059785077
@@ -2458,9 +2459,9 @@ RectTransform:
   - {fileID: 9179528424755650244}
   m_Father: {fileID: 2308929093324705326}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 337.7022, y: -251}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -130, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1352105698091565791
@@ -3591,9 +3592,9 @@ RectTransform:
   - {fileID: 4461045860951635592}
   m_Father: {fileID: 2308929093324705326}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 421, y: -251}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -50, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5097176591801969986

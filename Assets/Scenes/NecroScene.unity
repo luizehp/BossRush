@@ -3711,9 +3711,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: HUDController
       objectReference: {fileID: 0}
+    - target: {fileID: 3877146750504623716, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 5.270508
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877146750504623716, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 5.270447
+      objectReference: {fileID: 0}
     - target: {fileID: 8213679253479350562, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 54.99997
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8839956431352842081, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
       propertyPath: m_Camera
@@ -14744,7 +14752,7 @@ PrefabInstance:
       objectReference: {fileID: 1492989154}
     - target: {fileID: 2000210681621995304, guid: 7ae52f2adf6f5554a94f392696fba174, type: 3}
       propertyPath: quantidade
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2000210681621995304, guid: 7ae52f2adf6f5554a94f392696fba174, type: 3}
       propertyPath: collectable
