@@ -488,6 +488,7 @@ MonoBehaviour:
   meteorPrefab: {fileID: 5706026001722558141, guid: 72f1783c770a3e940b616ea95c832ce9, type: 3}
   firePoint: {fileID: 2057585286}
   laserSpeed: 7
+  isDead: 0
   meteorCount: 8
   laserSound: {fileID: 8300000, guid: eff1e194bd705184e81339a423973ea1, type: 3}
   beamSound: {fileID: 8300000, guid: eff1e194bd705184e81339a423973ea1, type: 3}
@@ -551,7 +552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 10
-  maxHealth: 100
+  maxHealth: 1
   invincibilityDuration: 1
   flashInterval: 0.1
   deathSFX: {fileID: 8300000, guid: 47a07974303dfbd41b3ed82c2cd82de9, type: 3}
@@ -568,6 +569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portaPrefab: {fileID: 8145690179974117280, guid: 1f53fc5a47e51c04588c8a70cd9876c9, type: 3}
+  heartPrefab: {fileID: 768545551381954368, guid: 49ce9a84f262459409d6a396a7121610, type: 3}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,6 +4,7 @@ using System.Collections;
 public class Death : StateMachineBehaviour
 {
     public GameObject portaPrefab;
+    public GameObject heartPrefab;
 
     private Transform cameraTransform;
     private Transform playerTransform;
@@ -29,11 +30,23 @@ public class Death : StateMachineBehaviour
         // Instancia a porta
         if (portaPrefab != null)
         {
-            Vector3 posicaoFixa = new Vector3(-47.7f, 12.05497f, -1f);
-            GameObject.Instantiate(portaPrefab, posicaoFixa, Quaternion.identity);
+            Vector3 posicaoFixa = playerTransform.position + new Vector3(5f, 2f, 0);
+            Debug.Log("Posição da porta: " + posicaoFixa);
+
+            GameObject porta = GameObject.Instantiate(portaPrefab, posicaoFixa, Quaternion.identity);
+
+            // Ajuste fino, caso o pivot do prefab esteja incorreto (ajuste se necessário)
+            porta.transform.position += new Vector3(0f, 0f, 0f); // Altere se precisar centralizar melhor
         }
 
-        // ✅ Usa a CÂMERA como runner para evitar ser destruído
+        // Instancia o coração
+        if (heartPrefab != null)
+        {
+            Vector3 posicaoFixa2 = playerTransform.position + new Vector3(5, 0, 0);
+            GameObject.Instantiate(heartPrefab, posicaoFixa2, Quaternion.identity);
+        }
+
+        // Usa a CÂMERA como runner para evitar ser destruído
         CoroutineRunner runner = cameraTransform.gameObject.GetComponent<CoroutineRunner>();
         if (runner == null)
         {
@@ -58,10 +71,11 @@ public class Death : StateMachineBehaviour
             newCameraPosition.z = cameraTransform.position.z;
             cameraTransform.position = newCameraPosition;
 
-            // ✅ Reanexa a câmera ao player
+            // Reanexa a câmera ao player
             cameraTransform.SetParent(playerTransform);
         }
     }
 
+    // Componente auxiliar para rodar corrotinas fora de um MonoBehaviour direto
     private class CoroutineRunner : MonoBehaviour { }
 }
