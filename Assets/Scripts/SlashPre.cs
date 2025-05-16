@@ -5,9 +5,14 @@ public class Slash : MonoBehaviour
     public GameObject slashPrefab;
     public float extendedRange = 1f;
     public Transform playerTransform;
+    public SlashCol slashCol;
 
     public void SlashPre(Vector2 direction)
     {
+        if (!slashCol.slashCol)
+        {
+            return;
+        }
         Vector2 spawnPosition = (Vector2)transform.position + direction * extendedRange;
 
         GameObject slash = Instantiate(slashPrefab, spawnPosition, Quaternion.identity);

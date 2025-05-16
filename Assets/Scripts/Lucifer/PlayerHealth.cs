@@ -15,6 +15,7 @@ public class PlayerHealth : MonoBehaviour
     private Animator playerAnimator;
     private Rigidbody2D rb;
     private PlayerMovement playerMovement;
+    [SerializeField] private Collider2D mainCollider;
 
     void Start()
     {
@@ -33,7 +34,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (!isInvincible && other.CompareTag("EnemyAttack"))
         {
-            if (otherIsTrigger || (selfIsTrigger && otherIsTrigger))
+            if (other.IsTouching(mainCollider))
             {
                 TakeDamage(1);
             }
