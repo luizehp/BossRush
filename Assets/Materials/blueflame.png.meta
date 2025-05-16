@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c1d7c9a1441e57d4e8671a6c01880d50
+guid: 5e6743ef76d1454468deec7d7d59a197
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4622165674211397732
-    second: gates2_0
+      213: 8576077577604317439
+    second: blueflame_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gates2_0
+      name: blueflame_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 28
-        width: 63
-        height: 72
+        x: 247
+        y: 88
+        width: 536
+        height: 830
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 460df50013b352040800000000000000
-      internalID: 4622165674211397732
+      spriteID: ff04c4b6e19540770800000000000000
+      internalID: 8576077577604317439
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      gates2_0: 4622165674211397732
+      blueflame_0: 8576077577604317439
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

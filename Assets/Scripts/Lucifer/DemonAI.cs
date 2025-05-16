@@ -18,7 +18,7 @@ public class DemonAI : MonoBehaviour
     public float recoveryDuration = 1f;
     private float jumpCheckTimer = 0f;
     public float jumpCheckInterval = 1.5f;
-    public float jumpChance = 0.2f; // 20% chance to jump when checked
+    public float jumpChance = 0.2f;
 
     private enum State { Idle, Chase, Attack }
     private State currentState = State.Idle;
@@ -32,8 +32,9 @@ public class DemonAI : MonoBehaviour
 
     void Update()
     {
+
         if (jumpAttack != null && jumpAttack.IsJumping)
-            return; // Não faz nada se estiver pulando
+            return;
 
         float dist = Vector2.Distance(transform.position, player.position);
 
@@ -76,7 +77,6 @@ public class DemonAI : MonoBehaviour
                 break;
 
             case State.Attack:
-                // ataque controlado pela coroutine
                 break;
         }
     }
@@ -106,7 +106,6 @@ public class DemonAI : MonoBehaviour
         yield return new WaitForSeconds(attackDuration);
 
         animator.SetBool("Attacking", false);
-
         yield return new WaitForSeconds(recoveryDuration);
 
         isAttacking = false;

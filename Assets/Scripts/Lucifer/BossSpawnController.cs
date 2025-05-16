@@ -1,91 +1,57 @@
 using UnityEngine;
 using System.Collections;
 
-public class BossController : MonoBehaviour
+public class BossSpawnController : MonoBehaviour
 {
+    [Header("References")]
+    public GameObject bossObject;
     public Camera mainCamera;
     public PlayerMovement playerMovement;
-    public PlayerSlash playerSlash;
+
+    [Header("Animation Settings")]
+
     public TridentAttack tridentAttack;
+
+    private bool hasSpawned = false;
+    private Vector3 originalCameraPosition;
+    private Transform originalCameraParent;
     public float phaseTransitionTime = 1f;
     public float phaseAnimationDuration = 2f;
-    public int maxHealth = 100;
-    public int currentHealth;
-    private bool isInvincible = false;
-    public float invincibilityDuration = 1f;
-    public float flashInterval = 0.1f;
-    private SpriteRenderer spriteRenderer;
-    public bool phaseTwo = false;
-
-    public DemonAreaAttack demonAreaAttack;
-    [Header("Phase Status")]
-
-
     public Animator animator;
-
-    private enum BossPhase { PhaseOne, PhaseTwo }
-    private BossPhase currentPhase = BossPhase.PhaseOne;
 
     void Start()
     {
-        currentHealth = maxHealth;
-        currentPhase = BossPhase.PhaseOne;
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        // Initialize boss as inactive
+        bossObject.SetActive(false);
+        tridentAttack.StopAllAttacks();
+        tridentAttack.enabled = false;
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (!isInvincible && other.CompareTag("Sword"))
+        if (!hasSpawned && other.CompareTag("Player"))
         {
-            currentHealth -= 10;
-            StartCoroutine(InvincibilityCoroutine());
-        }
-        if (currentHealth <= maxHealth / 2 && currentPhase == BossPhase.PhaseOne)
-        {
-            Debug.Log("Entering Phase Two!");
-            EnterPhaseTwo();
-        }
-        if (currentHealth <= 0)
-        {
-            Die();
+            StartCoroutine(SpawnSequence());
+            hasSpawned = true;
         }
     }
 
-    public void TakeDamage(int damage)
+    private IEnumerator SpawnSequence()
     {
-        currentHealth -= damage;
-
-    }
-
-    void EnterPhaseTwo()
-    {
-        currentPhase = BossPhase.PhaseTwo;
-        phaseTwo = true;
-        demonAreaAttack.enabled = true;
-        StartCoroutine(PhaseTransition());
-    }
-
-    public bool IsInPhaseTwo()
-    {
-        return phaseTwo;
-    }
-
-    IEnumerator PhaseTransition()
-    {
+        bossObject.SetActive(true);
         // Store original camera state
         Transform originalCameraParent = mainCamera.transform.parent;
         Vector3 originalCameraLocalPosition = mainCamera.transform.localPosition;
         Vector3 originalCameraWorldPosition = mainCamera.transform.position;
 
         // Disable components
-        GetComponent<DemonAI>().enabled = false;
-        GetComponent<EnemyJumpAttack>().enabled = false;
-        GetComponent<DemonFB>().enabled = false;
+        bossObject.GetComponent<DemonAI>().enabled = false;
+        bossObject.GetComponent<EnemyJumpAttack>().enabled = false;
+        bossObject.GetComponent<DemonFB>().enabled = false;
         tridentAttack.StopAllAttacks();
 
         // Stop player movement and disable collider
         playerMovement.enabled = false;
-        playerSlash.enabled = false;
         Collider2D playerCollider = playerMovement.GetComponent<Collider2D>();
         bool originalColliderState = false;
 
@@ -100,7 +66,7 @@ public class BossController : MonoBehaviour
 
         // Unparent camera and move to boss
         mainCamera.transform.parent = null;
-        Vector3 targetPosition = transform.position;
+        Vector3 targetPosition = bossObject.transform.position;
         targetPosition.z = originalCameraWorldPosition.z;
 
         // Camera transition to boss
@@ -114,7 +80,7 @@ public class BossController : MonoBehaviour
         }
 
         // Play phase transition animation
-        animator.SetTrigger("PhaseTwo");
+        animator.SetTrigger("Spawn");
         yield return new WaitForSeconds(phaseAnimationDuration);
 
         // Calculate return position based on current player position
@@ -136,12 +102,12 @@ public class BossController : MonoBehaviour
         mainCamera.transform.localPosition = originalCameraLocalPosition;
 
         // Re-enable components and restore player collider
-        GetComponent<DemonAI>().enabled = true;
-        GetComponent<EnemyJumpAttack>().enabled = true;
-        GetComponent<DemonFB>().enabled = true;
+        tridentAttack.enabled = true;
+        bossObject.GetComponent<DemonAI>().enabled = true;
+        bossObject.GetComponent<EnemyJumpAttack>().enabled = true;
+        bossObject.GetComponent<DemonFB>().enabled = true;
         tridentAttack.StartAttacks();
         playerMovement.enabled = true;
-        playerSlash.enabled = true;
 
         if (playerCollider != null)
         {
@@ -149,26 +115,4 @@ public class BossController : MonoBehaviour
         }
     }
 
-    void Die()
-    {
-        animator.SetTrigger("Die");
-        GetComponent<DemonDeath>().Die();
-        enabled = false; // Disable BossController
-    }
-
-    private IEnumerator InvincibilityCoroutine()
-    {
-        isInvincible = true;
-
-        float elapsed = 0f;
-        while (elapsed < invincibilityDuration)
-        {
-            spriteRenderer.enabled = !spriteRenderer.enabled;
-            yield return new WaitForSeconds(flashInterval);
-            elapsed += flashInterval;
-        }
-        spriteRenderer.enabled = true;
-
-        isInvincible = false;
-    }
 }
