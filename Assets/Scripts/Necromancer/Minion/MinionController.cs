@@ -6,7 +6,6 @@ namespace Necromancer.Minion
 {
     public class MinionController : MonoBehaviour
     {
-        [Header("Movimentação e Ataque")]
         public float speed = 2f;
         public float attackRange = 0.8f;
         public float spawnDuration = 0.7f;
@@ -20,8 +19,7 @@ namespace Necromancer.Minion
         private State state;
         private TowerSpawner towerSpawnerController;
 
-        [Header("Áudio de Ataque")]
-        public AudioClip attackSFX;
+        public AudioSource attackSFX;
 
         void Start()
         {
@@ -111,7 +109,7 @@ namespace Necromancer.Minion
             }
 
             if (attackSFX != null)
-                AudioSource.PlayClipAtPoint(attackSFX, transform.position, 1f);
+                attackSFX.Play();
 
             yield return new WaitForSeconds(attackDuration);
 

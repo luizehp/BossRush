@@ -17,7 +17,6 @@ namespace Necromancer.Tower
         public bool Ended;
         public GameObject collectable;
 
-        [Header("Beam Settings")]
         public GameObject beamPrefab;
         public int beamSegments = 20;
         public float beamAmplitude = 0.5f;
@@ -176,7 +175,7 @@ namespace Necromancer.Tower
                 : centerPos;
 
             Instantiate(collectable, spawnPos, Quaternion.identity);
-
+    
             Vector3 portalPos = necromancer.transform.position - new Vector3(0, portalOffsetY, 0);
             Instantiate(portalPrefab, portalPos, Quaternion.identity);
         }

@@ -17,6 +17,9 @@ namespace Necromancer
         private Rigidbody2D rb;
         private Animator playerAnimator;
         private BehaviorGraphAgent btAgent;
+        public AudioSource backgroundAudio;
+        public AudioSource spawningAudio;
+        public AudioSource surgingAudio;
 
         private Animator animator;
 
@@ -39,15 +42,18 @@ namespace Necromancer
         public void OnSpawningAnimationEnd()
         {
             spawningEnded = true;
+            backgroundAudio.enabled = true;
         }
         
         IEnumerator SpawningRoutine()
         {
+            spawningAudio.Play();
             mainCamera.SetParent(null);
             player.GetComponent<PlayerHealth>().isInvincible = true;
             necromancer.GetComponent<BehaviorGraphAgent>().End();
             yield return StartCoroutine(MoveCameraTowards(necromancer.transform.position));
             necromancer.GetComponent<Animator>().SetTrigger("Spawning");
+            surgingAudio.Play();
             yield return new WaitUntil(() => spawningEnded);
             yield return StartCoroutine(MoveCameraTowards(player.transform.position));
             playerMovement.enabled = true;

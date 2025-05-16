@@ -10,9 +10,7 @@ namespace Necromancer.Minion
         private Transform playerPos;
         private Animator necromancerAnimator;
 
-        [Header("Áudio")]
-        public AudioClip summonSFX;
-        private AudioSource audioSrc;
+        public AudioSource audioSrc;
 
         void Start()
         {
@@ -45,8 +43,8 @@ namespace Necromancer.Minion
 
                 Instantiate(minionPrefab, spawnPos, Quaternion.identity);
 
-                if (summonSFX != null && audioSrc != null)
-                    audioSrc.PlayOneShot(summonSFX);
+                if (audioSrc != null)
+                    audioSrc.Play();
             }
         }
     }

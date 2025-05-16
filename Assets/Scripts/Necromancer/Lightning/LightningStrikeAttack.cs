@@ -5,8 +5,7 @@ namespace Necromancer.Lightning
 {
     public class LightningStrikeAttack : MonoBehaviour
     {
-        public AudioClip thunderAttackClip;
-        private AudioSource audioSrc;
+        public AudioSource thunderAttackClip;
 
         private enum State { Idle, CastingShadow, LockingPosition, Striking, Recovering }
         private State currentState = State.Idle;
@@ -27,8 +26,6 @@ namespace Necromancer.Lightning
         {
             currentState = State.Idle;
             player = GameObject.FindWithTag("Player");
-
-            audioSrc = GetComponent<AudioSource>();
         }
 
         void Update()
@@ -67,8 +64,8 @@ namespace Necromancer.Lightning
                 lightning = Instantiate(lightningPrefab, lockedPosition, Quaternion.identity);
                 lightningAnimator.SetTrigger("LightBolt");
 
-                if (thunderAttackClip != null && audioSrc != null)
-                    audioSrc.PlayOneShot(thunderAttackClip);
+                if (thunderAttackClip != null)
+                    thunderAttackClip.Play();
             }
 
             else if (currentState == State.Striking)

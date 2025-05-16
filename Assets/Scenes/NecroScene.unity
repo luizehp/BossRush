@@ -3591,7 +3591,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &319821364
 Transform:
   m_ObjectHideFlags: 0
@@ -3896,6 +3896,7 @@ GameObject:
   - component: {fileID: 487016386}
   - component: {fileID: 487016385}
   - component: {fileID: 487016384}
+  - component: {fileID: 487016389}
   m_Layer: 0
   m_Name: Necromancer
   m_TagString: Untagged
@@ -3922,9 +3923,8 @@ MonoBehaviour:
   animator: {fileID: 487016378}
   intervalo: 12
   player: {fileID: 197935133}
-  singleFireSFX: {fileID: 8300000, guid: 2b08c4801ce9cb5478c17ffc12090b92, type: 3}
-  burstFireSFX: {fileID: 8300000, guid: 897d0a1c9f0c0f44e97cd38cc94a1004, type: 3}
-  audioVolume: 1
+  singleFireSFX: {fileID: 487016386}
+  burstFireSFX: {fileID: 487016384}
 --- !u!95 &487016378
 Animator:
   serializedVersion: 7
@@ -4033,7 +4033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccd7e817b4b1e4540b25cab425a4dee4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thunderAttackClip: {fileID: 8300000, guid: a30f9c3abe33588479f7fab5d6188315, type: 3}
+  thunderAttackClip: {fileID: 487016385}
   animator: {fileID: 487016378}
   lightningAnimator: {fileID: 1315774224987363933, guid: dc3a01c82f1a8794991789b9d3a68bce, type: 3}
   shadowPrefab: {fileID: 8792461686158674593, guid: c1d93169a77008a4683950fc17b94f37, type: 3}
@@ -4055,7 +4055,7 @@ MonoBehaviour:
   minionPrefab: {fileID: 927032860901756231, guid: 42513e850d5c9e840858b2e6b6497e62, type: 3}
   spawnCount: 5
   spawnRadius: 5
-  summonSFX: {fileID: 8300000, guid: 0adfbbcf1fd442f499e233bb08e1bf47, type: 3}
+  audioSrc: {fileID: 487016387}
 --- !u!114 &487016383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4105,8 +4105,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 897d0a1c9f0c0f44e97cd38cc94a1004, type: 3}
   m_Resource: {fileID: 8300000, guid: 897d0a1c9f0c0f44e97cd38cc94a1004, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4202,8 +4202,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a30f9c3abe33588479f7fab5d6188315, type: 3}
   m_Resource: {fileID: 8300000, guid: a30f9c3abe33588479f7fab5d6188315, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.704
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4299,8 +4299,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2b08c4801ce9cb5478c17ffc12090b92, type: 3}
   m_Resource: {fileID: 8300000, guid: 2b08c4801ce9cb5478c17ffc12090b92, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.525
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4396,8 +4396,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0adfbbcf1fd442f499e233bb08e1bf47, type: 3}
   m_Resource: {fileID: 8300000, guid: 0adfbbcf1fd442f499e233bb08e1bf47, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.494
+  m_PlayOnAwake: 0
+  m_Volume: 0.375
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4498,6 +4498,106 @@ MonoBehaviour:
   necromancer: {fileID: 487016376}
   duracaoTransicao: 1.5
   isSpawnFinished: 0
+  backgroundAudio: {fileID: 1125685769}
+  spawningAudio: {fileID: 487016389}
+  surgingAudio: {fileID: 487016387}
+--- !u!82 &487016389
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487016376}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 77fb85eea20d1be4f8ea582d70473979, type: 3}
+  m_Resource: {fileID: 8300000, guid: 77fb85eea20d1be4f8ea582d70473979, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -4598,7 +4698,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &656319288
 Transform:
   m_ObjectHideFlags: 0
@@ -4682,7 +4782,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &708779046
 Transform:
   m_ObjectHideFlags: 0
@@ -4845,7 +4945,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &971369009
 Transform:
   m_ObjectHideFlags: 0
@@ -4937,13 +5037,13 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1125685768}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7bf5166d4b42bde47b5a6958cde34960, type: 3}
   m_Resource: {fileID: 8300000, guid: 7bf5166d4b42bde47b5a6958cde34960, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.6
+  m_Volume: 0.35
   m_Pitch: 1
   Loop: 1
   Mute: 0

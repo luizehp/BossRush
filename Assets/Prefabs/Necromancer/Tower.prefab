@@ -306,8 +306,7 @@ MonoBehaviour:
   maxHealth: 10
   invincibilityDuration: 1
   flashInterval: 0.1
-  deathSFX: {fileID: 8300000, guid: 0706fc0129e913a44b64963409a01fc7, type: 3}
-  deathSFXVolume: 1
+  deathSFX: {fileID: 2418520591355284072}
 --- !u!70 &5142253022683957484
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -358,7 +357,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 0706fc0129e913a44b64963409a01fc7, type: 3}
   m_Resource: {fileID: 8300000, guid: 0706fc0129e913a44b64963409a01fc7, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0

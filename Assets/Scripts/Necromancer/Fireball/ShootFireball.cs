@@ -13,10 +13,8 @@ namespace Necromancer.Fireball
         public int intervalo = 20;
         public Transform player;
 
-        [Header("Áudio")]
-        public AudioClip singleFireSFX;
-        public AudioClip burstFireSFX;
-        public float audioVolume = 1f;
+        public AudioSource singleFireSFX;
+        public AudioSource burstFireSFX;
 
         void Update()
         {
@@ -46,7 +44,7 @@ namespace Necromancer.Fireball
                 fireballAnimator.SetTrigger("SingleCall");
     
             if (singleFireSFX != null)
-                AudioSource.PlayClipAtPoint(singleFireSFX, spawnPos, audioVolume);
+                singleFireSFX.Play();
         }
 
         private IEnumerator ShootFireballArc()
@@ -63,7 +61,7 @@ namespace Necromancer.Fireball
                 if (fireballAnimator != null)
                     fireballAnimator.SetTrigger("BurstCall");
                 if (burstFireSFX != null)
-                    AudioSource.PlayClipAtPoint(burstFireSFX, spawnPos, audioVolume);
+                    burstFireSFX.Play();
             }
             yield return null;
         }
