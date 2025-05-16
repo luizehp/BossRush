@@ -60,5 +60,8 @@ TagManager:
   - name: Projectiles
     uniqueID: 1390762881
     locked: 0
+  - name: HUD
+    uniqueID: 3308084601
+    locked: 0
   m_RenderingLayers:
   - Default

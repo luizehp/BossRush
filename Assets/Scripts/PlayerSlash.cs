@@ -9,6 +9,8 @@ public class PlayerSlash : MonoBehaviour
     private bool isSlashing;
     public Animator animator;
     private bool canSlash = true;
+    public Slash slashScript;
+    private Vector2 lastDirection = Vector2.right;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -17,9 +19,14 @@ public class PlayerSlash : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+        if (moveInput != Vector2.zero)
+        {
+            lastDirection = moveInput;
+        }
         if (Input.GetKeyDown(KeyCode.Z) && canSlash)
         {
+            slashScript.SlashPre(lastDirection.normalized);
             StartCoroutine(Slash());
         }
 
@@ -30,8 +37,8 @@ public class PlayerSlash : MonoBehaviour
         canSlash = false;
         isSlashing = true;
 
-        animator.SetFloat("AttackX", Input.GetAxisRaw("Horizontal"));
-        animator.SetFloat("AttackY", Input.GetAxisRaw("Vertical"));
+        animator.SetFloat("AttackX", lastDirection.x);
+        animator.SetFloat("AttackY", lastDirection.y);
         animator.SetBool("Slashing", isSlashing);
         yield return new WaitForSeconds(0.4f);
         isSlashing = false;

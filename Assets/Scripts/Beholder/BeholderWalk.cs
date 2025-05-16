@@ -17,11 +17,15 @@ public class BeholderWalk : MonoBehaviour
 
     public int meteorCount = 4;
 
+    // Áudios
+    public AudioClip laserSound;
+    public AudioClip beamSound;
+    public AudioClip meteorSound;
+
     private Animator animator;
     private Vector2 movement = Vector2.zero;
 
     private GameObject laser;
-
     private GameObject secondLaser;
     private GameObject leftBeam;
     private GameObject rightBeam;
@@ -30,6 +34,10 @@ public class BeholderWalk : MonoBehaviour
     private float currentAngle = -90f;
     private bool isLaserActive = false;
     private bool isWalking = true;
+
+    private AudioSource laserAudioSource;
+    private AudioSource beamAudioSource;
+    private AudioSource meteorAudioSource;
 
     void Start()
     {
@@ -96,6 +104,7 @@ public class BeholderWalk : MonoBehaviour
                 case 2:
                     if (!isLaserActive) yield return StartCoroutine(ShootBeams());
                     break;
+
                 case 3:
                     yield return StartCoroutine(SpawnMeteorRain());
                     break;
@@ -108,7 +117,7 @@ public class BeholderWalk : MonoBehaviour
     IEnumerator ShootLaserArc()
     {
         isWalking = false;
-        animator.SetBool("Laser", true); // Inicia a animação de preparo
+        animator.SetBool("Laser", true); // Animação de preparo
 
         yield return new WaitForSeconds(1.7f); // Espera antes de atirar
 
@@ -127,20 +136,29 @@ public class BeholderWalk : MonoBehaviour
             rb2.linearVelocity = Vector2.up * laserSpeed;
         }
 
+        // Som do laser começa aqui, em loop
+        laserAudioSource = gameObject.AddComponent<AudioSource>();
+        laserAudioSource.clip = laserSound;
+        laserAudioSource.loop = true;
+        laserAudioSource.Play();
+
         isLaserActive = true;
+
         Destroy(laser, 2f);
         Destroy(secondLaser, 2f);
 
-        // Finaliza a animação depois que os lasers forem destruídos
-        StartCoroutine(StopLaserAnimationAfterDelay(1.5f));
-    }
-    IEnumerator StopLaserAnimationAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
+        yield return new WaitForSeconds(1.8f);
+
         animator.SetBool("Laser", false);
+
+        if (laserAudioSource != null)
+        {
+            laserAudioSource.Stop();
+            Destroy(laserAudioSource);
+        }
+        yield return new WaitForSeconds(1f);
+        isWalking = true;
     }
-
-
 
     void RotateLaser()
     {
@@ -156,7 +174,6 @@ public class BeholderWalk : MonoBehaviour
         if (laser != null)
         {
             laser.transform.rotation = Quaternion.Euler(0f, 0f, currentAngle);
-
         }
         if (secondLaser != null)
         {
@@ -167,10 +184,15 @@ public class BeholderWalk : MonoBehaviour
     IEnumerator ShootBeams()
     {
         isWalking = false;
-        animator.SetBool("Laser2", true); // Inicia a animação de preparo
-        Debug.Log("Preparing to shoot beams...");
-        
-        yield return new WaitForSeconds(1.4f); // Espera antes de atirar
+        animator.SetBool("Laser2", true); // Animação de preparo
+
+        yield return new WaitForSeconds(1.8f); // Espera antes de atirar
+
+        // Som dos beams começa aqui, em loop
+        beamAudioSource = gameObject.AddComponent<AudioSource>();
+        beamAudioSource.clip = beamSound;
+        beamAudioSource.loop = true;
+        beamAudioSource.Play();
 
         if (leftBeam == null)
         {
@@ -196,9 +218,16 @@ public class BeholderWalk : MonoBehaviour
             Destroy(downBeam, 3f);
         }
 
-        // Finaliza a animação depois que os lasers forem destruídos
         yield return new WaitForSeconds(2.25f);
+
         animator.SetBool("Laser2", false);
+
+        if (beamAudioSource != null)
+        {
+            beamAudioSource.Stop();
+            Destroy(beamAudioSource);
+        }
+
         Invoke("ResumeWalking", 3f);
     }
 
@@ -210,11 +239,18 @@ public class BeholderWalk : MonoBehaviour
     IEnumerator SpawnMeteorRain()
     {
         isWalking = false;
-        animator.SetBool("Meteor", true); // Inicia a animação de preparo
+        animator.SetBool("Meteor", true); // Animação de preparo
+
+        // Som do meteoro começa no início do ataque (logo ao começar a preparar)
+        meteorAudioSource = gameObject.AddComponent<AudioSource>();
+        meteorAudioSource.clip = meteorSound;
+        meteorAudioSource.loop = false;
+        meteorAudioSource.Play();
+
         yield return new WaitForSeconds(1.5f); // Espera antes de atirar
 
         float areaWidth = 10f;
-        float areaHeight =10f;
+        float areaHeight = 10f;
 
         Vector3[] positions = new Vector3[meteorCount];
         GameObject[] shadows = new GameObject[meteorCount];
@@ -237,7 +273,6 @@ public class BeholderWalk : MonoBehaviour
             shadows[i] = Instantiate(shadowPrefab, pos, Quaternion.identity);
         }
 
-
         yield return new WaitForSeconds(1f);
 
         for (int i = 0; i < meteorCount; i++)
@@ -247,10 +282,18 @@ public class BeholderWalk : MonoBehaviour
             StartCoroutine(MoveMeteorDown(meteor, positions[i], shadows[i]));
         }
 
-        // Finaliza a animação depois que os lasers forem destruídos
         yield return new WaitForSeconds(2.25f);
+
         animator.SetBool("Meteor", false);
+
         yield return new WaitForSeconds(2f);
+
+        if (meteorAudioSource != null)
+        {
+            meteorAudioSource.Stop();
+            Destroy(meteorAudioSource);
+        }
+
         isWalking = true;
     }
 
@@ -258,7 +301,6 @@ public class BeholderWalk : MonoBehaviour
     {
         float speed = 10f;
 
-        // Desativa o Collider2D no início
         Collider2D col = meteor.GetComponent<Collider2D>();
         if (col != null) col.enabled = false;
 
@@ -268,12 +310,9 @@ public class BeholderWalk : MonoBehaviour
             yield return null;
         }
 
-        // Ativa o Collider2D ao chegar
         if (col != null) col.enabled = true;
 
         Destroy(shadow);
         Destroy(meteor, 1f);
     }
-
-    
 }

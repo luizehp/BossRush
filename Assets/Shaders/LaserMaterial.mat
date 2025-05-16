@@ -37,16 +37,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-
-    - _LaserAlpha: 2.29
-    - _LaserThinkness: 1
-    - _Scale: 1.14
-    - _laserEdge: 10
+    - _Bump: 0.28
+    - _LaserAlpha: 0.84
+    - _Scale: 3.75
     m_Colors:
-    - _Color: {r: 90.50966, g: 0, b: 75.026596, a: 0.36862746}
-    - _Smoothstep: {r: 0.9, g: 0.35, b: 0, a: 0}
-    - _speed: {r: -2.34, g: 0, b: 0, a: 0}
-
+    - _Color: {r: 85.445015, g: 7.125789, b: 80.01389, a: 0.3921569}
+    - _Smoothstep: {r: 0, g: 1.1, b: 0, a: 0}
+    - _Tiling: {r: 4.66, g: 1, b: 0, a: 0}
+    - _speed: {r: -3.16, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &7700069309519661138
