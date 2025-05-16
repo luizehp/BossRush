@@ -5,19 +5,16 @@ public class Slash : MonoBehaviour
     public GameObject slashPrefab;
     public float extendedRange = 1f;
     public Transform playerTransform;
-
     public void SlashPre(Vector2 direction)
     {
         if (GameManager.Instance == null) return;
 
         if (GameManager.Instance.hasSlashAbility)
         {
-
             Vector2 spawnPosition = (Vector2)transform.position + direction * extendedRange;
 
             GameObject slash = Instantiate(slashPrefab, spawnPosition, Quaternion.identity);
             slash.transform.SetParent(playerTransform);
-
 
             Transform slashT = slash.transform;
 

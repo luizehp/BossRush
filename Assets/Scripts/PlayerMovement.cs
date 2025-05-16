@@ -26,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
     private float y;
     private Vector2 moveInput;
     private bool Moving;
+    public AudioSource dashSound;
 
     void Start()
     {
@@ -55,6 +56,7 @@ public class PlayerMovement : MonoBehaviour
         isDashing = true;
         rb.linearVelocity = moveInput * dashingPower;
         tr.emitting = true;
+        dashSound.Play();
         yield return new WaitForSeconds(dashingTime);
 
         tr.emitting = false;
