@@ -3,16 +3,12 @@ using System.Collections;
 
 public class BossSpawnController : MonoBehaviour
 {
-    [Header("References")]
     public GameObject bossObject;
     public Camera mainCamera;
     public PlayerMovement playerMovement;
 
-    [Header("Animation Settings")]
-
     public TridentAttack tridentAttack;
 
-    private bool hasSpawned = false;
     private Vector3 originalCameraPosition;
     private Transform originalCameraParent;
     public float phaseTransitionTime = 1f;
@@ -25,15 +21,7 @@ public class BossSpawnController : MonoBehaviour
         bossObject.SetActive(false);
         tridentAttack.StopAllAttacks();
         tridentAttack.enabled = false;
-    }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (!hasSpawned && other.CompareTag("Player"))
-        {
-            StartCoroutine(SpawnSequence());
-            hasSpawned = true;
-        }
+        StartCoroutine(SpawnSequence());
     }
 
     private IEnumerator SpawnSequence()
