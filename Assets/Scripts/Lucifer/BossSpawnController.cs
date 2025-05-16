@@ -84,6 +84,7 @@ public class BossSpawnController : MonoBehaviour
             elapsed += Time.deltaTime;
             yield return null;
         }
+        animator.ResetTrigger("Spawn");
 
         // Restore camera parent and original LOCAL position
         mainCamera.transform.parent = originalCameraParent;
