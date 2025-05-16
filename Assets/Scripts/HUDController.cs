@@ -257,7 +257,7 @@ public class HUDController : MonoBehaviour
 
     private IEnumerator ShowDefeatAfterDelay()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(4f);
         Time.timeScale = 0f;
         endGamePanelDefeat.SetActive(true);
     }
