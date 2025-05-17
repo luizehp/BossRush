@@ -27,22 +27,18 @@ public class Death : StateMachineBehaviour
         bossCameraPosition.z = cameraTransform.position.z;
         cameraTransform.position = bossCameraPosition;
 
-        // Instancia a porta
+        // Instancia a porta em posição fixa
         if (portaPrefab != null)
         {
-            Vector3 posicaoFixa = playerTransform.position + new Vector3(5f, 2f, 0);
-            Debug.Log("Posição da porta: " + posicaoFixa);
-
+            Vector3 posicaoFixa = new Vector3(-13.2990913f, 8.50909042f, 0f);
+            Debug.Log("Posição fixa da porta: " + posicaoFixa);
             GameObject porta = GameObject.Instantiate(portaPrefab, posicaoFixa, Quaternion.identity);
-
-            // Ajuste fino, caso o pivot do prefab esteja incorreto (ajuste se necessário)
-            porta.transform.position += new Vector3(0f, 0f, 0f); // Altere se precisar centralizar melhor
         }
 
-        // Instancia o coração
+        // Instancia o coração em posição fixa
         if (heartPrefab != null)
         {
-            Vector3 posicaoFixa2 = playerTransform.position + new Vector3(5, 0, 0);
+            Vector3 posicaoFixa2 = new Vector3(-14.8400002f, 5.5999999f, 0f);
             GameObject.Instantiate(heartPrefab, posicaoFixa2, Quaternion.identity);
         }
 
