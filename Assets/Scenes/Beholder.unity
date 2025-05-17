@@ -23834,12 +23834,16 @@ PrefabInstance:
       objectReference: {fileID: 410048524}
     - target: {fileID: 7269044906787343346, guid: bf335777e042ce241b28ae67eaec92f1, type: 3}
       propertyPath: maxHealth
-      value: 50
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 7269044906787343346, guid: bf335777e042ce241b28ae67eaec92f1, type: 3}
       propertyPath: attackDamage
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8466843259715463871, guid: bf335777e042ce241b28ae67eaec92f1, type: 3}
+      propertyPath: heartPrefab
+      value: 
+      objectReference: {fileID: 9034156157545166538, guid: 91bfb9dc3c506b146adb2b5ac5cffce2, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
