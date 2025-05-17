@@ -4,6 +4,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     public bool hasSlashAbility = false;
+    public int playerHealth = 5;
 
     void Awake()
     {
