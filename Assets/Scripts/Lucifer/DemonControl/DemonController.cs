@@ -19,7 +19,10 @@ public class BossController : MonoBehaviour
     public bool phaseTwo = false;
 
     public DemonAreaAttack demonAreaAttack;
-    [Header("Phase Status")]
+    public AudioSource audioSource;
+    public AudioClip phaseSound;
+    public AudioClip hurtSound;
+    public Lava lava;
 
 
     public Animator animator;
@@ -38,6 +41,8 @@ public class BossController : MonoBehaviour
     {
         if (!isInvincible && other.CompareTag("Sword"))
         {
+            audioSource.clip = hurtSound;
+            audioSource.Play();
             currentHealth -= 10;
             StartCoroutine(InvincibilityCoroutine());
         }
@@ -50,12 +55,6 @@ public class BossController : MonoBehaviour
         {
             Die();
         }
-    }
-
-    public void TakeDamage(int damage)
-    {
-        currentHealth -= damage;
-
     }
 
     void EnterPhaseTwo()
@@ -115,8 +114,11 @@ public class BossController : MonoBehaviour
         }
 
         // Play phase transition animation
+        audioSource.clip = phaseSound;
+        audioSource.Play();
         animator.SetTrigger("PhaseTwo");
         changeColor.Change();
+        lava.ChangeColor();
         yield return new WaitForSeconds(phaseAnimationDuration);
 
         // Calculate return position based on current player position
