@@ -9,13 +9,14 @@ public class HeartScript : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             collision.GetComponent<PlayerHealth>().health += 1;
+            GameManager.Instance.playerHealth += 1;
             if (collision.GetComponent<PlayerHealth>().health > collision.GetComponent<PlayerHealth>().maxHealth)
             {
                 collision.GetComponent<PlayerHealth>().health = collision.GetComponent<PlayerHealth>().maxHealth;
             }
             // Destroy the heart object
             Destroy(gameObject);
-         
+
         }
     }
 }

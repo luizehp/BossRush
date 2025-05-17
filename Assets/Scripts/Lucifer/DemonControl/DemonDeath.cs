@@ -12,9 +12,13 @@ public class DemonDeath : MonoBehaviour
     public PlayerMovement playerMovement;
     public TridentAttack tridentAttack;
     public DemonAreaAttack demonAreaAttack;
+    public AudioSource audioSource;
+    public AudioClip deathSound;
+    public AudioManager audioManager;
 
     public void Die()
     {
+        audioManager.EndMusic();
         if (playerMovement != null)
             playerMovement.enabled = false;
         if (tridentAttack != null)
@@ -77,6 +81,8 @@ public class DemonDeath : MonoBehaviour
         }
 
         // Wait for death animation
+        audioSource.clip = deathSound;
+        audioSource.Play();
         yield return new WaitForSeconds(deathAnimationDuration);
 
         // Calculate return position (player position with original Z)

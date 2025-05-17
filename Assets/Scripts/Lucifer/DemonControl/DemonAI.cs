@@ -17,12 +17,15 @@ public class DemonAI : MonoBehaviour
     public float attackDuration = 1f;
     public float recoveryDuration = 1f;
     private float jumpCheckTimer = 0f;
-    public float jumpCheckInterval = 1.5f;
+    public float jumpCheckInterval = 1.2f;
     public float jumpChance = 0.2f;
 
     private enum State { Idle, Chase, Attack }
     private State currentState = State.Idle;
     private bool isAttacking = false;
+
+    public AudioSource audioSource;
+    public AudioClip attackSound;
 
     void Start()
     {
@@ -102,6 +105,8 @@ public class DemonAI : MonoBehaviour
 
         animator.SetBool("Walking", false);
         animator.SetBool("Attacking", true);
+        audioSource.clip = attackSound;
+        audioSource.Play();
 
         yield return new WaitForSeconds(attackDuration);
 

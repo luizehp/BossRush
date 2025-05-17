@@ -19,6 +19,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
+        if (GameManager.Instance != null) health = GameManager.Instance.playerHealth;
         maxHealth = health;
         spriteRenderer = GetComponent<SpriteRenderer>();
         playerAnimator = GetComponent<Animator>();
@@ -43,6 +44,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void TakeDamage(int damage)
     {
+        GameManager.Instance.playerHealth -= damage;
         health -= damage;
         health = Mathf.Max(health, 0);
         Debug.Log($"Player hit! Health: {health}/{maxHealth}");

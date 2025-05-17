@@ -14,6 +14,10 @@ public class BossSpawnController : MonoBehaviour
     public float phaseTransitionTime = 1f;
     public float phaseAnimationDuration = 2f;
     public Animator animator;
+    public AudioManager audioManager;
+    public AudioSource audioSource;
+    public AudioClip appearSound;
+    public Lava lava;
 
     void Start()
     {
@@ -22,6 +26,8 @@ public class BossSpawnController : MonoBehaviour
         tridentAttack.StopAllAttacks();
         tridentAttack.enabled = false;
         StartCoroutine(SpawnSequence());
+        lava.StartLava();
+
     }
 
     private IEnumerator SpawnSequence()
@@ -69,6 +75,8 @@ public class BossSpawnController : MonoBehaviour
 
         // Play phase transition animation
         animator.SetTrigger("Spawn");
+        audioSource.clip = appearSound;
+        audioSource.Play();
         yield return new WaitForSeconds(phaseAnimationDuration);
 
         // Calculate return position based on current player position
@@ -85,12 +93,11 @@ public class BossSpawnController : MonoBehaviour
             yield return null;
         }
         animator.ResetTrigger("Spawn");
+        audioManager.StartMusic();
 
-        // Restore camera parent and original LOCAL position
         mainCamera.transform.parent = originalCameraParent;
         mainCamera.transform.localPosition = originalCameraLocalPosition;
 
-        // Re-enable components and restore player collider
         tridentAttack.enabled = true;
         bossObject.GetComponent<DemonAI>().enabled = true;
         bossObject.GetComponent<EnemyJumpAttack>().enabled = true;
