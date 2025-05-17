@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &828101412691500345
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1097521929367815675, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.098307
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097521929367815675, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5787606
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097521929367815675, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.09389149
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097521929367815675, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097521929367815675, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097521929367815675, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097521929367815675, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097521929367815675, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097521929367815675, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097521929367815675, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138230882516780610, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_Name
+      value: HUDController Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871230938070837785, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_text
+      value: Beholder - The Watcher
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871230938070837785, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.8156863
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871230938070837785, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.06666668
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871230938070837785, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.4215848
+      objectReference: {fileID: 0}
+    - target: {fileID: 5871230938070837785, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4291826028
+      objectReference: {fileID: 0}
+    - target: {fileID: 6603452317731577976, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4835785800053133101, guid: dfe760ca0da1ed742951d778e57ef6c3, type: 3}
+    - target: {fileID: 9153058125022972074, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: eh_finalBoss
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9153058125022972074, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
+      propertyPath: cooldownFillDuration
+      value: 0.2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6cd5b283cec56104a8148c46c96ba986, type: 3}
