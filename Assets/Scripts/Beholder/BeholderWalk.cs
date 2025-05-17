@@ -33,6 +33,10 @@ public class BeholderWalk : MonoBehaviour
     private GameObject rightBeam;
     private GameObject downBeam;
     private GameObject upBeam;
+    private GameObject middleBeam;
+    private GameObject middleBeam2;
+    private GameObject middleBeam3;
+    private GameObject middleBeam4;
     private float currentAngle = -90f;
     private bool isLaserActive = false;
     private bool isWalking = true;
@@ -50,7 +54,14 @@ public class BeholderWalk : MonoBehaviour
 
     void Update()
     {
-        if (isDead) return; // Se morreu, não faz mais nada
+        
+        if (animator.GetBool("Death"))
+        {
+            isDead = true;
+            animator.SetBool("IsWalk", false);
+            isWalking = false;
+            return;
+        }
 
         if (isWalking)
         {
@@ -97,28 +108,30 @@ public class BeholderWalk : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(2f); // Tempo antes de atacar
+            yield return new WaitForSeconds(2f);
 
-            int attackChoice = Random.Range(1, 4); // 1, 2 ou 3
+            if (isDead)
+                yield break; // Encerra a rotina de ataques após o último terminar
+
+            int attackChoice = Random.Range(1, 4);
 
             switch (attackChoice)
             {
                 case 1:
                     if (!isLaserActive) yield return StartCoroutine(ShootLaserArc());
                     break;
-
                 case 2:
                     if (!isLaserActive) yield return StartCoroutine(ShootBeams());
                     break;
-
                 case 3:
                     yield return StartCoroutine(SpawnMeteorRain());
                     break;
             }
 
-            yield return new WaitForSeconds(3f); // Tempo andando após o ataque
+            yield return new WaitForSeconds(3f);
         }
     }
+
 
     IEnumerator ShootLaserArc()
     {
@@ -162,7 +175,7 @@ public class BeholderWalk : MonoBehaviour
             laserAudioSource.Stop();
             Destroy(laserAudioSource);
         }
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         isWalking = true;
     }
 
@@ -224,6 +237,30 @@ public class BeholderWalk : MonoBehaviour
             Destroy(downBeam, 3f);
         }
 
+        if (middleBeam == null)
+        {
+            middleBeam = Instantiate(beamPrefab, firePoint.position, Quaternion.Euler(0f, 0f, 45f));
+            Destroy(middleBeam, 3f);
+        }
+
+        if (middleBeam2 == null)
+        {
+            middleBeam2 = Instantiate(beamPrefab, firePoint.position, Quaternion.Euler(0f, 0f, -45f));
+            Destroy(middleBeam2, 3f);
+        }
+
+        if (middleBeam3 == null)
+        {
+            middleBeam3 = Instantiate(beamPrefab, firePoint.position, Quaternion.Euler(0f, 0f, 135f));
+            Destroy(middleBeam3, 3f);
+        }
+
+        if (middleBeam4 == null)
+        {
+            middleBeam4 = Instantiate(beamPrefab, firePoint.position, Quaternion.Euler(0f, 0f, -135f));
+            Destroy(middleBeam4, 3f);
+        }
+
         yield return new WaitForSeconds(2.25f);
 
         animator.SetBool("Laser2", false);
@@ -234,7 +271,7 @@ public class BeholderWalk : MonoBehaviour
             Destroy(beamAudioSource);
         }
 
-        Invoke("ResumeWalking", 3f);
+        Invoke("ResumeWalking", 1f);
     }
 
     void ResumeWalking()
@@ -261,7 +298,7 @@ public class BeholderWalk : MonoBehaviour
         Vector3[] positions = new Vector3[meteorCount];
         GameObject[] shadows = new GameObject[meteorCount];
 
-        float minDistance = 3f;
+        float minDistance = 0.2f;
 
         for (int i = 0; i < meteorCount; i++)
         {
@@ -305,7 +342,7 @@ public class BeholderWalk : MonoBehaviour
 
     IEnumerator MoveMeteorDown(GameObject meteor, Vector3 target, GameObject shadow)
     {
-        float speed = 10f;
+        float speed = 15f;
 
         Collider2D col = meteor.GetComponent<Collider2D>();
         if (col != null) col.enabled = false;
