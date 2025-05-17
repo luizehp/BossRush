@@ -3,21 +3,19 @@ using System.Collections;
 
 public class EnemyJumpAttack : MonoBehaviour
 {
-    [Header("Configurações")]
     public float jumpDuration = 0.5f;
     public float recoveryTime = 0.5f;
     public Animator animator;
-
-    [Header("Área de Dano (Opcional)")]
-    public GameObject damageEffectPrefab;
-    public float damageRadius = 1f;
+    public BossController bossController;
 
     private bool isJumping = false;
     public bool IsJumping => isJumping;
+    public AudioSource audioSource;
+    public AudioClip jumpSound;
 
     public void StartJump(Vector2 targetPosition)
     {
-        if (isJumping)
+        if (isJumping || bossController.IsInPhaseTwo())
         {
             return;
         }
@@ -36,21 +34,26 @@ public class EnemyJumpAttack : MonoBehaviour
 
         Vector2 startPosition = transform.position;
         float elapsed = 0f;
+        bool sound = false;
 
         while (elapsed < jumpDuration)
         {
             transform.position = Vector2.Lerp(startPosition, targetPosition, elapsed / jumpDuration);
             elapsed += Time.deltaTime;
+            if (elapsed >= 1f && !sound)
+            {
+                audioSource.clip = jumpSound;
+                audioSource.Play();
+                sound = true;
+            }
             yield return null;
         }
+
 
         transform.position = targetPosition;
 
         if (animator != null)
             animator.SetBool("Jumping", false);
-
-        if (damageEffectPrefab != null)
-            Instantiate(damageEffectPrefab, targetPosition, Quaternion.identity);
 
         yield return new WaitForSeconds(recoveryTime);
         isJumping = false;

@@ -4,7 +4,6 @@ using System.Collections.Generic;
 
 public class DemonAreaAttack : MonoBehaviour
 {
-    [Header("Attack Settings")]
     public GameObject shadowWarningPrefab;
     public GameObject attackPrefab;
     public int numberOfShadows = 10;
@@ -16,9 +15,12 @@ public class DemonAreaAttack : MonoBehaviour
     private List<GameObject> activeShadows = new List<GameObject>();
     private List<GameObject> activeAttacks = new List<GameObject>();
 
-    [Header("Phase Settings")]
     public BossController bossController;
     public float phaseTwoAttackInterval = 8f;
+    public float shadowFadeOutDuration = 0.5f;
+    public AudioSource audioSource;
+    public AudioClip attackSound;
+
 
     private void Start()
     {
@@ -50,12 +52,12 @@ public class DemonAreaAttack : MonoBehaviour
         }
     }
 
+
+
     private IEnumerator ShadowAttackSequence()
     {
-        // Generate random positions
         List<Vector2> positions = GenerateShadowPositions();
 
-        // Spawn shadow warnings
         foreach (Vector2 pos in positions)
         {
             GameObject shadow = Instantiate(shadowWarningPrefab, pos, Quaternion.identity);
@@ -63,9 +65,12 @@ public class DemonAreaAttack : MonoBehaviour
             StartCoroutine(FadeInShadow(shadow));
         }
 
-        // Wait for warning duration
         yield return new WaitForSeconds(warningTime);
 
+        audioSource.clip = attackSound;
+        audioSource.pitch = 1.1f;
+        audioSource.volume = 1.5f;
+        audioSource.Play();
         foreach (Vector2 pos in positions)
         {
             GameObject attack = Instantiate(attackPrefab, pos, Quaternion.identity);
@@ -73,12 +78,47 @@ public class DemonAreaAttack : MonoBehaviour
             StartCoroutine(RemoveAttackAfterDelay(attack, attackDuration));
         }
 
-        // Clear shadows
+        yield return new WaitForSeconds(attackDuration);
+
         foreach (GameObject shadow in activeShadows)
         {
-            if (shadow != null) Destroy(shadow);
+            if (shadow != null)
+            {
+                StartCoroutine(FadeOutShadow(shadow));
+            }
         }
         activeShadows.Clear();
+    }
+
+    private IEnumerator FadeInShadow(GameObject shadow)
+    {
+        SpriteRenderer sr = shadow.GetComponent<SpriteRenderer>();
+        Color originalColor = sr.color;
+        float fadeDuration = warningTime * 0.8f;
+
+        for (float t = 0; t < fadeDuration; t += Time.deltaTime)
+        {
+            sr.color = new Color(originalColor.r, originalColor.g, originalColor.b, Mathf.Lerp(0, 1, t / fadeDuration));
+            yield return null;
+        }
+    }
+
+    private IEnumerator FadeOutShadow(GameObject shadow)
+    {
+        SpriteRenderer sr = shadow.GetComponent<SpriteRenderer>();
+        if (sr == null) yield break;
+
+        Color originalColor = sr.color;
+        float startAlpha = originalColor.a;
+
+        for (float t = 0; t < shadowFadeOutDuration; t += Time.deltaTime)
+        {
+            float alpha = Mathf.Lerp(startAlpha, 0, t / shadowFadeOutDuration);
+            sr.color = new Color(originalColor.r, originalColor.g, originalColor.b, alpha);
+            yield return null;
+        }
+
+        Destroy(shadow);
     }
 
     private List<Vector2> GenerateShadowPositions()
@@ -110,19 +150,6 @@ public class DemonAreaAttack : MonoBehaviour
             attempts++;
         }
         return positions;
-    }
-
-    private IEnumerator FadeInShadow(GameObject shadow)
-    {
-        SpriteRenderer sr = shadow.GetComponent<SpriteRenderer>();
-        Color originalColor = sr.color;
-        float fadeDuration = warningTime * 0.8f;
-
-        for (float t = 0; t < fadeDuration; t += Time.deltaTime)
-        {
-            sr.color = new Color(originalColor.r, originalColor.g, originalColor.b, Mathf.Lerp(0, 1, t / fadeDuration));
-            yield return null;
-        }
     }
 
     private IEnumerator RemoveAttackAfterDelay(GameObject attack, float delay)

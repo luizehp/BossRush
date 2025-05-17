@@ -15,6 +15,8 @@ public class EnemyBulletScript : MonoBehaviour
     private Rigidbody2D rb;
     private Transform playerTransform;
     public SpriteRenderer bulletRenderer;
+    public AudioSource audioSource;
+    public AudioClip launchSound;
 
 
     void Awake()
@@ -33,6 +35,9 @@ public class EnemyBulletScript : MonoBehaviour
     private IEnumerator HoverAndLaunch()
     {
         yield return new WaitForSeconds(hoverTime + launchDelay);
+
+        audioSource.clip = launchSound;
+        audioSource.Play();
 
         Vector2 direction = (playerTransform.position - transform.position).normalized;
         rb.linearVelocity = direction * speed;
