@@ -23,7 +23,7 @@ public class BeholderWalk : MonoBehaviour
     public AudioClip beamSound;
     public AudioClip meteorSound;
 
-    public Light2D laserLight; // ✅ Spot Light 2D
+    public Light2D laserLight;
 
     private Animator animator;
     private Vector2 movement = Vector2.zero;
@@ -139,9 +139,9 @@ public class BeholderWalk : MonoBehaviour
         isWalking = false;
         animator.SetBool("Laser", true);
 
-        // ✅ Acende a luz antes do ataque
+        // ✅ Piscar a luz antes do ataque
         if (laserLight != null)
-            yield return StartCoroutine(FadeLight2DIntensity(laserLight, 0f, 5f, 1.5f));
+            yield return StartCoroutine(BlinkLight2D(laserLight, 5f, 0.2f, 4));
 
         yield return new WaitForSeconds(0.2f);
 
@@ -173,7 +173,7 @@ public class BeholderWalk : MonoBehaviour
             Destroy(laserAudioSource);
         }
 
-        // ✅ Desliga a luz após o ataque
+        // ✅ Desliga a luz após o ataque com fade
         if (laserLight != null)
             yield return StartCoroutine(FadeLight2DIntensity(laserLight, 5f, 0f, 0.8f));
 
@@ -324,7 +324,25 @@ public class BeholderWalk : MonoBehaviour
         Destroy(meteor, 1f);
     }
 
-    // ✅ Função para fazer fade de Light2D
+    // ✅ Piscar a luz antes do ataque
+    IEnumerator BlinkLight2D(Light2D light, float maxIntensity, float blinkDuration, int blinkCount)
+    {
+        float offTime = blinkDuration / 2f;
+        float onTime = blinkDuration / 2f;
+
+        for (int i = 0; i < blinkCount; i++)
+        {
+            light.intensity = maxIntensity;
+            yield return new WaitForSeconds(onTime);
+            light.intensity = 0f;
+            yield return new WaitForSeconds(offTime);
+        }
+
+        // Deixa a luz acesa ao final
+        light.intensity = maxIntensity;
+    }
+
+    // ✅ Fade suave ao desligar
     IEnumerator FadeLight2DIntensity(Light2D light, float from, float to, float duration)
     {
         float elapsed = 0f;
