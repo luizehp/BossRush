@@ -12,17 +12,17 @@ public class HUDController : MonoBehaviour
     [Header("Referências - Player")]
     public GameObject player;
     public GameObject heartPrefab;
-    public Transform  heartsParent;
+    public Transform heartsParent;
 
     [Header("Boss UI")]
     public GameObject boss;
     public GameObject bossHealthBar;
-    public Image     bossFillImage;
+    public Image bossFillImage;
 
     [Header("Endgame UI")]
     public GameObject endGamePanelVictory;
     public GameObject endGamePanelDefeat;
-    public bool      eh_finalBoss;
+    public bool eh_finalBoss;
 
     [Header("Cooldown UI")]
     public Image dashImage;
@@ -50,18 +50,18 @@ public class HUDController : MonoBehaviour
     [Header("Cenas")]
     public string mainMenuSceneName = "MainMenu";
 
-    private PlayerHealth    playerHealth;
-    private List<Image>     hearts = new List<Image>();
-    private FieldInfo       currentHealthField;
-    private TowerSpawner    towerSpawner;
-    private Health          bossHealth;
-    private BossController  bossController;
-    private int             maxTotalHealth;
-    private bool            maxHealthInitialized = false;
+    private PlayerHealth playerHealth;
+    private List<Image> hearts = new List<Image>();
+    private FieldInfo currentHealthField;
+    private TowerSpawner towerSpawner;
+    private Health bossHealth;
+    private BossController bossController;
+    private int maxTotalHealth;
+    private bool maxHealthInitialized = false;
 
-    private bool defeatTriggered  = false;
+    private bool defeatTriggered = false;
     private bool victoryTriggered = false;
-    private bool isPaused         = false;
+    private bool isPaused = false;
 
     private Coroutine dashRoutine;
     private Coroutine attackRoutine;
@@ -82,22 +82,22 @@ public class HUDController : MonoBehaviour
         // componentes do boss, se existir
         if (boss != null)
         {
-            towerSpawner   = boss.GetComponent<TowerSpawner>();
-            bossHealth     = boss.GetComponent<Health>();
+            towerSpawner = boss.GetComponent<TowerSpawner>();
+            bossHealth = boss.GetComponent<Health>();
             bossController = boss.GetComponent<BossController>();
         }
 
         // configura cooldown images
         if (dashImage != null)
         {
-            dashImage.type       = Image.Type.Filled;
+            dashImage.type = Image.Type.Filled;
             dashImage.fillMethod = Image.FillMethod.Vertical;
             dashImage.fillOrigin = (int)Image.OriginVertical.Bottom;
             dashImage.fillAmount = 1f;
         }
         if (attackImage != null)
         {
-            attackImage.type       = Image.Type.Filled;
+            attackImage.type = Image.Type.Filled;
             attackImage.fillMethod = Image.FillMethod.Vertical;
             attackImage.fillOrigin = (int)Image.OriginVertical.Bottom;
             attackImage.fillAmount = 1f;
@@ -149,7 +149,7 @@ public class HUDController : MonoBehaviour
         {
             volumeSlider.minValue = 0f;
             volumeSlider.maxValue = 1f;
-            volumeSlider.value    = savedVol;
+            volumeSlider.value = savedVol;
 
             // Remove listeners antigos e adiciona o novo
             volumeSlider.onValueChanged.RemoveAllListeners();
@@ -294,6 +294,7 @@ public class HUDController : MonoBehaviour
         yield return new WaitForSeconds(4f);
         Time.timeScale = 0f;
         endGamePanelDefeat.SetActive(true);
+        GameManager.Instance.hasSlashAbility = false;
     }
 
     private IEnumerator ShowVictoryAfterDelay()
@@ -310,10 +311,10 @@ public class HUDController : MonoBehaviour
         pausePanel?.SetActive(isPaused);
     }
 
-    public void ShowControls()  => controlsPopup?.SetActive(true);
-    public void HideControls()  => controlsPopup?.SetActive(false);
-    public void ShowSettings()  => settingsPopup?.SetActive(true);
-    public void HideSettings()  => settingsPopup?.SetActive(false);
+    public void ShowControls() => controlsPopup?.SetActive(true);
+    public void HideControls() => controlsPopup?.SetActive(false);
+    public void ShowSettings() => settingsPopup?.SetActive(true);
+    public void HideSettings() => settingsPopup?.SetActive(false);
 
     public void QuitGame()
     {
@@ -322,18 +323,18 @@ public class HUDController : MonoBehaviour
         SceneManager.LoadScene(mainMenuSceneName);
     }
 
-    public void HoverPause_Enter()             => pauseLight?.SetActive(true);
-    public void HoverPause_Exit()              => pauseLight?.SetActive(false);
-    public void HoverPauseClose_Enter()        => pauseCloseLight?.SetActive(true);
-    public void HoverPauseClose_Exit()         => pauseCloseLight?.SetActive(false);
-    public void HoverControlsPause_Enter()     => controlsPauseLight?.SetActive(true);
-    public void HoverControlsPause_Exit()      => controlsPauseLight?.SetActive(false);
-    public void HoverConfigPause_Enter()       => configPauseLight?.SetActive(true);
-    public void HoverConfigPause_Exit()        => configPauseLight?.SetActive(false);
-    public void HoverExitPause_Enter()         => exitPauseLight?.SetActive(true);
-    public void HoverExitPause_Exit()          => exitPauseLight?.SetActive(false);
-    public void HoverControlsClose_Enter()     => controlsCloseLight?.SetActive(true);
-    public void HoverControlsClose_Exit()      => controlsCloseLight?.SetActive(false);
-    public void HoverSettingsClose_Enter()     => settingsCloseLight?.SetActive(true);
-    public void HoverSettingsClose_Exit()      => settingsCloseLight?.SetActive(false);
+    public void HoverPause_Enter() => pauseLight?.SetActive(true);
+    public void HoverPause_Exit() => pauseLight?.SetActive(false);
+    public void HoverPauseClose_Enter() => pauseCloseLight?.SetActive(true);
+    public void HoverPauseClose_Exit() => pauseCloseLight?.SetActive(false);
+    public void HoverControlsPause_Enter() => controlsPauseLight?.SetActive(true);
+    public void HoverControlsPause_Exit() => controlsPauseLight?.SetActive(false);
+    public void HoverConfigPause_Enter() => configPauseLight?.SetActive(true);
+    public void HoverConfigPause_Exit() => configPauseLight?.SetActive(false);
+    public void HoverExitPause_Enter() => exitPauseLight?.SetActive(true);
+    public void HoverExitPause_Exit() => exitPauseLight?.SetActive(false);
+    public void HoverControlsClose_Enter() => controlsCloseLight?.SetActive(true);
+    public void HoverControlsClose_Exit() => controlsCloseLight?.SetActive(false);
+    public void HoverSettingsClose_Enter() => settingsCloseLight?.SetActive(true);
+    public void HoverSettingsClose_Exit() => settingsCloseLight?.SetActive(false);
 }
