@@ -2259,6 +2259,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1863295237}
     m_Modifications:
+    - target: {fileID: 205949252757650890, guid: 33b6dee853477d24d9975ea9e455409a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2368307583708598410, guid: 33b6dee853477d24d9975ea9e455409a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2343,6 +2347,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4658641208479501111, guid: 33b6dee853477d24d9975ea9e455409a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5967501797854883618, guid: 33b6dee853477d24d9975ea9e455409a, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2354,6 +2362,10 @@ PrefabInstance:
     - target: {fileID: 7682775590715254689, guid: 33b6dee853477d24d9975ea9e455409a, type: 3}
       propertyPath: m_Name
       value: SettingsPopup
+      objectReference: {fileID: 0}
+    - target: {fileID: 7682775590715254689, guid: 33b6dee853477d24d9975ea9e455409a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

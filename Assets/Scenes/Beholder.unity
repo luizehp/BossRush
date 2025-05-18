@@ -901,7 +901,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 1, g: 0, b: 0.90957165, a: 1}
+  m_Color: {r: 1, g: 0.80370855, b: 0, a: 1}
   m_Intensity: 0
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
@@ -23743,11 +23743,26 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1613736741}
+    - target: {fileID: 8392510709191579027, guid: 8f450633978e8d24894d731563e6db4c, type: 3}
+      propertyPath: volumeSlider
+      value: 
+      objectReference: {fileID: 2180642673685591009}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f450633978e8d24894d731563e6db4c, type: 3}
+--- !u!114 &2180642673685591009 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 705115909592461214, guid: 8f450633978e8d24894d731563e6db4c, type: 3}
+  m_PrefabInstance: {fileID: 2180642673685591008}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3010459076413154269
 PrefabInstance:
   m_ObjectHideFlags: 0

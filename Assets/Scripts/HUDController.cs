@@ -15,9 +15,9 @@ public class HUDController : MonoBehaviour
     public Transform  heartsParent;
 
     [Header("Boss UI")]
-    public GameObject boss;                  // o prefab/instância do boss
-    public GameObject bossHealthBar;         // container inteiro do Health Bar (BossHealthBar)
-    public Image     bossFillImage;          // a barra de preenchimento
+    public GameObject boss;
+    public GameObject bossHealthBar;
+    public Image     bossFillImage;
 
     [Header("Endgame UI")]
     public GameObject endGamePanelVictory;
@@ -44,6 +44,9 @@ public class HUDController : MonoBehaviour
     public GameObject settingsPopup;
     public GameObject settingsCloseLight;
 
+    [Header("Configurações de Áudio")]
+    public Slider volumeSlider;                // <— NOVO
+
     [Header("Cenas")]
     public string mainMenuSceneName = "MainMenu";
 
@@ -63,6 +66,8 @@ public class HUDController : MonoBehaviour
     private Coroutine dashRoutine;
     private Coroutine attackRoutine;
 
+    private const string VOLUME_KEY = "GlobalVolume";  // <— CONSTANTE DE SALVAMENTO
+
     void Awake()
     {
         // player
@@ -74,7 +79,7 @@ public class HUDController : MonoBehaviour
         currentHealthField = typeof(Health)
             .GetField("currentHealth", BindingFlags.NonPublic | BindingFlags.Instance);
 
-        // só tenta obter componentes de boss se foi atribuído
+        // componentes do boss, se existir
         if (boss != null)
         {
             towerSpawner   = boss.GetComponent<TowerSpawner>();
@@ -103,7 +108,7 @@ public class HUDController : MonoBehaviour
     {
         Time.timeScale = 1f;
 
-        // se nenhum boss foi atribuído, desative todo o container da barra
+        // se nenhum boss foi atribuído, desative a barra
         if (boss == null && bossHealthBar != null)
             bossHealthBar.SetActive(false);
 
@@ -114,11 +119,11 @@ public class HUDController : MonoBehaviour
             hearts.Add(go.GetComponent<Image>());
         }
 
-        // inicializa fill
+        // inicializa fill do boss
         if (bossFillImage != null)
             bossFillImage.fillAmount = 1f;
 
-        // desliga pause e popups
+        // popups e painel de pausa desligados
         pauseLight?.SetActive(false);
         pausePanel?.SetActive(false);
         pauseCloseLight?.SetActive(false);
@@ -130,21 +135,43 @@ public class HUDController : MonoBehaviour
         settingsPopup?.SetActive(false);
         settingsCloseLight?.SetActive(false);
 
-        // esconde endgame
+        // endgame escondido
         endGamePanelVictory?.SetActive(false);
         endGamePanelDefeat?.SetActive(false);
+
+        // —— A PARTIR DAQUI: Configuração de volume ——
+
+        // Carrega volume salvo (padrão = 1f)
+        float savedVol = PlayerPrefs.GetFloat(VOLUME_KEY, 1f);
+        AudioListener.volume = savedVol;
+
+        if (volumeSlider != null)
+        {
+            volumeSlider.minValue = 0f;
+            volumeSlider.maxValue = 1f;
+            volumeSlider.value    = savedVol;
+
+            // Remove listeners antigos e adiciona o novo
+            volumeSlider.onValueChanged.RemoveAllListeners();
+            volumeSlider.onValueChanged.AddListener(vol =>
+            {
+                AudioListener.volume = vol;
+                PlayerPrefs.SetFloat(VOLUME_KEY, vol);
+                PlayerPrefs.Save();
+            });
+        }
     }
 
     void Update()
     {
-        // Dash: Shift
+        // Dash
         if (dashImage != null && Input.GetKeyDown(KeyCode.LeftShift))
         {
             if (dashRoutine != null) StopCoroutine(dashRoutine);
             dashRoutine = StartCoroutine(CooldownRoutine(dashImage));
         }
 
-        // Attack: Z
+        // Attack
         if (attackImage != null && Input.GetKeyDown(KeyCode.Z))
         {
             if (attackRoutine != null) StopCoroutine(attackRoutine);
@@ -191,7 +218,6 @@ public class HUDController : MonoBehaviour
 
     private void AtualizaBossBar()
     {
-        // se não houver boss ou imagem, saia
         if (boss == null || bossFillImage == null) return;
 
         if (!maxHealthInitialized)
@@ -220,9 +246,9 @@ public class HUDController : MonoBehaviour
             current = towerSpawner.instancias
                 .Where(t => t.GetComponent<Health>() != null)
                 .Sum(t => (int)currentHealthField.GetValue(t.GetComponent<Health>()));
-        else if (bossHealth != null && maxHealthInitialized)
+        else if (bossHealth != null)
             current = (int)currentHealthField.GetValue(bossHealth);
-        else if (bossController != null && maxHealthInitialized)
+        else if (bossController != null)
             current = bossController.currentHealth;
 
         bossFillImage.fillAmount = Mathf.Clamp01(

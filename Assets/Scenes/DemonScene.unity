@@ -284,7 +284,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.8
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -960,7 +960,7 @@ MonoBehaviour:
   shadowPrefab: {fileID: 1991827604421825228, guid: 34fa927dc1331da4f819a26db473b827, type: 3}
   attackPrefab: {fileID: 5084161852925377271, guid: 35208d74b9056bf45876be332d960f45, type: 3}
   warningTime: 0.8
-  interval: 1
+  interval: 1.4
   bossController: {fileID: 1976313377}
   player: {fileID: 2073893172}
   audioSource: {fileID: 598720511}
@@ -24047,7 +24047,7 @@ MonoBehaviour:
   bossController: {fileID: 1976313377}
   phaseTwoBulletColor: {r: 0, g: 1, b: 1, a: 1}
   phaseTwoLightColor: {r: 0, g: 1, b: 0, a: 1}
-  volleyCooldown: 2
+  volleyCooldown: 3
   extraDelays:
   - 0
   - 0.3
@@ -24089,7 +24089,7 @@ MonoBehaviour:
   tridentAttack: {fileID: 598720509}
   phaseTransitionTime: 1
   phaseAnimationDuration: 2
-  maxHealth: 300
+  maxHealth: 100
   currentHealth: 0
   invincibilityDuration: 1
   flashInterval: 0.1
