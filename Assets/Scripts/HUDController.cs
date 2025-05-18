@@ -318,6 +318,7 @@ public class HUDController : MonoBehaviour
     public void QuitGame()
     {
         Time.timeScale = 1f;
+        GameManager.Instance.playerHealth = 5;
         SceneManager.LoadScene(mainMenuSceneName);
     }
 

@@ -302,8 +302,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da1d9986cf297af44a913ff9a80c95f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 5
-  maxHealth: 75
+  attackDamage: 10
+  maxHealth: 100
   invincibilityDuration: 1
   flashInterval: 0.1
   deathSFX: {fileID: 2418520591355284072}

@@ -2,21 +2,35 @@ using UnityEngine;
 
 public class HeartScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Check if the object that entered the trigger is the player
         if (collision.CompareTag("Player"))
         {
-            collision.GetComponent<PlayerHealth>().health += 1;
-            GameManager.Instance.playerHealth += 1;
-            if (collision.GetComponent<PlayerHealth>().health > collision.GetComponent<PlayerHealth>().maxHealth)
+            PlayerHealth playerHealth = collision.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
             {
-                collision.GetComponent<PlayerHealth>().health = collision.GetComponent<PlayerHealth>().maxHealth;
-            }
-            // Destroy the heart object
-            Destroy(gameObject);
+                playerHealth.health += 1;
 
+                if (GameManager.Instance != null)
+                {
+                    GameManager.Instance.playerHealth += 1;
+                }
+                else
+                {
+                    Debug.LogWarning("GameManager.Instance está nulo!");
+                }
+
+                if (playerHealth.health > playerHealth.maxHealth)
+                {
+                    playerHealth.health = playerHealth.maxHealth;
+                }
+
+                Destroy(gameObject);
+            }
+            else
+            {
+                Debug.LogWarning("PlayerHealth não encontrado no objeto com tag Player.");
+            }
         }
     }
 }

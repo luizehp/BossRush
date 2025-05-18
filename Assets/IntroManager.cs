@@ -39,28 +39,26 @@ public class IntroManager : MonoBehaviour
 
         yield return new WaitForSeconds(waitBeforeStart);
 
-        // A animação Intro do Beholder já começa automaticamente (default state no Animator)
-        // Apenas espera a duração dela
+        // Espera a animação de introdução do Beholder (começa automaticamente via Animator)
         yield return new WaitForSeconds(beholderIntroDuration);
 
         // Move a câmera de volta para o player
         yield return StartCoroutine(MoveCameraTo(player.transform.position));
 
-        // Reanexa a câmera ao player e ajusta posição local para o offset correto
+        // Reanexa a câmera ao player
         mainCamera.transform.parent = originalCameraParent;
         mainCamera.transform.localPosition = new Vector3(0f, 0f, fixedCameraZ);
         mainCamera.transform.localRotation = Quaternion.identity;
 
         // Ativa o Beholder e o player para começar a luta
         beholderScript.enabled = true;
+        beholderScript.StartCombat(); // ✅ Inicia os ataques após a intro
         player.SetActive(true);
     }
 
     IEnumerator MoveCameraTo(Vector3 targetPosition)
     {
         Vector3 startPos = mainCamera.transform.position;
-
-        // Ajusta a posição alvo, mantendo z fixo em -4
         targetPosition.z = fixedCameraZ;
 
         float t = 0f;
@@ -68,7 +66,7 @@ public class IntroManager : MonoBehaviour
         {
             t += Time.deltaTime * cameraSpeed;
             Vector3 newPos = Vector3.Lerp(startPos, targetPosition, t);
-            newPos.z = fixedCameraZ; // Garante que z não muda
+            newPos.z = fixedCameraZ;
             mainCamera.transform.position = newPos;
             yield return null;
         }

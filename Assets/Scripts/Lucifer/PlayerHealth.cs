@@ -83,7 +83,10 @@ public class PlayerHealth : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log("Player died!");
+        PlayerSlash playerSlash = GetComponent<PlayerSlash>();
+        playerSlash.enabled = false;
+        Slash slash = GetComponent<Slash>();
+        slash.enabled = false;
         animator = GetComponent<Animator>();
         animator.SetTrigger("Death");
         playerMovement.enabled = false;
