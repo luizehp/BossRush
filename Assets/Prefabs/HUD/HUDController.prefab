@@ -4053,14 +4053,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossHealthBar
       objectReference: {fileID: 0}
-    - target: {fileID: 2125314007865381517, guid: 1db1239debb57684db80026487ae6af5, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5494546518670393449, guid: 1db1239debb57684db80026487ae6af5, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -1.1199989
-      objectReference: {fileID: 0}
     - target: {fileID: 5957599187198286640, guid: 1db1239debb57684db80026487ae6af5, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -4092,18 +4084,6 @@ PrefabInstance:
     - target: {fileID: 5957599187198286640, guid: 1db1239debb57684db80026487ae6af5, type: 3}
       propertyPath: m_SizeDelta.y
       value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 5957599187198286640, guid: 1db1239debb57684db80026487ae6af5, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.6324555
-      objectReference: {fileID: 0}
-    - target: {fileID: 5957599187198286640, guid: 1db1239debb57684db80026487ae6af5, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.6324555
-      objectReference: {fileID: 0}
-    - target: {fileID: 5957599187198286640, guid: 1db1239debb57684db80026487ae6af5, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.6324555
       objectReference: {fileID: 0}
     - target: {fileID: 5957599187198286640, guid: 1db1239debb57684db80026487ae6af5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4139,7 +4119,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5957599187198286640, guid: 1db1239debb57684db80026487ae6af5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5957599187198286640, guid: 1db1239debb57684db80026487ae6af5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4152,10 +4132,6 @@ PrefabInstance:
     - target: {fileID: 5957599187198286640, guid: 1db1239debb57684db80026487ae6af5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5957599187198286640, guid: 1db1239debb57684db80026487ae6af5, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4927,11 +4903,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7240420686366009021, guid: d38d72866b1736447b17b9fec50c15be, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 2105
+      value: 3000
       objectReference: {fileID: 0}
     - target: {fileID: 7240420686366009021, guid: d38d72866b1736447b17b9fec50c15be, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1160
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 7240420686366009021, guid: d38d72866b1736447b17b9fec50c15be, type: 3}
       propertyPath: m_LocalScale.x

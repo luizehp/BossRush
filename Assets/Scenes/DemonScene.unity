@@ -24089,7 +24089,7 @@ MonoBehaviour:
   tridentAttack: {fileID: 598720509}
   phaseTransitionTime: 1
   phaseAnimationDuration: 2
-  maxHealth: 300
+  maxHealth: 100
   currentHealth: 0
   invincibilityDuration: 1
   flashInterval: 0.1

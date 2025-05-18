@@ -303,7 +303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 10
-  maxHealth: 100
+  maxHealth: 40
   invincibilityDuration: 1
   flashInterval: 0.1
   deathSFX: {fileID: 2418520591355284072}
