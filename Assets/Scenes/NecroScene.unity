@@ -4067,7 +4067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minionPrefab: {fileID: 927032860901756231, guid: 42513e850d5c9e840858b2e6b6497e62, type: 3}
-  spawnCount: 5
+  spawnCount: 3
   spawnRadius: 5
   audioSrc: {fileID: 487016387}
 --- !u!114 &487016383
