@@ -22,13 +22,28 @@ public class ManagerMenu : MonoBehaviour
     public GameObject lightConfig;
     public GameObject lightClose;
 
+    private const string VOLUME_KEY = "GlobalVolume";
+
     void Start()
     {
         // popups começam escondidos
         if (controlsPopup  != null) controlsPopup.SetActive(false);
         if (settingsPopup  != null) settingsPopup.SetActive(false);
-        // slider inicia no volume atual
-        if (volumeSlider   != null) volumeSlider.value = AudioListener.volume;
+
+        // Carregar volume salvo (default = 1f)
+        float savedVol = PlayerPrefs.GetFloat(VOLUME_KEY, 1f);
+        AudioListener.volume = savedVol;
+
+        // Inicializar e vincular o slider
+        if (volumeSlider != null)
+        {
+            volumeSlider.minValue = 0f;
+            volumeSlider.maxValue = 1f;
+            volumeSlider.value = savedVol;
+            volumeSlider.onValueChanged.RemoveAllListeners();
+            volumeSlider.onValueChanged.AddListener(SetVolume);
+        }
+
         // luzes começam apagadas
         if (lightIniciar   != null) lightIniciar.SetActive(false);
         if (lightControles != null) lightControles.SetActive(false);
@@ -45,16 +60,20 @@ public class ManagerMenu : MonoBehaviour
             Debug.LogError("ManagerMenu: defina startSceneName no Inspector!");
     }
 
-    // Controles
+    // Mostrar / ocultar popups
     public void ShowControls() => controlsPopup?.SetActive(true);
     public void HideControls() => controlsPopup?.SetActive(false);
 
-    // Configurações
     public void ShowSettings() => settingsPopup?.SetActive(true);
     public void HideSettings() => settingsPopup?.SetActive(false);
 
-    // Volume
-    public void SetVolume(float vol) => AudioListener.volume = vol;
+    // Ajusta o volume global e salva a configuração
+    public void SetVolume(float vol)
+    {
+        AudioListener.volume = vol;
+        PlayerPrefs.SetFloat(VOLUME_KEY, vol);
+        PlayerPrefs.Save();
+    }
 
     // Hover nos Botões
     public void HoverIniciar_Enter()   => lightIniciar?.SetActive(true);

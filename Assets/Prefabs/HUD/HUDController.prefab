@@ -1336,6 +1336,7 @@ MonoBehaviour:
   controlsCloseLight: {fileID: 5141259158689389543}
   settingsPopup: {fileID: 4249553079369677348}
   settingsCloseLight: {fileID: 675922937112187819}
+  volumeSlider: {fileID: 195645965070627495}
   mainMenuSceneName: MainMenu
 --- !u!1 &3333728904024678600
 GameObject:
@@ -4730,7 +4731,15 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5967501797854883618, guid: 33b6dee853477d24d9975ea9e455409a, type: 3}
+      propertyPath: m_Colors.m_ColorMultiplier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5967501797854883618, guid: 33b6dee853477d24d9975ea9e455409a, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5967501797854883618, guid: 33b6dee853477d24d9975ea9e455409a, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6086463357332004626, guid: 33b6dee853477d24d9975ea9e455409a, type: 3}
@@ -4756,6 +4765,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 6027453527280023693}
   m_SourcePrefab: {fileID: 100100000, guid: 33b6dee853477d24d9975ea9e455409a, type: 3}
+--- !u!114 &195645965070627495 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5967501797854883618, guid: 33b6dee853477d24d9975ea9e455409a, type: 3}
+  m_PrefabInstance: {fileID: 5793812421795700101}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4249553079369677348 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7682775590715254689, guid: 33b6dee853477d24d9975ea9e455409a, type: 3}
