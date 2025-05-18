@@ -20,12 +20,14 @@ namespace Necromancer
         public AudioSource backgroundAudio;
         public AudioSource spawningAudio;
         public AudioSource surgingAudio;
+        private PlayerSlash playerAttack;
 
         private Animator animator;
 
         void Start()
         {
             playerMovement = player.GetComponent<PlayerMovement>();
+            playerAttack = player.GetComponent<PlayerSlash>();
             rb = player.GetComponent<Rigidbody2D>();
             playerAnimator = player.GetComponent<Animator>();
             isSpawnFinished = false;
@@ -57,6 +59,7 @@ namespace Necromancer
             yield return new WaitUntil(() => spawningEnded);
             yield return StartCoroutine(MoveCameraTowards(player.transform.position));
             playerMovement.enabled = true;
+            playerAttack.enabled = true;
             rb.constraints = RigidbodyConstraints2D.None;
             rb.freezeRotation = true;
             player.GetComponent<PlayerHealth>().isInvincible = false;
@@ -69,6 +72,7 @@ namespace Necromancer
         {
             playerMovement.enabled = false;
             rb.constraints = RigidbodyConstraints2D.FreezeAll;
+            playerAttack.enabled = false;
             playerAnimator.SetBool("Moving", false);
             
             Vector3 origem = mainCamera.position;
