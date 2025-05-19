@@ -23731,6 +23731,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: HUDController
       objectReference: {fileID: 0}
+    - target: {fileID: 3646284795459723070, guid: 8f450633978e8d24894d731563e6db4c, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3646284795459723070, guid: 8f450633978e8d24894d731563e6db4c, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 960
+      objectReference: {fileID: 0}
     - target: {fileID: 8202132791363541592, guid: 8f450633978e8d24894d731563e6db4c, type: 3}
       propertyPath: m_Camera
       value: 
